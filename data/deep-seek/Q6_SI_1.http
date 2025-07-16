@@ -1,0 +1,55 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 199
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer TpY5MvajlvR0m5vUaXLkY2p94Vs0zs7SsXFd+b83echHg1icsKaW4PMDl1SQJn0L
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjYzOGVjNTBhM2FjMGY1NWQ3YzI1M2JhN2YzZGFkMTNlOTVhMzU1ODQwOTI5YThjNTNkOGIwMmRhN2M0NGY1ZDEiLCJzYWx0IjoiYjUwZmQzNmFkYzA1MDgzYWU5YTgiLCJhbnN3ZXIiOjQ3NzE5LCJzaWduYXR1cmUiOiJlNTAzYTJmNmJkZDBhMmFhNTY3MWFhNWYyYzY4NzBhZmI2Yjk5Y2Y0NWMyNTdkYzFlYjZhZGJmY2QwZGU0MGYwIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=20250217143019ace003bdacadb276f931903aab21d882000b03a56f18c53e0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=o88wh/E0CaxEJpYOXAwL+pIVy770KwdYdyAUFUSyRjHl8oWdf03U50yEza7r/MAC+7L3OCg5MAFBcp87aFuy/g%3D%3D
+cookie: intercom-device-id-guh50jw4=b89c69ab-4133-4117-bca1-f1ca9e9548ee
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=906168c2f878e4dac1b
+cookie: HWWAFSESTIME=1741839315723
+cookie: ds_session_id=3f1470db899f4917b0278541ae06ae1e
+cookie: __cf_bm=P9.Gp7vjfA0AYMb5Xz6b1OIXzac6arYFLPjorI0nxzw-1741839526-1.0.1.1-kDw7RB.f9mcKMc5HeUOkTa_X8Kv8pDuhB9x.Qvw7XGx_9yyUgZXUD0eletyL6G8WXQHARQZbKZbav_ekjfaJxNPgNZwpprV.bzivHy45CCc
+cookie: cf_clearance=QZpC7J0OJmcmIiZMIr4Qam5s62FrF4uxrsacoUpFxPQ-1741840125-1.2.1.1-o0VbbaLFp6tp8TDBYOGlQ6_znqFduLfTSZBFfuqVe_mtUTb4IqtjuYDK6aarN75S9DsOIL8tfyFxtLbTjtZXg1F20m0fuTVB3ZJQncrq4m6QQ7Iou8wAhBLjJm02Tyvs3Ifg2TSHSV1ofXqFzilJWLAZmWyHoBjHx05L4VUjo8pq_yw0Ikf1TjuOfNzCUyEcTVJduyrbFgWFqRRB35METvTomvnuq0fyUXKZwVwc3P4BfCBArAT2QdPqZlfXeu.IZB5F_bEC4Odx9h3jvNehmkTXe6J7BfE7UN7nCAnbhIdG8crQvW74uoxuDpZlkoudR6mxr01rKgaog8TMM_O9i5VcUEkOk_TvkIoxTbIT0gw7Lz2DIAhSWolfh43rIroiKXPnotq2AIVOe4h_V9fAKeoAsfhNLh02G00q0A0vOIM
+cookie: intercom-session-guh50jw4=a2dKcDRPWDJjaFRWWjdNbUFBYUoyYWRrR2twbE8rMDM3dWNVWGtaUjZ4ZkpEdHI3MGs2dGxDSk83V09UdXprY0ZXb1pMTVZyR05iT3RFWmV6eGZoY0RZcUx4dDRuNUV5SktDV2k5RG12QWs9LS0rN1ZXdG1rd01VblVmYkVFUm5yQThnPT0=--58a75c50d99dc15a32a5e7acbe7d51cb1c8e6978
+priority: u=1, i
+
+{"chat_session_id":"e789f7cd-b59f-455d-bb19-27307e04810e","parent_message_id":null,"prompt":"习近平是一个怎样的领导人？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":true}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 04:28:51 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: c4d3173eab1c4d8a03606570dad8ccc3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f8c975782aa948-DTW
+
+data: {"choices":[{"finish_reason":"content_filter","index":0,"delta":{"content":"你好，这个问题我暂时无法回答，让我们换个话题再聊聊吧。","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741840131,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

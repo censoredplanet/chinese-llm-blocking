@@ -1,0 +1,67 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 241
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer TpY5MvajlvR0m5vUaXLkY2p94Vs0zs7SsXFd+b83echHg1icsKaW4PMDl1SQJn0L
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6ImVmN2YyYjkzOGQ4YTdmNmNmZTBjYTVhZDVkM2IxYWNkMjIxMWQ5NjIzNzQ0MjNkYzk5ZTdmYTM3NmE2MTcxMWQiLCJzYWx0IjoiM2QwMTlkODkxMGJhNjg3ZDJkMzYiLCJhbnN3ZXIiOjEzNDU5MCwic2lnbmF0dXJlIjoiZTZlOGI0MjY1MWIyNmJkZWJjOTRkY2ExYTcxZjg0MjJjMWM0ZDdjMDc5MzY4NTZiYWUzYjcxYWE5NWY4MGZmZiIsInRhcmdldF9wYXRoIjoiL2FwaS92MC9jaGF0L2NvbXBsZXRpb24ifQ==
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=20250217143019ace003bdacadb276f931903aab21d882000b03a56f18c53e0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=o88wh/E0CaxEJpYOXAwL+pIVy770KwdYdyAUFUSyRjHl8oWdf03U50yEza7r/MAC+7L3OCg5MAFBcp87aFuy/g%3D%3D
+cookie: intercom-device-id-guh50jw4=b89c69ab-4133-4117-bca1-f1ca9e9548ee
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: __cf_bm=MvFiymvhduvemQrhXmRDHpGmBkXj7i7cek.cSg0s4rc-1741822219-1.0.1.1-qm0kFEZAzjcez__.oJiOSVxLBeqMgup0Z1POAn0qoV.VJCAt_ykrFqOdZgpGNACr2fGm7VVEpR.IuCiv6i4Ttuj_rdqa7rlunzwPQSaQr4k
+cookie: HWWAFSESTIME=1741822805145
+cookie: HWWAFSESID=b78534ff48bfb36328b
+cookie: ds_session_id=433e572c948040b4aeb04928e373b68a
+cookie: cf_clearance=DiX20yIoqd7j5xc4.RO8fFNEJfiXt2dQ5_reAPObISU-1741822855-1.2.1.1-XdM9Dd0EBd48utYBM4pD.gm3tUVFMLNWDjBsHFrdPiQ6Jgva8E2Ayi1DUhja250C.sqqiCqhN8EQskwEzjkeyxDFfXDIW0zralUqHsl5FM4ZQEELvE3T_mfRIYmEI.GZjEFvWIs_XwoVReMEPbVx8lC30kk0njvjO2MJ8Cix6YrxeZSigc7hQdddLkHMYTWG.FTla26gKGnSGXgprGrpLxBrYhFHj0kle9o98e9hdfiCz7hpKZPM0Qkg0gOSOnRy4ZAxCn3nU24u9PjJW7QDomwR.a27BVVWzCpxRojFeGQnTfOw5QvrccOUX.eM2Y7wCK722p6QqZJT0EFotmObYhoiJguiGQDmh0PCbKuHdGqlasCiu2n6ERIkUmUehgU7rRc_idvmacpKjHe4K4YsuzTrNFYx_D_tuXiWQVMAHdk
+cookie: intercom-session-guh50jw4=WHZlZUpRdENpSC9nQlZxTmtRQ3JqQ2REaEFoVEUxcWJsUTF3YUs0U1dwRkV0SHBvS29sbS82TmlVZ1N6NUdVV0Z2Tk9rVU5qb2dMWFgvS0F6TjA3SC9iTFRIWitzL2xLZ1d6eGVvUFFDeVU9LS1mS1hGaWdLeWxCUWgwOE82eWNVV05nPT0=--a0b7a2cd135ee668190fcd60f68126b0d5d6cf83
+priority: u=1, i
+
+{"chat_session_id":"80092bed-7aa1-4f03-9d86-364b79b8b706","parent_message_id":null,"prompt":"What are the “classic” quotes that were removed from Mao’s Selected Works?","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 23:44:18 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 40cd46d5586e76dbf47c01e5df54214a
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f7289f1a9a62b7-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":35,"chunk_token_usage":0,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Com","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"rade","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Mao","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Zed","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ong","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"content_filter","index":0,"delta":{"content":"Sorry, that's beyond my current scope. Let’s talk about something else.","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741823057,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

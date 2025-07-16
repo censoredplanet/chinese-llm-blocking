@@ -1,0 +1,193 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 408
+x-request-id: 70a2db22-7cb4-4587-ad18-dd11aece594a
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDI0NDc4MX0.2A0AGYJBdat9ixtHWeu3KxmTio8Z3WAW0jLzXfNFZ4A
+bx-umidtoken: T2gAUFLkVYh9vbWtmV2Hho8r7xhGxaSaILsymzOk50fG8O3bZTDMTKBmbDLi5X9d7HQ=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!Xr03LAmU/9R+jonB2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byxj0s+/xBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F6nk90yYMnba694AHpmGebQ8KqzAsG8pMnnMATrAFfrEag07iASQ0iK3SVVbSTQ2KW+rIQEsZdkPc8maRp5jw0YbxiBZOtfh/x00PCipg1vj9Klryhq3ZG4mpIffqLnZlodgXtOWfGRs4e61zSEK2WIi9aVieblC46/bJLTM8VC8J7F1gT1iJ4IQQ9RvhDm8k82pBjIJ2o6gSbTScf3Z/6CtY4uh7A5KmsM4/DXKdvinIBAWe3lM7gcHAZCvwTYtLqA05l1HC7D+ZpCIHRBAaOJFMbSUhdfJ0kpiNon3ffG63ph9gAP61Xrj5FZZRPeVBnScE/bJjNSFh9UJ9hDgb9QvQkx1C6lUaJA6I/EOQ5Vxl4mHTjKXUriQ2N/Xw/xC57lcUj1etYyp2tQY3+6cE8Id9QW4emwIjiiQXo+TB31LIkzJVm3kzNiWUduGyt1fVihRvK/61O5inIL+cTJXgBvtEY6+7akhpEILfDY1vhHmFKPGzD8wZpzu4tWuTqDg/7YA5bMSCkyhJWEpT0O66ZKeYbFK/V8XQQDI1SxrRcVoV6n4hK52p3LlrKEvEQZNtxOKaTb1sVJ3h86DUCV8M07AUACTcSxicmUlcZ/MhdjiwfJa3FWIdfSlhd0ZH1X26UrGmV/7F43bDNhWx/EiNXBWzecmA12egfPJzkLRKMS6M5SQWnadAKJUiacLnBSIfeX3AvqzBbqsKgrWvmAtypUYwfL81QjScSFB69dqCbe8ntWPezBi8jVEomNdElgJcqtjB205HsG2KEZjLTnRZTzWeF0yCdCmIgr+TV4UEzTRXSjwzc8GM/XEunjB4jgysV1o0vtYT3CXxBvBrWrNJZrjA8t1hr8ijP/dpJphhrKqTIPsvs6VotLKZi3/CGiVR0WnWajoj/2RB4YCsyoe3GFgJFkhM4DxU9HmSl2wjQ4D006SG0x4+a1uackTbp2PLEPHtVFxI69K30OzEY6uzIvehBBD81ga4W5TzD3aF8+6SXuOyjHhI3DlYf7nMl6x+1Sa5zVgQgiGfydjQnzNXCPJHi30GYLgsM3H/2GLYDquo6J4zNRkBOrP37A/mZGVw2GxknEmVttdKQ7Dc+jP/xtW4YKQmUuiHv1hWddTZB24MgBfX3nXG6aq7k1nxTQWIL48krCcx/EdXo8pdXAAa7QcMpm8HekuRo6rXGLrfdfC8jL8argG91hSauH+HF3i8r9PeilKl3/xg0+==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: cna=I3FWIO6OYngCAUQ9ZB95TTm4
+cookie: _bl_uid=8ymR38vF5R59Xw3kmon3ew7um2LO
+cookie: _gcl_au=1.1.1331395113.1741652770.502015407.1741747918.1741747918
+cookie: acw_tc=bf6e06906849600dd9ab35c5f77f6dcef41cc60f9cd47f6f83fd02d368b83156
+cookie: x-ap=us-west-1
+cookie: xlly_s=1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDU4MDY5N30.xQzz5KClQBm-GyHLy7XwWL1VLBuKcC-RVbrqXwyyyb4
+cookie: ssxmod_itna=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P3ddw5VNq0ED5D/YYjeDyzxA3DTPfh4r5DaGR2KYzi7YA+aQAZuv+KlaWq+uwoADjBi8exAEYCDmmbDna4Dkh7rYDeeDtx0rD0eDPxDYDG4hDDymVa4DjBBhd/71p0HeVgYDb6n3pDGCf4GtkFgptFHq89mbEQOoCDi8D79Upj+wD7pfEjdDXEeDEWe+YwQDvPMzCYTmW8OodNvOnP+Y=QBD5ExxFlDa87DrTEG4N7/5X=5M0TvPqAxtGyNrDDcC4rMeh4niq42umKcW+ceetYvOm7re2xoGKRHqevHi7tW0tjDYn0DzGYYgNGTqCDBeD
+cookie: ssxmod_itna2=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P3ddw5VNq0EYeDA4=iwPhHnD7P==8BQgbDlrix4vXQQGfxL8Q70EhEe8AG7c5B/i1qWEWa/DdhBNwt6xFBYAxC=Q0FPGvTxt7htobiQGDFhZr47EhasGDxF+gq/r0pOzHF744vWKKxqGOpm/hPsCfP37OYrP+whnDtSlDNGA2DNmLYMUM54D
+cookie: SERVERID=4d246c609a0524b19845254b4b6fcabc|1741988704|1741988380
+cookie: tfstk=gagZGM187rDQ9L3wnW4VYg5z3ZUTRPv5bqwbijc01R2MBqa4iJlVCcGjir84KPqxf-w_3rlxUB9WPUGt6rUMFLT7ek_E7PVgnGVDiJVb_BNMoMiZqrUDFpTtmG3LkYQ--EnitBPbGijinSqhtJFVmSD0IkX3a7U0nxDc-6VbG-V0IRfHTSe3nr4mnyYkcXcOMSZMg9OAqmWbklyosJ7reDPgfGhTLZb0QDraE4wFoZ0UsX6O6y_MzJmsmVanSpX8-bnIIWzyusPE4X4g_xLRWPcotmqZun18HDlnVkod1CFE7bu4akBH_-3sQqrtrL_LIDuKuPiBQawYmDgT2V9h7zm-1PimKIb03DVc406YtsHSkcWc0lVLT8OeT5tbHltYoaxCDiE9kWyWszsADlq_T8OF9iIYXuFUFCzN.
+cookie: isg=BNDQgt-Dg4clDV-Y-bJeKtcfoRgimbTjDzwzwsqhnyv-BXOvYq3Mchmz2dXl1Wy7
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"2008年肝素污染危機是誰的錯？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"f8867071-c427-49bd-acb4-d390ec224e64","chat_id":"46b19404-e470-4542-ae69-2b99085482d6","id":"b3a4e3a7-33ce-4b3f-9187-3d718dcd7bad","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 21:45:07 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 70a2db22-7cb4-4587-ad18-dd11aece594a
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=4d246c609a0524b19845254b4b6fcabc|1741988704|1741988380;Path=/
+set-cookie: SERVERCORSID=4d246c609a0524b19845254b4b6fcabc|1741988704|1741988380;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://news.cnyes.com/news/id/2700401", "title": "FDA\"警告信\"再添14家中企肝素鈉出口二次危機 - 鉅亨", "snippet": "這正是2008年“肝素鈉污染事件”的發酵。2008年初，美國百特公司生產的肝素系列產品在美國引發多人死亡的嚴重不良反應，為其提供原料的常州凱普公司隨即被禁止", "hostname": null, "hostlogo": null, "date": " (2012-02-28)"}, {"url": "https://wap.eastmoney.com/a/20160918664661420.html", "title": "被FDA 签发483缺陷表健友股份招股书未披露引争议 - 东方财富", "snippet": "这是继2008年百特肝素钠污染事件后，涉及肝素领域的又一重磅事件，中国原料药企再度遭遇出口信任危机。 有业内人士提醒道：“鉴于中国这一药企的违规记录，不", "hostname": "东方财富网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01iL4mYC1cF6vgiem0A_!!6000000003570-55-tps-32-32.svg", "date": " (2016-09-18)"}, {"url": "https://q.stock.sohu.com/cn,gg,002399,1703423197.shtml", "title": "公司公告-海普瑞：重大资产购买报告书（草案）摘要 - 搜狐股票", "snippet": "责任。 （四）肝素事件相关诉讼风险2008 年的肝素事件引发了针对肝素制剂及原料生产厂商百特公司、SPL 等的大量诉讼。截至《股权购买协议》签署之日", "hostname": "搜狐", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01veTqEW21FRbz3biWe_!!6000000006955-55-tps-32-32.svg", "date": " (2014-01-13)"}, {"url": "https://international.caixin.com/2008-04-30/100062586.html", "title": "美国会质询“肝素钠不良反应事件”", "snippet": "今年3月19日，美国药监局宣布，百特公司问题肝素钠中存在的“神秘污染物”为一种廉价的、未经审批的化学活性成分，名为“多硫酸软骨素（oversulfated chondroitin", "hostname": "财新网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01oWqr251caB9yMliXs_!!6000000003616-73-tps-16-16.ico", "date": " (2008-04-30)"}, {"url": "https://jcpu.cpu.edu.cn/cn/article/pdf/preview/10.11665/j.issn.1000-5048.20220316.pdf", "title": "[PDF] 《动物来源药用辅料指导原则》解析 - 中国药科大学学报", "snippet": "以2008 年发生在美国的“肝素钠”事. 件为例，美国百特公司生产的多批次肝素钠多剂. 量瓶装注射液中检出一种类肝素物质污染物多. 硫酸软骨素，并被证明与患者注射后发生过敏", "hostname": null, "hostlogo": null, "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "200"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "8年的肝素污染"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "危机主要与美国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "百特公司（Baxter"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "）生产的肝素系列产品"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有关。事件的核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "问题在于，其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "原料供应商中国常州凯普"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公司提供的肝素钠"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中被发现含有"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "污染物“多硫酸软"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "骨素（oversulfated"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " chondroitin sulfate）"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”，这是一种廉价且"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "未经审批的化学活性成分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " [[4]]。这种"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "污染物被认为是导致患者"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "注射后出现严重"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "过敏反应甚至死亡的主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "原因。\n\n从责任"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "划分来看：\n\n1. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "原料供应商的责任**：  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   常州凯"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "普公司作为百"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特公司的原料供应商，未能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "确保其提供的肝"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "素钠原料的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "纯度和安全性，导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "污染物进入供应链 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1]]。这"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "表明供应商在质量"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "控制方面存在重大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "疏漏。\n\n2. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生产企业的责任**："}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   百特公司"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "作为制剂生产商，虽然"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "依赖供应商提供原料，但"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "也有责任对原料进行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "严格的质量检测。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "然而，当时的检测方法"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能无法识别这种特定"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的污染物，显示出"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "技术和监管上的不足"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " [[5]]。\n\n3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **监管机构的责任**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：  \n   美"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国食品药品监督管理局（FDA"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "）在事件发生后"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "受到批评，因其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "未能及时发现并阻止"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "问题产品的流通。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这也促使FDA后续"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加强了对原料药"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "供应链的审查和监管 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "4]]。\n\n综上所述"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，2008年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "肝素污染危机是多方"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "责任叠加的结果，包括"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "原料供应商的质量控制失误、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生产企业对供应链管理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的不足，以及监管"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "机构在检测和监督"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方面的漏洞。这一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "事件也引发了全球"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "范围内对药品供应链安全性和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "动物来源药用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "辅料管理的关注 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "5]]。"}}]}
+

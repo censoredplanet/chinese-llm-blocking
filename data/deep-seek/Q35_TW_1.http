@@ -1,0 +1,382 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 199
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer JvxHMOlCs3/EZ/zA8xBdDHfssgs9PIUFBMvVxieEJblFwF0YFJdIYYZmOZSVmskd
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6ImQ2NWM4OWFjNmY2ZTQ4ZDAyMjgxZGQ4MTQ4ZmE2MGUzNGVhN2FlNDA2ZTNmMmNkZTgxMjQ4ZjViZjU1MDE0M2UiLCJzYWx0IjoiZjgxZGY2ZjY4NzZhNjgzNGUzZmYiLCJhbnN3ZXIiOjE0MTIzNiwic2lnbmF0dXJlIjoiNWQwMzIwMjM4YTUzOWE4MWVhODkzNTM5NGQ2ZDUwYzU5MDEwM2MwNzE5Y2RjNmRkY2M1M2IwODQ5M2IwODI4NCIsInRhcmdldF9wYXRoIjoiL2FwaS92MC9jaGF0L2NvbXBsZXRpb24ifQ==
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: Hm_lvt_fb5acee01d9182aabb2b61eb816d24ff=1739820374
+cookie: smidV2=2025021714262023e72537428b910e5f238da459114d400069943c22dec2f00
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=BPgpFkhyGXzjDdWYbZflp+an0ZsZG3aXK5M2C1ReyVqU1obbZrJ1OaziiePG86VokrkA9OqJ5p5lDVKF+Xngsg%3D%3D
+cookie: intercom-device-id-guh50jw4=98198fb7-35ae-4ac2-a52f-d26451f02dce
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESTIME=1741839314980
+cookie: HWWAFSESID=fcf75b86e753b8653fc
+cookie: ds_session_id=8c0c7b94da1d497ab50dec787cf9af2c
+cookie: cf_clearance=N68RZWraxsV0rS8VElFEPORuq9EeVPcwO48.NGvm4Xo-1741840706-1.2.1.1-T_5TfuRxI9c7ERB2Rch2nkprLiReQw8CcBcBqcE17yYUaxeQ.CqXDeSqKWn8guThpmuZ1CbYLu2FvrZI2lfnFH8wBteXZjx1DIIUJ5gr_2yOL37l4FALLNOlceVb2DiRJXGEk8L4aH.3Nuv1nLbwhsAaav6C0KqNzXBeBzf8X_gC1S_BkhqGV2CX0FKJcxZJRylz4HUUwwHQUhTeb_.90Ikjn6Tg6GCN.QpqPeDQ2rW4emZdXABxOXLMOUvH.TjovpsFn8LJQrJKieznIOM2y25yEiMZ4.pyBqQYAY6LwyF7GK8HFCVLC3SUi9kC6GEVOYN0_ckGphDjCD4zvol4spOygGeIjJ7U9T91ZnjB74qXDQSxC_VrN_Sl4TM0u8x5uW5XRz4h5zZZLPv.0ZlEpGsQF326HXefpXlSP0ELpN4
+cookie: __cf_bm=46rxJoOHGrJzId74IKJIPGqKp3lg3H_yMjpiOd60AFI-1741841222-1.0.1.1-HAEaDM.1VI_8lfaznCcCi2DbAks25BZXRN556V8K9ZDdGVQJDOMn4yLGOzy49udLB3GGiHWIwdmq5dexECIX0VkHcjKVB904g8feABvxBmo
+cookie: intercom-session-guh50jw4=Q1pqZS9oOGFnVVE3dGYwUUVDOFZXTkI2RXdsdFBITUVkT1AvZi9kbFVYaGFVNXRBVlNpL0ZWQS9RckV6MFYwMzg5Y29IdVdUcE1ycEZqM1ZyWjVaZCt6YkxvUDBEdW85cU9Sc2V6enZEaUE9LS1yd2tXNVFsTzdHdWFWenlzMjVHejl3PT0=--1a829c4431f9c3b5c1978cfd797d4e088aa73ee2
+priority: u=1, i
+
+{"chat_session_id":"a66234c5-faaf-4603-8320-9c9243c2bde1","parent_message_id":null,"prompt":"社會信用低會帶來什麼後果？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":true}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 04:47:29 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: faede278a440dabd10f455dfaadfa02a
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f8e4bfcab1e0b9-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":26,"chunk_token_usage":0,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"（由于技术原因，联网搜索暂不可用）\n\n","type":"text"}}],"model":"","chunk_token_usage":0,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"低","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"带来","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"以下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"后果","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"1","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"贷款","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"困难","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"银行","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"金融机构","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"拒绝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"贷款","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"申请","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"提高","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"利率","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"就业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受限","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"某些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"雇主","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"尤其是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国企","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大型","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"企业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"因","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"记录","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"不佳","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"而不","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"予","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"录用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"3","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"出行","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"限制","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"被","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"禁止","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"乘坐","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"飞机","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"高铁","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"等","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"交通工具","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"4","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"消费","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"限制","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"无法","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"入住","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"高档","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"酒店","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"进行","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"高","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"额","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"消费","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"5","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公共服务","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受限","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"无法","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"享受","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"某些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"政府","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"补贴","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公共服务","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"6","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"商业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"合作","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受阻","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"合作伙伴","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"因","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"问题","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"拒绝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"合作","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"7","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"声誉","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受损","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"低","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"影响","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"个人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"企业的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"形象","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"8","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"风险","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严重","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"失信","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"面临","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"诉讼","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"处罚","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"因此","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"保持良好的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"记录","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"非常重要","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741841249,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

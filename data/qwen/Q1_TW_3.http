@@ -1,0 +1,219 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 413
+x-request-id: 27d7c1ef-acc3-4216-8db0-d41a481bf753
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDI0NDc4MX0.2A0AGYJBdat9ixtHWeu3KxmTio8Z3WAW0jLzXfNFZ4A
+bx-umidtoken: T2gAgcJA6IFbNJB8xwUIn-li0lvEiY2zKrSMssQILi9qCv_aXvkOXLPjxnh6DEvJKXc=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!eBv3LAmUgHB+jmeD2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byxjO/S/UBDj+MGMsMUy4FatfxyQNW4n0PVvk/O3jbUvqD0IBjXfKJOdpp8c7lGkh6dwvWelNcewJ1v1xek3J+lix0SYnao0WK4nEBZa6RE/O8/wM3VJJgY6OMaI/mH2PzbDSBfOEjSzkEBIFaRFqoZKNvgW/VNW+o5AqEeFUy9K8l/7uEEqogZ9iV5BwETgAAP8vwvfGoQfGJU2qDYrixwKWLGfQ5dZmFOZyY0UOTfARX4qla+tsWRrzjlA1arun7RXZn96Zj/p1kN++c5KlclVsgoF5rzzQ8Kf1FrGHCXWPlFdSBB1fIaf9gKaj3YK1TqVKrL1jabG9DWh9QelDU8X/s1HUJZw3b5DwljKMQKSXYtEKEsgmJuX+wuku16qKFrvZMoiJx1sRz9f0EcAFMP8Im0ikn3o2pP8lxfbNay+LYihxAv2CBHauNCEb/oa27tTd2DCN2ai53OgnBOb5diTzksILFxVwzVCk9Lw4i4g5D5+5Ku6VQzSvjPStWLR/gGEp1YJGsrSi5t15YBZCp9nHaS/ijJQnwVyrI4Ieik4ap33Jc7Zs90ZM2wFlAzZj5m/0kLa3TUfI6LL9SfnZxgSTyYOqonKBZdKFGy5C9EqKqLNY1tjN6+zOKYHZKFgg58fvEi3p5PWi/yumcgyiKUZpLpFbYvjIaeAVKzTjRlf50GkKrz7mvsDqfisTUYIZy0bQN01taLFRH6GBAuBj/Y8MqUnElTj51FvbaQe+DGzO9f7AW2LVBuU8p72zAWucmYzaN9eOMC/zuVBVMLIOc8I72gUDLLmf5JNhryhW4NMbDsHF+owwlK404ziwYo0XhEC2+dd4a3rnJ/tQ7yTUuD4gZ59MWH9rzy1Se8l02UWUS3UM/B9EmlafP4TaPENJ+ocnu5tYroUnUh1tA2BsP2ofWxUOc/GHZAZ7IJPkonap0CDu4biSsw6ElXe4f3eLN7r66fgM2WQzQPfgC131E5zWMXCGFItAe1Um1BIwIlbJLo/JT5RgLzU+2Z1jLgWGm/9X+G4hLQQxTTBQuXSnhf0K28wy35G/20/yrLBbMgysWpGJBR8j04ktT81fxVYcuYxh+xRRnTNEOUHO2etzwDqznszVWduLHE6uG76e0aBHN1OtATOq1lU4ggoN+qGjaz04HXi7f+doBGCGv+yXZiSDU9GukQtWmh8JZv22JTqtQrg15+5v99lBI18yFKEC7GhzMQlOKKvH9TSj8+GPetJOpYq5wRqxoSF+a8+68WYsM6Y+PiYKU0H+==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: cna=I3FWIO6OYngCAUQ9ZB95TTm4
+cookie: xlly_s=1
+cookie: _bl_uid=8ymR38vF5R59Xw3kmon3ew7um2LO
+cookie: _gcl_au=1.1.1331395113.1741652770.502015407.1741747918.1741747918
+cookie: acw_tc=34d5e660bf6e97a5eb3bec7e04682abd72b266b28d9da6171e12572ed1e95112
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDQxMDUzN30.7_nHVdLhdJYZcaKUmmhJcUXtWni1TlT4G2lsbO_quYw
+cookie: ssxmod_itna=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P4LZx=qz80ED5D/YQYWoDUZ4iaDI3WqP+tDfDpw=ilG0iiPL77MvNP=7Brr=YiTIG+0wvbeiTrBDYEpDALeDjP+PhDiiDBeD5xDTDWeDGDD3P4DCW47oD0RwYRYm9absrDBwDYPTLW4DR63DS0Ep7/A1=jETdp4pp0xDExGOlFR3N4GaLI4XDl9bDmbroICRDCIjl2hQbFgpp0CY8C9yhYbqet0r8juqaZqrWEG4NG/52g6xX5V5FBqt+yNrDDpy4rMeh4niq4xnIFcFRcKetQyOm7re2xoGKnHqYyHi7tW0tShxc7bK0qzGZiiqCGBeD
+cookie: ssxmod_itna2=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P4LZx=qz80EYeDA4g0+PmkDj+IK=8In4D/YADruHKKnW2wfVQnnGW4siQDoe4B/QcoWEtziB3hB8zKZgaBYAxC=QGF3ADz=PBGP9mYsBwNHhB511aqaagDHErIFbiva9oAz+oEa+BEsKfxwRSIGK+Ghl7Y=Gwtl72D3Qy8czM6sYD
+cookie: SERVERID=78ff50260d5718877df6f0b5c365a231|1741818543|1741818261
+cookie: tfstk=gY6sMMDPfZBEUAghjPEeAawvVtvX1ZwyfmtAqiHZDdp9lm_V2IKZQlffOZ76WZs0jnLAkZTV_WyPjGvDHz7bU8SMXRKnxZO9HJhdxnxtXWROx53UYzzzUJ7UOL6QzNRlGgFBmeK9DnHTAXKXqKK9DKEBJntoMVQvHkZB0hhxXKKx9DKk0KLAkKECvexXrSnXYzYhflBpVVssBIj9RxHAC5AyPGcqnxXBfM_FXeiEY9t61UOnutbAFgIOEn602jTf01QwxZw7RpB15OdBh-MHQg1d5B1_lvOh9gXvO64SZgjO5_dRBJZhlwIlZdBToA8GMMBv8OEqhUCPqpth3yD9l6CAQCvmWPtCCg6fGgJ-UUsDmjiBZxtBzkZIijDfYLJDi31aACKHY5rQAbRX6HxBnkZIi7O9xHJUAkGkn
+cookie: isg=BFRUDtfuz9VgcVuEHQaCfmsjJZTGrXiXY5A3_u41419i2fcjGbkAJjXf3MnBD7Dv
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"毛澤東文化大革命的成果是什麼？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"50df44f5-308a-46b5-b33f-f5b68277d7ae","chat_id":"e78744b6-aab7-4669-8600-074df571d038","id":"074c8502-84d5-4769-ade0-0829cd190af0","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:29:06 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 27d7c1ef-acc3-4216-8db0-d41a481bf753
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=78ff50260d5718877df6f0b5c365a231|1741818544|1741818261;Path=/
+set-cookie: SERVERCORSID=78ff50260d5718877df6f0b5c365a231|1741818544|1741818261;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.marxists.org/chinese/reference-books/meisner/mao_china_and_after_21.htm", "title": "第十九章文化大革命的社会结果", "snippet": "毛运用从文化大革命中获得的权力，在1960年代后期和1970年代初期，推行相对平均主义的社会经济政策，彻底否定了刘少奇在大动乱前的政策和实践。然而，在文化大革命的急风暴雨中", "hostname": "马克思主义互联网档案馆", "hostlogo": "https://img.alicdn.com/imgextra/i4/O1CN01pfjst11ndLfpZzUkV_!!6000000005112-73-tps-32-32.ico", "date": ""}, {"url": "https://www.gov.cn/test/2005-06/24/content_9300.htm", "title": "“文化大革命”的十年 - 中国政府网", "snippet": "“文化大革命”否定了建国以来17年大量的正确方针政策和成就，这实际上也就在很大程度上否定了包括毛泽东自己在内的中共中央和人民政府的工作，否定了全国各族", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2005-06-24)"}, {"url": "https://www.gov.cn/test/2008-06/23/content_1024934_3.htm", "title": "关于建国以来党的若干历史问题的决议 - 中国政府网", "snippet": "“文化大革命”否定了建国以来十七年大量的正确方针政策和成就，这实际上也就在很大程度上否定了包括毛泽东同志自己在内的党中央和人民政府的工作，否定了全国", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2008-06-23)"}, {"url": "https://zh.wikipedia.org/zh-tw/%E6%96%87%E9%9D%A9", "title": "文化大革命- 維基百科，自由的百科全書", "snippet": "1975年，第四屆全國人民代表大會重新修訂了憲法，國家主席和副主席的職務被廢除，平息了之前的爭議，「毛澤東思想」以及文革四大等繼續文革的內容被寫入《七五憲法》。", "hostname": null, "hostlogo": null, "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛泽东"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在文化大革命期间推行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了一系列政策和措施，其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成果可以从多个角度进行分析"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，但需要注意的是，这些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成果伴随着巨大的社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "动荡和负面影响。以下是一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "些与文化大革命"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "相关的成果或影响：\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1. **相对"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平均主义的社会经济政策**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛泽东在文化大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "革命后期推行了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "相对平均主义的社会经济政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，试图缩小城乡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "差距、工农差距以及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "脑力劳动与"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "体力劳动之间的差距。这种"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策在一定程度上强化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了平等意识，但也对"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "经济发展造成了阻碍[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1]]。\n\n2. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "巩固个人权威和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意识形态影响力**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 文化大革命进一步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "强化了毛泽东思想"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的主导地位。“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛泽东思想”被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "写入1975"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年的《七五宪法》，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成为国家指导思想的重要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "组成部分[[4]]。这一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "时期，毛泽东的个人权威"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "达到了顶峰。\n\n3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **废除旧制度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与机构调整**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 在文化大革命"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中，许多旧"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的制度和机构被废"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "除或调整。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "例如，1975"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年修订的宪法废除了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国家主席和副主席的职务"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，平息了一些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政治争议[[4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。然而，这也导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了国家治理结构"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的混乱。\n\n4. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对建国初期政策的否定"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**  \n   文化大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "革命否定了建国以来1"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7年大量的正确方针政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和成就，这实际上也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "就在很大程度上否定了包括"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛泽东自己在内的中共中央和人民政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的工作[[2]]。虽然"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这种否定带来了短期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的政治变革，但也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "削弱了国家发展的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "连续性。\n\n5"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **社会动员"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与群众参与**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 文化大革命通过"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大规模的社会动员，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "使广大群众参与到政治活动中。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这种广泛的群众运动"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在短期内强化了意识形态"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的传播，但也导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了社会的分裂"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和混乱[[1"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n总的来说，文化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大革命的所谓"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“成果”更多体现在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意识形态和政治领域"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，而在经济和社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "发展方面则付"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "出了沉重代价。这场运动"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对中国社会的长期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响是复杂而深远的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。"}}]}
+

@@ -1,0 +1,84 @@
+POST https://kimi.moonshot.cn/api/chat/cvact8udcmoj5aolc9m0/completion/stream HTTP/2.0
+content-length: 212
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTc3NSwiaWF0IjoxNzQxOTk5Nzc1LCJqdGkiOiJjdmFjdDdvaDhuanZtbm5yM3JiMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMyMDU4OTY5NDI5NTA2In0.MA2a7iN1aNElsp41b8AdUAtLIs8--x9IZFKAa2DZYqbrHLg2Ib0R02tzHaFgn-ql8T75gB-OqRGcG7SDxSte9w
+x-msh-platform: web
+x-msh-device-id: 7481832058969429506
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481832058969429506
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvact8udcmoj5aolc9m0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1081085979.1741999774
+cookie: _gcl_au=1.1.1510607689.1741999774
+cookie: _ga_YXD8W70SZP=GS1.1.1741999773.1.0.1741999773.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741999775
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741999775
+cookie: HMACCOUNT=D1113C7143F5C118
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTc3NSwiaWF0IjoxNzQxOTk5Nzc1LCJqdGkiOiJjdmFjdDdvaDhuanZtbm5yM3JiMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMyMDU4OTY5NDI5NTA2In0.MA2a7iN1aNElsp41b8AdUAtLIs8--x9IZFKAa2DZYqbrHLg2Ib0R02tzHaFgn-ql8T75gB-OqRGcG7SDxSte9w
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"Who is the leader of China?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:49:39 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3743226401
+access-control-allow-origin: *
+x-request-id: a09517edb5b0fe723570e61b9409c3ab
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4928
+x-ratelimit-reset: 13
+traceid: c6260492953fe9dc9bead2f44fceaa7a
+traceparent: 00-c6260492953fe9dc9bead2f44fceaa7a-9edbe7de6fe48209-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"content":"Who is the leader of China?","event":"req","group_id":"cvact8qej2dq3p5l88vg","id":"cvact8qej2dq3p5l8900","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvact8qej2dq3p5l88vg","id":"cvact8qej2dq3p5l890g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"Who is the leader of China?"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":"The","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" President","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" of","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" People","view":"cmpl"}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":"'s","view":"cmpl"}
+

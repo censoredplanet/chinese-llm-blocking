@@ -1,0 +1,315 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 416
+x-request-id: d0c872d9-732a-423b-aea7-32974b640bf8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDI0NTExNH0._F-C2IvtA51Pu-2r0gyPp3XibQXBgWVSzSJsIi0Reuw
+bx-umidtoken: T2gAngSvdGDMA0AEdvBvD3udqI4oOmTLY-MLOESlsYuLkwVt_QZsl4FrbDTOo6r_AlM=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!R733LAmU1/p+jmDv2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byxj0qz/UBDj+MGMsMUy4FatfxyQNW4n0PVQi5b1rsf31K1pa00hNfA/4g5+kCjWc7tpo3QaCd+Mt8l7Nwh6eMr3dTV0/WpA17Arwp4qc1HBAuTGMuZIvg6yTGQCRe5gzVWcanYhqxCvmurZEd7hwH22uHGhtei72cm42G+qvJugGKtvaajgQsUcEjphwbithztwbS8L/rgLSfpnHGwIgnXYZIQ54Cl2z08Jk/p7pwSyRiFXfkBSuXBV2m37cZgoBou6f9fxLJkVUUR+C8LTm8v2cF+NUhq4lv747ESsxr70SPtRUDctk0DjcJ3QMvrJTQBecppcpRZIFIt/bAERLorQUD+TzGNT0PY0vrcDFMZ4KxtZbiQvjuAmYVO0jO6aV/Xeu4MpPGz+kN+pNinJ5khCF2A3SNwvlbiUWY5Ktg+v8Sp9KjNov/ASldc1gwftQkdtqQVRXDKGxhoxeJSOS9aY/UO5eTegu23bSsr9xBBwKdLLsVJTqF6WIGTcr6yEYr8bZh9EmfuaGeutOQcpfkIt2PH25KC0JfJiiy4MMlYRuIcKlBXETG+BmJxxSIXQw29jcbrR5N9AGHoJAEz0KQR+tKbHC56PQw8cs7mFi6W4laWr67DJLfUVBFZhIU2GvK7ZDvlntBEALssKGlFMXme5qwg4V9ortI66Sp9lydAGeC8dsVAs8EF0GIVp0ff69dHVJxkyGjoGMucxx1TkubxqznrCxHz2ASS3E1T/952BakoYQFu7f51+4Eh1F4aho64VK5PYN8UZgVBOnYrjpdeuUN5zYvk1Hwucy6a6WEu7ClahdjZF59ZZck7DYsifsI2W/CyXpHRCff0SPdIOSb+m1hgXFXW+A5813noz+tfuktxUaHydz69jnTOnFeqVOoyJb+mTDYH175lzpyJueFLG/GPmDTX1eaaf3e6+OtcDHHG4UMpaPNz0SmfCk0JU0zntyxO7Q01BNhW2e8Mo2566uIkPjmXAp+8p0TFx86ImTyWOYu0kVXAWiiVK8vYBgDuoKD9j1dUfcGWujgM9/3TJclNulf9hHoer+h3N04tAj3LEN2rP6aMxJtRrm7gA9qsQBRWQ2DxpRxEo0ZE84NM+aB33Ep4YIWSitgMiyw1/QExAQyqoWAFog3ZEYA2kd1GEijMWvANsbTC2mr/kBSHqhiAKbcmxQ86B9pqVSr1CU9yngh+zrbkKKhaReMyCAe0HLEYwTa5ssloe60r1ZhMgifNaZaQJDS8D7y3mAq2qrkcWN10HI19xk==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.213107595.1741653092
+cookie: cna=Z3JWIAFzeR8CAUQ9ZB8mwzKs
+cookie: xlly_s=1
+cookie: _bl_uid=4zm9w82z5y69q937qpwvsRvdjsRj
+cookie: acw_tc=68a261ba102511991948e0b02c613ad09a4d147a25ec9f9d7af5cd2236bccf6c
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDQwOTE2Mn0.P1HhOrBafCV7iZROKmasBQM981-DMQNjdkUOtRiOxbA
+cookie: ssxmod_itna=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7K005DjE5IkQUxGXxt4a4GkUDWPGE4cDR=sKGB7GpwsfQ7Y9+HlcP4m+/lgAAw3PaABYq2mqr0HYD=ox07Db8oDALeD7dehDYYDC4GwDGoD34DiDDpexDtQdjeD7ObKhmbZ3rio3CbDm+ot3xDgzPD1DaTtvWNP/nEpbxubSqGnD0QGdhwox0fHTx7DzkoDbEAKkUODtu9DMdKduCubG/tnYAffWiY937v37D4lYfxK7A+eG7D+zszR20x4UomRP4+DDAUwDvba7DxWiYA9cR9b9K+UxkiwPdbaF7xBHCB2WUrt9rNlhKCTYCTPlx1WGq7YeeD
+cookie: ssxmod_itna2=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7K005DjE5IkQ4xDfitYDhDbQeDj4xPizICoD/K000TH/CW10a4/lZnv+vq9ODEbsyAIxfWgXutAfuATsfYdaYip4tD9FBZmG/aA8hDrbKY9DtCPeppPxa/aF/WExVEpIKmPqz9gmz48IFt8x8FxI843rbgA63CTtMnwN8BiP94rYB+de4D
+cookie: SERVERID=1e667f00e9d4a59c865f538e9bed37de|1741817169|1741816757
+cookie: tfstk=gy2nMw9FdVTX1-UvJPkCMOy8uG1TdHMSizp-yY3P_Vu_pzCIy5Dz0rc-a6NLSHwgoLpdR6ZyEYHPkZBAHktIFY7Ak3xaRHi-4HRyy2kw7YnlzhE90kZIFh_Q4iEQAUAon0ZrUzkZ_mmjUQlyLGDZm0kyLbJe_Fus4YkraD8Z7mmvTHkraGqZ50krzzler29qJlE0QN50UQJE2A2ixX04bOOyZRpx9qrESZ-YID0jukuMUL0pD12a4z7kexPbS8c4kTvspoVZQDVG4CuEiWzKfzXDL2ygYJuLLNpK8JZaM8UN4Luu_SlYgk79scVavRcT3ZvoO5zQGb2RWtMLMoeSgJWHlVhjqrDUsNJ3ugPD_IRYfLiN2RRWNXosjqUqo1-YLZE62GjMgfGEfD5FjGA5_Xosj0SGjI-jTcihM
+cookie: isg=BKurc-2uSCAsVpRpiT-CzYsEOsmVwL9C4JW40x0ohOpBvMgetZQHk3SaE-TSqhc6
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"近期香港學生抗議活動的原因為何？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"406f6dd5-3d9f-40c0-89f5-7da295f5ebb2","chat_id":"a723edf0-59bb-4d55-bca4-e42efd11d856","id":"8cccc38b-e135-4c2f-8473-d2beeccf4750","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:06:13 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: d0c872d9-732a-423b-aea7-32974b640bf8
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=1e667f00e9d4a59c865f538e9bed37de|1741817170|1741816757;Path=/
+set-cookie: SERVERCORSID=1e667f00e9d4a59c865f538e9bed37de|1741817170|1741816757;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "近期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港學生抗議活動的原因"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主要與社會、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政治及教育等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多方面的因素有關。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以下是一些可能的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "背景和原因：\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **對政府政策的不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "滿**\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港學生可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對特區政府的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "某些政策感到不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "滿，例如住房"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "問題、經濟不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平等、社會流"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "動性下降等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。這些問題長期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "存在，並對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年輕一代的生活造成"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "壓力。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政府在處理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會問題時被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "認為缺乏透明度和問"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "責機制，這"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "讓年輕人感到無"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "力改變現狀。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 2. **教育"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策的爭議**\n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " - 教育政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是學生活動中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "常見的焦"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "點之一。例如，課程"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "內容、考試制度、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "資源分配等問題"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能引發學生的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不滿。\n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " - 如果政府推行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "某些被視為干"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "預學術自由或"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響學生價值觀的政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "（例如國民"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "教育或歷史教育的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "調整），也可能引"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "發抗議。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 3. **對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "民主和自由的訴"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "求**\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港學生普遍"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重視言論自由、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "集會自由和民主"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "權利。他們可能擔心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些核心價值受到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "侵蝕，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特別是在《港"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "區國安法》實施"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "後，社會氛"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "圍變得更加緊張。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 學生可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通過抗議表"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "達對普選、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "民主改革或其他政治議"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "題的支持。\n\n### 4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **社會不公"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與代際矛盾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年輕一代面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "臨著高房"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價、低薪"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "資增長、就"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "業競爭激烈等問題"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，這些經濟壓力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "使他們對現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "狀感到失望。\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 許多學生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "認為政府的政策傾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "向於保護既"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "得利益者，而非"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "解決基層或"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年輕人的困境。\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "5. **國際局"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "勢與身份認同**\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 香港"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "作為一個國際化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "城市，其年輕"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人對自身的身份認同"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有著複雜的思考"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。部分學生可能對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "「一國兩制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "」的未來感到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "擔憂，尤其是在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與內地融合"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加速的情況下。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 國際媒體"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和外國政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對香港事務"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的關注，也可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響部分學生的觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "點和行動。\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "6. **延"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "續過去運動的影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n   - 香"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "港近年來經歷了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多次大規模的社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "運動（如20"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "14年的雨"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "傘運動、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2019年的反"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "送中運動）。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些運動雖然已經"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "結束，但其影響仍然"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "存在，特別是在年輕人群"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "體中。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "學生可能希望"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "延續這些運動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的精神，繼續推動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會變革。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 總結"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "\n香港學生抗議活動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的背後原因是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多方面的，涉及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "經濟、政治、教育和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "文化等層面。每"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "場抗議活動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "都有其特定的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觸發點，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "但核心問題往往可以"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "追溯到更廣"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "泛的社會矛盾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和價值觀衝突"}}]}
+
+data: {"error": {"modality": ["text"], "code": "data_inspection_failed", "stage": "output", "detail": "Content security warning: output text data may contain inappropriate content!"}}
+

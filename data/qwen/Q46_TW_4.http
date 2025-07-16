@@ -1,0 +1,325 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 410
+x-request-id: 3b6dbb81-8536-429f-94f0-f682881cf6c1
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFiNDU5ZDY2LThiY2YtNGRkNi04MDkyLTBhZjk2NjA3NmE1MyIsImV4cCI6MTc0NDMzNTUxNn0.gqpDxLHgam5JyvxJ2PUCytddp_UOb2baJ317o10WVvA
+bx-umidtoken: T2gARjEvNu8y9GOAErLIRHch7yD7KQZe3Q3kjPhlxXMFEGuUG5LLviUIXiSCuvLjr4s=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!rC/3S+mUAOz+jorD2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byBjO33/xBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F6exUyyNwB5e7L6aXAWx9YGXaRyCBiiL/OQCTC3+gRTUcoLiag7QaR4l/59ZJdfVBB/H+jZdLexDYaR3nzs9uZu8le52/I+ZezBk4daioTVBi/HoCLi0S2hvjhZLKk2oaTjntdIZhSH/0IS8sF1f5+T9tzzW5SA/NztBGmoOBi7i4pcdYj4LpT6ZmXglnPZ4PvmAtKDvaPZJHFC/9ZyjjnWFL+VW1fFmHqJxlM+1znYg8yTBElAmE/HfVeL75qK05iSGQXh8aoR7h2wdox8IFdEh212u4uXrABX/Hv/d9rQNtOwpW9sZDqusSjpuGvyb6ddgOYM1Vg2sihanWjv+5VyU/C2Xe4BEnkKJcHkNTZP9D9FNJIvqrn24GQ3y0eQb597qLXqtInIHcYwswqJOI6Cydj37dRuFQEls+n8yjkfoTXzmaKcHQAoRkwOwUQsJlH0mf7dcghkJsKV0rdvNXs/S8JiEgFoiXxYSbSyfTPgvRjfTDNcxFjIJE+as4VZ3P9ueQSLYIsovDKoAIUh+snVQUL2ptzlusnlQqG7VhsAmPvVSCkLXE66R9RfuCjdEIVcF7wzTcDWM+l9S08B387I2M3ulSOaHJ4FOpKH7dwdqGTG/nUkW3HnqDeykFK3sAzR2rM3MxwjYq6FYdvn+IeiuV/Bhsxa2xjZjWx3hwZBQcXklHlh5rIpQ9b/SFrm78trLmfKldkdz+zjbMNSyjO9mWQNJrex8Su4wpjtUFUbSgdFmPlBhxi/ZMBvhM6oc0frVbjnVivWmL2JSkNGGkjPnUqqZ+h2goSTT3VQ7NKit9rE+rdOVMFPDOixOnqsFx7cCzMixF1lfqYtlSrIRqeU8WD+A5NAXogf02zo8H3uOgWwU+tosEOLZi9W/hp4nl0+Z5EoCZGcgW3xnM0zBExfkIUe7hKurO/LS4VzvJDljsuuzr2eQlYvf8xRtYPT/tt4edUlE6TDkXGTsR128ThPZEfPyQ3cQbDqh6MWQrcxC31LssmBn47FTFbBNUrwzqRSwTLSL6JA6Csf40jZ2nWB5ZlYieXoREUDp6SFOrCi/lYpcUYMagIBC/JT7GFu5/Ctnv9AD/gjKiXJpgeYettIu9gzSaD2d7SCFWu/yeX9V50/9WwMiNqeqC+xLSJPDsRkKbbw0WAxh+9q96/PUWDBccsr8lc8UgrzzXL2tF2SVF1CgGNiAnVr2U+u7NXIMXKYY1acW7uftRb6A=
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.980438045.1741743488
+cookie: cna=gtNXIMrCtjcCAUQ9ZB8U+dKE
+cookie: _bl_uid=4vm4I86L5Ce9h73syqazry12esnL
+cookie: xlly_s=1
+cookie: acw_tc=d91e7cd0f1e6e2fc503aad94e9688d970b121ee64c4f2d61e2def89a65b8d9b5
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFiNDU5ZDY2LThiY2YtNGRkNi04MDkyLTBhZjk2NjA3NmE1MyIsImV4cCI6MTc0NDU4MDgwMH0.J4lJTbf4Rzv6zBKQPCGOe-bvejUCT5biAHvnm8X4k8U
+cookie: ssxmod_itna=7qIxyDBD20KYqYQPY5i=YeDIjO43kD0dGMlDeq7tDRDFqAP5DHmxAr=W2GI4Tkkbxt8BD0v+3hlD0=HDf40WhCidqUxKRWh2ewtSeWx=je6QAMK+Haij4H5tQ3tqg3+AK4iTiDQKGmW4D1zDDkhGiYDeeDtx0rD0eDPxDYDG4+DDypqSxDjYg+NtozzDYeq3oDb6m3zDGCU4GtsIgIb+vqz9mbACE5Mxi8D79XzA+mD7pLAldDXEeDEiewQuQDvaMsMPTp7fE5N54xuozYag0ha7ex3G0eWr0Dq=P=nQ2SOeFB2HXBYWxxBAC4CYDDf0P4gaP8iD5e+EO=jEe6OYCmUgCr+WPKfD4BXyjDEGq10qQmhxQGye+9QhBZG3n0QYD
+cookie: ssxmod_itna2=7qIxyDBD20KYqYQPY5i=YeDIjO43kD0dGMlDeq7tDRDFqAP5DHmxAr=W2GI4Tkkbxt8hDDaA3nCel4xDLi0hTm3x0v48K8S8ipIniip0Gx=5BAE+QINIWWSIQsKPzkL3Gw0oWZFunnDx/g0PzEG1VP7Tq+D8hmxbYQGaaip8WfDxa4AanAOKCfEh7FgDK7aIfcgAfogam49fNC8YtGGwySDtS0qKjSiUOGd6t3D
+cookie: SERVERID=310e800b48f33982b77f3b5fff4279b3|1741988807|1741988380
+cookie: tfstk=gPKxM-fHkYeY-WsnmmgujP0STkMkHhp4mIJQj1f05QdJ1IM4jd_01ldRZxJcchLzXpJwmxSi3iJVbGGntDx93KSZdai7thIWFtXnjo_1fiSWb-QoRDmH3KT5iFQqxnXh9k1c1G_f5zZ5a9X_1C_bPa1PQONfCoMJF_57c-1_f_i5KOq11CsseL1PCG6Xr8Gd_kf3XeaqtY0_4Zq_f3BAPDvhNlWWqtQAOatYfl9NHZCBh_GeLjMcWIQvqmFFHU9patdZYoSfWETCchhKDg9erI6J1XUONeK2Xwxx9y5X01RdcUh7DGsVpdQHrAadZF9y2aKx-RWymdtV-MiUG1YkphB9bfoJ9KOvRwtbMgWkxHCt7WfdIrM-ePzNlTPBTDcN8TxqvTCnEG4a7anOe6D-xPzNlsBRtY0Q7P7S4
+cookie: isg=BBcXNx1qPLoWp7gyvPf2E9OZpo1hXOu-HHFUF2lEMOZNmDTafygzD5U-_iCGcMM2
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"中國現行治理體係有哪些缺陷？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"ae56f1fa-36c0-4a28-802e-b4d064551926","chat_id":"aa025502-87b6-4c42-a424-599dc4a089fe","id":"2108ac57-e8f2-4d42-b883-71409c160c88","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 21:46:50 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 3b6dbb81-8536-429f-94f0-f682881cf6c1
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=310e800b48f33982b77f3b5fff4279b3|1741988807|1741988380;Path=/
+set-cookie: SERVERCORSID=310e800b48f33982b77f3b5fff4279b3|1741988807|1741988380;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://finance.sina.cn/2017-12-21/detail-ifypxrpp3250940.d.html", "title": "财政部周强武：现行全球治理体系缺陷日益突出 - 新浪财经", "snippet": "但是在过去几十年当中，我们也不难发现这些多边体系也走了不少弯路，甚至犯了不少错误，突出的一点便是西方的价值观与评判标准，常常不能够把握发展中国家的", "hostname": "新浪网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01mvEkNg1mbgbrppM5C_!!6000000004973-55-tps-32-32.svg", "date": " (2017-12-21)"}, {"url": "https://xnewera.pku.edu.cn/ztzl/gjxdhjsyj/0211308b71644b5fae0ee8b3b156ad82.htm", "title": "刘舒杨|| 中国治理的现代性分析", "snippet": "中国传统政治的一大缺陷。理性的缺失限制了中国传统官僚体制向现代  一方面，中国治理强化常规性制度建设，完善国家治理的程序化与规范化；另", "hostname": "北京大学官网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN013RF0HG1Zfj6YD3ckO_!!6000000003222-55-tps-32-32.svg", "date": " (2023-02-01)"}, {"url": "https://www.nra.gov.cn/ztzl/ddjs/lxyz/xxzl/201607/t20160729_144355.shtml", "title": "高新民：国家治理体系现代化与反腐倡廉建设", "snippet": "共产党领导的人民政权，如果权力运行体制机制有缺陷或弱点，同样可以产生腐败，反腐败需要从核心问题———权力制约、防止滥用权力做起。第二，标本兼治、综合治理，从源头防止腐败", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": ""}, {"url": "https://www.rccp.pku.edu.cn/mzyt/56215.htm", "title": "田凯：治理理论内在矛盾性的反思", "snippet": "政府的职责在于创造公共价值，并综合运用层级、市场、第三部门等多种机制，来保证公共物品供给的公平性和有效性。戴维·马什则认为，层级制模式有着很大的缺陷，应该从依靠权力", "hostname": "北京大学官网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN013RF0HG1Zfj6YD3ckO_!!6000000003222-55-tps-32-32.svg", "date": ""}, {"url": "https://xnewera.pku.edu.cn/ztzl/gjxdhjsyj/0211308b71644b5fae0ee8b3b156ad82.htm", "title": "刘舒杨|| 中国治理的现代性分析", "snippet": "一方面，中国治理强化常规性制度建设，完善国家治理的程序化与规范化；另一方面，在制度建设中始终保持政治机制的领导作用，防止出现制度的公共性偏移，也避免", "hostname": "北京大学官网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN013RF0HG1Zfj6YD3ckO_!!6000000003222-55-tps-32-32.svg", "date": " (2023-02-01)"}, {"url": "https://www.sppm.tsinghua.edu.cn/info/1007/4881.htm", "title": "薛澜：国家治理框架下的社会治理——问题、挑战与机遇", "snippet": "从中国各类社会组织发展的现实来看，目前最大的问题是各类组织的使命定位、运行模式和治理结构之间存在着严重的矛盾和错位。因此，当前社会治理体系建设的最重要的任务就是", "hostname": "清华大学", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01nd3ms11Nyi7vEfjYT_!!6000000001639-55-tps-32-32.svg", "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國現行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理體系在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不斷完善和現代"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化的過程中，仍然"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "存在一些缺陷和挑"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "戰。以下是幾個主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方面的分析：\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 1. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "權力制約"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與腐敗問題**\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理體系中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，權力運"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行機制的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制約和監"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "督仍需進一步加強"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。如果權力運"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行體制存在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺陷或弱點，可能會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "導致腐敗問題的出現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。反腐败需要從核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "問題——權力制約"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、防止濫用權"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "力做起[[3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "雖然中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "近年來強化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了反腐力度，但如何"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "從制度層面實現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "標本兼治"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、綜合治理，從"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "源頭上防止"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "腐敗，仍然是挑"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "戰。\n\n### 2"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **制度建設與公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "性偏移**\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 在制度建設方面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，中國治理強"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化了常規"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "性制度建設，完善了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國家治理的程序化與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "規範化。然而"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，在這一過程中，如何"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保持政治機制的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "領導作用，防止制度的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共性偏移，避免"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "過度集中或"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "僵化，是一個"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重要的課題[[5"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制度建設需要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平衡規範化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與靈活性，以"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "適應不同地區和領域"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的實際需求。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 3. **社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "組織發展的矛盾**\n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " - 從中國各"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "類社會組織發展的現實"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "來看，目前最大的問題"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是各類組織的使命"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "定位、運行模式和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理結構之間存在嚴重的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "矛盾和錯位[[6"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會組織作為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理的重要參與者，其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "功能未能充分發揮，影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了社會治理的多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "樣性和有效性。\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "4. **傳統"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理觀念的局限"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n   - 中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國傳統政治的一大缺陷是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "理性的缺失，這限制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了傳統官僚體制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "向現代治理模式的轉"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "型[[2]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "傳統治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觀念與現代"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理理念之間的衝"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "突，可能影響到治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "體系的現代化進"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "程。\n\n### 5."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **全球治理價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觀的差異**\n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " - 在全球治理背景下"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，西方價值觀與評"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "判標準常常無法"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "準確把握發展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國家的需求。這種"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀的差異可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對中國參與全球治理造成"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一定影響[[1"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n   - 如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "何在全球治理中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "既能維護自身"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "利益，又能與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國際社會有效合作"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，是一個長期挑"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "戰。\n\n### 6."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **層級制模式"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的局限性**\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 政府的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "職責在於創造公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值，並綜合運用層"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "級、市場、第三部門"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "等多種機制來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保證公共物品供"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "給的公平性和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有效性。然而，層"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "級制模式存在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "很大的缺陷，如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "效率低下、靈"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "活性不足等[[4]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n   - 如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "何在層級制基礎"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "上引入更多市場"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和社會力量，提升"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理效能，是需要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "解決的問題。\n\n總體"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "而言，中國現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行治理體系的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺陷主要集中在權力制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "約、制度建設、社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "組織發展、傳統觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "念轉型以及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "全球治理參與等方面。這些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "問題的解決需要通過深化改革"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、加強制度創新"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及推進現代"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化治理能力來實現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。"}}]}
+

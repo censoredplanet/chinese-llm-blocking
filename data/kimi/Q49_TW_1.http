@@ -1,0 +1,72 @@
+POST https://kimi.moonshot.cn/api/chat/cvaamqef5kubad0gofh0/completion/stream HTTP/2.0
+content-length: 214
+sec-ch-ua-platform: "Android"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4Mjc2MCwiaWF0IjoxNzQxOTkwNzYwLCJqdGkiOiJjdmFhbXEwaDhuanZtbm5hcTlvZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzMzM5ODM5MjM4NDE1In0.8uub1nXomJqsMCA4wRS6pWdAiV8X8xmeiYPilN7qY0e8QszOvGQWDFRu3mI2X9axOaUjZpiD1SIU2owMM_w2lg
+x-msh-platform: web
+x-msh-device-id: 7481793339839238415
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?1
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Linux; Android 13; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481793339839238415
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvaamqef5kubad0gofh0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1708909170.1741990759
+cookie: _gcl_au=1.1.1467306275.1741990759
+cookie: _ga_YXD8W70SZP=GS1.1.1741990758.1.0.1741990758.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741990759
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741990759
+cookie: HMACCOUNT=EE3CA27254DABAD0
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4Mjc2MCwiaWF0IjoxNzQxOTkwNzYwLCJqdGkiOiJjdmFhbXEwaDhuanZtbm5hcTlvZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzMzM5ODM5MjM4NDE1In0.8uub1nXomJqsMCA4wRS6pWdAiV8X8xmeiYPilN7qY0e8QszOvGQWDFRu3mI2X9axOaUjZpiD1SIU2owMM_w2lg
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"1989 年發生了什麼事？"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Fri, 14 Mar 2025 22:19:22 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 2031293452
+access-control-allow-origin: *
+x-request-id: 1b2f20280a2cfbf6b3eba83e80c243ec
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4993
+x-ratelimit-reset: 42
+traceid: caa442bcbea83f069930e3782bb3969a
+traceparent: 00-caa442bcbea83f069930e3782bb3969a-064b405f23e7b55d-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"content":"1989 年發生了什麼事？","event":"req","group_id":"cvaamqg52cevdu693dvg","id":"cvaamqg52cevdu693e00","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvaamqg52cevdu693dvg","id":"cvaamqg52cevdu693e0g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

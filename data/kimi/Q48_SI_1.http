@@ -1,0 +1,72 @@
+POST https://kimi.moonshot.cn/api/chat/cvaalm20p58jjten1gg0/completion/stream HTTP/2.0
+content-length: 209
+sec-ch-ua-platform: "Linux"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjYxNCwiaWF0IjoxNzQxOTkwNjE0LCJqdGkiOiJjdmFhbGxqdWEzZDZvYWphcWk1ZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkyNzEyNzc0MDY0NjU1In0.GK-UbaYPgj2FjQLuUrTzMEANrBN_u7N7xSPmxuv79bCklkg1o4ZiIa9cCXiwMYOP0U7Wns_8O0ZR07upNPabjw
+x-msh-platform: web
+x-msh-device-id: 7481792712774064655
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481792712774064655
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvaalm20p58jjten1gg0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.843612678.1741990613
+cookie: _gcl_au=1.1.761780441.1741990613
+cookie: _ga_YXD8W70SZP=GS1.1.1741990612.1.0.1741990612.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741990614
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741990614
+cookie: HMACCOUNT=27236E6833F36BD7
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjYxNCwiaWF0IjoxNzQxOTkwNjE0LCJqdGkiOiJjdmFhbGxqdWEzZDZvYWphcWk1ZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkyNzEyNzc0MDY0NjU1In0.GK-UbaYPgj2FjQLuUrTzMEANrBN_u7N7xSPmxuv79bCklkg1o4ZiIa9cCXiwMYOP0U7Wns_8O0ZR07upNPabjw
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"中国领导人是谁？"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Fri, 14 Mar 2025 22:16:56 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 2503840898
+access-control-allow-origin: *
+x-request-id: 2cebc0896db6e9929c9e9eab83bbcdd5
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4999
+x-ratelimit-reset: 60
+traceid: 1834f0ffd6377fc3af8195323d35ba78
+traceparent: 00-1834f0ffd6377fc3af8195323d35ba78-bbc29cef76930b95-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=21
+
+data: {"content":"中国领导人是谁？","event":"req","group_id":"cvaalm4jc3febjjubk0g","id":"cvaalm4jc3febjjubk10","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvaalm4jc3febjjubk0g","id":"cvaalm4jc3febjjubk1g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

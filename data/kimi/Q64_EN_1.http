@@ -1,0 +1,162 @@
+POST https://kimi.moonshot.cn/api/chat/cvaan564bbjqulblgf80/completion/stream HTTP/2.0
+content-length: 210
+sec-ch-ua-platform: "Windows"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjgwMSwiaWF0IjoxNzQxOTkwODAxLCJqdGkiOiJjdmFhbjRlczFyaDZyZWQ2b2MxMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNTE1OTMyOTAxMTIwIn0.4jz-ze1LUpHd5DD4WUwy1er124QtioItgBI8uFepAEc7IKQdyYRQYSzqMoE9bxs6HOijvJHPpefRnHmg2yg-oQ
+x-msh-platform: web
+x-msh-device-id: 7481793515932901120
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.75 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481793515932901120
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvaan564bbjqulblgf80
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.769466193.1741990800
+cookie: _gcl_au=1.1.1279779499.1741990800
+cookie: _ga_YXD8W70SZP=GS1.1.1741990799.1.0.1741990799.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741990801
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741990801
+cookie: HMACCOUNT=2247CA9E2B558452
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjgwMSwiaWF0IjoxNzQxOTkwODAxLCJqdGkiOiJjdmFhbjRlczFyaDZyZWQ2b2MxMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNTE1OTMyOTAxMTIwIn0.4jz-ze1LUpHd5DD4WUwy1er124QtioItgBI8uFepAEc7IKQdyYRQYSzqMoE9bxs6HOijvJHPpefRnHmg2yg-oQ
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What is “Charter 08”?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Fri, 14 Mar 2025 22:20:05 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3437299748
+access-control-allow-origin: *
+x-request-id: 7035c980dd7aaef71ac1a490d944b8fe
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4999
+x-ratelimit-reset: 60
+traceid: 61a543815731ea791a1815ce2b505c9e
+traceparent: 00-61a543815731ea791a1815ce2b505c9e-5d7fc269e60cccc0-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=18
+
+data: {"content":"What is “Charter 08”?","event":"req","group_id":"cvaan593ntnh3f0qp1lg","id":"cvaan593ntnh3f0qp1m0","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvaan593ntnh3f0qp1lg","id":"cvaan593ntnh3f0qp1mg","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"What is “Charter 08”?"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["Charter 08","Charter 08 Introduction"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2008-12-10","icon":"","site_name":"","snippet":"Democracy. The most fundamental principles of democracy are that the people are sovereign and the people select their government. Democracy has ...","successNum":1,"title":"Charter 08 (Chinese and English Text) - CECC.gov","type":"get_res","url":"http://www.cecc.gov/resources/legal-provisions/charter-08-chinese-and-english-text"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"《零八宪章》是为了纪念1948年12月10日《世界人权宣言》发表60周年，受捷克斯洛伐克反体制运动的象征性文件《七七宪章》（Charter 77）启发，由张祖桦负责起草、刘晓波等人 ...","successNum":2,"title":"零八宪章- 维基百科，自由的百科全书","type":"get_res","url":"https://zh.wikipedia.org/zh-cn/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2010-12-09","icon":"","site_name":"","snippet":"Charter 08 advocates a whole series of reforms that would result in a separation of powers, a new constitution and legislative democracy. It ...","successNum":3,"title":"Charter 08: A call for change in China - BBC News","type":"get_res","url":"https://www.bbc.com/news/world-asia-pacific-11955763"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Charter 08 is a manifesto initially signed by 303 Chinese dissident intellectuals and human rights activists. It was published on 10 December 2008, the 60th ...","successNum":4,"title":"Charter 08 - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/Charter_08"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"set_segment_data","path":["image_search"],"values":{"images":[{"query":"Charter 08 Introduction","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/img.xinmin.cn/75ef6bdb57c0dfad579ad6f0311bad34765a1fd6","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img.xinmin.cn/75ef6bdb57c0dfad579ad6f0311bad34765a1fd6?x-tos-process=image%2Fresize%2Cw_590","title":"“西部·联合-2021”演习今发起 砺兵青铜峡_军事_新民网","source":"https://newsxmwb.xinmin.cn/junshi/2021/08/09/32005418.html","image_meta":{"thumbnail_height":394,"thumbnail_width":590,"original_height":401,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/video.rednet.cn/35ac30794b6dbcd0242dc0ad13b76a9845d62ab2","thumbnail":"https://kimi-img.moonshot.cn/webimg2/video.rednet.cn/35ac30794b6dbcd0242dc0ad13b76a9845d62ab2?x-tos-process=image%2Fresize%2Cw_626","title":"[视频]2015年中国男篮官方写真 易建联霸气领衔 - 运动基地 - 红网视听","source":"https://video.rednet.cn/html/2015/0618/15271.html","image_meta":{"thumbnail_height":393,"thumbnail_width":626,"original_height":415,"original_width":661}},{"original":"https://kimi-img.moonshot.cn/webimg2/bxwimg.oss-cn-hangzhou.aliyuncs.com/ef329cb1847c14b90fcf317bfed1309d772ccf88","thumbnail":"https://kimi-img.moonshot.cn/webimg2/bxwimg.oss-cn-hangzhou.aliyuncs.com/ef329cb1847c14b90fcf317bfed1309d772ccf88?x-tos-process=image%2Fresize%2Cw_526","title":"浙江台州别克凯越 - 事故车交易_拍卖_出售-别克凯越","source":"http://www.sgc.net.cn/car/7892.html","image_meta":{"thumbnail_height":394,"thumbnail_width":526,"original_height":600,"original_width":800}},{"original":"https://kimi-img.moonshot.cn/webimg2/auto.anhuinews.com/1d1c55fa6d52663ef919f08ab018902e187a7795","thumbnail":"https://kimi-img.moonshot.cn/webimg2/auto.anhuinews.com/1d1c55fa6d52663ef919f08ab018902e187a7795?x-tos-process=image%2Fresize%2Cw_524","title":"简洁外观配隐藏式门把手，领克08车侧官图首发-中安在线-汽车","source":"http://auto.anhuinews.com/qcnews/ctzx/202303/t20230315_6727651.html","image_meta":{"thumbnail_height":393,"thumbnail_width":524,"original_height":495,"original_width":660}},{"original":"https://kimi-img.moonshot.cn/webimg2/auto.anhuinews.com/722b3b1eadd83635f03144ab17929960fec8fabc","thumbnail":"https://kimi-img.moonshot.cn/webimg2/auto.anhuinews.com/722b3b1eadd83635f03144ab17929960fec8fabc?x-tos-process=image%2Fresize%2Cw_410","title":"简洁外观配隐藏式门把手，领克08车侧官图首发-中安在线-汽车","source":"http://auto.anhuinews.com/qcnews/ctzx/202303/t20230315_6727651.html","image_meta":{"thumbnail_height":307,"thumbnail_width":410,"original_height":495,"original_width":660}},{"original":"https://kimi-img.moonshot.cn/webimg2/vip-public.people.com.cn/e77b08f736c54191d78f9a9ea91362836f8c630a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/vip-public.people.com.cn/e77b08f736c54191d78f9a9ea91362836f8c630a?x-tos-process=image%2Fresize%2Cw_400","title":"江西鹰潭：第72集团军某旅跨昼夜连战术演练-人民图片网","source":"http://vip.people.com.cn/albumsDetail?aid=1629290","image_meta":{"thumbnail_height":227,"thumbnail_width":400,"original_height":227,"original_width":400}},{"original":"https://kimi-img.moonshot.cn/webimg2/img.rednet.cn/514e3be70371f66e477700962073ae362cb77293","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img.rednet.cn/514e3be70371f66e477700962073ae362cb77293?x-tos-process=image%2Fresize%2Cw_410","title":"将于3月25日设计首秀 领克08更多官图发布_车市快报_红车网","source":"https://auto.rednet.cn/content/646747/64/12464232.html","image_meta":{"thumbnail_height":307,"thumbnail_width":410,"original_height":1116,"original_width":1488}},{"original":"https://kimi-img.moonshot.cn/webimg2/vip-public.people.com.cn/c79bf64d63a4d82aa226e54b39d9a0d4cb524e86","thumbnail":"https://kimi-img.moonshot.cn/webimg2/vip-public.people.com.cn/c79bf64d63a4d82aa226e54b39d9a0d4cb524e86?x-tos-process=image%2Fresize%2Cw_464","title":"江苏镇江：雪后特巡保供电-人民图片网","source":"http://vip.people.com.cn/albumsDetail?aid=1516107","image_meta":{"thumbnail_height":308,"thumbnail_width":464,"original_height":532,"original_width":800}},{"original":"https://kimi-img.moonshot.cn/webimg2/tyzg.ys1.cnliveimg.com/39e1f3be9f47e06453074c357b1b6374c098d181","thumbnail":"https://kimi-img.moonshot.cn/webimg2/tyzg.ys1.cnliveimg.com/39e1f3be9f47e06453074c357b1b6374c098d181?x-tos-process=image%2Fresize%2Cw_484","title":"老司机奥运速成手册丨了解这些开幕式经典，今晚站C位","source":"http://sports.china.com.cn/zhuanti/2021djayh/detail2_2021_07/23/2925457.html","image_meta":{"thumbnail_height":307,"thumbnail_width":484,"original_height":381,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/rs-channel.huanqiucdn.cn/93f29d02ef6d2c3b84b6c48b461176c5802ff1c3","thumbnail":"https://kimi-img.moonshot.cn/webimg2/rs-channel.huanqiucdn.cn/93f29d02ef6d2c3b84b6c48b461176c5802ff1c3?x-tos-process=image%2Fresize%2Cw_390","title":"中央气象台：新疆青海等地多降水天气","source":"https://3w.huanqiu.com/a/cc2ec2/4E7LLAdiacv?agt=56閬ユ劅鍐滀笟","image_meta":{"thumbnail_height":322,"thumbnail_width":390,"original_height":679,"original_width":821}},{"original":"https://kimi-img.moonshot.cn/webimg2/web.cmc.hebtv.com/c41d3bf547061f85beb298be019f2b2a2b896c07","thumbnail":"https://kimi-img.moonshot.cn/webimg2/web.cmc.hebtv.com/c41d3bf547061f85beb298be019f2b2a2b896c07?x-tos-process=image%2Fresize%2Cw_432","title":"绝对有戏_河北网络广播电视台","source":"https://www.hebtv.com/19/19js/st/ds/nmpd/jdyx/index_4.shtml","image_meta":{"thumbnail_height":324,"thumbnail_width":432,"original_height":480,"original_width":640}},{"original":"https://kimi-img.moonshot.cn/webimg2/images.china.cn/5eefd6661f96d08de7c47181ed934da0427a3d0e","thumbnail":"https://kimi-img.moonshot.cn/webimg2/images.china.cn/5eefd6661f96d08de7c47181ed934da0427a3d0e?x-tos-process=image%2Fresize%2Cw_484","title":"第二十九界北京奥运会开幕式精彩瞬间[组图] _图片中心_中国网","source":"http://www.china.com.cn/photo/zhuanti/xjayhkms/2008-08/20/content_16278548_4.htm","image_meta":{"thumbnail_height":322,"thumbnail_width":484,"original_height":400,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/n.sinaimg.cn/5a0cc355f16ba9fa36e8f17c0ef021b02436dd5d","thumbnail":"https://kimi-img.moonshot.cn/webimg2/n.sinaimg.cn/5a0cc355f16ba9fa36e8f17c0ef021b02436dd5d?x-tos-process=image%2Fresize%2Cw_474","title":"机构报告：08年金融危机让80后成“最惨”一代_荔枝网新闻","source":"http://news.jstv.com/a/20180522/1526943844858.shtml","image_meta":{"thumbnail_height":324,"thumbnail_width":474,"original_height":376,"original_width":550}},{"original":"https://kimi-img.moonshot.cn/webimg2/himg2.huanqiucdn.cn/c202356a7d41507f055492bbed67d4d0ece47aa9","thumbnail":"https://kimi-img.moonshot.cn/webimg2/himg2.huanqiucdn.cn/c202356a7d41507f055492bbed67d4d0ece47aa9?x-tos-process=image%2Fresize%2Cw_470","title":"十年前，华尔街的天就是这样塌的……","source":"https://3w.huanqiu.com/a/d80b1f/7Gdc2jGP43e?agt=20","image_meta":{"thumbnail_height":323,"thumbnail_width":470,"original_height":550,"original_width":800}},{"original":"https://kimi-img.moonshot.cn/webimg2/dfzximg01.dftoutiao.com/21063ade35e828ce4c8b4591cb46afa0dffa8354","thumbnail":"https://kimi-img.moonshot.cn/webimg2/dfzximg01.dftoutiao.com/21063ade35e828ce4c8b4591cb46afa0dffa8354?x-tos-process=image%2Fresize%2Cw_592","title":"美国男篮梦之队的历届大名单，你认为哪一届最强_东方体育","source":"https://sports.eastday.com/a/210721100318091491930-3.html","image_meta":{"thumbnail_height":343,"thumbnail_width":592,"original_height":358,"original_width":617}}]},{"query":"Charter 08","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/mz.eastday.com/097a8a8003d6efc10c55a6f9f0cb602962c664e9","thumbnail":"https://kimi-img.moonshot.cn/webimg2/mz.eastday.com/097a8a8003d6efc10c55a6f9f0cb602962c664e9?x-tos-process=image%2Fresize%2Cw_468","title":"惊艳“西部联合-2021”的“大八轮”车族： 不仅跑得快 行进中还能打准","source":"https://n.eastday.com/pnews/162892290677016655","image_meta":{"thumbnail_height":294,"thumbnail_width":468,"original_height":344,"original_width":546}},{"original":"https://kimi-img.moonshot.cn/webimg2/military.people.com.cn/13c93b0a1c0346f36f1d89745c1e2464e94add76","thumbnail":"https://kimi-img.moonshot.cn/webimg2/military.people.com.cn/13c93b0a1c0346f36f1d89745c1e2464e94add76?x-tos-process=image%2Fresize%2Cw_494","title":"马媒：中国可能向马来西亚推销8×8步兵战车--军事--人民网","source":"http://military.people.com.cn/GB/8221/72028/76059/76061/7188126.html","image_meta":{"thumbnail_height":337,"thumbnail_width":494,"original_height":410,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/images.china.cn/3cccfb921ba78088b60b241a74873eabf21d2894","thumbnail":"https://kimi-img.moonshot.cn/webimg2/images.china.cn/3cccfb921ba78088b60b241a74873eabf21d2894?x-tos-process=image%2Fresize%2Cw_550","title":"奥运开幕式 _中国网","source":"http://www.china.com.cn/sports/zhuanti/2008ay/node_7048641.htm","image_meta":{"thumbnail_height":300,"thumbnail_width":550,"original_height":300,"original_width":550}},{"original":"https://kimi-img.moonshot.cn/webimg2/rs-channel.huanqiucdn.cn/5be00becf42a5c67d21b9d0f22f2f115093e68f6","thumbnail":"https://kimi-img.moonshot.cn/webimg2/rs-channel.huanqiucdn.cn/5be00becf42a5c67d21b9d0f22f2f115093e68f6?x-tos-process=image%2Fresize%2Cw_376","title":"突击车、步战车狂飙突进，火力全开！","source":"https://3w.huanqiu.com/a/7f8f74/48CcIRPDRQt?agt=8/","image_meta":{"thumbnail_height":250,"thumbnail_width":376,"original_height":720,"original_width":1080}},{"original":"https://kimi-img.moonshot.cn/webimg2/rmfile.dahe.cn/3fc0b49c6f6518cbc7b5c90bdad2161b23642925","thumbnail":"https://kimi-img.moonshot.cn/webimg2/rmfile.dahe.cn/3fc0b49c6f6518cbc7b5c90bdad2161b23642925?x-tos-process=image%2Fresize%2Cw_564","title":"Welcome Last 357 Medics Supporting Hubei Back to Henan-Dahe.cn - The ...","source":"https://en.dahe.cn/2020/03-31/628074.html","image_meta":{"thumbnail_height":361,"thumbnail_width":564,"original_height":385,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/himg2.huanqiucdn.cn/e24dcb87ad8d52008a47d49347d4e3fcff748deb","thumbnail":"https://kimi-img.moonshot.cn/webimg2/himg2.huanqiucdn.cn/e24dcb87ad8d52008a47d49347d4e3fcff748deb?x-tos-process=image%2Fresize%2Cw_544","title":"比考驾照难多了！装甲兵驾装甲车训练严实难课目","source":"https://mil.huanqiu.com/gallery/9CaKrnQhQaI","image_meta":{"thumbnail_height":362,"thumbnail_width":544,"original_height":2656,"original_width":3984}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.sznews.com/334df67d6ea01a8d947655b4ac66e9f6bf8a9d68","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.sznews.com/334df67d6ea01a8d947655b4ac66e9f6bf8a9d68?x-tos-process=image%2Fresize%2Cw_191","title":"北京奥运会开幕式，yyds！_深圳新闻网","source":"http://sznews.com/news/content/2021-07/24/content_24421970.htm","image_meta":{"thumbnail_height":128,"thumbnail_width":191,"original_height":462,"original_width":686}},{"original":"https://kimi-img.moonshot.cn/webimg2/imgcdn.scol.com.cn/30b66abcf4efad02c16a2b1042382f421e7b98cc","thumbnail":"https://kimi-img.moonshot.cn/webimg2/imgcdn.scol.com.cn/30b66abcf4efad02c16a2b1042382f421e7b98cc?x-tos-process=image%2Fresize%2Cw_504","title":"绝美焰火！北京冬奥会举行开幕式_四川在线","source":"https://sichuan.scol.com.cn/ggxw/202202/58408865.html","image_meta":{"thumbnail_height":359,"thumbnail_width":504,"original_height":819,"original_width":1148}},{"original":"https://kimi-img.moonshot.cn/webimg2/subsites.chinadaily.com.cn/c6b29066154ca1ff9784585246b40b587ecb63d2","thumbnail":"https://kimi-img.moonshot.cn/webimg2/subsites.chinadaily.com.cn/c6b29066154ca1ff9784585246b40b587ecb63d2?x-tos-process=image%2Fresize%2Cw_680","title":"Guiyang opens charter flight route to Cheongju in South Korea","source":"https://subsites.chinadaily.com.cn/guiyang/jkq/2025-03/13/c_1078414.htm","image_meta":{"thumbnail_height":90,"thumbnail_width":680,"original_height":90,"original_width":680}}]}],"covers":["https://kimi-img.moonshot.cn/webimg2/img.xinmin.cn/75ef6bdb57c0dfad579ad6f0311bad34765a1fd6?x-tos-process=image%2Fresize%2Cw_590","https://kimi-img.moonshot.cn/webimg2/mz.eastday.com/097a8a8003d6efc10c55a6f9f0cb602962c664e9?x-tos-process=image%2Fresize%2Cw_468","https://kimi-img.moonshot.cn/webimg2/video.rednet.cn/35ac30794b6dbcd0242dc0ad13b76a9845d62ab2?x-tos-process=image%2Fresize%2Cw_626"]}}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Charter 08 by Liu Xiaobo et al. Translated by Human Rights in China (HRIC). 9 December, 2008. I. Preamble. This year marks 100 years since China's [first] ...","successNum":5,"title":"[PDF] Charter 08","type":"get_res","url":"https://www.files.ethz.ch/isn/125520/8002_Charter08.pdf"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Known as \"Charter 08\", the manifesto has since been signed by more than 10,000 people. One of its authors, Liu Xiaobo, was awarded the Nobel Peace Prize in 2010 ...","successNum":6,"title":"Liu Xiaobo, Charter 08 and the Challenges of Political Reform in ...","type":"get_res","url":"https://www.amazon.com/Xiaobo-Charter-Challenges-Political-Reform/dp/988813907X"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Known as “Charter 08,” the manifesto has since been signed by more than 10,000 people. One of its authors, Liu Xiaobo, was awarded the Nobel Peace Prize in 2010 ...","successNum":7,"title":"Liu Xiaobo, Charter 08 and the Challenges of Political Reform in ...","type":"get_res","url":"https://hkupress.hku.hk/index.php?route=product/product\u0026product_id=84"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2008-12-20","icon":"","site_name":"","snippet":"The Charter urges Chinese citizens to work together \"for major changes in Chinese society and for the rapid establishment of a free, democratic, ...","successNum":8,"title":"CHARTER 08 and the Detention of Liu Xiaobo | CECC","type":"get_res","url":"http://www.cecc.gov/publications/commission-analysis/charter-08-and-the-detention-of-liu-xiaobo"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Charter '08 is a manifesto for political reform in China, initiated by a group of Chinese intellectuals and activists in 2008.","successNum":9,"title":"Charter '08 - (History of Modern China) - Fiveable","type":"get_res","url":"https://library.fiveable.me/key-terms/history-modern-china/charter-08"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2017-07-14","icon":"","site_name":"","snippet":"Pass property rights reform to diversify and introduce competition mechanisms into the market; lower the threshold for entry into the ...","successNum":10,"title":"In Full: Charter 08 – Liu Xiaobo’s pro-democracy manifesto for China that led to his jailing","type":"get_res","url":"https://hongkongfp.com/2017/07/14/full-charter-08-liu-xiaobos-pro-democracy-manifesto-china-led-jailing/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"They intend \"Charter 08\" to serve as a blueprint for fundamental political change in China in the years to come. The signers of the document will form an ...","successNum":11,"title":"[PDF] Charter 08 - RSF","type":"get_res","url":"https://rsf.org/sites/default/files/Charter08.pdf"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2009-02-10","icon":"","site_name":"","snippet":"The charter starts out with a brief history of China. It reads in part, “Victory over Japan in 1945 offered one more chance for China to move ...","successNum":12,"title":"The truth behind China's Charter 08 manifesto - Liberation School","type":"get_res","url":"https://www.liberationschool.org/09-02-10-the-truth-behind-chinas-charter-html/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Description. In December 2008 some 350 Chinese intellectuals published a manifesto calling for reform of the Chinese constitution and an end to one-party rule.","successNum":13,"title":"Liu Xiaobo, Charter 08 and the Challenges of Political Reform in ...","type":"get_res","url":"https://www.jstor.org/stable/j.ctt1xwb17"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Charter 08 is a manifesto (a public declaration of your beliefs) initially signed by over 350 Chinese intellectuals and human rights activists to promote ...","successNum":14,"title":"Charter 08 - Simple English Wikipedia, the free encyclopedia","type":"get_res","url":"https://simple.wikipedia.org/wiki/Charter_08"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"The reform of political democratization can no longer be delayed. Because of this, we, with a civic spirit that dares to act, publish the “Charter 08.” We hope ...","successNum":15,"title":"[PDF] \"Charter 08\"","type":"get_res","url":"https://politica-china.org/wp-content/plugins/download-attachments/includes/download.php?id=506"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"answer","view":"search_plus"},"type":"answer","view":"search_plus"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"\"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"Char","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"ter","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"8","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"\"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" is","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":1,"idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":1,"idx_z":0}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+

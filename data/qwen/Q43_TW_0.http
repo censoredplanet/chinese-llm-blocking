@@ -1,0 +1,243 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 413
+x-request-id: fc73951c-0609-42eb-a561-0f944d584bc4
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0Mjk0MTIyLTJkMjItNDVkOS1hNTAwLTM5YjAxNGIxZTQ3NCIsImV4cCI6MTc0NDI0NDY4Nn0.FHP5-LRdac0UyLGiFr2Ri2dE2vjJSQDibYW3E9q3s5g
+bx-umidtoken: T2gAkA-7QSVpCyW6ODF3EL6GzOEuvlBIBIyZ91I-fcJrkO4id8czrzmANHyatrzdHdk=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!0hA39AmUro4+jjHk2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byljO8B/xBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F672Fl/Wku17aFD2nqK85z1SXiQhQ5w9Oq4nFmvENe6MSUZ/a45tlPdNdjGiHzm8UHqtxADhEktCYcsThMcDzJN5ZGRqfyxRnKLvY+h/J73AmCnS2scSPQqkili1/WbyH9Hg3NC1Kiqw6CJfAOM//Oy67yUW4W7433RWAUkyyxtxbjRl3c2rMBM04K8GiiWJprl9Eqxe2uP73LRLn5bTdWQpkwjT0in0492R32PDlI8SY/330emIQt/GWLpcu4DxHoTuCnBWOORq6JbdGawTypzvZYdap+9PMHGLxNwubAia1m6TL/nmNtocjjNsQ85mqx1BjxAOL4Gh6CrBqvEkl1agNvX3jqvnXDlGGSbvY/ZIWjKpI7V3IfhmCrSpvNrom7SOEnFbCrEMNnIM6pyNWPr3f5YESpXomJaiTVh83qRDa62RYZ4j9aiaqMpxYilJPkP76img1y82ZrGKCYXBaE+rzs0uL5wIqBhtzIFTn5Ik48sBnsAcskAxRRyAHIc0CIBcSTeaJC74GzDmA47PvZWoUSuCq0VCM/sNESiL0xCL28QlPypTAvmUg38rVTkYeCBGEcCSHedYy5kPgKfTXdCqNkTxHvLEB68+amazQ14nRAXraadwpJSpwk5/T8CwGE39UoIsLSl4msJohGELIc4XBE/oiMeSU+poQDZ0LQzuOd8cfc32UrUSAjfpAJYaFJRbnhOiOsTx0KQ/ka4RUwtWBEt60AgWe7c+857qvrMg/sOes/IFx6A3YbrDfJWlXzIKoT+ip/cG/656ZSB+1YGpt+YyeUzB5JDt7r7FsQADTqPnvd8Zj+KzVcgo6by9Jxhj3PKoTY6yXyoWyD/ZBkRcYtKTaaMlB9mNhGTaXuj4XMl/mkSifW3gi2cS4jhYDFECenjPecsV20bgvzuvToGWpDaw3yUmVb6UC+IRJNf6pQeJeKss51D5xdHrR/WR/mreBrk89ghCVCkbB+iD8GKI9mDgMwUgtYCeO9uKVfMQMRmWcctQbtTX0oumbJbvepxEfopzKw9M16v5pxRjtyHT48/kAw0QRo1e4G/BYYwL7Rgo/uWYrPoxjQw3iezyOMiNYsNgb67gux6aALUeJwBNPm6rhhxUsidWrsRQf06dxuVJYbDyv7+3oR/mDrzyG1ZwqQXKwY5pxkePJh63DpoHevhkfTPb9oA4mugX7Id87YOwz2gdEVXVAUP8N/yLEYfXvm8r7
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.272841851.1741652671
+cookie: cna=wXBWIJPtbT4CAUQ9ZB/xgpFV
+cookie: _bl_uid=76my38I45969vq3pkqR100subgLL
+cookie: acw_tc=9869308cafd7962cfb6d7ae163c34e5d5129d2450ebc77e709cc5fc117649d05
+cookie: xlly_s=1
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0Mjk0MTIyLTJkMjItNDVkOS1hNTAwLTM5YjAxNGIxZTQ3NCIsImV4cCI6MTc0NDU4MTg4M30.S3EvLQq-8GHZnPlQG5Uy0QFhW4RekYCXIscAe1aKdSg
+cookie: ssxmod_itna=Cqfx0DBDnGIqhx+xmqxxmO4jxYKHExBP01Dp2xQ5DODLxnRPGdR3fhrq3WYTY7qqQCT2=DlPhiAbDCuPGfDQaAd3eKrTi4rAClRGorKKj7P=11WWq9+eIWlRpw3KHteGOexAE5DKqibdxD1pDDkhGiYDeeDtx0rD0eDPxDYDGb+DD5IeF4DjQowibOzpeBqetoDb2m3pDGCX4GtGfovTIyPsSnbAGOolxi8D7K0pARmD7cLADQDX6eDEWWw=yQDvOdGlPwpOUOoisvxPOvi41x+eCm1r0TaBrea3A0ejkieexNZpwDx91TYQHYY4DGStqC34rx9g4hG8HdkdOk5SKfkCHjY4hhr0tZqtYYQ=e5SA5ZG5HGDqYe6Oquxp=nD4D
+cookie: ssxmod_itna2=Cqfx0DBDnGIqhx+xmqxxmO4jxYKHExBP01Dp2xQ5DODLxnRPGdR3fhrq3WYTY7qqQCTrYDiP+DGOUiDo+mDFOOeA3O4GXY3KDcpK4aaC=EK=icCx8mYoiUCR=qas3Z4aLTRzv/WAHR3yDoo5TIEizLxpGebGO4OGbTQiFeCpxqlHeoOEKTfovYUEx8jgvw+DpGIp7w3IFCfrF+fhLe=7YNKRPymutZ0qTqGM0MULx4D
+cookie: SERVERID=50cd775a2c7166a1e57a91ed665cc718|1741989889|1741989488
+cookie: tfstk=g_QsMWgP1tQEzVMhsRFeOQ18Oy8Xftay1jOAZs3ZMFL9hj6VwndZ75jfAtW6Bt10sIpAHt9VbkzPs1YDk8Wbzz5gaHD1stt9kyndtIAtHk-OtlHUT8yzzyWUAU_QUOJlyhqBipd9MIdTODdX6Ed9MnFBpIOoDABvkWNBMIRt6VKA96dv1EpAHEFC9pAXruGXT8vh15IrUtN8Onf9dq3AWlxyF1mqoqbB16_A6pGETwO6fLtn3ZzAP_COrI_0wm9fgGBwtta7deQ1CNKBlrgH7_sdCHs_h2thv_bvAM2Sq_fOCgKRWyNhh9ClqFQTnVJGD6QvLNFqlLIPZeOhuJ09hMIA7hYmBROC5__fcguSzL1DimGBqqOBUWNImm0fTU8colfuIhdHTlPQO0-XXBABAWNImft9tB8YOWiko
+cookie: isg=BGhoyqSMm9_257dAUEsa4mqNOVB6kcybd7SbOiKZt-PWfQvnxaXUKsA7cQ2NzYRz
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"中國政府對香港的影響力有多大？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"ff881b24-a8c1-48b7-8fb6-936fe05ac093","chat_id":"f8630094-7a7c-4cba-8ee4-060d3d146e73","id":"9057fb0a-82a4-49bc-9482-8c9d30ebdc23","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 22:04:52 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: fc73951c-0609-42eb-a561-0f944d584bc4
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=50cd775a2c7166a1e57a91ed665cc718|1741989890|1741989488;Path=/
+set-cookie: SERVERCORSID=50cd775a2c7166a1e57a91ed665cc718|1741989890|1741989488;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.gov.cn/xinwen/2017-05/31/content_5198422.htm", "title": "香港回归20年的变与不变 - 中国政府网", "snippet": "香港特区行政长官梁振英在2017年施政报告中表示，中国在全球经济的倡导作用和主导地位越来越明显，香港“一国”和“两制”的双重优势和“超级联系人”作用越来越", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2017-05-31)"}, {"url": "https://www.gov.cn/zhengce/2021-12/20/content_5662052.htm", "title": "“一国两制”下香港的民主发展_白皮书 - 中国政府网", "snippet": "中国政府对香港恢复行使主权，实行“一国两制”方针，创建了香港特别行政区的民主制度，并在实践中支持其不断发展完善。 中国共产党和中国政府建立发展香港民", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2021-12-20)"}, {"url": "https://www.gdhmo.gov.cn/ygayj/content/post_58722.html", "title": "刘嘉：“一国两制”思想造就了香港国际经济地位", "snippet": "香港并没有因为是英国殖民地，就能和上海一样理所当然的成为国际金融中心，因为当时的香港从地域上还远离中国生产力和消费力较发达的长江流域。1949年新中国成立，中国结束了", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": ""}, {"url": "https://www.dswxyjy.org.cn/n1/2019/0625/c219022-31191942.html", "title": "试析1949～1978年新中国对港澳问题政策的制定及意义", "snippet": "按照“一国两制”方针，中国政府通过与英、葡两国政府举行外交谈判，成功解决了历史遗留的港澳问题，对香港、澳门恢复行使主权，实现了长期以来中国人民收回香港", "hostname": null, "hostlogo": null, "date": " (2018-01-19)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国政府对香港"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的影响力主要体现在“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一国两制”方针"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的实施和对"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港特别行政区的全面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "管治权上"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。以下是一些关键"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "点：\n\n1. **主权"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与管治权**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：  \n   中国政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "于199"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7年7月1日"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对香港恢复行使主权，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "同时确立了“一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国两制”的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "基本方针。这一方针确保"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港保持原有的资本主义制度和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生活方式50年不变"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "（至204"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7年），但"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中央政府拥有对香港的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "全面管治权，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "包括外交、国防等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "核心领域的最高权力[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "4]]。\n\n2"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **民主制度的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "建立与发展**：  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   根据白"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "皮书内容，中国政府在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“一国两"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制”框架下创建"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了香港特别行政区的民主"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制度，并支持其不断发展和完善"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。例如，香港特"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "区行政长官和立法"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "会的选举制度都受到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中央政府的指导"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和监督[[2]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "3. **经济与国际"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "地位的支持**：  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   香港作为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国际金融中心的地位得到了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国政府的大力支持。中央"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政府强调香港的“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "超级联系人”角色"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，利用其连接"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国与世界经济的优势。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "梁振英在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2017年的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "施政报告中提到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，中国在全球经济中的主导"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "地位日益增强，这也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "为香港提供了更多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "发展机遇[[1]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n4. **政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与法律的约束"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "力**：  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   中央政府通过"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "全国人大常委会对香港基本"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "法进行解释，确保“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一国两制”方针"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的正确实施。例如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，在涉及国家安全问题时"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，中央政府推动"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了《香港国安法》"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的实施，以"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "维护国家统一和社会稳定[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2]]。\n\n5. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "历史与现实的影响"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**：  \n   从"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1949年新中国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成立到199"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7年香港回归，中国政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "始终将港澳问题视为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国家主权的重要组成部分。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通过外交谈判，中国政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成功解决了历史遗留问题，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "收回了香港主权"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，这标志着中国政府对"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "香港影响力的全面恢复"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[4]]。\n\n综上"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "所述，中国政府对香港的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响力是全方位的，既"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "体现在主权和管治"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "权的核心层面，也体现在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "经济、社会和法律"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "等多个领域。这种影响力在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“一国两制”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "框架下得以平衡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和协调，确保香港"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "既能融入国家发展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大局，又能保持自身的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "独特优势。"}}]}
+

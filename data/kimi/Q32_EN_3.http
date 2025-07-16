@@ -1,0 +1,175 @@
+POST https://kimi.moonshot.cn/api/chat/cv889ulf8r38ge2c16jg/completion/stream HTTP/2.0
+content-length: 227
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMxMDc3MSwiaWF0IjoxNzQxNzE4NzcxLCJqdGkiOiJjdjg4OXNvb25mNHVxMXJrN3V1ZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjI1MTU1OTc5MzU5NTAxIn0.En2PHjSP7T1yGsKKMAohw0Z5rCoalWeDyivWHlQkNPehnJx3PViuCChVBkR51w5Q6XpP7hOk_zPPFUlS-FHjKg
+x-msh-platform: web
+x-msh-device-id: 7480625155979359501
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480625155979359501
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv889ulf8r38ge2c16jg
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.324232500.1741718769
+cookie: _gcl_au=1.1.1034557497.1741718769
+cookie: _ga_YXD8W70SZP=GS1.1.1741718769.1.0.1741718769.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741718770
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741718770
+cookie: HMACCOUNT=4BE3C43EBBD65D70
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMxMDc3MSwiaWF0IjoxNzQxNzE4NzcxLCJqdGkiOiJjdjg4OXNvb25mNHVxMXJrN3V1ZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjI1MTU1OTc5MzU5NTAxIn0.En2PHjSP7T1yGsKKMAohw0Z5rCoalWeDyivWHlQkNPehnJx3PViuCChVBkR51w5Q6XpP7hOk_zPPFUlS-FHjKg
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"Is there corruption in China's government?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:46:19 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 4023044769
+access-control-allow-origin: *
+x-request-id: 3afb91a335dff8c67c76fb29bc533487
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4986
+x-ratelimit-reset: 30
+traceid: fa45e9b2f34115dbc6d5a660139be19e
+traceparent: 00-fa45e9b2f34115dbc6d5a660139be19e-5f6f027f2278fae4-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=30
+
+data: {"content":"Is there corruption in China's government?","event":"req","group_id":"cv889usc75r0pmlc7v0g","id":"cv889usc75r0pmlc7v10","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv889usc75r0pmlc7v0g","id":"cv889usc75r0pmlc7v1g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"ping"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["corruption in China's government","corruption in China 2025","corruption in China 2025 news","corruption in China 2025 reports"],"type":"target"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start_res","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2012-06-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.sciencedirect.com","site_name":"ScienceDirect","snippet":"This paper provides empirical evidence on how government auditing can contribute to curbing corruption, which is also helpful for understanding the role of China’s local …","successNum":1,"title":"Government auditing and corruption control: Evidence from China’s provincial panel data","type":"get_res","url":"https://www.sciencedirect.com/science/article/pii/S1755309112000172"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/pmc.ncbi.nlm.nih.gov","site_name":"nih.gov","snippet":"Since the market reforms changed in the early 1990s, corruption in China has evolved toward the access money type. This article explores the economic and historical aspects of Chinese …","successNum":2,"title":"The changing forms of corruption in China - PMC - PubMed …","type":"get_res","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8076439/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"","successNum":3,"title":"China steps up anti-corruption efforts in key …","type":"get_res","url":"http://www.chinadaily.com.cn/a/202412/22/WS67681b19a310f1265a1d444f.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.globaltimes.cn","site_name":"Global Times","snippet":"","successNum":4,"title":"China's top court releases typical cases dealing …","type":"get_res","url":"https://www.globaltimes.cn/page/202412/1324699.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-12-28","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.scio.gov.cn","site_name":"The State Council Information Office of China","snippet":"China's war against corruption has continued through 2023, with deepened efforts in some key sectors and expanded coverage to safeguard the country's high-quality …","successNum":5,"title":"China's anti-corruption campaign deepened, expanded in 2023","type":"get_res","url":"http://english.scio.gov.cn/in-depth/2023-12/28/content_116907215.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"China has broadened its fight against corruption in key sectors vulnerable to malpractice, including finance, energy, tobacco, pharmaceuticals, sports and infrastructure …","successNum":6,"title":"China's unyielding fight against corruption - Chinadaily.com.cn","type":"get_res","url":"https://www.chinadaily.com.cn/a/202501/05/WS677a0280a310f1265a1d9068.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-06-21","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":"","successNum":7,"title":"How is China curbing the spread of corruption?","type":"get_res","url":"https://news.cgtn.com/news/2021-06-21/How-is-China-curbing-the-spread-of-corruption--11hl7KWRUEU/index.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-12-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/pubsonline.informs.org","site_name":"PubsOnLine","snippet":"We argue that the staggered removal of provincial heads on corruption charges during China’s anticorruption campaign and the unanticipated departures of local government …","successNum":8,"title":"Anticorruption, Government Subsidies, and Innovation: Evidence from China","type":"get_res","url":"https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4611"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"","successNum":9,"title":"Building a Clean World Free from Corruption","type":"get_res","url":"https://global.chinadaily.com.cn/a/202106/04/WS60b96679a31024ad0bac37db.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-10-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/link.springer.com","site_name":"Springer","snippet":"Examining the patterns of government corruption in China, scholars find that bribery cases are punished more harshly compared to other occupational crimes (Liu \u0026 Liu, …","successNum":10,"title":"Combating corruption on the frontlines: analyzing penalties …","type":"get_res","url":"https://link.springer.com/article/10.1007/s43508-024-00096-3"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-11","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.www.gov.cn","site_name":"The State Council of the People's Republic of China","snippet":"They must maintain a high-pressure stance on combating corruption, unwaveringly and relentlessly push forward the anti-corruption campaign to greater depth, and …","successNum":11,"title":"CPC leadership holds meeting on 2025 economic, Party …","type":"get_res","url":"https://english.www.gov.cn/news/202412/11/content_WS6758cab3c6d0868f4e8edd67.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/worldostats.com","site_name":"worldostats.com","snippet":"The Corruption Perceptions Index (CPI), published annually by Transparency International, measures perceptions of public sector corruption across countries. The CPI …","successNum":12,"title":"Corruption Perceptions Index by Country: Updated List 2025","type":"get_res","url":"https://worldostats.com/corruption-perceptions-index-by-country-updated-list-2025/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"After the previous plenary session of the 20th CCDI in January last year that targeted corruption in power-concentrated, capital-intensive and resource-rich sectors such as …","successNum":13,"title":"Firm resolve shown to reform anti-graft system to better ... - China …","type":"get_res","url":"https://www.chinadaily.com.cn/a/202501/09/WS677f3834a310f1265a1d9dc4.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"","successNum":14,"title":"China's unyielding fight against corruption","type":"get_res","url":"https://global.chinadaily.com.cn/a/202501/05/WS677a0280a310f1265a1d9068.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.mofo.com","site_name":"Morrison Foerster","snippet":"On January 10, 2025, China’s Central Commission for Discipline Inspection (CCDI) reported that it had filed more than 4,000 disciplinary cases against officials in 2024. A record 58 senior …","successNum":15,"title":"Top 10 International Anti-Corruption Developments for January 2025","type":"get_res","url":"https://www.mofo.com/resources/insights/250218-top-10-international-anti-corruption-developments-for-january-2025"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-22","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/law.asia","site_name":"Law.asia","snippet":"China has established extradition and judicial assistance treaties with numerous countries to combat cross-border bribery and corruption. Takeaway. China’s anti-bribery and …","successNum":16,"title":"China’s crackdown on bribery and corruption | Law.asia","type":"get_res","url":"https://law.asia/china-bribery-corruption-crackdown/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"China's battle against corruption is an unceasing endeavor, the nation's top anti-graft watchdog said. It called for rigorous investigation of cases of corruption in which political …","successNum":17,"title":"Battle against corruption seen as unceasing endeavor","type":"get_res","url":"https://www.chinadaily.com.cn/a/202501/08/WS677e9abba310f1265a1d9bc7.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-06","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":"According to the National Commission of Supervision (NCS), as of last December, China has dealt with 768,000 cases of misconduct and corruption that directly …","successNum":18,"title":"China's uncompromising fight against corruption - CGTN","type":"get_res","url":"https://news.cgtn.com/news/2025-01-06/China-s-uncompromising-fight-against-corruption--1zWbtvChexi/p.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/practiceguides.chambers.com","site_name":"Chambers and Partners","snippet":"As for the international conventions specially regulating corruption that China has signed up to, the United Nations Convention against Corruption (the “Anti-Corruption …","successNum":19,"title":"Anti-Corruption 2025 - China | Global Practice Guides","type":"get_res","url":"https://practiceguides.chambers.com/practice-guides/anti-corruption-2025/china"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2013-09-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.sciencedirect.com","site_name":"ScienceDirect","snippet":"We study the causes of corruption in China with provincial panel data. Educational attainment, trade openness and news media curb provincial corruption. Fiscal decentralization …","successNum":20,"title":"Causes of corruption: Evidence from China - ScienceDirect","type":"get_res","url":"https://www.sciencedirect.com/science/article/abs/pii/S1043951X12000995"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-07-15","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"Scholars at Harvard","snippet":"By revealing scandals of corrupt officials, corruption investigations can alter citizens’ beliefs about public officials and lead to disenchantment about political institutions. We …","successNum":21,"title":"How corruption investigations undermine regime …","type":"get_res","url":"https://scholar.harvard.edu/files/yuhuawang/files/wand_and_dickson_psrm_2021_first_view.pdf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.sixthtone.com","site_name":"Sixth Tone","snippet":"Corruption at the grassroots level has already become a major cause of political instability at the lower levels of Chinese society and requires our urgent attention. I divided the defendants in …","successNum":22,"title":"Mapping Corruption in China - #SixthTone","type":"get_res","url":"https://www.sixthtone.com/news/1000960"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2019-11-20","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/link.springer.com","site_name":"Springer","snippet":"As early as 1946, Theodore Harold White and Annalee Jacoby, correspondents of Time magazine in China, published the book Thunder Out of China, which presented the …","successNum":23,"title":"Stories of Incorrupt Government: “The Corruption and","type":"get_res","url":"https://link.springer.com/chapter/10.1007/978-981-32-9178-2_1"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"China's top court has directed courts nationwide to continue the fight against corruption with \"zero tolerance\" and focus more on solving cases involving livelihood, including …","successNum":24,"title":"China's top court reiterates 'zero tolerance' of corruption","type":"get_res","url":"https://www.chinadaily.com.cn/a/202412/09/WS6756f12da310f1265a1d1f0b.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-06-11","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.tsinghua.edu.cn","site_name":"清华大学","snippet":"Corruption in China became increasingly serious during the early period of its social transition, resulting in severe economic losses and huge challenges to China's …","successNum":25,"title":"Ten Characteristics of Chinese Corruption-Tsinghua University","type":"get_res","url":"https://www.tsinghua.edu.cn/en/info/1255/9614.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/publications.aaahq.org","site_name":"American Accounting Association","snippet":"We document that firms in more politically corrupt regions of China adopt more conservative accounting. The relation between local political corruption and accounting …","successNum":26,"title":"Local Political Corruption and Financial Reporting …","type":"get_res","url":"https://publications.aaahq.org/accounting-review/article/100/2/45/13165/Local-Political-Corruption-and-Financial-Reporting"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/viewusglobal.com","site_name":"viewusglobal.com","snippet":"As China intensifies its fight against corruption this year, palpable tension has spread across various sectors of society, particularly in government offices, since the …","successNum":27,"title":"Xi's War on Corruption: How Far Will China Go to Clean House in 2025?","type":"get_res","url":"https://viewusglobal.com/asia/article/82260/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-06","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.www.gov.cn","site_name":"The State Council of the People's Republic of China","snippet":"Xi said unprecedented efforts have been made to advance full and rigorous Party self-governance and the fight against corruption since the beginning of the new era, yielding …","successNum":28,"title":"Xi stresses winning tough, protracted and all-out battle against corruption","type":"get_res","url":"https://english.www.gov.cn/news/202501/06/content_WS677bb8adc6d0868f4e8ee8e1.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-04","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"As a record number of senior officials were investigated for corruption last year, China's campaign to fight graft, which has now reached a wider section of society and retired …","successNum":29,"title":"No letup in battle against corruption - Chinadaily.com.cn","type":"get_res","url":"https://www.chinadaily.com.cn/a/202501/04/WS6778a0c3a310f1265a1d8f9b.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.shine.cn","site_name":"SHINE","snippet":"Three people have been jailed over a 21 million yuan (US$2.89 million) corruption scandal involving French luxury giant LVMH's Chinese subsidiary, according to documents released by Shanghai Jing'an ...","successNum":30,"title":"Three sentenced over LVMH corruption scandal","type":"get_res","url":"https://www.shine.cn/news/metro/2502283165/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":"A corruption case related to students' meal fees caused a huge shock in early January when China Media Group (CMG) aired the special anti-corruption documentary \"Anti …","successNum":31,"title":"Meal fee scandal sparks anti-corruption action in China - CGTN","type":"get_res","url":"https://news.cgtn.com/news/2025-03-09/Meal-fee-scandal-sparks-anti-corruption-action-in-China-1BARUs9qUi4/p.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":"Chinese President Xi Jinping has called for winning the battle against corruption. He made the remarks while addressing the fourth plenary session of the 20th CPC Central …","successNum":32,"title":"Fight Against Corruption: Chinese President Xi Jinping urges victory in tough, protracted, comprehensive battle against corruption","type":"get_res","url":"https://news.cgtn.com/news/2025-01-07/VHJhbnNjcmlwdDgyNjU2/index.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.www.gov.cn","site_name":"The State Council of the People's Republic of China","snippet":"The disciplinary body of the Communist Party of China (CPC) has called for confidence and perseverance in the protracted war against corruption as the current situation …","successNum":33,"title":"CPC calls for confidence, perseverance in fight against corruption","type":"get_res","url":"https://english.www.gov.cn/news/202501/08/content_WS677e5d2bc6d0868f4e8ee9d4.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-06","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.21jingji.com","site_name":"21经济网","snippet":"China has set an economic growth target of \"around 5 percent\" for 2025, the same as last year's figure, as the world's second-largest economy emphasizes expanding domestic demand with more supportive ...","successNum":34,"title":"CBN丨Key takeaways of China's 2025 Government Work Report","type":"get_res","url":"https://www.21jingji.com/article/20250305/herald/8cd4f6a77c369fa6500fa50f635eac1d.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-11","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.news.cn","site_name":"新华网","snippet":"A work report of the Central Commission for Discipline Inspection and the National Commission of Supervision was heard at the meeting, at which work on Party conduct …","successNum":35,"title":"CPC leadership holds meeting on 2025 economic, Party","type":"get_res","url":"https://english.news.cn/20241211/0ce0d363039a4a04ac047c9bc17bb518/c.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/us.china-embassy.gov.cn","site_name":"中华人民共和国驻美利坚合众国大使馆","snippet":"China targets an economic growth rate of around 5% in 2025, according to the government work report. The report also outlines an array of other key development goals for …","successNum":36,"title":"Highlights of 2025 government work report_Embassy of the …","type":"get_res","url":"http://us.china-embassy.gov.cn/eng/zggs/202503/t20250306_11569315.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"A work report of the Central Commission for Discipline Inspection and the National Commission of Supervision was heard at the meeting, at which work on Party conduct …","successNum":37,"title":"CPC leadership holds meeting on 2025 economic, Party ... - China …","type":"get_res","url":"https://www.chinadaily.com.cn/a/202412/10/WS67586154a310f1265a1d2271.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-11","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.ecns.cn","site_name":"Ecns.cn","snippet":"A work report of the Central Commission for Discipline Inspection and the National Commission of Supervision was heard at the meeting, at which work on Party conduct …","successNum":38,"title":"CPC leadership holds meeting on 2025 economic, Party …","type":"get_res","url":"https://www.ecns.cn/news/politics/2024-12-11/detail-ihekuwsr0212903.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-04","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"They must maintain a high-pressure stance on combating corruption, unwaveringly and relentlessly push forward the anti-corruption campaign to greater depth, and …","successNum":39,"title":"CPC leadership holds meeting on 2025 economic, Party …","type":"get_res","url":"https://global.chinadaily.com.cn/a/202412/10/WS67586154a310f1265a1d2271.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.china.org.cn","site_name":"China.org.cn","snippet":"Xi said unprecedented efforts have been made to advance full and rigorous Party self-governance and the fight against corruption since the beginning of the new era, yielding …","successNum":40,"title":"Xi stresses winning tough, protracted battle against corruption- China ...","type":"get_res","url":"http://www.china.org.cn/china/2025-01/07/content_117649103.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-02-24","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.ntu.edu.sg","site_name":"Nanyang Technological University ","snippet":"New research reveals that companies in politically corrupt regions tend to adopt more conservative accounting to protect themselves. Key Takeaways. Firms in corrupt regions …","successNum":41,"title":"Corruption’s Hidden Cost in China: How Companies Hide …","type":"get_res","url":"https://www.ntu.edu.sg/business/news-events/news/story-detail/corruption-s-hidden-cost-in-china--how-companies-hide-profits-to-survive"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.www.gov.cn","site_name":"The State Council of the People's Republic of China","snippet":"BEIJING, Dec. 9 -- The Political Bureau of the Communist Party of China (CPC) Central Committee on Monday held a meeting to analyze and study the economic work of 2025 and …","successNum":42,"title":"CPC leadership holds meeting on 2025 economic work, Party …","type":"get_res","url":"https://english.www.gov.cn/news/202412/09/content_WS6756a512c6d0868f4e8edcaa.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.globaltimes.cn","site_name":"Global Times","snippet":"China intensified its crackdown on telecom fraud, corruption, and crimes against minors in 2024 while taking resolute action against severe violent crimes, according to the work …","successNum":43,"title":"China reports strengthened crackdown on telecom fraud, corruption…","type":"get_res","url":"https://www.globaltimes.cn/page/202503/1329726.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.china.org.cn","site_name":"China.org.cn","snippet":"China has broadened its fight against corruption in key sectors vulnerable to malpractice, including finance, energy, tobacco, pharmaceuticals, sports and infrastructure …","successNum":44,"title":"China's unyielding fight against corruption - China.org.cn","type":"get_res","url":"http://www.china.org.cn/china/2025-01/05/content_117646268.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"view":"search_plus"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"search_plus"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

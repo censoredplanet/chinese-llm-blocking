@@ -1,0 +1,108 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 206
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer JvxHMOlCs3/EZ/zA8xBdDHfssgs9PIUFBMvVxieEJblFwF0YFJdIYYZmOZSVmskd
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjY4MWFiNWZhNjUxZjVlNjMxZTE0YTE3NDJjNWZiZTdlYTAxMzYwN2EyOTM1MmEwYTYyMjRmOTdiYzJmMTQ5NjkiLCJzYWx0IjoiOTViMTBiZTcwYzA1MDFkOGZkYjAiLCJhbnN3ZXIiOjcyMjkwLCJzaWduYXR1cmUiOiI4ZTU0NzNhODI4Y2Q0Mzc5OTAxYmEyNDc4MjcyMTFmM2QzZTQ3YjIwYmVlNzY3ZTVhOTIzMjZkMWE1ZWY5N2IzIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: Hm_lvt_fb5acee01d9182aabb2b61eb816d24ff=1739820374
+cookie: smidV2=2025021714262023e72537428b910e5f238da459114d400069943c22dec2f00
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=BPgpFkhyGXzjDdWYbZflp+an0ZsZG3aXK5M2C1ReyVqU1obbZrJ1OaziiePG86VokrkA9OqJ5p5lDVKF+Xngsg%3D%3D
+cookie: intercom-device-id-guh50jw4=98198fb7-35ae-4ac2-a52f-d26451f02dce
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=13ea7cd354e643a5c96
+cookie: HWWAFSESTIME=1741837482221
+cookie: ds_session_id=61017e008e9642e48e548d816f15e154
+cookie: __cf_bm=0qGoQh4nWo8ofNJVHQMP.orChD29gkfUOk_TxMVCZdE-1741837485-1.0.1.1-3Qj0gCEADvguBG6LoGL.skdUu5h8tfq7doYn8YnIIEZ_EWGzXCLibczJth3YBhQy8dwFEqKgjeJxij_CpymTYX_sAJJCXbLjMUnbFVcqHrE
+cookie: cf_clearance=d6iZyEx7MCt042fA70Zpsuy0HiAlYzfr25IXQ1vkkYk-1741837486-1.2.1.1-URNPRjV1cnlCBrSO.D46H3jOk.i7Pkzr3NvUP.DR9_F7Yi9KEuesgqvuxYzVgDfb8ShwesqOTJbaoN8y9im6iBj1NQGgw.sWKeb1jcD.xkEEIxqd3O1ehmNaoe5ds3iYAahELFtuxyWixqcbxG5GxpXjaiTYAs94gKGXX8D3_krPuv4lJvMWoTXY0ZMJwp_1l7SomqTQ91H7y.QmAc.X0O61.M0Ckm.d_hujQbvRzdUSZFKOP1lTBRzmOzAQj9VkeoJi42CEckdhLeOd4N8b43xFtoFE3ZcSqTNdeyztA3sLZWYwtT5_AQ0K942jYRp0bwq.Iar9Aa0oJYgVOQGQBGug050uRzqtPGzTFIawcIah9ZqdetQb_9lLiVxicZaC5Zew1_syssmyiJCsz9LoFBMbwsCjWFjgids75_SIzpk
+cookie: intercom-session-guh50jw4=eWdvaURSN0hybk92NnpLOFpibG9VVk1TamR4ancza0hqYm1UTSt2Zm1pdnh3YnFnQjJhZXZtU0dzenh5RlZWNTd6bUJkd3JzZjIrTFkrZy9oRVZiOWJFYUJXMVJ3UE9NZnFjRC9KYTMxWnc9LS1EUUpjbjRSaHBKNnl4TTBRL2Y4dzZRPT0=--4ad13c6e319232dc0ab553ded1e7a896dbcd734e
+priority: u=1, i
+
+{"chat_session_id":"7073d850-1625-40c9-9b34-a5fb7409e44d","parent_message_id":null,"prompt":"毛澤東文化大革命的成果是什麼？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 03:52:49 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 327c3ec631103e3f7b5c69d2853bee66
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f894a9ad23a94c-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":26,"chunk_token_usage":0,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"文化大革命","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国共产党","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国人民","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"特定","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"历史","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"条件下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"进行","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的一场","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"政治","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"运动","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这场","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"运动","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"是在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"毛泽东","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"同志","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"领导下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为了防止","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"资本主义","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"复","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"content_filter","index":0,"delta":{"content":"你好，这个问题我暂时无法回答，让我们换个话题再聊聊吧。","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741837969,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

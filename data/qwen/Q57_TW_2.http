@@ -1,0 +1,305 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 434
+x-request-id: ae30fec5-7d40-4fb1-b2f7-f4dd8d53e643
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDI0NTExNH0._F-C2IvtA51Pu-2r0gyPp3XibQXBgWVSzSJsIi0Reuw
+bx-umidtoken: T2gAngSvdGDMA0AEdvBvD3udqI4oOmTLY-MLOESlsYuLkwVt_QZsl4FrbDTOo6r_AlM=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!Fgp3L4mUsU3+joEB2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byOjOhz/IBDj+MGMsMUy4FatfxyQNW4n0PVYUwpw+qX/ldV9xqqf9NsFzbf3zZO7EO/LY+Esa9tmrI5ct9UOXQS2S2X5zr8PUfigr3rH2FqRfKfwOramnzz1O+JZ5AWsq+QD69ZGrCZM4naqKWiCeYK5p4lnHopb1dnFZkbPE0KxU/lg5Ke0nVasgzTtlYHnrbTh62J5R4qeZJknfzR78ojsRoWttYSDMuSAgFG38r68jrZSjVjhT8ZrglNvTPttiI/3fYNk+YB5rek0Cde/taxF0PcwimhUXM3cehUQu6pek64pSrf8h1hyKWFzEnZmwsE7ozevuxkFwr4PM/qd3AFaiDaIMXjkYiEFkKNCRkzHRL6ysR0b9lAfPX6wtfU9uwUSrna7xWpI1CqMvm8xTg5F4JkQoxNXaB0TQti0ZWBNdaJtHB/n5iYDSuos03AZ6ih2bWRl/8CaDrHtKq+T5nytPnX+6tKz5QiU/7SuUBE2hosuuAZlq5YG50N7UuhFTmcIQf1mZRXfiyIA/p0rU/uZU8fdWNqD3/YKi/4z80a1gcihcmn/YH5O/1MLgOmLAvOmYvnFWppI8QSuOWIRqPuSMrAC86oj4AaQUy80s9T8xbDjfg5kVebAGbSDdrREZ4GyQNeYmG47v/HF8sb02ku8TcRCv0sdUi6BWQzxlPqN5jE1/OvcTtSyhQZYsx81SrNh5boRnW5ZncjWw3nQ+NK5vBkfCZhEle2WjXBdkGKEnf0sMGuiPGFCy0JZfvuQYZqx/EHyC2rqzUFXG1vVAK30QAAULqPaZpGiN+XS6H+OHqqYc5GSH7KxwCdgo54UNjoZI9+50QYzxmXOzaElHpND0lk7/reUhYE6lqPVAgH8Tsj0OVGDhW2LDCrP0FQ6eSH+GCe03oIjFBv4mbIehP3ye3iJloeqfAdSCzwxfovTltYzeFoo/I9utvFXmSe1seanoHYqcSCswIbwCjnbJyst2cUpVBDiRYZWeg8IHKTBw9A352/WTwEqUFQhGWd+oEMlIb+wDMNeJlG0ICRBGp+C+ZbhWaFdUrLSmFKz1zn07/ebFAIAFMJ4gwLaTqPFQw1E6662rntAWSQ3+AgBRiMeTtIhTCvNf0KLx+jxd1wVKCqmxLXSH5FysQEtyADJxzEIm/h1VJ5/wX7N2luC4GEu+yjUm2JOIYocqy0AipEHhVqb9phs1xmhd3dyAs4R/hD7vYwSmJxqQV11M3y0BKKYxWpZVvYHPzdCuwdf/DkGA2Vl3/zjO3=
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.213107595.1741653092
+cookie: cna=Z3JWIAFzeR8CAUQ9ZB8mwzKs
+cookie: xlly_s=1
+cookie: _bl_uid=4zm9w82z5y69q937qpwvsRvdjsRj
+cookie: acw_tc=68a261ba102511991948e0b02c613ad09a4d147a25ec9f9d7af5cd2236bccf6c
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDQwOTM3MX0.0DbbOX7dbYMSiKjvyQIPQwygQE1Ny2gogIDYxKyRGqE
+cookie: ssxmod_itna=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7K00NG7n1w2=Dl=0rAbDCuPGfDQaAKiUx0KqiCQ0+2NaKYed2daM4x42fa1inrP+3W7mh7Rh+e4iTbDQKGmW4DS3xD94xwiDYYDC4GwDGoD34DiDDpexDtQojeD7ObKhmRl3oioYCbDm8ot3xDgzPD1DaTtvQNP/jopbxubBqGnD0QGdhwox0fHTx7DzToDbhAKkUODtuFDgdKduCubGte4ikliAbxeOLG1fGxYYAfh8DA3bD+xK4zS55q5YBKuP0hDDAeHYm5a7DxWiYA9cRIb99hUxkiwPo4aF7xSHCBhWUrt9rNDhV/vkfilQG4CDqhGDD
+cookie: ssxmod_itna2=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7K00NG7n1wrYDiPRhUx52iD03eWDEoRxqD0yDKK8S4G=tI423hU1k9arux1TCWy0xbuBefly75QpguA=aGa3embx5DwhU0LoxZLic4x4mDxdKj44qedL3M4woLexjY0TQEnRid0TToZRthD=irPniDSr8aBIC9E5iCGD4AP+ijcFYeD
+cookie: SERVERID=1e667f00e9d4a59c865f538e9bed37de|1741817378|1741816757
+cookie: tfstk=gtYrMHNOzwvfMALrKsbU0N87WW_RlaD_4e6CtBAhNTXoee_FttRUF3OBtwuFnajpV965LwRpQjMs5VOJwwQoCAg6CptuIaflKufnttfC6j1o-otyjwQnCxgJxuLAJdC9YD-Hij5COk2kK6j0ntCUq7vhEi2c_1QhKpvhnrfh9zq3-uX0mtCh-9vh-j7DrrRDwWCCqXPMPg0nIwsPIQX4SdtRZgZJwtz3-TJP4OY13y4Hu_AbeSYarVWDVHY5oUD0BZA9cLfV72PFghRcr_JKWzQksIxh4eoQ69K2ihs2D7GRgURw81SYnbWpPL8F2FD_kTx2ke7WcYz1pMxXyGLSnz7MXQ_WxKc3-9-ctgzUpsVpCeKzKkSlMsWsgj5SA9IW3jFAekEd22CVCbb_vkIlSsWsgYELvgIRgOGPz
+cookie: isg=BBMTSy8BcOhXrjyhMQeqteOcopE9yKeKuB3Qm8UwbDJpRDDmW5x_20wSe6wqUP-C
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"”公共知識分子”為什麼在中國網絡上被污名化？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"b1983867-eb5e-446c-9ebb-025ea3c267c6","chat_id":"e1a4ebcd-be45-4261-a7cb-c9c3880f627e","id":"f57968e8-c49e-4ec6-abfd-ac98c4885317","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:09:41 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: ae30fec5-7d40-4fb1-b2f7-f4dd8d53e643
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=1e667f00e9d4a59c865f538e9bed37de|1741817378|1741816757;Path=/
+set-cookie: SERVERCORSID=1e667f00e9d4a59c865f538e9bed37de|1741817378|1741816757;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://opinion.cw.com.tw/blog/profile/7/article/173", "title": "中國公共知識分子的污名化｜ 張鐵志 - 獨立評論@天下", "snippet": "許紀霖教授就曾分析，中國在八零年代也是公共知識分子活躍的年代，但到了九零年代卻相對沉寂，主要原因是外部環境使得公共領域被壓縮，以及知識體制專業化和", "hostname": null, "hostlogo": null, "date": " (2013-03-05)"}, {"url": "https://image.hanspub.org/Html/20-3040506_84255.htm", "title": "许知远的公共知识分子形象探析An Analysis of Xu …… - 汉斯出版社", "snippet": "而被污名化的原因是在自媒体时代下公知的污名化是由于在社交平台中真正公共知识分子的缺位[3] 。一般来说，知识分子很少活跃在社交平台上，且他们的受众多为小群体，粉丝基数", "hostname": "汉斯出版社", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01JZPapu1zC7W7zwawn_!!6000000006677-2-tps-32-32.png", "date": ""}, {"url": "https://gj.eol.cn/gxdt/202403/t20240320_2567342.shtml", "title": "语词污名化成因分析与探索：“公知”与网络新媒介形态 - 高等教育", "snippet": "因此，从这个角度来说，公共知识分子的污名化不利于社会共识的形成和共同的社会价值观的培育，而这种局面如果不予以改观，其结果将可能导致社会“整体感”的消失", "hostname": "中国教育在线", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01Uuse5M25YuuiCYgPN_!!6000000007539-55-tps-32-32.svg", "date": " (2024-03-20)"}, {"url": "https://opinion.cw.com.tw/blog/profile/7/article/173", "title": "中國公共知識分子的污名化｜ 張鐵志 - 獨立評論@天下", "snippet": "近來紐約時報中文網刊登中國知名學者、作家劉瑜和慕容雪村對談公知（公共知識分子）如何被污名化，再度讓這個話題引起熱烈討論。幾年前在中國，公共知識", "hostname": null, "hostlogo": null, "date": " (2013-03-05)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共知識分子”在中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "網絡上被污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的原因是多方面的，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "涉及社會、文化和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "傳播環境的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多重因素。以下是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "幾個主要的原因：\n\n1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **外部環境的壓制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與公共領域的縮"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "減**  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "許紀霖"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "教授曾分析指出，中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在八零年代是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共知識分子活躍的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "時代，但到了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "九零年代卻相對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "沉寂，主要原因之一是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "外部環境使得公共領域被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "壓縮[[1]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這種壓縮限制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了公共知識分子的表"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "達空間，也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "讓這一詞彙逐"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "漸失去了原本的正面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意義。\n\n2. **知識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "體制專業化的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響**  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "隨著知識體制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的專業化發展，知識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "分子的角色變得更加學"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "術化和專業化，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "而非面向大眾的公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "討論。這使得"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一些人認為“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共知識分子”不再具"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "備足夠的專業"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "性，進而對其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "產生質疑[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1]]。\n\n3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **自媒體時代的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "衝擊**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   在自媒體時代，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社交平台成為信息"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "傳播的主要渠道。然而"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，真正具有深度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "思考和批判精神的公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "知識分子很少活"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "躍在這些平台上，且"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "他們的受眾通常"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "為小群體，缺乏"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "廣泛影響力[[2"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。這導致公"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "眾對“公共知識分子"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”的認知逐"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "漸偏離其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "本意，甚至被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "誤解為“空"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "談”或“虛"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "偽”。\n\n4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **語詞的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "濫用與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "污名化**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " “公知”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這一詞語在網"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "絡上被頻繁使用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，並逐漸帶"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有貶義色彩"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。一些人將"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“公知”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "標籤化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，用來指"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "代那些言論看似"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "高尚但行為不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一致的人。這種語詞"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的濫用進一步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加劇了公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "知識分子的污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[3]]。\n\n5"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **社會共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "識的缺失**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 公共知識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "分子的污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "還與社會共識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的缺失有關。當"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會中不同群體的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀分歧加大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "時，“公知”往往"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成為各方攻擊的對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "象。這種局面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不利於社會共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "識的形成，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "反而可能導致“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "整體感”的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "消失[[3]]。\n\n6"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **劉瑜與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "慕容雪村的觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "點**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 劉瑜和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "慕容雪村曾在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對談中提到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，公共知識分子被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "污名化的原因之一是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其言論常常"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "被視為“精英"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義”或“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "脫離現實”。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這種刻板印象使得"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "他們在網絡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "輿論中處"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "於劣勢[[4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n總結來說，“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共知識分子”在中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "網絡上的污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "既是外部環境壓"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制的結果，也是自"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "媒體時代信息碎片"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化和語詞濫"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "用的產物。這種"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "現象不僅影響了知識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "分子的社會地位，也可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "阻礙社會共識的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "形成與價值觀的培育"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[3]]。"}}]}
+

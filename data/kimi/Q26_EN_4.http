@@ -1,0 +1,72 @@
+POST https://kimi.moonshot.cn/api/chat/cvacsp4n907871sn0efg/completion/stream HTTP/2.0
+content-length: 227
+sec-ch-ua-platform: "Windows"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTcxNSwiaWF0IjoxNzQxOTk5NzE1LCJqdGkiOiJjdmFjc292YWEwdjE1aTA0Y3RvMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMxODAxMjcxMzc0MDkzIn0.-aXPmcRSAiE8ieat9ZJEzqSF_S31hPk149hWnev7MEA5e0QRdJvGPpuL7mcuKbpizoSRtEsCqFIpIkHSIvj8eg
+x-msh-platform: web
+x-msh-device-id: 7481831801271374093
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.75 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481831801271374093
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvacsp4n907871sn0efg
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1124149584.1741999714
+cookie: _gcl_au=1.1.1912849903.1741999714
+cookie: _ga_YXD8W70SZP=GS1.1.1741999713.1.0.1741999713.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741999714
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741999714
+cookie: HMACCOUNT=5FCBBB724455E286
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTcxNSwiaWF0IjoxNzQxOTk5NzE1LCJqdGkiOiJjdmFjc292YWEwdjE1aTA0Y3RvMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMxODAxMjcxMzc0MDkzIn0.-aXPmcRSAiE8ieat9ZJEzqSF_S31hPk149hWnev7MEA5e0QRdJvGPpuL7mcuKbpizoSRtEsCqFIpIkHSIvj8eg
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What happened in Tiananmen square in 1989?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:48:37 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 342211973
+access-control-allow-origin: *
+x-request-id: 05514b293ec69876b88b3ec110c67536
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4948
+x-ratelimit-reset: 3
+traceid: c3acc0d329a62b8e4cf3dcfd4753e334
+traceparent: 00-c3acc0d329a62b8e4cf3dcfd4753e334-67b138cbb68fcce8-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"event":"ping"}
+
+data: {"content":"What happened in Tiananmen square in 1989?","event":"req","group_id":"cvacspde09nd368be630","id":"cvacspde09nd368be63g","refs":[]}
+
+data: {"event":"resp","group_id":"cvacspde09nd368be630","id":"cvacspde09nd368be640","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

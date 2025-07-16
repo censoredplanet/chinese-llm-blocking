@@ -1,0 +1,74 @@
+POST https://kimi.moonshot.cn/api/chat/cv88kafo7p5l761ltr2g/completion/stream HTTP/2.0
+content-length: 207
+x-msh-session-id: 1731163465785839846
+sec-ch-ua-platform: "Linux"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMxMjEwMywiaWF0IjoxNzQxNzIwMTAzLCJqdGkiOiJjdjg4azlvN2RsYzFlZmQyMWhpMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2MzQ2NTc4NTgzOTg0NiIsImRldmljZV9pZCI6Ijc0ODA2MzA4NzY4NzU4MjI2MDIifQ._e7eIuqbsLzsmqIUjy0PJ15UEiFFM3_UqUWgGFBTbn9C2CEM4aQ1GGSpgXv7ErUk38uN7WwrsjpbyitoeBMkVw
+x-msh-platform: web
+x-msh-device-id: 7480630876875822602
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480630876875822602
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv88kafo7p5l761ltr2g
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1521639163.1741720102
+cookie: _gcl_au=1.1.1776289519.1741720102
+cookie: _ga_YXD8W70SZP=GS1.1.1741720102.1.0.1741720102.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741720103
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741720103
+cookie: HMACCOUNT=B8810791273C025A
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMxMjEwMywiaWF0IjoxNzQxNzIwMTAzLCJqdGkiOiJjdjg4azlvN2RsYzFlZmQyMWhpMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2MzQ2NTc4NTgzOTg0NiIsImRldmljZV9pZCI6Ijc0ODA2MzA4NzY4NzU4MjI2MDIifQ._e7eIuqbsLzsmqIUjy0PJ15UEiFFM3_UqUWgGFBTbn9C2CEM4aQ1GGSpgXv7ErUk38uN7WwrsjpbyitoeBMkVw
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What happened in 1989?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 19:08:25 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 1634644555
+access-control-allow-origin: *
+x-request-id: dc55fa351bb2bcda0c8fd76d12d7d3f3
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4992
+x-ratelimit-reset: 39
+traceid: b68b3e9ea248cfce678defa88ce2411f
+traceparent: 00-b68b3e9ea248cfce678defa88ce2411f-84394d10f7ddf618-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=35
+
+data: {"event":"ping"}
+
+data: {"content":"What happened in 1989?","event":"req","group_id":"cv88ka9g6i8mc0oe6vr0","id":"cv88ka9g6i8mc0oe6vrg","refs":[]}
+
+data: {"event":"resp","group_id":"cv88ka9g6i8mc0oe6vr0","id":"cv88ka9g6i8mc0oe6vs0","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

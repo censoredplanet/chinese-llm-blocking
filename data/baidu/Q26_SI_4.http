@@ -1,0 +1,80 @@
+POST /aichat/api/conversation HTTP/1.1
+Host: chat.baidu.com
+Connection: keep-alive
+Content-Length: 1022
+X-Chat-Message: query:1989%E5%B9%B4%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F
+sec-ch-ua-platform: "macOS"
+isDeepseek: 1
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+source: pc_csaitab
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+accept: text/event-stream
+Content-Type: application/json
+landingPageSwitch: 
+Origin: https://chat.baidu.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://chat.baidu.com/search?extParams=%7B%22enter_type%22%3A%22chat_url%22%7D&isShowHello=1
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: BAIDUID=008B0448C9E34E45740A4C40B6651145:FG=1; BAIDUID_BFESS=008B0448C9E34E45740A4C40B6651145:FG=1; H_WISE_SIDS=60276_61027_61683_62325_62336_62346_62421_62422_62426_62471_62475_62493_62456_62454_62453_62451_62575; BA_HECTOR=0h258h2l2h040kehak81012h00n26k1jtchgl22; ZFY=u9f1enI1I41PMAhmCMMrIlRhuq2gu7Mc29M9udeXqN0:C; kleck=6506d9a5b4f82daed6fe9b17afc8326be889b3df5b4768e5
+
+{"message":{"inputMethod":"chat_search","isRebuild":false,"content":{"query":"","agentInfo":{"agent_id":[""],"params":"{\"agt_rk\":1,\"agt_sess_cnt\":1}"},"qtype":0,"aitab_ct":""},"searchInfo":{"srcid":"","order":"","tplname":"","re_rank":"1","ori_lid":"","sa":"bkb","chatParams":{"setype":"csaitab","chat_samples":"WISE_NEW_CSAITAB","chat_token":"MzE0YmQyZWJ8MTk4OSVFNSVCOSVCNCVFNSVBNCVBOSVFNSVBRSU4OSVFOSU5NyVBOCVFNSVCOSVCRiVFNSU5QyVCQSVFNSU4RiU5MSVFNyU5NCU5RiVFNCVCQSU4NiVFNCVCQiU4MCVFNCVCOSU4OCVFRiVCQyU5RnwxNzQyMDk2Mzc5NDk3fDc2ODQ2MTM2NjY0MzAzOTY5NDU=-7684613666430396945","scene":""},"blockCmpt":[],"usedModel":{"modelName":"quickMode","modelFunction":{"internetSearch":"0"}},"landingPageSwitch":"","landingPage":"aitab","applid":"","a_lid":"","enter_type":"chat_url","showMindMap":false},"from":"","source":"pc_csaitab","query":[{"type":"TEXT","data":{"text":{"query":"1989年天安门广场发生了什么？","text_type":""}}}],"anti_ext":{"inputT":1106,"ck1":0,"ck9":637,"ck10":589}},"setype":"csaitab","rank":1}HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Chat-Message,x_chat_lid,source,debug-user-agent,isdeepseek,landingpageswitch
+Access-Control-Allow-Methods: GET, POST, DELETE
+Access-Control-Allow-Origin: https://chat.baidu.com
+Access-Control-Request-Headers: X-Chat-Message
+Connection: keep-alive
+Content-Encoding: br
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 16 Mar 2025 03:39:39 GMT
+Set-Cookie: H_WISE_SIDS=60276_61027_61683_62325_62336_62346_62421_62422_62426_62471_62475_62493_62456_62454_62453_62451_62575; Path=/; Domain=baidu.com; Expires=Mon, 16 Mar 2026 03:39:39 GMT
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+event:basedata
+data:{"status":0,"user":{"browserid":"24","isUserLogin":false,"userInfo":{"uid":false,"uname":"","displayname":""}},"query":"1989年天安门广场发生了什么？","longword":"","baiduid":"008B0448C9E34E45740A4C40B6651145","lid":"10888093206014360134","pd":"csaitab","fontSizeScale":"","chatHitKunlun":"","logCommonInfo":{"actionInfo":{"clkInfo":{"pd":"csaitab","tab_se":"1"},"extra":{"ori_lid":"","re_rank":"1"}},"timeInfo":{"card":{"clk_lid":"10888093206014360134","clk_rank":"1","setype":"csaitab"},"landing":{"cl_type":"","clk_lid":"10888093206014360134","clk_rank":"1","pd":"csaitab"},"result":{"cl_type":"","clk_lid":"10888093206014360134","clk_rank":"1","setype":"csaitab"}},"exposureInfo":{"ori_lid":"","re_rank":"1","setype":"csaitab"}}}
+
+
+event:ping
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_0","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096379730","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{}}},"seq_id":0,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_1","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096379981","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"searchQuery":{"querys":["1989年天安门广场发生了什么？"]}}}},"seq_id":1,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_2","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096379981","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"init","mindMapId":"10888093206014360134"}}}}},"seq_id":2,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_3","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096379987","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 思考中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":3,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_4","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096380196","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"no-mind-map","mindMapId":"10888093206014360134"},"needClearMindMap":true}}}},"seq_id":4,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_5","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096380616","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 回答中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":5,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_6","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096380616","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"","dataType":"","showType":"","antiFlag":1,"needClearHistory":true,"isSafe":2,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}},"isAIAnswer":true,"queryIntent":1}}}},"seq_id":6,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_7","sessionId":"10888093206014360134","isDefault":0,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096380616","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"txt","dataType":"","showType":"append","antiFlag":0,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}}},"hints":{"parts":[{"type":"revoke","text":"","interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742096380616","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"hints":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}},"showType":"toast"}]}}}},"seq_id":7,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10888093206014360134","pkgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d_8","sessionId":"10888093206014360134","isDefault":0,"pvLostId":100,"isShow":0,"data":{"message":{"msgId":"a24769a2-b73c-496f-a5bc-86004d5bc74d","isRebuild":false,"updateTime":"1742096380616","metaData":{"state":"generate-complete","endTurn":true,"userInfo":{"status":-1},"speedInfo":{"labels":{"asid":"as-muv0qkaa7c","entrance":"pc_aitab","frame_type":"1","logid":"10888093206014360134","modelName":"","query":"1989年天安门广场发生了什么？"},"costs":{"bffTime":6,"pmgrAnswerFinish":0,"pmgrFirstAnswer":0,"pmgrGuideFinish":0,"ui2FeFirstTokenTime":262,"ui2feAllCost":898,"ui2tsAfterFirstTokenTime":5,"ui2tsFirstTokenTime":257,"uiPreTime":11}}}}},"seq_id":8,"product":"pc_aitab"}
+
+

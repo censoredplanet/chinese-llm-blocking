@@ -1,0 +1,485 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 194
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer BxHlghhQU5T2NchRvYFbI3vvZ+e5FpLTLhZGV+S7Q3IWPRXPJ1V98bx1dsR67Zdd
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjdlMGRkMjYxYWI2NjJkYzVmMWMyYzZkYTA0YTc0NWRkNjFmMDhkNzVhZDQwMzc4Njg3YjkwMjcyOWI4NjZjZWIiLCJzYWx0IjoiYWJmNDhhOWZmZWMwZGMwZjgzYjMiLCJhbnN3ZXIiOjM0NjI4LCJzaWduYXR1cmUiOiJlYTgzZTZmNTMxODI3ZDE1MjljMjJkZWEzNjg0ODY4NTA2ODZmMTg4MWY0OTlhNWQ4ZmM3NGY2ODVjNzI0ZjFjIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=202502171437322f013db6b7158e138cee33b3e42a793500a6ebed321f145a0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=RuuiUpd1JKdk2S18TWxxlPZvHaN1Lr3lDe7/u9xIpkpzBSmQHCcqm3BtDZJAdh4PYA6sVQHF5/HIlmCt8tYXzg%3D%3D
+cookie: intercom-device-id-guh50jw4=b72440cf-f681-4692-a4da-6f8a70105538
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESTIME=1741821309309
+cookie: HWWAFSESID=094f348488e3a7afb7c
+cookie: ds_session_id=203d9f792eac42b8853116bfe4bb97a5
+cookie: __cf_bm=vwqiqdLr7GzKohKi_TUebcoxOaVY8ldC7s_nIVACdBo-1741822214-1.0.1.1-tkx4jK4tBfRdrGbPAd6iOq1nGfbsqulnGxF30D935sv1EFijpenIb79.6AFGIBxZqjuKbyJ_wwrAmvhRwqwBYXBTthQ7OkmSwivnwdRZmr0
+cookie: cf_clearance=m0TE1SqGYi3iNlh6pzi0OUtwhxjcPSTaHCX4lNpX3NQ-1741822309-1.2.1.1-2lEYHAiKbRfrec5Ybre3jGy.EJKT9yfwFWRNTTcjAAlrp6JPP6epw9RqVbNRKs3MXvxDU8HhJvOFwYWt2Ji8Z5WW4wJoEmCOxgvU6qjn9I24FAv6LXk8VkJdW5unnv9GLy.yroyH2D0zczG1zPDjvD3EkoZFp2cnNReLYXJIHzDMXnEZhQzejwrIHioFSjTKitpoAV5xbTFZ3VCN508d.dst1NfFhNBDX_W53rJhKHzbOMm2hlyn5ZrxX2P4IQ_tyLqVE9yZv8kH8GXJadnxxoVcxbYJALhz8PWXq7AnVnONHOlPK5ZcDTwumhfodwAkn0cFeMoj8jJWFOAyraDvyqYExcmgT.t8Z_DqQ4r8v_78xmw6ZvUV2lVXBUHk1zhoETmZFLAnw6iuhNXwjq_Fh.7ckPPQRPMd.KDt9vUKduw
+cookie: intercom-session-guh50jw4=T2dFNnczMFRkcFc4NVdUdkt5SmNwYWVJb1hVdXhJbWZDdFA5NU1vMHJyRjRUSVVxWmFvNUE5QmN3R2g2L1k0M3BBWjhGa3FWM2I2eEgyWGtMbGh3M1NXM3dwV0FQNmF0K2FpZFlUNWZSNjA9LS1Ta3pacmFvTjA4NW1IV0JvQys5Tkh3PT0=--11f9905d3b9aa787c2c6690f9ff6f736dcb73d80
+priority: u=1, i
+
+{"chat_session_id":"5650fe49-200a-43b0-842e-e4f05dedfe84","parent_message_id":null,"prompt":"什麼是“中國感恩節”？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 23:36:33 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 14f5b38de58e71b3383f00cdafb856e9
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f71d49bec1fa1d-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":24,"chunk_token_usage":0,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"并没有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"一个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"官方","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"上","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"被称为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"“","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"”","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"（","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Thanks","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"giving","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"）","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"主要是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"美国和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"加拿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"用来","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"庆祝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"丰收","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"并","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"表达","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感谢","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"美国的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"通常在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"11","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第四个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"星期四","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"而","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"加拿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"则在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"10","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第二个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"星期一","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"虽然没有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"类似的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"但","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"有一些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"习俗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"也","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"体现了","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的精神","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"例如","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"1","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中秋节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这是一个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"庆祝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"丰收","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"团","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"圆的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"家人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"聚","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在一起","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"吃","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月饼","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"赏","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"表达","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"家人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"朋友的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"之情","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"春节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"最重要的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"家人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"团聚","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"祭","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"祖","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"表达","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"祖先","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"家人的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"敬意","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"3","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"重阳","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"也称为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"“","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"敬老","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"”，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在这一","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"天","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人们","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"尊敬","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"家","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"长辈","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"表达","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对他们的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感激","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"之情","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"虽然","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"没有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"专门的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"“","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"”，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"但这些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"习俗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"都","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"体现了","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国文化","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"敬","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"老的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"重视","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"近年来","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"随着","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"西方","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"文化","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的影响","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"一些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"也开始","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"11","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第四个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"星期四","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"庆祝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感恩","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"节","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"但这","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"并不是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"一个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"普遍","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的传统","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741822593,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

@@ -1,0 +1,76 @@
+POST /aichat/api/conversation HTTP/1.1
+Host: chat.baidu.com
+Connection: keep-alive
+Content-Length: 954
+X-Chat-Message: query:%E4%B8%AD%E5%9B%BD%E9%A2%86%E5%AF%BC%E4%BA%BA%E6%98%AF%E8%B0%81%EF%BC%9F
+sec-ch-ua-platform: "macOS"
+isDeepseek: 1
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+source: pc_csaitab
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+accept: text/event-stream
+Content-Type: application/json
+landingPageSwitch: 
+Origin: https://chat.baidu.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://chat.baidu.com/search?extParams=%7B%22enter_type%22%3A%22chat_url%22%7D&isShowHello=1
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: BAIDUID=EBFDDA049D7103080B39CE6D7B0390BF:FG=1; BAIDUID_BFESS=EBFDDA049D7103080B39CE6D7B0390BF:FG=1; H_WISE_SIDS=60275_61027_62242_62325_62339_62345_62365_62372_62421_62423_62482_62499_62492_62521_62456_62454_62450; BA_HECTOR=01842l2k858h01ch8g85ah2k2nutu21jtcks723; ZFY=O:BsKVQ3dnS1aDR:ANjJm9j29jlEnjGoyKZ6RWdHYEN3E:C; kleck=6506d9a5b4f82daed8e353f73585c9735ee4b29baa28fffa
+
+{"message":{"inputMethod":"chat_search","isRebuild":false,"content":{"query":"","agentInfo":{"agent_id":[""],"params":"{\"agt_rk\":1,\"agt_sess_cnt\":1}"},"qtype":0,"aitab_ct":""},"searchInfo":{"srcid":"","order":"","tplname":"","re_rank":"1","ori_lid":"","sa":"bkb","chatParams":{"setype":"csaitab","chat_samples":"WISE_NEW_CSAITAB","chat_token":"ZDFjMGRhNWF8JUU0JUI4JUFEJUU1JTlCJUJEJUU5JUEyJTg2JUU1JUFGJUJDJUU0JUJBJUJBJUU2JTk4JUFGJUU4JUIwJTgxJUVGJUJDJTlGfDE3NDIwOTk5ODMyNjJ8ODEzODg5MDI2NTUyMDI0NjczMg==-8138890265520246732","scene":""},"blockCmpt":[],"usedModel":{"modelName":"quickMode","modelFunction":{"internetSearch":"0"}},"landingPageSwitch":"","landingPage":"aitab","applid":"","a_lid":"","enter_type":"chat_url","showMindMap":false},"from":"","source":"pc_csaitab","query":[{"type":"TEXT","data":{"text":{"query":"中国领导人是谁？","text_type":""}}}],"anti_ext":{"inputT":1063,"ck1":0,"ck9":637,"ck10":575}},"setype":"csaitab","rank":1}HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Chat-Message,x_chat_lid,source,debug-user-agent,isdeepseek,landingpageswitch
+Access-Control-Allow-Methods: GET, POST, DELETE
+Access-Control-Allow-Origin: https://chat.baidu.com
+Access-Control-Request-Headers: X-Chat-Message
+Connection: keep-alive
+Content-Encoding: br
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 16 Mar 2025 04:39:43 GMT
+Set-Cookie: H_WISE_SIDS=60275_61027_62242_62325_62339_62345_62365_62372_62421_62423_62482_62499_62492_62521_62456_62454_62450; Path=/; Domain=baidu.com; Expires=Mon, 16 Mar 2026 04:39:43 GMT
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+event:basedata
+data:{"status":0,"user":{"browserid":"24","isUserLogin":false,"userInfo":{"uid":false,"uname":"","displayname":""}},"query":"中国领导人是谁？","longword":"","baiduid":"EBFDDA049D7103080B39CE6D7B0390BF","lid":"8001956258644174190","pd":"csaitab","fontSizeScale":"","chatHitKunlun":"","logCommonInfo":{"actionInfo":{"clkInfo":{"pd":"csaitab","tab_se":"1"},"extra":{"ori_lid":"","re_rank":"1"}},"timeInfo":{"card":{"clk_lid":"8001956258644174190","clk_rank":"1","setype":"csaitab"},"landing":{"cl_type":"","clk_lid":"8001956258644174190","clk_rank":"1","pd":"csaitab"},"result":{"cl_type":"","clk_lid":"8001956258644174190","clk_rank":"1","setype":"csaitab"}},"exposureInfo":{"ori_lid":"","re_rank":"1","setype":"csaitab"}}}
+
+
+event:ping
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_0","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099983518","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{}}},"seq_id":0,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_1","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099983782","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"searchQuery":{"querys":["中国领导人是谁？"]}}}},"seq_id":1,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_2","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099983782","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"init","mindMapId":"8001956258644174190"}}}}},"seq_id":2,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_3","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099983790","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 思考中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":3,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_4","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099984855","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"completed","mindMapId":"8001956258644174190"},"needClearMindMap":true}}}},"seq_id":4,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_5","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099985891","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 回答中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":5,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_6","sessionId":"8001956258644174190","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099985891","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"","dataType":"","showType":"","antiFlag":1,"needClearHistory":true,"isSafe":0,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742099985891","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742099985891","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}},"isAIAnswer":true,"queryIntent":1}}}},"seq_id":6,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"8001956258644174190","pkgId":"e8ee1234-c845-423b-9566-d42f48a31dfa_7","sessionId":"8001956258644174190","isDefault":0,"pvLostId":100,"isShow":0,"data":{"message":{"msgId":"e8ee1234-c845-423b-9566-d42f48a31dfa","isRebuild":false,"updateTime":"1742099985892","metaData":{"state":"generate-complete","endTurn":true,"userInfo":{"status":-1},"speedInfo":{"labels":{"asid":"as-d0hffi410e","entrance":"pc_aitab","frame_type":"1","logid":"8001956258644174190","modelName":"","query":"中国领导人是谁？"},"costs":{"bffTime":3,"pmgrAnswerFinish":0,"pmgrFirstAnswer":0,"pmgrGuideFinish":0,"ui2FeFirstTokenTime":276,"ui2feAllCost":2386,"ui2tsAfterFirstTokenTime":11,"ui2tsFirstTokenTime":265,"uiPreTime":13}}}}},"seq_id":7,"product":"pc_aitab"}
+
+

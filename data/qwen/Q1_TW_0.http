@@ -1,0 +1,317 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 413
+x-request-id: 33018ab9-741b-4128-8bc8-a64001ec213d
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFiNDU5ZDY2LThiY2YtNGRkNi04MDkyLTBhZjk2NjA3NmE1MyIsImV4cCI6MTc0NDMzNTUxNn0.gqpDxLHgam5JyvxJ2PUCytddp_UOb2baJ317o10WVvA
+bx-umidtoken: T2gARjEvNu8y9GOAErLIRHch7yD7KQZe3Q3kjPhlxXMFEGuUG5LLviUIXiSCuvLjr4s=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!+VE3SkmUKcD+joK+2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byqjO3S/UBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F68kmwAwOy4N8TfssGIbFlxpMr3rAiCo94FeagnRIRwkHE5ozqyxJ34l/VqZ9KfVBBMNvmZdLexDYD73nzs9uZWDBSul5Wa5T03MmFjMNg7s5cx1sYppxThV0mtbeKNf3OIijoy44k5bZ3/W1djvvB5SScs6MVZh/rJOjZU7Q7BUAKGy76B/4iIIFXoX6PJ+1TyM2rw9yK6ZI+xrBZw4//Lld8QxAGxVfQoZ+TwnMXLeA6Qa7rozJdBXME5qQQ4xPjSCTR0AZs23bfdfWlO7XF9j0H0Ktqdyjdw+Z8yN3aXtrk73xnsllReERDTJTGDCUl2VO6hA+Q2UdJ6ozHNfjQjReZfUXP7odE8tp5dZfDGxvVWPKhNlg/qpT3vLAD7C+FApwmxQStT+JU9UjnEPi1xEo40Xc3upOwQL9BJanIP+4HP8II4MNuE2aHY0VG3G8vsQfkNRKZEKIeVBUqgoLBAFRRpxstXTzFd6P+7hqtYQKrYPIQcmPyH6k4esepfAJHqMDCZrKMTOApZdqhgWa03PDmA/1pXZbXaJ+ysZW8hLGol/yZA43+Pl3IEBrzBCY/wXe9GDprlbj6BW5eI56F4UfwZQzmomIqgm8HzsyTU4BkcnqJA3sF+/8ZxL198Gfl1nyGVi1efeNoAe3oXMHpJ9VUF7hP2IfEu9U121Q44fOZBEydcN3ZE5NdjWzotYWeRhAopkG29xflpbT936FPyQPpJ+Hyuwh+9oJ7s8TwqsBJazsyVd/fpAkZJ06F1Ocupt+ZEewST4pKmtQOopUywdlpAIGRwRM52qdDuaBF58Vwk8W+bqJCP00Fj+BDuLCgKaXbD8bak7iK7QA6KNFxTyUv390L7y/srB6tZSnnQZaflUK6yalMERsHjou/hKkVwsUTMhiuY7yxC3lDWltpnhHw0F8C71o4FbI8kOk9R67ZOZ9dfBqwj9H1a+iziWSnTstqhB3Lf1t/GLZEWmxxkCtmG4x50KW/TwnSmFrDoTy7kal6wL4Qy85Sy9ft9FKFESE2jfUq4JBXobSohA4ZrwVV3T1QQuI013YKTrJfti+6ifTa05Zl4q3eF6F1sB53IGysX7KNOABuZrSvFLuCdUPuPpLI3YcuArhNqCVZXBsLFclTNprwfnnmSax8aDb+ckaSZBML95N4pyMf+a6W84SqYJvlFKuHFqzwaz4zBm3YN3WAWHi8YqonPKxqQTa0RJ+hMJS5cLW/+Ck54==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.980438045.1741743488
+cookie: cna=gtNXIMrCtjcCAUQ9ZB8U+dKE
+cookie: _bl_uid=4vm4I86L5Ce9h73syqazry12esnL
+cookie: xlly_s=1
+cookie: acw_tc=d91e7cd0f1e6e2fc503aad94e9688d970b121ee64c4f2d61e2def89a65b8d9b5
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFiNDU5ZDY2LThiY2YtNGRkNi04MDkyLTBhZjk2NjA3NmE1MyIsImV4cCI6MTc0NDU4MTc2NX0.J9jQjZER-CCVj2j0XXbzOXC4Dce4inXRLKk7_7EeMKU
+cookie: ssxmod_itna=7qIxyDBD20KYqYQPY5i=YeDIjO43kD0dGMlDeq7tDRDFqAP5DHmxAr=W2GI4OR7G9G3+WiD5D/WWom5DUg4iaDI3mq8O0=0iI3QImnr5PBA6ZApxGyCWL+wa/S0rRROtNjfYD=xx07DbfoDAuqD7dee4xGGD0oDt4DIDAYDDxDWWeDBRjiNDGP3kQR3cuqxhAi3xi3vW2qDmqFDnon=MmbZCDWA84pQZANDbqDu49qaAeDLGPpGxB6IDYpwCnOvxBjkqjX7UWTtZYSiY0tRqxd5bj+mYihzU+DGf+KSvAZQWGI2x+KMuDh37m2GPjANDDcB4h/CixoGq4rc0I984yietFv1RBr0+qd4Dpu4f4tnxNlhxWiK+HYGueDRqf0quGDD
+cookie: ssxmod_itna2=7qIxyDBD20KYqYQPY5i=YeDIjO43kD0dGMlDeq7tDRDFqAP5DHmxAr=W2GI4OR7G9G3+WiYeDA4a22xpYYD7P4QhUlDD/WiuDWH4hUM3hxqGt0xWKOCAn2tCOf/W3cphOYNSnAtRKyDx2g0PbarF3DPG4bA4hm2bTA0hHp2DTmP=W3eI8tiFKRrs8rge+bGIK0OpEt8pOfDAKYEFheAwyRFtMQrNKYkKw1kKh0KkOYD
+cookie: SERVERID=b719913192e20c7839b8652cf0a57f64|1741989771|1741989488
+cookie: tfstk=gfkrMQsTUJ0bDFHy-o2Fg1oGv4y8h8Y1avaQxDm3Vz4kyvwUxroFPbiIxJJUo8VKNya78JoK7nT6Cdi-2Jek5F961msRx8qu-_qHxrqUxnZkKsGrsJeH5E9-t_HYpVBtoqlnmnrQA6fo-kVcmrEFtu03rSb0ble3-203nKqaq_f3tT4cnrE3Ky03KnyDrDnm2MEQZH7XpIihD-NzS04VQVHQq71-2rWhKzl4aPD_u9Xn3umfjI8fEdzmNXD7nYYcW-mtG4q4QpSU0fo0EuupBTeojmc3avRCXyhqmfNqMgt80YoZLlPAo3zKF4kUwAY1HzcqHvySGUW_JWcje5HWoTyi60wStqxhKyl0xgzAJojK5vhP-6PuDoz60nrWOyF54gQjs6CLwpE4532196FuIoz60UCd97Fa0PtzU
+cookie: isg=BDU17YL0viCEndqYwom0WYVvRLfvsunEaif2Pbda8qz7jlaAcAaxlQOI3Eq4zgF8
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"毛澤東文化大革命的成果是什麼？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"34b0a692-2f9a-4093-bf9f-bc6dff406a71","chat_id":"70549d19-71a4-403e-9dae-e0c268324223","id":"b0c621d4-3eb6-4de1-8e9a-720c529151ee","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 22:02:54 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 33018ab9-741b-4128-8bc8-a64001ec213d
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=b719913192e20c7839b8652cf0a57f64|1741989772|1741989488;Path=/
+set-cookie: SERVERCORSID=b719913192e20c7839b8652cf0a57f64|1741989772|1741989488;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.marxists.org/chinese/reference-books/meisner/mao_china_and_after_21.htm", "title": "第十九章文化大革命的社会结果", "snippet": "毛运用从文化大革命中获得的权力，在1960年代后期和1970年代初期，推行相对平均主义的社会经济政策，彻底否定了刘少奇在大动乱前的政策和实践。", "hostname": "马克思主义互联网档案馆", "hostlogo": "https://img.alicdn.com/imgextra/i4/O1CN01pfjst11ndLfpZzUkV_!!6000000005112-73-tps-32-32.ico", "date": ""}, {"url": "https://www.gov.cn/test/2005-06/24/content_9300.htm", "title": "“文化大革命”的十年 - 中国政府网", "snippet": "“文化大革命”否定了建国以来17年大量的正确方针政策和成就，这实际上也就在很大程度上否定了包括毛泽东自己在内的中共中央和人民政府的工作，否定了全国各族", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2005-06-24)"}, {"url": "https://zh.wikipedia.org/zh-tw/%E6%96%87%E9%9D%A9", "title": "文化大革命- 維基百科，自由的百科全書", "snippet": "毛澤東的「文化大革命」與紅衛兵運動，曾經被蘇聯的一位評論家指為「師事托洛斯基  而文化大革命的研究工作，大多是在海外進行的，有關文革的記錄和研究成果也大多在海外出版", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.gov.cn/18da/content_2247076.htm", "title": "第七章十年“文化大革命”的内乱", "snippet": "一场长达十年、给党和人民造成严重灾难的“文化大革命”爆发了。 毛泽东发动这场“大革命”的出发点是防止资本主义复辟、维护党的纯洁性和寻求中国自己的建设社会主义的道路。", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": ""}, {"url": "https://zh.wikipedia.org/zh-tw/%E6%96%87%E9%9D%A9", "title": "文化大革命- 維基百科，自由的百科全書", "snippet": "1975年，第四屆全國人民代表大會重新修訂了憲法，國家主席和副主席的職務被廢除，平息了之前的爭議，「毛澤東思想」以及文革四大等繼續文革的內容被寫入《七五憲法》。", "hostname": null, "hostlogo": null, "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛澤東"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "發動的文化大革命（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1966-"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1976年）"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對中國社會、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政治和經濟造成了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "深遠的影響，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "但其「成果」在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "學術界和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "歷史評價中存在爭"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "議。以下是根據"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "文獻總結的一些主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響或所謂的「成果"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "」：\n\n1. **推行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平均主義政策**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   毛澤東"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在文化大革命期間利用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "所獲得的權力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，在196"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "0年代末和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1970年代初"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推行了相對平均主義"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的社會經濟政策，這"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "徹底否定了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "劉少奇在大動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "亂之前的政策和實"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "踐[[1]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這種政策試圖減少"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會階層之間"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的差距，但在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "實際執行中也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "導致了經濟效率"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的下降。\n\n2. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重新強化毛"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "澤東思想**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 文化大革命進一步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "鞏固了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛澤東思想在中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政治中的核心地位。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1975"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "年第四屆全國人民"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "代表大會修"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "訂的《七"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "五憲法》將"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "「毛澤東思想」"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及文革相關"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "內容寫入"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "憲法，使其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成為國家意識形態的重要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "組成部分[[5]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n3. **廢"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "除部分政治制度**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   在文化大革命"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "期間，國家主席和副主席"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的職務被廢除"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，這標誌著"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國政治體制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的一次重大調整。這一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "改變平息了之前"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "關於國家領導體"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制的爭議"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[5]]。\n\n4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **否定建"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國以來的部分政策**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   文化大革命"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "否定了建國以來1"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7年間大量的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "正確方針政策和成就"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，這在很大程度上也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "否定了包括毛澤東"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "自己在內的中共中央和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人民政府的工作[[2]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "雖然這是對過去"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策的否定，但也為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "新的實驗性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策鋪平了道路。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "5. **紅"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "衛兵運動與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會動員**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 文化大革命期間，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "紅衛兵運動興"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "起，這是一場由"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛澤東直接"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推動的大規模群"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "眾運動。蘇"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "聯評論家曾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "指出，這一運動可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "受到了托洛斯基思想"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的啟發[[3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。紅衛兵運動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "雖然造成了社會混"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "亂，但也展示了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛澤東動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "員基層民眾的能力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n6. **尋"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "求中國特色社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義道路**  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "毛澤東發動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "文化大革命的初衷"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "之一是防止資本主義"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "復辟、維護黨"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的純潔性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，並探索中國自己的社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義建設道路[[4]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。然而，這一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "過程伴隨著嚴重的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "內亂和災"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "難。\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "總結\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "文化大革命的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "「成果」更多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "地體現在政治和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意識形態層"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "面，例如毛"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "澤東思想的進一步強"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化和部分政治制度的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "調整。然而，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些「成果」"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "往往伴隨著巨大的社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "代價，包括"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "經濟停滯、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會混亂以及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "千百萬人的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生命和財產"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "損失。因此，文化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大革命的影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "更多的是負面的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，其歷史評價也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多以批判為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主。"}}]}
+

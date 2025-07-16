@@ -1,0 +1,72 @@
+POST https://kimi.moonshot.cn/api/chat/cvacvdv37oq8ttet4jpg/completion/stream HTTP/2.0
+content-length: 209
+sec-ch-ua-platform: "Android"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjA1MywiaWF0IjoxNzQyMDAwMDUzLCJqdGkiOiJjdmFjdmQ5cnFwbTkybGhjbDVlMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMzMjUyOTcwMzIzMjE1In0.qdnZw5abxy5zU6Yc4ZNSlPxqCpJmvWnswBttx8iIqkpfG2y3Yow_ykNNgM9654hdBkI1oMaYLd7AaPQeuosrRA
+x-msh-platform: web
+x-msh-device-id: 7481833252970323215
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?1
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Linux; Android 13; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481833252970323215
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvacvdv37oq8ttet4jpg
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1474581450.1742000052
+cookie: _gcl_au=1.1.1420100401.1742000052
+cookie: _ga_YXD8W70SZP=GS1.1.1742000052.1.0.1742000052.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1742000053
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1742000053
+cookie: HMACCOUNT=53A25BA73B3B4C54
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjA1MywiaWF0IjoxNzQyMDAwMDUzLCJqdGkiOiJjdmFjdmQ5cnFwbTkybGhjbDVlMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODMzMjUyOTcwMzIzMjE1In0.qdnZw5abxy5zU6Yc4ZNSlPxqCpJmvWnswBttx8iIqkpfG2y3Yow_ykNNgM9654hdBkI1oMaYLd7AaPQeuosrRA
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"中國領導人是誰？"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:54:16 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 1464151581
+access-control-allow-origin: *
+x-request-id: 1f330e33ccb69de74380a7b112899c52
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4930
+x-ratelimit-reset: 9
+traceid: db91c46bfcda6dc99005175041fcb398
+traceparent: 00-db91c46bfcda6dc99005175041fcb398-1de064a0df64e27f-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=18
+
+data: {"content":"中國領導人是誰？","event":"req","group_id":"cvacve2i59707cams3a0","id":"cvacve2i59707cams3ag","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvacve2i59707cams3a0","id":"cvacve2i59707cams3b0","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"中國領導人是誰？"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"loading":false,"text":"","view":"cmpl"}
+

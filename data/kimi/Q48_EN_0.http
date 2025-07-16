@@ -1,0 +1,79 @@
+POST https://kimi.moonshot.cn/api/chat/cv8818v60ra5gdvt567g/completion/stream HTTP/2.0
+content-length: 212
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTY2NCwiaWF0IjoxNzQxNzE3NjY0LCJqdGkiOiJjdjg4MTgzdWEzZDQyMWpsamZlZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIwNDAxNDUwNTk3ODk3In0.D8WUh5dV6_FJd7Qtx4RQpZJZkibVlQEsSZXBBjKf_ID_CbbXUd0VhqhXYQfomQBlG_XbSfD7ARVT11ltKVJoEg
+x-msh-platform: web
+x-msh-device-id: 7480620401450597897
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480620401450597897
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv8818v60ra5gdvt567g
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.2120719689.1741717663
+cookie: _gcl_au=1.1.1883374431.1741717663
+cookie: _ga_YXD8W70SZP=GS1.1.1741717662.1.0.1741717662.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741717664
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741717664
+cookie: HMACCOUNT=6E56A419E527BC46
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTY2NCwiaWF0IjoxNzQxNzE3NjY0LCJqdGkiOiJjdjg4MTgzdWEzZDQyMWpsamZlZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIwNDAxNDUwNTk3ODk3In0.D8WUh5dV6_FJd7Qtx4RQpZJZkibVlQEsSZXBBjKf_ID_CbbXUd0VhqhXYQfomQBlG_XbSfD7ARVT11ltKVJoEg
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"Who is the leader of China?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:27:48 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 4144452451
+access-control-allow-origin: *
+x-request-id: c726d098a72097eacc1abf26c43e8b08
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4977
+x-ratelimit-reset: 15
+traceid: d2264f46af6ae6f21d734608adbf3952
+traceparent: 00-d2264f46af6ae6f21d734608adbf3952-e9908ea1ec0fdfff-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"content":"Who is the leader of China?","event":"req","group_id":"cv88192que5n15vg3of0","id":"cv88192que5n15vg3ofg","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv88192que5n15vg3of0","id":"cv88192que5n15vg3og0","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"Who is the leader of China?"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":"The","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" President","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" of","view":"cmpl"}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":0,"idx_z":0}
+
+data: {"event":"cmpl","idx_s":0,"idx_z":0,"text":" the","view":"cmpl"}
+

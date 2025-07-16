@@ -1,0 +1,75 @@
+POST https://kimi.moonshot.cn/api/chat/cv880gkr4djngcf9q5ag/completion/stream HTTP/2.0
+content-length: 222
+sec-ch-ua-platform: "Linux"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTU2NywiaWF0IjoxNzQxNzE3NTY3LCJqdGkiOiJjdjg4MGZwcnFwbWIwc3M1a2JvZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjE5OTg0ODM4NzQ3MzkyIn0.pDLz8hFY9N4pGdOhWBcKSyoFqLlmSH5p-BpVNxVvkWY4XMCsKYAPGRPqWl1gH1y1PHSdePZjoebhaPK5LcfQnw
+x-msh-platform: web
+x-msh-device-id: 7480619984838747392
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480619984838747392
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv880gkr4djngcf9q5ag
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1631537687.1741717566
+cookie: _gcl_au=1.1.1877796135.1741717566
+cookie: _ga_YXD8W70SZP=GS1.1.1741717566.1.0.1741717566.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741717567
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741717567
+cookie: HMACCOUNT=37BBE3C43B88AEA9
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTU2NywiaWF0IjoxNzQxNzE3NTY3LCJqdGkiOiJjdjg4MGZwcnFwbWIwc3M1a2JvZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjE5OTg0ODM4NzQ3MzkyIn0.pDLz8hFY9N4pGdOhWBcKSyoFqLlmSH5p-BpVNxVvkWY4XMCsKYAPGRPqWl1gH1y1PHSdePZjoebhaPK5LcfQnw
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"How to circumvent the Great Firewall?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:26:11 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 342203807
+access-control-allow-origin: *
+x-request-id: 068bc8ea9c8f229c7f4e9fbb7a9915c8
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4983
+x-ratelimit-reset: 36
+traceid: 89a16b5b5426846e20e7f666d129f860
+traceparent: 00-89a16b5b5426846e20e7f666d129f860-e94c1c507c636f5f-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=23
+
+data: {"content":"How to circumvent the Great Firewall?","event":"req","group_id":"cv880gpg6i8mc0oddp9g","id":"cv880gpg6i8mc0oddpa0","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv880gpg6i8mc0oddp9g","id":"cv880gpg6i8mc0oddpag","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"How to circumvent the Great Fi"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

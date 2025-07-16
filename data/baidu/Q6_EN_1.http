@@ -1,0 +1,76 @@
+POST /aichat/api/conversation HTTP/1.1
+Host: chat.baidu.com
+Connection: keep-alive
+Content-Length: 933
+X-Chat-Message: query:What%20kind%20of%20leader%20is%20Xi%20Jinping%3F
+sec-ch-ua-platform: "macOS"
+isDeepseek: 1
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+source: pc_csaitab
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+accept: text/event-stream
+Content-Type: application/json
+landingPageSwitch: 
+Origin: https://chat.baidu.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://chat.baidu.com/search?__pc2ps_ab=9142Jpa4plSE70DfR89HRYBd9I%2FenwiSdCYPDmZAojtG%2B9S8rvJxdSb9GuxZizV5fD67TaG34UWWqsL5XfP%2BGEeGbdMNa%2BoeUbs7W4M8D5%2FQnMV9Az%2F4I5IULpGz97R4e6MlPoErGYhiC494Ayk98eiFHA%3D%3D%7C1742098972%7C3772e0fac16745d76084d6158094fc30%7C3772e0fac16745d76084d6158094fc30&extParams=%7B%22enter_type%22%3A%22chat_url%22%7D&isShowHello=1&p_sign=3772e0fac16745d76084d6158094fc30&p_signature=3772e0fac16745d76084d6158094fc30&p_timestamp=1742098972&p_tk=9142Jpa4plSE70DfR89HRYBd9I%2FenwiSdCYPDmZAojtG%2B9S8rvJxdSb9GuxZizV5fD67TaG34UWWqsL5XfP%2BGEeGbdMNa%2BoeUbs7W4M8D5%2FQnMV9Az%2F4I5IULpGz97R4e6MlPoErGYhiC494Ayk98eiFHA%3D%3D
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: BAIDUID=94BAEA802FAA2357F54A6A7EDF28CDD1:FG=1; BAIDUID_BFESS=94BAEA802FAA2357F54A6A7EDF28CDD1:FG=1; H_WISE_SIDS=61027_62229_62325_62343_62347_62365_62370_62420_62422_62426_62470_62474_62492_62521_62456_62455_62452_62451; kleck=6506d9a5b4f82dae4f7b545c2967e8d6d58c604cd0c24971; BA_HECTOR=al25012la42l04ck84050h0gau980p1jtckgv22; ZFY=REiaC5SfhpR9qip2GiPAY:A16E2eLpZfnCRXAnUGlCY4:C
+
+{"message":{"inputMethod":"chat_search","isRebuild":false,"content":{"query":"","agentInfo":{"agent_id":[""],"params":"{\"agt_rk\":1,\"agt_sess_cnt\":1}"},"qtype":0,"aitab_ct":""},"searchInfo":{"srcid":"","order":"","tplname":"","re_rank":"1","ori_lid":"","sa":"bkb","chatParams":{"setype":"csaitab","chat_samples":"WISE_NEW_CSAITAB","chat_token":"MDhlMDE2ODZ8V2hhdCUyMGtpbmQlMjBvZiUyMGxlYWRlciUyMGlzJTIwWGklMjBKaW5waW5nJTNGfDE3NDIwOTg5ODYzNTV8MTIwNDg0Njg5MzYzNzY5NzYxMTA=-12048468936376976110","scene":""},"blockCmpt":[],"usedModel":{"modelName":"quickMode","modelFunction":{"internetSearch":"0"}},"landingPageSwitch":"","landingPage":"aitab","applid":"","a_lid":"","enter_type":"chat_url","showMindMap":false},"from":"","source":"pc_csaitab","query":[{"type":"TEXT","data":{"text":{"query":"What kind of leader is Xi Jinping?","text_type":""}}}],"anti_ext":{"inputT":1130,"ck1":1,"ck9":637,"ck10":588}},"setype":"csaitab","rank":1}HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Chat-Message,x_chat_lid,source,debug-user-agent,isdeepseek,landingpageswitch
+Access-Control-Allow-Methods: GET, POST, DELETE
+Access-Control-Allow-Origin: https://chat.baidu.com
+Access-Control-Request-Headers: X-Chat-Message
+Connection: keep-alive
+Content-Encoding: br
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 16 Mar 2025 04:23:06 GMT
+Set-Cookie: H_WISE_SIDS=61027_62229_62325_62343_62347_62365_62370_62420_62422_62426_62470_62474_62492_62521_62456_62455_62452_62451; Path=/; Domain=baidu.com; Expires=Mon, 16 Mar 2026 04:23:06 GMT
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+event:basedata
+data:{"status":0,"user":{"browserid":"24","isUserLogin":false,"userInfo":{"uid":false,"uname":"","displayname":""}},"query":"What kind of leader is Xi Jinping?","longword":"","baiduid":"94BAEA802FAA2357F54A6A7EDF28CDD1","lid":"11227420207401031575","pd":"csaitab","fontSizeScale":"","chatHitKunlun":"","logCommonInfo":{"actionInfo":{"clkInfo":{"pd":"csaitab","tab_se":"1"},"extra":{"ori_lid":"","re_rank":"1"}},"timeInfo":{"card":{"clk_lid":"11227420207401031575","clk_rank":"1","setype":"csaitab"},"landing":{"cl_type":"","clk_lid":"11227420207401031575","clk_rank":"1","pd":"csaitab"},"result":{"cl_type":"","clk_lid":"11227420207401031575","clk_rank":"1","setype":"csaitab"}},"exposureInfo":{"ori_lid":"","re_rank":"1","setype":"csaitab"}}}
+
+
+event:ping
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_0","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098986592","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{}}},"seq_id":0,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_1","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098986852","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"searchQuery":{"querys":["What kind of leader is Xi Jinping?"]}}}},"seq_id":1,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_2","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098986852","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"init","mindMapId":"11227420207401031575"}}}}},"seq_id":2,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_3","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098986858","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 思考中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":3,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_4","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098987263","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"completed","mindMapId":"11227420207401031575"},"needClearMindMap":true}}}},"seq_id":4,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_5","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098989169","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 回答中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":5,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_6","sessionId":"11227420207401031575","isDefault":0,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098989169","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"","dataType":"","showType":"","antiFlag":1,"needClearHistory":true,"isSafe":0,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742098989169","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742098989169","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}},"isAIAnswer":true,"queryIntent":1}}}},"seq_id":6,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"11227420207401031575","pkgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c_7","sessionId":"11227420207401031575","isDefault":0,"pvLostId":100,"isShow":0,"data":{"message":{"msgId":"e20bfe72-82e9-4f1a-bc0f-bac93d5ec73c","isRebuild":false,"updateTime":"1742098989170","metaData":{"state":"generate-complete","endTurn":true,"userInfo":{"status":-1},"speedInfo":{"labels":{"asid":"as-jjxcu6z55k","entrance":"pc_aitab","frame_type":"1","logid":"11227420207401031575","modelName":"","query":"WhatkindofleaderisXiJinping?"},"costs":{"bffTime":6,"pmgrAnswerFinish":0,"pmgrFirstAnswer":0,"pmgrGuideFinish":0,"ui2FeFirstTokenTime":268,"ui2feAllCost":2585,"ui2tsAfterFirstTokenTime":8,"ui2tsFirstTokenTime":260,"uiPreTime":8}}}}},"seq_id":7,"product":"pc_aitab"}
+
+

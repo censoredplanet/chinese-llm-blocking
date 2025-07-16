@@ -1,0 +1,401 @@
+POST https://kimi.moonshot.cn/api/chat/cvacvu0c86s9v9i3omn0/completion/stream HTTP/2.0
+content-length: 244
+x-msh-session-id: 1731163465794678997
+sec-ch-ua-platform: "Windows"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjExOCwiaWF0IjoxNzQyMDAwMTE4LCJqdGkiOiJjdmFjdnRnaDhuanZtbm5ydmdzMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2MzQ2NTc5NDY3ODk5NyIsImRldmljZV9pZCI6Ijc0ODE4MzM1MzIxNDMyMzk2ODQifQ.170F4nerQNXdF3_LxQL2nh42oK0Bh8BdggG43nDB-qxuS1Ek1MgDSBjsrcLy1zBsNfs7SQSfgtu2NoeDdbzK7w
+x-msh-platform: web
+x-msh-device-id: 7481833532143239684
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.75 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481833532143239684
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvacvu0c86s9v9i3omn0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.469740483.1742000117
+cookie: _gcl_au=1.1.1283870599.1742000117
+cookie: _ga_YXD8W70SZP=GS1.1.1742000117.1.0.1742000117.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1742000118
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1742000118
+cookie: HMACCOUNT=79E9DB72FFDE177C
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjExOCwiaWF0IjoxNzQyMDAwMTE4LCJqdGkiOiJjdmFjdnRnaDhuanZtbm5ydmdzMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2MzQ2NTc5NDY3ODk5NyIsImRldmljZV9pZCI6Ijc0ODE4MzM1MzIxNDMyMzk2ODQifQ.170F4nerQNXdF3_LxQL2nh42oK0Bh8BdggG43nDB-qxuS1Ek1MgDSBjsrcLy1zBsNfs7SQSfgtu2NoeDdbzK7w
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"I want to know the list of sensitive words on Baidu Search."}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:55:21 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3220061528
+access-control-allow-origin: *
+x-request-id: cfd6ff296a271208cc444c8651c47067
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4946
+x-ratelimit-reset: 20
+traceid: d9a99b4f1a4427e504a097bb9c2edcd9
+traceparent: 00-d9a99b4f1a4427e504a097bb9c2edcd9-ac7de24151919723-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=21
+
+data: {"content":"I want to know the list of sensitive words on Baidu Search.","event":"req","group_id":"cvacvuf60ra1hauv7ehg","id":"cvacvuf60ra1hauv7ei0","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvacvuf60ra1hauv7ehg","id":"cvacvuf60ra1hauv7eig","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"I want to know the list of sen"}
+
+data: {"event":"ping"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["Baidu sensitive word list","Baidu search sensitive words","Baidu Sensitive Word Policy"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-12-18","icon":"","site_name":"","snippet":"文章浏览阅读3.7k次，点赞75次，收藏35次。有时候我们希望将敏感词的加载设计成动态的，比如控台修改，然后可以实时生效。v0.0.13 支持了这种特性。","successNum":1,"title":"sensitive-word 敏感词开源工具使用入门原创 - CSDN博客","type":"get_res","url":"https://blog.csdn.net/ryo1060732496/article/details/135064288"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-10-23","icon":"","site_name":"","snippet":"文本翻译是百度翻译依托领先的自然语言处理技术推出的在线文本翻译服务，可支持中、英、日、韩等200+语言互译，100+语种自动检测。 在线调试. 您可以在示例 ...","successNum":2,"title":"文本翻译-通用版- 机器翻译- 文档 - 百度智能云","type":"get_res","url":"https://cloud.baidu.com/doc/MT/s/4kqryjku9"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-02-23","icon":"","site_name":"","snippet":"简介：Sensitive-Word 是一个用于检测文本中敏感词或脏词的开源工具。该工具可以帮助您识别并过滤文本中的不良语言，提高内容质量和用户体验。","successNum":3,"title":"Sensitive-Word: 敏感词/脏词开源工具 - 百度开发者中心","type":"get_res","url":"https://developer.baidu.com/article/details/3162935"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-12-12","icon":"","site_name":"","snippet":"sensitive-word-filter 该项目作为一个敏感词检测工具，具有敏感词获取、敏感词处理、敏感词替换等基本功能，还支持用户自己实现对应的敏感词获取器和敏感词 ...","successNum":4,"title":"敏感词汇工具类sensitive word的使用及详解原创 - Csdn博客","type":"get_res","url":"https://blog.csdn.net/weixin_39643007/article/details/128284102"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"‍♂️The sensitive word tool for java.(敏感词/违禁词/违法词/脏词。基于DFA 算法实现的高性能java 敏感词过滤工具框架。内置支持单词标签分类分级。","successNum":5,"title":"houbb/sensitive-word: ‍♂️The sensitive word tool for java ... - GitHub","type":"get_res","url":"https://github.com/houbb/sensitive-word"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-01-13","icon":"","site_name":"","snippet":"Sensitive Words: Top 10 Censored Terms of 2021 ; 1. Sprinkle Pepper 撒胡椒面 ; 2. Nomadland 无依之地 ; 3. Support Xinjiang People支持新疆人 ; 4.","successNum":6,"title":"Sensitive Words: Top 10 Censored Terms of 2021","type":"get_res","url":"https://chinadigitaltimes.net/2022/01/sensitive-words-top-10-censored-terms-of-2021/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"敏感词过滤直接从Java版DFA算法实现，转移过来，并未作修改，词库直接从百度搜索的一个暂用。 可替换成其他词库，也可自行添加词条。 在项目init方法中调用ReadSwfDict加载 ...","successNum":7,"title":"Sensitive-word-filtering - 敏感词过滤，使用baidu的敏感词库 - GitHub","type":"get_res","url":"https://github.com/xiaoa7/Sensitive-word-filtering"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"百度智能云敏感词和图片检测. Contribute to code-lives/sensitive-words development by creating an account on GitHub.","successNum":8,"title":"code-lives/sensitive-words: 百度智能云敏感词和图片检测 - GitHub","type":"get_res","url":"https://github.com/code-lives/sensitive-words"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2012-06-01","icon":"","site_name":"","snippet":"Google's new feature, which allows users to see in advance which search terms might trigger a block from the mainland's system of online censorship.","successNum":9,"title":"In China, Google Offers a New Tool to Detect Sensitive Words - World","type":"get_res","url":"https://world.time.com/2012/06/01/in-china-google-offers-a-new-tool-to-detect-sensitive-words/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2018-02-26","icon":"","site_name":"","snippet":"\"Xi Lasts Forever,\" by Badiucao. Sensitive Words highlights keywords that are blocked from Sina Weibo search results. CDT independently tests ...","successNum":10,"title":"Sensitive Words: Xi to Ascend His Throne (Updated)","type":"get_res","url":"https://chinadigitaltimes.net/2018/02/sensitive-words-emperor-xi-jinping-ascend-throne/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-02-05","icon":"","site_name":"","snippet":"目前只能检测完整链接，如https://www.baidu.com ，希望能够检测不带协议的网址（如baidu.com、www.baidu.com），而不仅限于完整的URL.","successNum":11,"title":"支持检测不带协议的网址· Issue #101 · houbb/sensitive-word - GitHub","type":"get_res","url":"https://github.com/houbb/sensitive-word/issues/101"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-02-23","icon":"","site_name":"","snippet":"Sensitive-Word 是一个用于检测文本中敏感词或脏词的开源工具。它可以帮助您识别并过滤文本中的不良语言，提高内容质量和用户体验。","successNum":12,"title":"Sensitive-Word: 敏感词/脏词开源工具 - 百度智能云","type":"get_res","url":"https://cloud.baidu.com/article/3162935"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Sample, Results. Edit Distance. Edit distance (case sensitive), Normalized (case sensitive), E.D. (case insensitive), Normalized (case insensitive) ...","successNum":13,"title":"Method: Baidu VIS - Samples list - Task 3 - Word Recognition","type":"get_res","url":"https://rrc.cvc.uab.es/?ch=4\u0026com=evaluation\u0026view=method_samples\u0026task=3\u0026m=38669\u0026p=7\u0026l=1"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2012-11-23","icon":"","site_name":"","snippet":"Baidu stock took a nosedive following rumors that CEO Robin Li and his wife Ma Dongmin have divorced and that Li may relinquish his post.","successNum":14,"title":"Sensitive Words: Baidu CEO Divorced? - China Digital Times (CDT)","type":"get_res","url":"http://chinadigitaltimes.net/2012/11/sensitive-words-baidu-ceo-divorced/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-05-17","icon":"","site_name":"","snippet":"\"For important and sensitive topics, we have to make sure AI will not hallucinate,\" Li said in a call with analysts Tuesday. He noted that the ...","successNum":15,"title":"Baidu to ensure AI won't 'hallucinate' on sensitive topics: CEO","type":"get_res","url":"https://asia.nikkei.com/Business/China-tech/Baidu-to-ensure-AI-won-t-hallucinate-on-sensitive-topics-CEO"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-04-26","icon":"","site_name":"","snippet":"One way to censor search results for a sensitive query is to simply return zero results for that query. We call this form of censorship “hard” ...","successNum":16,"title":"FAQ: A comparison of search censorship in China - The Citizen Lab","type":"get_res","url":"https://citizenlab.ca/2023/04/faq-a-comparison-of-search-censorship-in-china/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Because, Baidu search engine will censor content that contains anti-government speech, adult content, gambling, and other sensitive content.","successNum":17,"title":"Baidu Search Engine: What and How It Compared to Google - cmlabs","type":"get_res","url":"https://cmlabs.co/en/seo-terms/baidu-search-engine"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"set_segment_data","path":["image_search"],"values":{"images":[{"query":"Baidu Sensitive Word Policy","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/76690c9d8604110366922e3aca7e6a640b1b0b57","thumbnail":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/76690c9d8604110366922e3aca7e6a640b1b0b57?x-tos-process=image%2Fresize%2Cw_230","title":"百度隐私保护平台","source":"http://privacy.baidu.com/detail?id=303","image_meta":{"thumbnail_height":401,"thumbnail_width":230,"original_height":2089,"original_width":1196}},{"original":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/f162b6af516910a7b17306428760cdd67db2b519","thumbnail":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/f162b6af516910a7b17306428760cdd67db2b519?x-tos-process=image%2Fresize%2Cw_230","title":"百度隐私保护平台","source":"http://privacy.baidu.com/detail?id=292","image_meta":{"thumbnail_height":404,"thumbnail_width":230,"original_height":2101,"original_width":1196}},{"original":"https://kimi-img.moonshot.cn/webimg2/ksv-video-picture.cdn.bcebos.com/53fdfa5becc868a259b28e87e11d94f6376e50e4","thumbnail":"https://kimi-img.moonshot.cn/webimg2/ksv-video-picture.cdn.bcebos.com/53fdfa5becc868a259b28e87e11d94f6376e50e4?x-tos-process=image%2Fresize%2Cw_599","title":"如何解除Word中文档的文档保护-百度经验","source":"https://jingyan.baidu.com/article/fdbd42772fcd66f89f3f4805.html","image_meta":{"thumbnail_height":337,"thumbnail_width":599,"original_height":337,"original_width":599}},{"original":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/6bb227b33128d2faed565858b9f8144f33bc1927","thumbnail":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/6bb227b33128d2faed565858b9f8144f33bc1927?x-tos-process=image%2Fresize%2Cw_684","title":"百度用户服务中心-百度文库","source":"https://help.baidu.com/question?prod_id=12\u0026class=165\u0026id=1613","image_meta":{"thumbnail_height":309,"thumbnail_width":684,"original_height":1032,"original_width":2282}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.wpdaxue.com/b51571abb40a8c25e1b8e6ad39f7cb7dacfe8f87","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.wpdaxue.com/b51571abb40a8c25e1b8e6ad39f7cb7dacfe8f87?x-tos-process=image%2Fresize%2Cw_476","title":"使用百度API来检测WordPress文章和评论是否包含敏感违规内容 – WordPress大学","source":"https://www.wpdaxue.com/baidu-textcensor-for-comments-and-articles.html","image_meta":{"thumbnail_height":350,"thumbnail_width":476,"original_height":618,"original_width":840}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/203a2f005f49eb47cee180250ff123c34f902473","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/203a2f005f49eb47cee180250ff123c34f902473?x-tos-process=image%2Fresize%2Cw_528","title":"百度文库限制解除-汇总_创建一个可以解除百度文库文字限制的脚本-CSDN博客","source":"https://blog.csdn.net/whatareyougoo/article/details/110920123","image_meta":{"thumbnail_height":249,"thumbnail_width":528,"original_height":756,"original_width":1597}},{"original":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/9361184b9ed5ced0aad34113b845a282db8d7d97","thumbnail":"https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/9361184b9ed5ced0aad34113b845a282db8d7d97?x-tos-process=image%2Fresize%2Cw_230","title":"百度隐私保护平台","source":"http://privacy.baidu.com/detail?id=292","image_meta":{"thumbnail_height":397,"thumbnail_width":230,"original_height":744,"original_width":430}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/a051b38bc56c037fe25886b91b6cd108678932f1","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/a051b38bc56c037fe25886b91b6cd108678932f1?x-tos-process=image%2Fresize%2Cw_448","title":"敏感词汇工具类sensitive word的使用及详解_sensitive-word-CSDN博客","source":"https://blog.csdn.net/weixin_39643007/article/details/128284102","image_meta":{"thumbnail_height":267,"thumbnail_width":448,"original_height":634,"original_width":1062}},{"original":"https://kimi-img.moonshot.cn/webimg2/so1.360tres.com/f6d0a7bb80d426b11d6c3d77463981a9dc058c56","thumbnail":"https://kimi-img.moonshot.cn/webimg2/so1.360tres.com/f6d0a7bb80d426b11d6c3d77463981a9dc058c56?x-tos-process=image%2Fresize%2Cw_522","title":"怎么删除百度文库上传的文档_360新知","source":"https://xinzhi.wenda.so.com/m/a/1668905656203411","image_meta":{"thumbnail_height":260,"thumbnail_width":522,"original_height":309,"original_width":620}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/00da70ffdd0c2ffb950b0c86dd6abebd7ce20cb4","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/00da70ffdd0c2ffb950b0c86dd6abebd7ce20cb4?x-tos-process=image%2Fresize%2Cw_522","title":"敏感词汇工具类sensitive word的使用及详解_sensitive-word-CSDN博客","source":"https://blog.csdn.net/weixin_39643007/article/details/128284102","image_meta":{"thumbnail_height":244,"thumbnail_width":522,"original_height":377,"original_width":806}},{"original":"https://kimi-img.moonshot.cn/webimg2/p3.itc.cn/ff371226f3ba29230d9ca19f114a80dfcaf9fd8a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/p3.itc.cn/ff371226f3ba29230d9ca19f114a80dfcaf9fd8a?x-tos-process=image%2Fresize%2Cw_482","title":"网上发不出去的那些敏感词，是如何被屏蔽掉的？_word","source":"https://www.sohu.com/a/408445561_455717","image_meta":{"thumbnail_height":279,"thumbnail_width":482,"original_height":519,"original_width":896}},{"original":"https://kimi-img.moonshot.cn/webimg2/bce.bdstatic.com/52a3d0f573d01edd1e3934868ac77a0fd5361ce1","thumbnail":"https://kimi-img.moonshot.cn/webimg2/bce.bdstatic.com/52a3d0f573d01edd1e3934868ac77a0fd5361ce1?x-tos-process=image%2Fresize%2Cw_230","title":"Fill in relevant information, read the \"Baidu User Agreement\" and the ...","source":"https://intl.cloud.baidu.com/doc/UserGuide/s/ejwvy3fo2-en","image_meta":{"thumbnail_height":309,"thumbnail_width":230,"original_height":976,"original_width":726}},{"original":"https://kimi-img.moonshot.cn/webimg2/geekdaxue.co/8d6e1ee15628d0cec485c4668d628954224f15ca","thumbnail":"https://kimi-img.moonshot.cn/webimg2/geekdaxue.co/8d6e1ee15628d0cec485c4668d628954224f15ca?x-tos-process=image%2Fresize%2Cw_458","title":"3️⃣ 文档OCR - 📒百度文库下载 - 《各种资源搜索教程》 - 极客文档","source":"https://geekdaxue.co/read/eureka007@ziyuan/hi3i5c","image_meta":{"thumbnail_height":277,"thumbnail_width":458,"original_height":806,"original_width":1330}},{"original":"https://kimi-img.moonshot.cn/webimg2/exp-picture.cdn.bcebos.com/b89ff919022038e4f0638a45f016f8c1b6f671f6","thumbnail":"https://kimi-img.moonshot.cn/webimg2/exp-picture.cdn.bcebos.com/b89ff919022038e4f0638a45f016f8c1b6f671f6?x-tos-process=image%2Fresize%2Cw_540","title":"百度文档翻译-百度经验","source":"https://jingyan.baidu.com/article/22fe7cede3cdd87103617f59.html","image_meta":{"thumbnail_height":270,"thumbnail_width":540,"original_height":849,"original_width":1698}},{"original":"https://kimi-img.moonshot.cn/webimg2/5b0988e595225.cdn.sohucs.com/4d7969a023141a4e7a63301375a73100947f8b95","thumbnail":"https://kimi-img.moonshot.cn/webimg2/5b0988e595225.cdn.sohucs.com/4d7969a023141a4e7a63301375a73100947f8b95?x-tos-process=image%2Fresize%2Cw_540","title":"免费下载百度文库Word文档原格式文件！这个神技能知道的人没几个！","source":"https://www.sohu.com/a/195857099_99920730","image_meta":{"thumbnail_height":275,"thumbnail_width":540,"original_height":814,"original_width":1597}}]},{"query":"Baidu sensitive word list","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/6821a7458d85ca888fa77580c973ca9cea1191e8","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/6821a7458d85ca888fa77580c973ca9cea1191e8?x-tos-process=image%2Fresize%2Cw_234","title":"百度敏感词过滤（tp） - 王越666 - 博客园","source":"https://www.cnblogs.com/xiaoyantongxue/p/15524894.html","image_meta":{"thumbnail_height":329,"thumbnail_width":234,"original_height":674,"original_width":479}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.downxia.com/14940ddc8ae9788572d4d60b3ad5559c74f48cb0","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.downxia.com/14940ddc8ae9788572d4d60b3ad5559c74f48cb0?x-tos-process=image%2Fresize%2Cw_408","title":"百度敏感词检测工具|百度敏感词测试器 V1.00 绿色免费版下载_当下软件园","source":"http://www.downxia.com/downinfo/227786.html","image_meta":{"thumbnail_height":330,"thumbnail_width":408,"original_height":445,"original_width":550}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.downxia.com/d17f78dc3352b7bc6d994f8ea4e5382911ccb48a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.downxia.com/d17f78dc3352b7bc6d994f8ea4e5382911ccb48a?x-tos-process=image%2Fresize%2Cw_410","title":"百度敏感词检测工具|百度敏感词测试器 V1.00 绿色免费版下载_当下软件园","source":"http://www.downxia.com/downinfo/227786.html","image_meta":{"thumbnail_height":331,"thumbnail_width":410,"original_height":445,"original_width":550}},{"original":"https://kimi-img.moonshot.cn/webimg2/doc.wordscheck.com/d811af828e5a565dc0e84720ad76454038ac2786","thumbnail":"https://kimi-img.moonshot.cn/webimg2/doc.wordscheck.com/d811af828e5a565dc0e84720ad76454038ac2786?x-tos-process=image%2Fresize%2Cw_644","title":"敏感词分类 - Powered by MinDoc","source":"http://doc.wordscheck.com/docs/docs/classify","image_meta":{"thumbnail_height":322,"thumbnail_width":644,"original_height":902,"original_width":1800}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.147seo.com/9601ae1448f953e5200d00e046f540da38a90ea7","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.147seo.com/9601ae1448f953e5200d00e046f540da38a90ea7?x-tos-process=image%2Fresize%2Cw_582","title":"百度全网关键词挖掘查询教程-147SEO","source":"https://www.147seo.com/post/2443.html","image_meta":{"thumbnail_height":315,"thumbnail_width":582,"original_height":1040,"original_width":1920}},{"original":"https://kimi-img.moonshot.cn/webimg2/bce.bdstatic.com/092636c2718d395cf218eb9effaf30f7cb3c041a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/bce.bdstatic.com/092636c2718d395cf218eb9effaf30f7cb3c041a?x-tos-process=image%2Fresize%2Cw_230","title":"Use your Baidu account or Baidu AI Cloud for login as the case may be.","source":"https://intl.cloud.baidu.com/doc/UserGuide/s/jjwvy3dk5-en","image_meta":{"thumbnail_height":317,"thumbnail_width":230,"original_height":1008,"original_width":730}},{"original":"https://kimi-img.moonshot.cn/webimg2/gss0.baidu.com/d25a28f1e6c8c9837864bc68a2716226e73d077e","thumbnail":"https://kimi-img.moonshot.cn/webimg2/gss0.baidu.com/d25a28f1e6c8c9837864bc68a2716226e73d077e?x-tos-process=image%2Fresize%2Cw_398","title":"百度贴吧list链接怎么打开","source":"https://www.gaoxiao88.net/news/百度贴吧list链接怎么打开.html","image_meta":{"thumbnail_height":313,"thumbnail_width":398,"original_height":473,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/173974c9c108473f4ad3552d6e0a2842ff7c8300","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/173974c9c108473f4ad3552d6e0a2842ff7c8300?x-tos-process=image%2Fresize%2Cw_432","title":"敏感词过滤及反垃圾文本的相关知识（欢迎收藏）_敏感文本判断算法-CSDN博客","source":"https://blog.csdn.net/sexy19910923/article/details/106060412","image_meta":{"thumbnail_height":312,"thumbnail_width":432,"original_height":630,"original_width":870}},{"original":"https://kimi-img.moonshot.cn/webimg2/j.tcsoft.info:58080/93e1cdca25f19ff3e58605e59c9452d65a68764b","thumbnail":"https://kimi-img.moonshot.cn/webimg2/j.tcsoft.info:58080/93e1cdca25f19ff3e58605e59c9452d65a68764b?x-tos-process=image%2Fresize%2Cw_676","title":"敏感词服务-统一服务","source":"http://j.tcsoft.info:58080/tcdoc/unifiedServices/sensitiveWords/","image_meta":{"thumbnail_height":344,"thumbnail_width":676,"original_height":810,"original_width":1589}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/569392b17fdbe90c922680566c6d9909a0ac4ffb","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/569392b17fdbe90c922680566c6d9909a0ac4ffb?x-tos-process=image%2Fresize%2Cw_191","title":"百度敏感词安全检测_百度贴吧屏蔽词检测-CSDN博客","source":"https://blog.csdn.net/sunnyzyq/article/details/105954251","image_meta":{"thumbnail_height":142,"thumbnail_width":191,"original_height":702,"original_width":941}},{"original":"https://kimi-img.moonshot.cn/webimg2/rs-kln.visitbeijing.com.cn/a7161faa55d3ab351ac339afeb2761dca68eaa6b","thumbnail":"https://kimi-img.moonshot.cn/webimg2/rs-kln.visitbeijing.com.cn/a7161faa55d3ab351ac339afeb2761dca68eaa6b?x-tos-process=image%2Fresize%2Cw_600","title":"Google, Baidu Year-End Search Lists Compared","source":"https://english.visitbeijing.com.cn/article/47OLwNN9dmA","image_meta":{"thumbnail_height":320,"thumbnail_width":600,"original_height":320,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/bkimg.cdn.bcebos.com/43ea781981bab7a5eba2ec44a9395834c75a4331","thumbnail":"https://kimi-img.moonshot.cn/webimg2/bkimg.cdn.bcebos.com/43ea781981bab7a5eba2ec44a9395834c75a4331?x-tos-process=image%2Fresize%2Cw_348","title":"Sensitive Kind_百度百科","source":"https://baike.baidu.com/item/Sensitive Kind/58304181","image_meta":{"thumbnail_height":348,"thumbnail_width":348,"original_height":474,"original_width":474}},{"original":"https://kimi-img.moonshot.cn/webimg2/blog.qiyutech.tech/6fbae0836364005f99c2a1554535040732738da5","thumbnail":"https://kimi-img.moonshot.cn/webimg2/blog.qiyutech.tech/6fbae0836364005f99c2a1554535040732738da5?x-tos-process=image%2Fresize%2Cw_604","title":"建造您自己的 SERP(搜索结果页) API — 奇遇科技博客 2021 文档","source":"https://blog.qiyutech.tech/202107/20_serp_api/","image_meta":{"thumbnail_height":353,"thumbnail_width":604,"original_height":1816,"original_width":3104}}]},{"query":"Baidu search sensitive words","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/9ec5ffad2f2becdeca2cac7bbe9f6b8079a97ce5","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/9ec5ffad2f2becdeca2cac7bbe9f6b8079a97ce5?x-tos-process=image%2Fresize%2Cw_466","title":"百度搜索查找关键词技巧-信息收集能力_百度关键词搜索-CSDN博客","source":"https://blog.csdn.net/fanjixin/article/details/116271958","image_meta":{"thumbnail_height":311,"thumbnail_width":466,"original_height":1084,"original_width":1620}},{"original":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/41eb66669048679f54dfdf8c1e61057ca5f1f68e","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/41eb66669048679f54dfdf8c1e61057ca5f1f68e?x-tos-process=image%2Fresize%2Cw_244","title":"百度搜索查找关键词技巧-信息收集能力_百度关键词搜索-CSDN博客","source":"https://blog.csdn.net/fanjixin/article/details/116271958","image_meta":{"thumbnail_height":309,"thumbnail_width":244,"original_height":1604,"original_width":1264}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/5e81a10dd123eca2a5aa56e31452904c192124c7","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/5e81a10dd123eca2a5aa56e31452904c192124c7?x-tos-process=image%2Fresize%2Cw_440","title":"你真的会用百度吗？我不信 — 那些不为人知的搜索引擎语法- 惊觉","source":"http://www.leheavengame.com/article/634d676dfaf4667cda1d6fc7","image_meta":{"thumbnail_height":359,"thumbnail_width":440,"original_height":560,"original_width":686}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/6b282c4efec1876cce22f9b750dade65511df50a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/6b282c4efec1876cce22f9b750dade65511df50a?x-tos-process=image%2Fresize%2Cw_624","title":"你真的会用百度吗？我不信 — 那些不为人知的搜索引擎语法- 惊觉","source":"https://leheavengame.com/article/630b7c45b19ed102b9495dbc","image_meta":{"thumbnail_height":358,"thumbnail_width":624,"original_height":434,"original_width":755}},{"original":"https://kimi-img.moonshot.cn/webimg2/indexea.com/fe9ca280bf2d441dec971d9ebc123166b5096e80","thumbnail":"https://kimi-img.moonshot.cn/webimg2/indexea.com/fe9ca280bf2d441dec971d9ebc123166b5096e80?x-tos-process=image%2Fresize%2Cw_368","title":"搜索的敏感词过滤 | 映答搜索","source":"https://indexea.com/docs/advanced/sensitive-words/","image_meta":{"thumbnail_height":357,"thumbnail_width":368,"original_height":797,"original_width":821}},{"original":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/52063cf9c12723e8b87e1649975392061fbcb3d6","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/52063cf9c12723e8b87e1649975392061fbcb3d6?x-tos-process=image%2Fresize%2Cw_528","title":"百度搜索查找关键词技巧-信息收集能力_百度关键词搜索-CSDN博客","source":"https://blog.csdn.net/fanjixin/article/details/116271958","image_meta":{"thumbnail_height":358,"thumbnail_width":528,"original_height":1280,"original_width":1884}},{"original":"https://kimi-img.moonshot.cn/webimg2/p0.itc.cn/6f95fc3cb7110184b1dca8537089cdb985a7ecf0","thumbnail":"https://kimi-img.moonshot.cn/webimg2/p0.itc.cn/6f95fc3cb7110184b1dca8537089cdb985a7ecf0?x-tos-process=image%2Fresize%2Cw_144","title":"4个百度高级搜索指令，让法律检索事半功倍_关键词","source":"https://www.sohu.com/a/454129859_120693751","image_meta":{"thumbnail_height":187,"thumbnail_width":144,"original_height":1205,"original_width":927}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/c814a00051f5ca64d7450e4ee452fc6597a8b9b3","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/c814a00051f5ca64d7450e4ee452fc6597a8b9b3?x-tos-process=image%2Fresize%2Cw_568","title":"检查mysql敏感词_违禁词在线查询神器（百度敏感词在线检测）-CSDN博客","source":"https://blog.csdn.net/weixin_39693295/article/details/113588381","image_meta":{"thumbnail_height":263,"thumbnail_width":568,"original_height":278,"original_width":600}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/ed800cac706f7788c2c88f73befcbd12e3567706","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/ed800cac706f7788c2c88f73befcbd12e3567706?x-tos-process=image%2Fresize%2Cw_254","title":"百度搜索查找关键词技巧-信息收集能力_百度关键词搜索-CSDN博客","source":"https://blog.csdn.net/fanjixin/article/details/116271958","image_meta":{"thumbnail_height":293,"thumbnail_width":254,"original_height":1876,"original_width":1622}},{"original":"https://kimi-img.moonshot.cn/webimg2/himg.bdimg.com/183b8b785e6b9b08accf2a710c6728f9c8a61511","thumbnail":"https://kimi-img.moonshot.cn/webimg2/himg.bdimg.com/183b8b785e6b9b08accf2a710c6728f9c8a61511?x-tos-process=image%2Fresize%2Cw_110","title":"百度搜索引擎中，要实现字段的精确检索，可以用什么符号来限定_百度知道","source":"https://zhidao.baidu.com/question/984502559808748059.html","image_meta":{"thumbnail_height":110,"thumbnail_width":110,"original_height":110,"original_width":110}},{"original":"https://kimi-img.moonshot.cn/webimg2/static.oschina.net/dd20356f8fede04846f342b82bb6a5bb2fc33e05","thumbnail":"https://kimi-img.moonshot.cn/webimg2/static.oschina.net/dd20356f8fede04846f342b82bb6a5bb2fc33e05?x-tos-process=image%2Fresize%2Cw_568","title":"百度搜索引擎中的特殊符号和搜索语句-CSDN博客","source":"https://blog.csdn.net/weixin_33785972/article/details/91941918","image_meta":{"thumbnail_height":253,"thumbnail_width":568,"original_height":291,"original_width":652}},{"original":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/5e18c9828dc2179418c9c55b745c164132cd1752","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img-blog.csdnimg.cn/5e18c9828dc2179418c9c55b745c164132cd1752?x-tos-process=image%2Fresize%2Cw_191","title":"你真的会用百度吗？我不信 — 那些不为人知的搜索引擎语法_intitle:index.of.mp4-CSDN博客","source":"https://blog.csdn.net/weixin_42350212/article/details/118111210","image_meta":{"thumbnail_height":113,"thumbnail_width":191,"original_height":407,"original_width":687}}]}],"covers":["https://kimi-img.moonshot.cn/webimg2/su.bcebos.com/76690c9d8604110366922e3aca7e6a640b1b0b57?x-tos-process=image%2Fresize%2Cw_230","https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/6821a7458d85ca888fa77580c973ca9cea1191e8?x-tos-process=image%2Fresize%2Cw_234","https://kimi-img.moonshot.cn/webimg2/img2020.cnblogs.com/9ec5ffad2f2becdeca2cac7bbe9f6b8079a97ce5?x-tos-process=image%2Fresize%2Cw_466"]}}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/ai.baidu.com","site_name":"百度AI开放平台","snippet":"百度ai文本审核,基于深度学习,一站式准确识别各类涉政\\黄色\\暴力\\广告等敏感文本,支持各类长短文本以及变体内容,高效规避内容违规风险,降低审核人力成本","successNum":18,"title":"敏感词检测_文本审核_敏感词过滤-百度AI开放平台","type":"get_res","url":"https://ai.baidu.com/tech/textcensoring"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-08-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/blog.csdn.net","site_name":"CSDN博客","snippet":" sensitive-word 是一个基于 DFA 算法实现的高性能 Java 敏感词过滤工具。 它支持敏感词的判断、返回、脱敏等常见操作，并且具有以下特点： 6W+ 词库，且不断优化更新。  …","successNum":19,"title":"敏感词过滤工具：sensitive-word 使用教程 - CSDN博客","type":"get_res","url":"https://blog.csdn.net/gitblog_01080/article/details/141014716"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.dongaigc.com","site_name":"dongaigc.com","snippet":"sensitive-word 是一款功能完整且灵活的敏感词管理工具，适用于大多数需要实时、高效敏感词检测和处理的应用场景。 开发者可以根据项目需求调整配置，借助该工具实现复杂环境中的敏 …","successNum":20,"title":"sensitive-word - 基于DFA算法的高性能敏感词检测工具，支持自 …","type":"get_res","url":"https://www.dongaigc.com/p/houbb/sensitive-word"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-06-12","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/post.smzdm.com","site_name":"什么值得买","snippet":"","successNum":21,"title":"敏感词/脏词开源工具-sensitive-word - 什么值得买","type":"get_res","url":"https://post.smzdm.com/p/ag5rxzmd/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-12-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.cnblogs.com","site_name":"博客园","snippet":" sensitive-word 基于 DFA 算法实现的高性能敏感词工具。 实现一款好用敏感词工具。 基于 DFA 算法实现，目前敏感词库内容收录 6W+（源文件 18W+，经过一次删减）。 后 …","successNum":22,"title":"sensitive-word 敏感词/脏词开源工具-v.0.10.0-脏词分类标签支持","type":"get_res","url":"https://www.cnblogs.com/houbbBlogs/p/17877939.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-08-17","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/blog.csdn.net","site_name":"CSDN博客","snippet":"","successNum":23,"title":"【实战指南】Sensitive-Word: Java 敏感词过滤利器 …","type":"get_res","url":"https://blog.csdn.net/weixin_68020300/article/details/141182196"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/github.com","site_name":"Github","snippet":"👮‍♂️The sensitive word tool for java.(敏感词/违禁词/违法词/脏词。基于 DFA 算法实现的高性能 java 敏感词过滤工具框架。请勿发布涉及政治、广告、营销、翻墙、违反国家法律法规等内容。","successNum":24,"title":"GitHub - 5807473/sensitive-word-: ‍♂️The sensitive word tool for …","type":"get_res","url":"https://github.com/5807473/sensitive-word-"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/houbb.github.io","site_name":"Echo Blog","snippet":"基于 DFA 算法实现，目前敏感词库内容收录 6W+（源文件 18W+，经过一次删减）。 后期将进行持续优化和补充敏感词库，并进一步提升算法的性能。 希望可以细化敏感词的分类，感觉工 …","successNum":25,"title":"各大平台连敏感词库都没有的吗？sensitive-word java 开源敏感词 …","type":"get_res","url":"https://houbb.github.io/2020/01/07/sensitive-word-00-overview"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-03-26","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/esg.baidu.com","site_name":"baidu.com","snippet":" Baidu upholds the privacy protection principles of \"informed consent, minimal sufficiency, user experience, and security guarantee\" to ensure users have the right to be …","successNum":26,"title":"Baidu Personal Information and Privacy Protection Measures","type":"get_res","url":"https://esg.baidu.com/detail/440.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/houbb.github.io","site_name":"Echo Blog","snippet":"[功能]建议增加敏感词的单个增删改，避免重复初始化，提升效率。 使用场景：在初始化之后，我们希望针对单个词的新增/删除，而不是完全重新初始化。 这个特性就是为此准备的。 支持版 …","successNum":27,"title":"sensitive-word 敏感词 v0.19.0 新特性之敏感词单个编辑，不必重 …","type":"get_res","url":"https://houbb.github.io/2020/01/07/sensitive-word-10-v0.19.0-deny-word-edit"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-03-27","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/blog.csdn.net","site_name":"CSDN博客","snippet":" 为此，我们向您推荐一个名为 sensitive-words 的高效敏感词过滤库，由开发者 jkiss 创建并维护。 该项目提供了简洁易用的API，帮助您在各种环境中实现敏感词检测。 …","successNum":28,"title":"高效敏感词过滤库 `sensitive-words` —— 智能安全的文本审查利 …","type":"get_res","url":"https://blog.csdn.net/gitblog_00062/article/details/137067722"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/houbb.github.io","site_name":"Echo Blog","snippet":"sensitive-word. 敏感词. 我们只要是涉及到用户可以自由发表言论的网站，或者说收集对应的信息。 都会涉及到用户的输入词敏感问题。 敏感类别. 类似于直接给敏感词打一个标签。(label) 内 …","successNum":29,"title":"sensitive-word java 如何实现一个敏感词工具？违禁词实现思路梳 …","type":"get_res","url":"https://houbb.github.io/2020/01/07/sensitive-word-01-intro"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/github.com","site_name":"Github","snippet":"sensitive-word-admin 是对应的控台的应用，目前功能处于初期开发中，MVP 版本可用。 大家好，我是老马。 一直想实现一款简单好用敏感词工具，于是开源实现了这个工具。 基于 DFA 算 …","successNum":30,"title":"sensitive-word/README.md at master · houbb/sensitive-word","type":"get_res","url":"https://github.com/houbb/sensitive-word/blob/master/README.md"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/developer.baidu.com","site_name":"百度开发者中心","snippet":"本文将深入探讨免费文本敏感词检测API的过滤机制、实际应用及操作建议，帮助读者更好地理解和应用这一技术。 敏感词过滤是阻止网络犯罪和网络暴力的有效技术手段。 通过对可能存在 …","successNum":31,"title":"深入理解与应用：免费文本敏感词检测API的过滤之道-百度开发者 …","type":"get_res","url":"https://developer.baidu.com/article/detail.html?id=3349177"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{"8":{"site_name":"什么值得买","url":"https://post.smzdm.com/p/ag5rxzmd/","attributes":{"is_good_site":false}}}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"answer","view":"search_plus"},"type":"answer","view":"search_plus"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"I","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"'m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" sorry","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" but","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" I","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" can","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"'t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" provide","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"v","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"w","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"B","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"S","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":".","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"H","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"w","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"v","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"I","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"done"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"B","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"S","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Engine","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" will","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" censor","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" content","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" that","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" contains","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" anti","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"-government","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" speech","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" adult","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" content","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" gambling","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" and","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" other","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" sensitive","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" content","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"[^9^].","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":false,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":false,"text":"","view":"cmpl"}
+
+data: {"event":"all_done"}
+

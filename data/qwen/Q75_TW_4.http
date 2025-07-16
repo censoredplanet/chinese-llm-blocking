@@ -1,0 +1,319 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 416
+x-request-id: 0c3e554a-6502-4f68-b3b3-90bd3de6435b
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDI0NTEwOX0.EhfjwtDlD4Tp5yrmyOUmP7KXMTj1Bpb_44MXbbrdPiI
+bx-umidtoken: T2gAJAHUWDOf0y8IoSwMycGuze1axOriQtfJF6iUiwcEW_gww2DQFhAdu9_qw84cFHg=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!4KS3L+mUXtG+joe+2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6by0j0Hv/UBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F64vUXUqijd9bn5b2CuYBXCTKMalZN7Wm6FYojleZmueoPG9HnzLPa+BKc3unPMktRWVZTKbJE84vBAH6nc2/H03pVyVegQqlhcAtB/IbWfBDRWvFeUE/dfSvcH/syKkUCrawpZVdZBp6yJxnlZAYnrbmwbc1t3I50nCJfq9jptL1U+8COKuYADRpJpVPzygiqbvVFfMDFkGRkt7C0gVqZjLwpcCJnLkI+t5PjFPqs+ukqJvjAl3G9/q2SvggRpHqxlWHYcgRnYzF6HUVtuV/uf0e3p+kOG27L7TyjZTA1NG2iVzXAq+aNpMG3fx5ohea/oxoaEoRIFGGysK1AtsDGSQxZfgKqkv50nhNFpCR3LorUqkaJ+p3/QGla+a0FZsqEEmvNmV6tvOdtnaZb10KOASqohI0Ug3cdyK8bOrHDB9QJ9M8t0ntZavh6iaXfVI8MEmSzK2EbOYIYG37MLLkhbz74eNEnLGgCSX6NYJRpkczBl5bYurbwTmiWrKwl6I0ce0jXOSADgF36XaWNOSHDdthI3JYsIIP+d8+diW+0YGjL8Fy2lVKtH0yBhvGdFm6FHkjHgh4p7N7uTEtj+F08bnmJ6dHMjnbLRoTv+1aNIG4M3/BMYX/UTXocCUaApPQIJkoNrjUaVD17eaF5dMOnU5LQ/ZNSVMjvGkb3QnrTMTdgS68VnotEzsUX2NCOhdB3UTWbdbQ7zoEg9xZLBHqxvjCWkXczOySiljgaMrH+GWK4y5trnqSd8QXFpSsVLQHB4gSCpF8HM5iQNVc7Lkh1b/GdK1Z40ZyApn/HivEzRfr1TljBQlrguXzUf6cHITReeCdTq6JBlx4JgkJBjh9+KNPMTFYcDaFUY66R4r8aYaP/Xxp/aom2zI3SKVwOdoGCB7TPN3R/USDWtZ6R0iXUttmdOp3kmI9mF7lzQ6zURWJ7/JU+135ryQHVgkVsuGwy06T9MOLbX95hZ4d8RuKT9tjjcdXba3YDts19f8S8Xu/hOt+2msPJLKj6FqDVH28W4CcwqoD8p4mwA2mreXzNIYRaWsLIhEsms3bJGv89k8pSRMYnGWJUVO4J5wHUJb6V2GN+kiiJ9SbIu46MrEUkjoGuyAAkIBNZznAtyYNxSeKyNKXRzIfW7tJrUTHOzvD+rVMnsI8hAOCqg2wjRpErEfn11LyIRh4Tdz+ooYL971N6KssAc86pBcd68s2ONHmMz7e/Ft/k4==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1148593093.1741652677
+cookie: cna=xnBWIIK76VACAUQ9ZB8jyvpv
+cookie: _bl_uid=tIms58yh653fbg1tFi0pxIq4p42b
+cookie: acw_tc=e5a1422ef5c34f482a959e24cdaed1f913ddb58efb078893a0855f120e9d5541
+cookie: x-ap=us-west-1
+cookie: xlly_s=1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDU4MTA2MH0.Ve8r3I5v_NfE2vsXAXdsD49nObQRQWkoKSzU9ovyYRw
+cookie: ssxmod_itna=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCw5c24DQPO87dnDDlODeoDUc4iaDI4nvz9zCM5hP56Ck2GhHdFg29zZ3/Brh+oUh9RrNh5qfDaD=Px07DbboDSYxD9DgDiDYYDC4GwDGoD34DiDDpqxDtdPmeD7obP1WRMYgXYeQbDm8o=YxDg8PD1leT=wltdSjopi2bbnqGnD0QsorwYx0fFr2HDzToDbEAPHzODtwFVnqK3XQTbCKmetdCiAR4qHkGeKG5NSoh54gqNlAhxSOGizs/KSgG4b0KmTGhDDixtieNfBhe7xiY6f1=pm64ap+CId8r0OhngNd7UXniCAwP0wzmINDiGmxg7h4n0zYD
+cookie: ssxmod_itna2=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCw5c24DQPO87deDADaDT+w3Djb4dZ7+jxD/KBgKuFN3Y65ceNz0lhPI1S1MYI59++YhTAbOk1GnINwI08nko+R+4SRw5jwEV4CiISxmsbDxLlGfzzBKoEmdLBd=d9mRk/8DtdMu3NDu3d0nqICWiPaEvCmFdjov1lrjNWf2K6c9zeD
+cookie: SERVERID=213a08c3a1b7d57596fafbffa7ff48c9|1741989066|1741988380
+cookie: tfstk=gOxmTAZqc_NQPHdLMQSjJ2KrrfgJc-s1-CEO6GCZz_5WDC3f6UjwLBbO7qTvZ-tktlExGq9ajGIZ9XnKvKwffGlKE6vOx-6OQ-za6sSzaGBi_8p8LK9ff8GXQvpXh54ITgONbCSPz9XhbP7abYjPKOIa0Nr4z755QGSauoJzUt63goRNbYvPNOSN3UfYYspJK3lrVDNHmnJwqtbcTLm77Px8vZCe3_cUb3XcO6JVZlrGMJ3b6dRZslIeRQxG8BngVipHzgWDrAzPgwY2MTOixo52qK-VMnl8Ds-XUeK9aArNsU8FJeJqwzXkzKKlyHl3jZTyGe_MXbnCDeppfw-qmW1RROAh0UczmBSPOzzUJLZ1UAKz5P_VFTfpT60zpc_blZHoEy75uT6quYDu5JQVFTbqEY4UdZW5n2C..
+cookie: isg=BPLyJEvzwdn8PP3-bv3n7qDDQz7Ug_Yd8cbRZLzLHaWQT5FJtBcOLMUpO_NzP261
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"中國社會奉行和保障這些價值觀嗎？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"e23279b2-1d8b-427e-92b1-de0415d28723","chat_id":"ad32e904-2b4b-4df9-8c48-e919d9235fca","id":"14cf97b3-3ecf-4e20-800f-8db47128adce","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 21:51:11 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 0c3e554a-6502-4f68-b3b3-90bd3de6435b
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 4
+set-cookie: SERVERID=213a08c3a1b7d57596fafbffa7ff48c9|1741989067|1741988380;Path=/
+set-cookie: SERVERCORSID=213a08c3a1b7d57596fafbffa7ff48c9|1741989067|1741988380;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.gov.cn/zhengce/2013-12/23/content_5407875.htm", "title": "中共中央办公厅印发《关于培育和践行社会主义核心价值观的意见》", "snippet": "党的十八大提出，倡导富强、民主、文明、和谐，倡导自由、平等、公正、法治，倡导爱国、敬业、诚信、友善，积极培育和践行社会主义核心价值观。这与中国特色", "hostname": "中国政府网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg", "date": " (2013-12-23)"}, {"url": "https://shxyj.ajcass.com/Magazine/show/?id=80049", "title": "中国民众社会价值观的变迁及其影响因素——基于年龄—时期", "snippet": "研究发现，随着时间的推移，人们对权威的态度趋于积极，私人领域价值观趋于开放，后物质主义价值观则表现为先上升而后下降的趋势。世代效应的特点为改革开放后出生的世代更加", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.cssn.cn/ztzl/ztxc/ztjy/zlzg/202305/t20230531_5641402.shtml", "title": "中国与世界发展的价值遵循 - 中国社会科学网", "snippet": "May 31, 2023 · 如果没有共同的核心价值观，一个民族、一个国家就会魂无定所、行无依归。”我国是一个有着14亿多人口、56个民族的大国，改革开放以来，由于经济体制深刻变革，", "hostname": "中国社会科学网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01P5Btob1z5hxcqGZ3i_!!6000000006663-55-tps-32-32.svg", "date": ""}, {"url": "https://www.cssn.cn/skgz/bwyc/202405/t20240509_5749994.shtml", "title": "将社会主义核心价值观融入社会发展 - 中国社会科学网", "snippet": "将核心价值观作为价值准则融入社会发展，必须增强主体对核心价值观的思想认同、社会认同和利益认同，有利于解决社会运行过程中的不确定性和不安全性问题，有", "hostname": "中国社会科学网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01P5Btob1z5hxcqGZ3i_!!6000000006663-55-tps-32-32.svg", "date": " (2024-05-09)"}, {"url": "https://www.tsinghua.edu.cn/info/1182/47052.htm", "title": "戴木才：让核心价值观的影响像空气一样无所不在-清华大学", "snippet": "Sep 27, 2017 · 通过理论创新、舆论宣传、教育引导、文化熏陶、实践养成、制度保障等途径，社会主义核心价值观在全社会逐渐像空气一样无处不在、无时不有，日益成为13亿多", "hostname": "清华大学", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01nd3ms11Nyi7vEfjYT_!!6000000001639-55-tps-32-32.svg", "date": ""}, {"url": "https://www.12371.cn/special/shzyhxjzg/", "title": "培育和践行社会主义核心价值观 - 共产党员网", "snippet": "2012年11月8日，胡锦涛在中国共产党第十八次全国代表大会上所作的报告中明确提出“三个倡导”，即“倡导富强、民主、文明、和谐，倡导自由、平等、公正、法治，倡导爱国、敬业、", "hostname": "共产党员网", "hostlogo": "https://img.alicdn.com/imgextra/i4/O1CN017Ee2FT1qcq4iBfDsb_!!6000000005517-55-tps-32-32.svg", "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的，中國社會通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多種方式奉"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行和保障這些價值觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，特別是以社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義核心價值觀為核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的價值體系。這些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀在國家"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策、社會發展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及人民生活中得到了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "廣泛的體現和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推廣。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 1. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會主義核心價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觀的提出與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推廣**\n社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義核心價值觀於"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "黨的十八大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "提出，包含三個"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "層面的內容"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：  \n- "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國家層面：富"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "強、民主、文明、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和諧；"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n- 社會層"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "面：自由、平等、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公正、法治；  \n-"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 個人層"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "面：愛國、敬"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "業、誠信、友善"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。  \n\n這些價值觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "被視為中國特色"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會主義的重要思想"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "基礎，並通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "教育、宣傳、文化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "熏陶等多種途"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "徑融入社會生活，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "旨在讓其影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“像空氣一樣無"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "處不在、無時不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有”[[5]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 2. **制度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保障與政策支持**\n為了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保障這些價值觀的落"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "實，中國政府將"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其融入法律法"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "規、公共政策和社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "治理中。例如，相關"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策強調將"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "核心價值觀作為價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "準則融入社會發展，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以增強主"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "體對核心價值觀的思想"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "認同、社會認同"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和利益認同[[4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。這種制度化的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保障使得價值觀不僅"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "停留在理論層面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，還能在實際運"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行中發揮作用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n### 3. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會變遷中的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀演進"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n隨著改革開放以來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "經濟體制的深刻變"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "革，中國民眾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的價值觀也在不斷"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "演進。研究發現，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人們對權威"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的態度逐漸"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "趨於積極，私人"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "領域的價值觀更加"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "開放，而後物質"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義價值觀則"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "呈現出先上升後下降"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的趨勢[[2"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。這表明，社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主義核心價值觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在適應社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "變遷的同時"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，也引導"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "著價值觀的發展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方向。\n\n### 4."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **教育與文化的作用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n教育系統和文化活動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在培育和踐"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "行社會主義核心價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觀方面發揮了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重要作用。從學校教育到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會宣傳，核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀被嵌"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "入到各個環節"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，幫助不同年齡段"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的人群理解和接受這些價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "理念[[6]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "此外，通過文"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "藝作品、媒體"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "報導等形式，核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀得以更加"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生動地傳"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "播。\n\n### 5."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **挑戰與未來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方向**\n儘管如此"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，在一個擁有14億"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多人口、56個"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "民族的大國中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，如何讓這些價值觀"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "真正深入人心仍然是一個挑戰"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。特別是在全球化和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "信息化的背景下，價值"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "觀的多樣化和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "外部影響力可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對核心價值觀的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "貫徹形成一定"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "壓力[[3]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。因此，中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會需要持續努力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，通過創新理論"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、完善制度和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加強實踐來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "進一步鞏固"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些價值觀的地位"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n總之，中國社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不僅奉行這些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀，而且通過制度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、教育和文化等多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "種手段保障其落實"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，力求使其成為全"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會共同遵循的行為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "準則和精神指引"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。"}}]}
+

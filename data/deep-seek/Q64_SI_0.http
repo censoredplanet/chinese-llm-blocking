@@ -1,0 +1,56 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 191
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer FX1R9eoTWzjmgDXwptGPoLAu/4gxL4XevZjYhyIZPOctnJb1kM+SnJke3ey8dGTc
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjQ3NDA4NDg3NTA5YjZkMmEzZmUxNTYzOGIyMTA0ODRkOGU3NGQ0ODNkN2M0ZmQ5MjI3Yzg4YzAwNmVkZWY1NTAiLCJzYWx0IjoiYTRiMzc5NGYzYzU1MzllZWVjNzIiLCJhbnN3ZXIiOjEzNjAzMSwic2lnbmF0dXJlIjoiMWM1M2Q0ZDVkMDdiNDZhMjFhYmUwOGE3MDU2NGMxMmI4ODk1YWIzYmRjNGNiOGRmYTAzMzk1ODg0Y2RlZjI2NiIsInRhcmdldF9wYXRoIjoiL2FwaS92MC9jaGF0L2NvbXBsZXRpb24ifQ==
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: Hm_lvt_fb5acee01d9182aabb2b61eb816d24ff=1739820464
+cookie: smidV2=20250217142748207b7321c47c7150784f2c712f52cf8a00386ac1d546089d0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=UMzZA3tO0tGADIm+/9QEpbPbYPAld2A3wFJZxq+PChCG8dABV7CTGftIaCk5+NsVspMvUYN0SVRkr6Yw4JF6HQ%3D%3D
+cookie: intercom-device-id-guh50jw4=a6837023-b514-45ec-8878-3fc2d3d70f39
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=3682d15a964303c37d8c
+cookie: HWWAFSESTIME=1741837480479
+cookie: ds_session_id=41e0c4bdc50c4b2a895ab9407ef90287
+cookie: __cf_bm=yn3Ss0Ka9aXr3pCbDnDUiycQ7PGEnh9o6ar6Crgbtbo-1741837485-1.0.1.1-u0nOdJZTYDY8EV9xr2MMckZ_.FYHV9Bdu.GhMP9_lwu2eR9tc5TF8j.gsMuRY83JKRkxGf9b3qjjrSyyKIiOhpEKXsNyk.GvhQRSFNbN0lY
+cookie: cf_clearance=rs4ynIMGfuPmc7.BugKlde7yHzk8LZ1yHCyX2uJlMmE-1741838260-1.2.1.1-S.ME1RmuAuoVYdSN2ww4UsU..M3wqA1N_xKeF1jOTMcmeQXvH5uMVzYt4uGst6RS465S6c_Ixyl.v3BKWVBisDEDUjpxcdu_H98G7PNwAYECk5ThAMK0OHJwGYW55YNclPI1TCKu6QZBd1n4nlS6.AzJDeNAT1XVCYmzFILe_Ve9X6EBBH1wtgMGCVmCsx2i4cgnz0ADUhkTo8dr.147n_bxa7dqxh5luz31pJxdGCjVizFMiiMIxP5v2EocYmcM4DpJgjJPaRtKk.Okg44bBlbMuplqfD4Xd5JaBNLRce9mnd3FaP.kA7EfbgiARAd4UER_AqS7grKozLNOZg7lJnNz0HLrJcetWImv6O5F51YwV2fuhPg0XA3xjxOtE2POh.KXxfyUvHmwHoS5qDwQS_j.RtIq.YrNwMmjGS7H8rw
+cookie: intercom-session-guh50jw4=VURVRnNncVRVSC9QdTVHK0VtQUZDUTFsaFUwSXBiVnJtWVJsR3RHZGtRQ25zazA3YjhjTU5rYWJ1eUdtU1o5eXFRK2NEeHhlcitIYTdjR0xKcFQyc3loL2s3bDZzdWtTbHZEN3k5U3E3YWs9LS1BdjAxM0FpREZhT3VwUExScytjcXp3PT0=--4f4a61f1dc97a1b9172266a55cdf8e647bc4c1c4
+priority: u=1, i
+
+{"chat_session_id":"fabe4534-a4e2-4146-99ad-bc9ad2339df5","parent_message_id":null,"prompt":"什么是“零八宪章”？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 03:59:05 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 18f73cd9382fdd247b15e6e173e6110f
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f89dd9fc45a939-DTW
+
+data: {"choices":[{"finish_reason":"content_filter","index":0,"delta":{"content":"你好，这个问题我暂时无法回答，让我们换个话题再聊聊吧。","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741838345,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

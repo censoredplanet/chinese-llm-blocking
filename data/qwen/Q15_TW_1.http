@@ -1,0 +1,359 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 392
+x-request-id: 2d6a147f-2bcf-4b97-bb71-0b2e83bcd4a1
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImM4NWUwZGQ3LTQ3MzEtNDA0MC1hNjMxLWM4Njk1N2NkOTJiOCIsImV4cCI6MTc0NDI0NTEyNX0.hTiz8DaSdULD2Pk3DXwuQhHRgFEyUkUF0hO7PVHsBpY
+bx-umidtoken: T2gAZ3ZL8TtNttRENoJsl-vMXwryTzvwv683NlcjFoi8W5u78aDhpC_ueu47TOMl1Jo=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!yMv3L4mUzoB+jofk2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byOjOw0/IBDj+MGMsMUy4FatfxyQNW4n0PVPRZ0Udu3fNrIGOLDjE6ncikfmt7TcWo2auAUCZ9xDm6uBcYECK5LKRDBgjJfy2i5KnULJUsTbAKwJrpWtdN6G/uqQGvfnPqeeih743VW85k27t+7S3AUUawdiPT8WJzIkOHZhvqNKuqr0FHj6bDPqDVBE4Rjl9dK7XohwsWPKqmWMJu6Nnz/92m9KA7NA8FZBC3GN8UicFMrrhcmD2umxiXL6ItdTYn7Cg0RpfTkqMgpE9PwX0Pk3TdFVPQrGf0CcWyG1+uuSMbEYayIfHvOV2i7R3CanSEvHF/ycDgfzJTAPnejBgOanpjauzMGoHB0nUscXUiDeqMKLEyn4q+bqpM5JvNg5PWBqmbl/tPfyBnEdVU33rh7G1jPSFHIOdxDQWCNHGmPrD4U8v6vLVbUN9ba2YhFVUGi0fL7gigr5O2FU6VdDaiMmle5p1paqwd8SpK83jhWqgG4kLQJgZKug9Sftn/asGc6fhheD7n/UJa2ZZq1YHbTIPnjBkTxwv/MOEKf55XNL7CsTJFCaGv0+V4anZk99g+VYHnlqJACyL5aND+GJhL9Z0i4PS4WCRNvL/NEgbyBOrTmIlJLkhT7u/dQj3NkRUYYhGyNRxc4nH4tHqKvNDIUD0PjibqSDaaKZFGzCveb7kYG3FOzGicPQhGulcqFSEWg4BHa3iEa3/FGwHeKKg9+GBbg7V5HnatJ1fuQFLN/IisSP8mpz8ex+VD5iIKTC6oGbaQIeQ8mjKYAg6RyUg86YKz7OCq2Mq17StnJJo+lX0dmojbaTCJldwMHw26sdD2BxA4W0kJhdiZP6chD+SBCRnOdfuXuY56WZa8Zj1SEmZ6R/qS5p8y/x+4J2xDq9TyGSNI+oiS/BTmfFU1vHOQn0uOdOcHG67nWZ0Ts9DHSlpeTwv+C0HFaUPS4hRpLn0lFhWCEhg2undDchBpahHqe5JP+hvlHq2zJcqgcuaQscr8dZy1gA+Uu9/GhUzGAVqwpPKdumzhlfjwZ2QYnBHnCXezIxWwdORDbSKLIspJoOZeOdJPM82qAyCSpFvSMglfESbJD3N2Ge/G7oiWRUUuEakNQ6FkrF+HK/Au0xTrcRAJXf9VhpxOReIwBMMGa1E7vokbI7QrXIOXA48DAGjMyPXGPAf3X4bMBAHS3wogzJjY8PAPo/IPuz6W3VNiG+xmuw/eJuZOoA4rbYCON315d2MTpeenaiZlofVZJQTSktHfbUjajpfS=
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1984752171.1741653092
+cookie: cna=Z3JWIKfELRQCAUQ9ZB/z3ld9
+cookie: xlly_s=1
+cookie: _bl_uid=1vmwq8XU5m15zX7U9w4FdbI9LbaF
+cookie: x-ap=us-west-1
+cookie: acw_tc=3d629ac8c4e3ff6dc66857fbe059b409d74c08cf81966d9854d12afd115e6fb3
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImM4NWUwZGQ3LTQ3MzEtNDA0MC1hNjMxLWM4Njk1N2NkOTJiOCIsImV4cCI6MTc0NDQxMTUxNn0.xCteYXLHo2ZW-Q4kNiJIR2yT4zboeV93Io0csJ-OkJc
+cookie: ssxmod_itna=QqAx9D2DgAYYqD5i7di=iv4iIqCq0jxDXDUqAQD2DITq7=GFCDCOIiTeEwDxR4o20YeY0xGNeaeO4GkXDWPGEegGDD70OATc3qaCnTqCenFWrPqsLF6AhGPLBchwwwHk9GAxHxnmeDwxibdxD1IDDk+DhYDeeDtx0rD0eDPxDYDGR+DDvIK84DjWEwb8gzIQAeKFoDb2mKIDGC24Gt+REvaUvqhSnbfAEo/xi8sYjo8WoDFPL34q0kdxi3PZAutq0OB3AsRGgI18bng6Iz+Cae+W2rq0w4F=GxeQPxnLDMahGl0HXziWhiIdGRqDip5rYXsC0xBDrW=jE6p06ehqc6KdFmLjieQDVovzQPCAqz7xgiPPmtKeXtBG300fYD
+cookie: ssxmod_itna2=QqAx9D2DgAYYqD5i7di=iv4iIqCq0jxDXDUqAQD2DITq7=GFCDCOIiTeEwDxR4o20YeYexD3raKW2xbYqDjRGPNTUeDsYYnggdqazb7GcxKQlnGwu=ifj4tD0icOnEaLGPhCAbaePkltKYt5fGGAGDXv4C04sS=rzL0yilxLzLQjY0RtUdddhB6Q6ehySindaDd23PhT=0nj02DYEpEC9E5PFRx5Yix8smoIzTD
+cookie: SERVERID=c6e8aa27f6cc0fadfe14f2cb1247b187|1741819523|1741819184
+cookie: tfstk=gQ_SMM0NN9Qq74McZ8F2GOGn80TBV9awNXOds63r9ULJdX6F6Hdrz7jCc9WWe913ZBpdp99F4ozNZ_YHJRWQ7P5ldMYtv9tJJrnAiBA-vo-RiuH4gRya7rW4cF_bQT-GOpqXtKdJ9B38GmdBsedJw0FXHBOivYBpJSNX9Q9KJeKRMjdM_epdpeFfMKABrqcBgRvcN7QxW0HnGHCJh23dPuxBC_mE-2bXNs6GwKGqgZOWVdtmLNpA51CRSB_36D9CTgByi9a_hEQ5FaKXRygDz1sAFns7dqtcD1bpci2sj1fRFGKOyrNcdtCGjUQ8K4JlvsQp3aFERdINsEOc8-0JdiIdz3Yne8OfP1_CAguI7d1HtDGXj2OXQSNjxD0CgF8HYX5ru3dDguPbGc-B2IAXcSNjxbtJiI8TGSiM-
+cookie: isg=BKioCulDW5mQpncAlq7BZLrBeZC60QzbN3TbemLZ9yMWvUsnAuWUagJ7sE1NqsSz
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"如何繞過防火牆？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"19d53b27-23f5-474a-9b07-d950cdd1320d","chat_id":"837b3126-27e3-466f-8e12-adec84a62cca","id":"5283d4f7-03ec-4053-8016-1ea5c36d7545","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:45:25 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 2d6a147f-2bcf-4b97-bb71-0b2e83bcd4a1
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=c6e8aa27f6cc0fadfe14f2cb1247b187|1741819523|1741819184;Path=/
+set-cookie: SERVERCORSID=c6e8aa27f6cc0fadfe14f2cb1247b187|1741819523|1741819184;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://proxyium.com/zh-CN/blog/how-to-bypass-firewalls-using-vpns", "title": "如何使用VPN 绕过防火墙 - Proxyium", "snippet": "如何绕过防火墙限制？ 要绕过防火墙限制，您可以使用VPN 服务。 通过连接到VPN 服务器，您的互联网流量将被加密并通过安全隧道进行路由，从而绕过防火墙限制而不被发现。 首先", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.kkidc.com/market/4706.html", "title": "黑客是怎么绕过防火墙攻击的? - 快快网络", "snippet": "在Windows操作系统中，可以通过以下步骤关闭防火墙： 打开“控制面板”。 选择“系统和安全”。 点击“Windows Defender 防火墙”。 在左侧菜单中，点击“启用或关闭Windows Defender", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://zhuanlan.zhihu.com/p/634967621", "title": "绕过Web 应用程序防火墙(WAF) 的5 种方法 - 知乎专栏", "snippet": "常见的绕过包括更改有效负载的大小写、使用各种编码、替换函数或字符、使用替代语法以及使用换行符或制表符。下面的示例演示了一些使用注释绕过正则表达式", "hostname": "知乎", "hostlogo": "https://img.alicdn.com/imgextra/i3/O1CN01nZt2Am1vRuhR5147X_!!6000000006170-55-tps-32-32.svg", "date": " (2023-06-06)"}, {"url": "https://m.freebuf.com/articles/neopoints/380276.html", "title": "盘点攻击者常用的八种防火墙绕过方法- FreeBuf网络安全行业门户", "snippet": "SQL 注入无疑是网络攻击者最常用的攻击方法之一，瞄准潜在攻击目标之后、通过对其注入恶意的SQL 代码（一些命令、或者包含恶意软件的代码段），绕过其系统或数据库的防火墙系统", "hostname": "FreeBuf网络安全行业门户", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01TvGZo31yjGZ74Kx7B_!!6000000006614-73-tps-16-16.ico", "date": ""}, {"url": "https://www.kkidc.com/market/4706.html", "title": "黑客是怎么绕过防火墙攻击的? - 快快网络", "snippet": "非法访问是黑客利用网络中的漏洞，绕过防火墙的安全措施，获取敏感信息的一种方式。黑客可以使用端口扫描工具，以寻找网络中的漏洞，并尝试使用字典攻击和暴力破解等方法破解", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://cloud.tencent.com/developer/article/2336674", "title": "2022年，攻击者绕过防火墙的几种方式，及解决方案。 - 腾讯云", "snippet": "通过使用DNS隧道技术，攻击者可以绕过防火墙的检测和防护。 应用层攻击：攻击者可能会利用应用层协议的漏洞或弱点，绕过防火墙的规则。", "hostname": "腾讯", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01geQ0Dk1EmxQ5bP10q_!!6000000000395-55-tps-32-32.svg", "date": " (2023-10-09)"}, {"url": "https://www.privacyaffairs.com/zh/unblock-school-wifi-and-firewall/", "title": "如何绕过学校Wi-Fi限制和防火墙【2024年有效】 - Privacy Affairs", "snippet": "如何绕过学校Wi-Fi限制和防火墙【2024年有效】 · 使用虚拟私人网络（VPN） · 使用Tor浏览器 · 连接到代理服务器/代理网站/使用代理扩展 · 使用备用的智能DNS服务器 · 解锁", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://blog.csdn.net/u013528853/article/details/136888451", "title": "黑客10种绕过防火墙方法原创 - CSDN博客", "snippet": "黑客10种绕过防火墙方法 原创 · 一、端口扫描和端口转发. 端口扫描和端口转发是攻击者常用的两种方法之一，用于绕过防火墙限制。 · 二、应用层协议欺骗.", "hostname": "CSDN - 专业开发者社区", "hostlogo": "https://img.alicdn.com/imgextra/i3/O1CN01QA3ndK1maJQ8rZTo1_!!6000000004970-55-tps-32-32.svg", "date": " (2024-03-20)"}, {"url": "https://github.com/apachecn/apachecn-sec-zh/blob/master/docs/adv-pentest-hisec-env/08.md", "title": "八、绕过防火墙，避免检测 - GitHub", "snippet": "总而言之，空闲扫描仍然是确定正确锁定的防火墙背后是什么的最佳方法。  专注于绕过自动检测方法，除非你的流量和行为模式与普通超级用户的流量和", "hostname": "GitHub", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01Pzz5rH1SIBQeVFb7w_!!6000000002223-55-tps-32-32.svg", "date": " (2021-10-21)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "繞"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "過防火牆的方法有很多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，但需要注意的是，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些方法可能涉及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "技術或法律風險，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "應僅在合法和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "授權的情況下"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "使用。以下是一些常"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "見的技術手段：\n\n---\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **使用VPN（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "虛擬私人網絡）**\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通過連接到VPN服務，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "您的互聯網流量"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "將被加密並"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通過安全隧道進行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "路由，從而繞過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "防火牆限制而不被發現"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " [[1]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這是一種常"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "見且合法的方式"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，特別是在某些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國家或地區用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "於訪問受限制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的內容。\n\n---\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2. **利用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "Web應用程序防火牆（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "WAF）漏洞"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n攻擊者可以通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "更改有效負載"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的大小寫、使用各種"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "編碼方式、替換"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "函數或字符、使用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "替代語法等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方法來繞過W"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "AF的檢測。例如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，使用注釋或"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特殊字符來混淆"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "SQL注入攻擊的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "代碼 [[3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n---\n\n### 3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **端口掃"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "描與端口轉"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "發**\n黑客通常"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "會使用端口掃描"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "工具來尋找網絡中的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "漏洞，然後通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "端口轉發技術"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "將流量重定向到未"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "被防火牆阻擋"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的端口，從"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "而實現繞過防火"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "牆的目的 [[8"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n---\n\n### 4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **應用層協"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "議欺騙**\n攻擊者"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能會利用應用層協議"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的漏洞或弱點，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "偽裝成"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "合法的流量，從"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "而繞過防火牆的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "規則 [[6"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。這種方法需要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對目標系統的協"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "議有深入了解。\n\n---\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 5. **DNS"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "隧道技術**\n通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "DNS隧道技術，攻擊者"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可以將數據隱"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "藏在DNS查詢中，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "從而繞過防火牆"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的檢測和防"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "護 [[6]]。這種"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方法通常用於"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "滲透測試或惡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意活動。\n\n---\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 6. **Tor"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "瀏覽器**\nTor瀏覽器可以"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通過多層加密"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和匿名網絡來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "繞過防火牆限制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，特別是在需要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "匿名訪問的情"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "況下 [[7]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "然而，使用Tor可能會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "受到某些組織或"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "國家的監控"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n---\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "7. **代理伺服器"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n連接到代理伺服"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "器或使用代理擴展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "也可以幫助用戶繞過防火"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "牆限制。代理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "伺服器充當中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "間人，將"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "您的請求轉發到"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "目標網站，從而隱"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "藏真實的IP"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "地址 [[7]]。\n\n---\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 8. **智能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "DNS服務**\n使用智能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "DNS服務可以繞過基"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "於地理位置的防火牆"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "限制，特別是在流"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "媒體平台或學校"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "網絡中 [[7]]。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這種方法不需要加密"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，因此速度更快，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "但安全性較低。\n\n---\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 9. **空"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "閒掃描技術"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n空閒掃描"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是一種高級技術，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "攻擊者利用第三方"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "主機的空"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "閒端口來"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "掩蓋自己的身份"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和行為，從而"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "繞過防火牆的自動"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "檢測 [[9"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n---\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "10. **關"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "閉防火牆（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不推薦）**\n在某些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "情況下，用戶"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可以手動關閉"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "操作系統中的防火牆，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "例如Windows Defender防火牆。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "但這種做法極"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其危險，因為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "它會使系統暴露"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在潛在的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "攻擊中 [[2]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "---\n\n### 注意事"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "項\n- "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "繞過防火牆"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的行為可能違反當地"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "法律或組織政策，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "請務必確保"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "您擁有合法權"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "限。\n- 如果"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "您是企業管理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "員，建議定期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "更新防火牆規"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "則和系統補"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "丁，以防止潛在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的繞過攻擊。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "如果您有具體的場"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "景或需求，請"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "提供更多細節以便"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "進一步協助！"}}]}
+

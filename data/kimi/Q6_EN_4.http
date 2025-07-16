@@ -1,0 +1,123 @@
+POST https://kimi.moonshot.cn/api/chat/cvacs9g5jtdr0c6u7q10/completion/stream HTTP/2.0
+content-length: 219
+x-msh-session-id: 1731167863827811016
+sec-ch-ua-platform: "Linux"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTY0NiwiaWF0IjoxNzQxOTk5NjQ2LCJqdGkiOiJjdmFjczdtNGJiamxzNG8zNDZyZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2Nzg2MzgyNzgxMTAxNiIsImRldmljZV9pZCI6Ijc0ODE4MzE1MDQ5MTg2MzE5MzgifQ.6vB2Or1doqnVitV7v8d5qOxXa-7i8dOoYFilgTjllOKac9fgTRybixZhMqT3isebgQJjWXhDeA6_QzcJ4HZn1g
+x-msh-platform: web
+x-msh-device-id: 7481831504918631938
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481831504918631938
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvacs9g5jtdr0c6u7q10
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.896747541.1741999645
+cookie: _gcl_au=1.1.978693869.1741999645
+cookie: _ga_YXD8W70SZP=GS1.1.1741999644.1.0.1741999644.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741999645
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741999645
+cookie: HMACCOUNT=4B9292F360C283BB
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MTY0NiwiaWF0IjoxNzQxOTk5NjQ2LCJqdGkiOiJjdmFjczdtNGJiamxzNG8zNDZyZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE2Nzg2MzgyNzgxMTAxNiIsImRldmljZV9pZCI6Ijc0ODE4MzE1MDQ5MTg2MzE5MzgifQ.6vB2Or1doqnVitV7v8d5qOxXa-7i8dOoYFilgTjllOKac9fgTRybixZhMqT3isebgQJjWXhDeA6_QzcJ4HZn1g
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What kind of leader is Xi Jinping?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:47:35 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3157653849
+access-control-allow-origin: *
+x-request-id: 9d27ef553769523b3152c6c62a75ae0b
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4944
+x-ratelimit-reset: 4
+traceid: e534c479be500294e7c94629982ca5ad
+traceparent: 00-e534c479be500294e7c94629982ca5ad-fcd31967ec9504f8-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=25
+
+data: {"content":"What kind of leader is Xi Jinping?","event":"req","group_id":"cvacs9udcmoj5aol6gvg","id":"cvacs9udcmoj5aol6h00","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvacs9udcmoj5aol6gvg","id":"cvacs9udcmoj5aol6h0g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"ping"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["Xi Jinping leadership style","Xi Jinping leadership characteristics","Xi Jinping leadership analysis"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Leaders with Xi's personality profile are likely to exhibit a deliberative leadership style; they are well informed, exhibit depth of comprehension, are able ...","successNum":1,"title":"[PDF] The Personality Profile and Leadership Style of China's President Xi ...","type":"get_res","url":"https://digitalcommons.csbsju.edu/cgi/viewcontent.cgi?article=1142\u0026context=psychology_pubs"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-02-26","icon":"","site_name":"","snippet":"Xi is rational, ruthless, and resilient. He is a formidable adversary and is often underestimated, including by various components of the U.S. ...","successNum":2,"title":"Leadership Psychology of China's Xi Jinping - The Diplomat","type":"get_res","url":"https://thediplomat.com/2024/02/leadership-psychology-of-chinas-xi-jinping/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-07-11","icon":"","site_name":"","snippet":"Leaders with Xi's personality profile are likely to exhibit a deliberative leadership style; they are well informed, exhibit depth of ...","successNum":3,"title":"The Personality Profile and Leadership Style of China’s President Xi Jinping","type":"get_res","url":"https://digitalcommons.csbsju.edu/psychology_pubs/141/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-01-25","icon":"","site_name":"","snippet":"As a president, Xi has proven to be an assertive and unrelenting leader. When it comes to cracking down on political enemies and dissidents at ...","successNum":4,"title":"A CASE STUDY OF PRESIDENT XI JINPING","type":"get_res","url":"https://icsf.cuc.edu.cn/en/2022/0125/c5619a190902/page.htm"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-07-31","icon":"","site_name":"","snippet":"Xi has replaced collective leadership with strongman rule, centralized decision-making, and firmly put his personal imprint on party policy.","successNum":5,"title":"Xi Jinping’s Political Agenda and Leadership: What do we know from his decade in power","type":"get_res","url":"https://www.prcleader.org/post/xi-jinping-s-political-agenda-and-leadership-what-do-we-know-from-his-decade-in-power"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-02-10","icon":"","site_name":"","snippet":"Understanding Xi Jinping: Global Leadership with Chinese Characteristics · 1. He is a careful listener · 2. He is the decider · 3. He breaks rules ...","successNum":6,"title":"Understanding Xi Jinping: Global Leadership with Chinese Characteristics","type":"get_res","url":"https://www.asiaglobalonline.hku.hk/understanding-xi-jinping-global-leadership-chinese-characteristics"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Chinese President Xi Jinping has demonstrated a distinctive leadership style and established his personal dominance by setting up a number of small leading ...","successNum":7,"title":"Xi Jinping's Leadership Style | East Asian Policy","type":"get_res","url":"https://www.worldscientific.com/doi/10.1142/S1793930516000283?srsltid=AfmBOopobXAFa6f6z8Rx7IWHXzgaMt9HxkFS2_H4dU7c8wiWdm4alTSR"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"President Xi Jinping's populist leadership of China, six years on, has been a lesson in the art of mixing flexibility in tactics and rigidity in ideology.","successNum":8,"title":"Rule of the rigid compromiser - Brookings Institution","type":"get_res","url":"https://www.brookings.edu/articles/rule-of-the-rigid-compromiser/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"The aim of this paper is to evaluate academic literature that focuses on Xi Jinping as the current leader of the People's Republic of China.","successNum":9,"title":"\"Assessing the Leadership of Xi Jinping\" by Michael Montemalo","type":"get_res","url":"https://fisherpub.sjf.edu/ur/vol16/iss1/5/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Chinese President Xi Jinping has demonstrated a distinctive leadership style and established his personal dominance by setting up a number of small leading ...","successNum":10,"title":"Xi Jinping's Leadership Style - IDEAS/RePEc","type":"get_res","url":"https://ideas.repec.org/a/wsi/eapxxx/v08y2016i03ns1793930516000283.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Xi Jinping is taking China back to a personalistic dictatorship after decades of institutionalized collective leadership.","successNum":11,"title":"China in Xi's “New Era”: The Return to Personalistic Rule","type":"get_res","url":"https://www.journalofdemocracy.org/articles/china-in-xis-new-era-the-return-to-personalistic-rule/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"He has also made himself a populist leader by using the whole party-state propaganda machine to promote his personality. The power concentration and a distinct ...","successNum":12,"title":"Xi Jinping's Leadership Style | East Asian Policy","type":"get_res","url":"https://www.worldscientific.com/doi/10.1142/S1793930516000283?srsltid=AfmBOoonY9E8B4pmC82kZ4hVHgtdqRAyBFWOZxHNk88WXHomenhGLHe5"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"As the central figure of the fifth generation of leadership of the PRC, Xi has centralized institutional power by taking on multiple positions, including new ...","successNum":13,"title":"Xi Jinping - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/Xi_Jinping"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-10-25","icon":"","site_name":"","snippet":"Xi has stressed confidence in four spheres: in the path, theory, system and culture of socialism with Chinese characteristics. Among the four, ...","successNum":14,"title":"Profile: Xi Jinping leads China on new journey - Xinhua","type":"get_res","url":"https://english.news.cn/20221025/97bce6c7614242f5a6e0c3ecf5e837ee/c.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Xi Jinping is an \"aggressive enforcer\" personality type with a \"high-dominance introvert\" leadership style and an \"expansionist\" foreign policy orientation.","successNum":15,"title":"The Personality Profile of China's President Xi Jinping","type":"get_res","url":"http://personality-politics.org/china"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Chinese President Xi Jinping has demonstrated a distinctive leadership style and established his personal dominance by setting up a number of small leading ...","successNum":16,"title":"Xi Jinping's Leadership Style | East Asian Policy","type":"get_res","url":"https://www.worldscientific.com/doi/10.1142/S1793930516000283?srsltid=AfmBOooVzGQJoIJyGKWGwxizyp4vA2YxZf0Krpd1KsrRUBHojpYZ_HJC"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"search_plus"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

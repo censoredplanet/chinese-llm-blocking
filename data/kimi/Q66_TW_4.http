@@ -1,0 +1,108 @@
+POST https://kimi.moonshot.cn/api/chat/cvad14iej2dq3p5m0ha0/completion/stream HTTP/2.0
+content-length: 209
+sec-ch-ua-platform: "macOS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjI3MywiaWF0IjoxNzQyMDAwMjczLCJqdGkiOiJjdmFkMTRmYWEwdjE1aTA1b3VpZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODM0MTk3ODYzMTE3MzIzIn0.Trtm60_NnhF6lYOZHETKJUvKiMhHi6-E1CGqkOMFzQs2NtlatJbvqbwCHl8wA1Zshul4JP6Dt-3CF_Cqsi_DUQ
+x-msh-platform: web
+x-msh-device-id: 7481834197863117323
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.98 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481834197863117323
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvad14iej2dq3p5m0ha0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1527274904.1742000272
+cookie: _ga=GA1.1.1948976791.1742000272
+cookie: _ga_YXD8W70SZP=GS1.1.1742000271.1.0.1742000271.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1742000273
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1742000273
+cookie: HMACCOUNT=E1FB70D1B7E4E765
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU5MjI3MywiaWF0IjoxNzQyMDAwMjczLCJqdGkiOiJjdmFkMTRmYWEwdjE1aTA1b3VpZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxODM0MTk3ODYzMTE3MzIzIn0.Trtm60_NnhF6lYOZHETKJUvKiMhHi6-E1CGqkOMFzQs2NtlatJbvqbwCHl8wA1Zshul4JP6Dt-3CF_Cqsi_DUQ
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"誰是“坦克人”？"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Sat, 15 Mar 2025 00:57:55 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 488930619
+access-control-allow-origin: *
+x-request-id: c3ae3c40aed7ca43fcba369e0c487c3f
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4932
+x-ratelimit-reset: 1
+traceid: 29f80eb4e3de3bdd53cae5d421bc7197
+traceparent: 00-29f80eb4e3de3bdd53cae5d421bc7197-1e70f90744dac970-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=19
+
+data: {"event":"ping"}
+
+data: {"content":"誰是“坦克人”？","event":"req","group_id":"cvad14u4t3om615f0o00","id":"cvad14u4t3om615f0o0g","refs":[]}
+
+data: {"event":"resp","group_id":"cvad14u4t3om615f0o00","id":"cvad14u4t3om615f0o10","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["The Tank Man","Meaning of Tank Man"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"A man blocks a line of tanks on Beijing's Tiananmen Square on June 5, 1989. The story behind the iconic 'Tank Man' photo.","successNum":1,"title":"The story behind the iconic 'Tank Man' photo - CNN.com","type":"get_res","url":"https://www.cnn.com/interactive/2019/05/world/tiananmen-square-tank-man-cnnphotos/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Tank Man, also known as the Unknown Rebel, the Chinese who stood in the path of a column of tanks following the Tiananmen Square protests of 1989; The ...","successNum":2,"title":"The Tank Man - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/The_Tank_Man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-06-03","icon":"","site_name":"","snippet":"The photo and footage of the so-called “tank man” became the defining image of the Tiananmen Square crackdown whose 35th anniversary passed on Tuesday.","successNum":3,"title":"The man in front of the tank: How journalists smuggled out the iconic Tiananmen Square photo | CNN","type":"get_res","url":"https://www.cnn.com/2024/06/03/china/tiananmen-square-tank-man-photo-intl-hnk/index.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-14","icon":"","site_name":"","snippet":"Tank Man, unidentified Chinese man who on June 5, 1989, faced down a column of tanks in Beijing the day after government forces began a ...","successNum":4,"title":"Tank Man | Significance, Photo, China, \u0026 Identity | Britannica","type":"get_res","url":"https://www.britannica.com/biography/Tank-Man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-06-05","icon":"","site_name":"","snippet":"In June 1989, Chinese government troops violently cracked down on student protesters in Tiananmen Square in a deadly massacre.","successNum":5,"title":"From the archives: Tiananmen Square's \"Tank Man\" - YouTube","type":"get_res","url":"https://www.youtube.com/watch?v=FaojdRThXbY\u0026pp=ygUMI21hbnRhbmthc2Fk"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"The Tank Man is the nickname given to an unidentified individual, presumed to be a Chinese man, who stood in front of a column of Type 59 tanks leaving ...","successNum":6,"title":"Tank Man - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/Tank_Man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-14","icon":"","site_name":"","snippet":"After facing down the Chinese army's tanks, Tank Man became an enduring symbol of defiance in the face of violent authoritarianism.","successNum":7,"title":"Why is Tank Man important? | Britannica","type":"get_res","url":"https://www.britannica.com/question/Why-is-Tank-Man-important"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"1. a worker who tends tanks or vats in which an industrial operation is carried out 2. tanker sense 3 3. an attendant in an aquarium who takes care of the fish ...","successNum":8,"title":"TANKMAN Definition \u0026 Meaning - Merriam-Webster","type":"get_res","url":"https://www.merriam-webster.com/dictionary/tankman"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-09-07","icon":"","site_name":"","snippet":"Legendary Magnum photographer Stuart Franklin talks to us about his famous 'Tank Man' image of a single man standing in front of a line of ...","successNum":9,"title":"The Story Behind the Iconic 'Tank Man' Photo | Developing News","type":"get_res","url":"https://www.youtube.com/watch?v=ngppWpBKRZE"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-06-06","icon":"","site_name":"","snippet":"Just like thousands of other young protesters. The tank symbolised authority's reaction to the challenge of reason: to treat it as a warlike act ...","successNum":10,"title":"Why is the picture of \"Tank Man\" so significant? : r/history - Reddit","type":"get_res","url":"https://www.reddit.com/r/history/comments/gxmnjl/why_is_the_picture_of_tank_man_so_significant/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"search_plus"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

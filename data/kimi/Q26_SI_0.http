@@ -1,0 +1,73 @@
+POST https://kimi.moonshot.cn/api/chat/cv881r0lrq4su9ghqg2g/completion/stream HTTP/2.0
+content-length: 225
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTczNywiaWF0IjoxNzQxNzE3NzM3LCJqdGkiOiJjdjg4MXE4N2RsYzFlZmN0cTU5MCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIwNzE0OTgzMjEwNTA1In0.BYS0-DCaYwGgYyvNE0e_-bI3wrIWwk-woODoZQDJqkgQnM9RKF7b5XgL0f4go3nCcvQQkOdDdc_TcRaxlOJ7Ag
+x-msh-platform: web
+x-msh-device-id: 7480620714983210505
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480620714983210505
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv881r0lrq4su9ghqg2g
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1454171761.1741717736
+cookie: _gcl_au=1.1.571084113.1741717736
+cookie: _ga_YXD8W70SZP=GS1.1.1741717736.1.0.1741717736.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741717738
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741717738
+cookie: HMACCOUNT=8B3AB0140DD3A7EF
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTczNywiaWF0IjoxNzQxNzE3NzM3LCJqdGkiOiJjdjg4MXE4N2RsYzFlZmN0cTU5MCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIwNzE0OTgzMjEwNTA1In0.BYS0-DCaYwGgYyvNE0e_-bI3wrIWwk-woODoZQDJqkgQnM9RKF7b5XgL0f4go3nCcvQQkOdDdc_TcRaxlOJ7Ag
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"1989年天安门广场发生了什么？"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:29:01 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 2066380794
+access-control-allow-origin: *
+x-request-id: bac8467c8ef322c8196823b629a9c2d4
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4995
+x-ratelimit-reset: 48
+traceid: 9790523cd7ee48d7c6e077a0ef745660
+traceparent: 00-9790523cd7ee48d7c6e077a0ef745660-68bc01522ba7bf5b-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"content":"1989年天安门广场发生了什么？","event":"req","group_id":"cv881r8h8njj8dduqq8g","id":"cv881r8h8njj8dduqq90","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv881r8h8njj8dduqq8g","id":"cv881r8h8njj8dduqq9g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

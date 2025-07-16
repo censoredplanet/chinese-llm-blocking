@@ -1,0 +1,321 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 410
+x-request-id: a754d918-63bc-4e6b-a804-4d1f8c96adc5
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDI0NDc4MX0.2A0AGYJBdat9ixtHWeu3KxmTio8Z3WAW0jLzXfNFZ4A
+bx-umidtoken: T2gAgcJA6IFbNJB8xwUIn-li0lvEiY2zKrSMssQILi9qCv_aXvkOXLPjxnh6DEvJKXc=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!ZKB3SkmUjbv+jmok2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byqjO/+/UBDj+MGMsMUy4FatfxyQNW4n0PVYNlDkp+6BGZKHJBwbad4C3azCD1jb04vpz/DWKIih6Y/uOFBqcpirYiR1Rq6Hkg+sCn4LPjjct2S5CHeuELHoHuzon4sYgWK2zjRUTT76U9yGe0XPSn8tEWfJHt4CkJ5QkhKjX5FoIBHFzQNJR7Aa36SkiGVZ6VYYvhVD3x3sMa7Ps65PkUha5JRwZOtv96sy8gqQGtrDg0UuZ9snHYwB29gBetn/OTFydFq+oixJEBtwQqZPXo6tcaHscifXwtjOQcB8C4USoqZwtLC61KrHdniTl/fs/Ka8MF6NukafCn9MmJMLql4YS5DCPg6gckEw7Oi9g9a00TV1TBPlAxLu13XGm0JFu6s0sCNe0CysRiqqCA/xD5qbahCWR6BztEGs2y4ixLy5DDbW/fpKPs6rcHIki8+SlZ+MRReSi2rmFw5xb18X3c6j2urcYGpMKZ+oj/MTU49M8YaUuWFDYha/rbPtPWhS9l/OmzYnkNyXjGf4zKxIqLEMEABEkCDrK8as15XGoh1djGWcRNc4HtClJi9uYDPA859aWJdDcGcxhH+ET9jtht50zXyDoLgJxU5c4Kxos5vrQE3CbMFA1aZfCkHwl0ORNHBkcow9/Rkonxm+yxIdgAlvRVMj7HyweYoGdiL6Q2HJ2JHMEbyu7WUC8SEJVMvR7H3BbuP7b1ISNV7ggNLqvU+EckXmXAKuPyQMLoDulAL/WOs+O69sBhB+4SRlumvrsAGWWT0dvEClx9g9fKVQtbYKjhYgctgfSN7+1hjwsj1YIJa+CQCK/mPrSPk7ds+iHWOOiscu1QMXy2P4Q8K25ZNtG3MOFmtasbjUZNI9iXZgqu0LNVmAFclXZf3v88y0r2vhBtDnaGaHTUOOMnZlv6T9CsaHVOUc8UeCHLAgbrAUn6lAKxF2obpD14SCFEucbnnk3D+LAeQGAZIf3eq8xVOx54V+MGjI/OwdQNkSXoVh18EfCEhxyiEncV9UDwm+FNuzTaZ0QDp20Yc4QnB8LgAq8K3mDixme0rkNAKi+A/P3jZNKJpg69J/xohfUSSlXJuPAOTuTCe+QMYHQ4VkeNIG8pt45Peplpwt+Z3ptDRHEXgzbRCpQvDMttAR7nd6r5wQvYPz7GuEtaUEaO5/a9TfoaBw7A83c6Nu45f5+s38Do8zRUiQOX3SV5zfPnlIcX0iC/JhNTBhP6BcfeTCRTrSOLHWfqv0Coc6RjUtT+1va1ZCKl20GoWIjiDQk==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: cna=I3FWIO6OYngCAUQ9ZB95TTm4
+cookie: xlly_s=1
+cookie: _bl_uid=8ymR38vF5R59Xw3kmon3ew7um2LO
+cookie: _gcl_au=1.1.1331395113.1741652770.502015407.1741747918.1741747918
+cookie: acw_tc=58b0365a3d8737c441c4a57c92fec5abecef86b72acad46690bde63979959140
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyYTg4MWIyLTgxYWItNDZiNy05ZmE3LTcwOWEwZjc2YTM1ZiIsImV4cCI6MTc0NDQwODkxNn0.WrKgrxLD_6-t5_MqVQAjZUkdOeCMpc9_Yxv9f8GoAJg
+cookie: ssxmod_itna=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P4LwvwNQBWGqDseKefeDyzxA3DTPfh4r5DaG+2KYloee23Kn/gqrqKziWq4u+oABk7CK4xAEYCDmmbDna4Dkh7rYDeeDtx0rD0eDPxDYDG4hDDymVa4DjBBhd/71p0HeVgYDb6n3pDGCf4GtkFgptFHq89mbEQOoCDi8D79Upj+wD7pfEjdDXEeDEie+YwQDvPMzCYTmW8Ood5+Kpg1Y+n0Gq7mKMlDa870iTEG4NC/5Xc=M0M6PqAxthyViDDay4rMeh4niq42umKcW+ceet3HOmYre2xoGKRHqK5xm4tnxNiwK=GKKRDz0q7548Gq4vDD
+cookie: ssxmod_itna2=Wq+x9DyDnQGQitG0YXxD5APQq7QeDKDXDUqAQD2DIqGQGcD8Ex0pOpci+P4LwvwNQBWe4DWhKAAx+wkDj+IK=8+WoD/YADruHKKnnDhf8Q7BLW4sQQeEKrAvSefW9sUbDUIvrszZTTe6cWqqAcDN7ysxtAF+l2DPW5xhpIxHciaEE0a8GOHk9Op7hEmrzg5YCAAvRoxCIIPsIK4kKbqFebwc+wtl70qrOGKqpkqS/hDD
+cookie: SERVERID=b719913192e20c7839b8652cf0a57f64|1741816923|1741816761
+cookie: tfstk=gITiMA4Z59w7AUp8Bp7s22kX9wip55_fqKUAHZBqY9WBWKn1HHb2aLjA0ct9K5THErUtCcO4oZQqeY3-yCN1lZkJ48kyc51Ag5r4HO7E8ZCm3WdLaCO1lWM6gbd61-qczVOVuK7FY_f5uoS47XbFw__47izaYJWCgZ7VbszFL_5VgP74bXAFds7V3KSwrrzPBBdk8vokzm2vUnThsGXyT2aLReURXTRNKYP2-1X5UCW3urXTwcQWgKk0ka-WKEjyeq4CWQxF81xngkWNqhJOOK0u7O8H_FW97vUOQFOe2EpEgrWDY3SJ4CkLx6xe6ejpzY4cfHJ6ViYxp4_92QLf4FugF9I5iLbwxvzMUg5_YurJOr1EMerbcG5CtTpPEDP-wGYyTXc34MsNO1oZtXqbwG5CtLlntuu1b61i2
+cookie: isg=BMLCtPNIEU-sXA0Ov2gMlGklE84kk8atodaB9Azb7TXgX2HZ-idevHcZCkMjPz5F
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"独生子女政策带来了什么后果？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"9f91089a-24ab-4f8c-b00e-41acb6d29328","chat_id":"984bc672-5141-4893-bf58-99305e286146","id":"8113ddcf-578e-4627-9036-b3d1fa987909","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:02:06 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: a754d918-63bc-4e6b-a804-4d1f8c96adc5
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=b719913192e20c7839b8652cf0a57f64|1741816923|1741816761;Path=/
+set-cookie: SERVERCORSID=b719913192e20c7839b8652cf0a57f64|1741816923|1741816761;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.bbc.com/zhongwen/simp/fooc/2013/11/131129_fooc_one-child_policy_side-effect", "title": "记者来鸿：独生子女政策的一个副作用 - BBC", "snippet": "他说，“我们发现，独生子女政策出生之后的孩子明显不信任别人、不值得信任、更害怕风险、更缺乏竞争力……同时也更加悲观、责任心更差。” 生于独生子女政策", "hostname": null, "hostlogo": null, "date": " (2013-11-29)"}, {"url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20101001-%E4%B8%AD%E5%9B%BD%E7%8B%AC%E7%94%9F%E5%AD%90%E5%A5%B3%E6%94%BF%E7%AD%96%E4%B8%89%E5%8D%81%E5%B9%B4", "title": "中国独生子女政策三十年- 人口与未来 - RFI", "snippet": "首先，30年的独生子女政策对中国社会造成了很大的影响和后果：一，独生子女政策使中国社会迅速老龄化，如果继续一胎化政策，将会继续加速人口老龄化的步伐，使", "hostname": null, "hostlogo": null, "date": " (2010-10-01)"}, {"url": "https://finance.sina.cn/2016-08-14/detail-ifxuxnah3447492.d.html?from=wap", "title": "独生子女政策影响巨大：效应将持续到2070年 - 新浪财经", "snippet": "独生子女政策的直接产物就是少儿抚养比下降，有助于降低总抚养比，创造人口红利期。研究表明，改革开放以来的中国经济能快速腾飞，人口红利效应是一个至关重要", "hostname": "新浪网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01mvEkNg1mbgbrppM5C_!!6000000004973-55-tps-32-32.svg", "date": " (2016-08-14)"}, {"url": "https://finance.sina.cn/2016-08-14/detail-ifxuxnah3447492.d.html?from=wap", "title": "独生子女政策影响巨大：效应将持续到2070年 - 新浪财经", "snippet": "独生子女政策助推了人口红利，不过当独生子女这一代人成为劳动力之后，人口红利加速消褪，因为劳动力的持续减少伴随着老年人口的增加，老年抚养比增加，提升了", "hostname": "新浪网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01mvEkNg1mbgbrppM5C_!!6000000004973-55-tps-32-32.svg", "date": " (2016-08-14)"}, {"url": "https://cec.blog.caixin.com/archives/273926", "title": "职场小皇帝：独生子女政策对中国劳动力市场的影响 - 香樟经济学术圈", "snippet": "计划生育（独生子女）政策（OCP）实施了近四十年（1979-2015年），在此期间，中国的出生率大幅下降，这带来了广泛的社会经济后果。  来看，独生子女的工资收入负面", "hostname": "财新网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01oWqr251caB9yMliXs_!!6000000003616-73-tps-16-16.ico", "date": " (2024-03-16)"}, {"url": "https://jpa.sysu.edu.cn/docs/20221009103200294778.pdf", "title": "[PDF] ———基于“独生子女”政策的反馈效应分析 - 《公共行政评论》", "snippet": "在计划生育政策的长期影响下，. 民众在心理上已认同政府对其生育行为的干预。这种心理会延续到下一个时期，. 影响新政策的实施效果。因此，政府一方面要继续加强政策宣传", "hostname": "中山大学", "hostlogo": "https://img.alicdn.com/imgextra/i4/O1CN01zrXOV61Lj1KxLKNeR_!!6000000001334-73-tps-32-32.ico", "date": ""}, {"url": "https://hnc.nju.edu.cn/info/1304/1343.htm", "title": "“从'独生子女'到'全面二孩'：中国计划生育政策及其社会影响” 讲座报道", "snippet": "中国的家庭规模在“独生子女”政策后，80%都是三口之家，从父辈中心结构转向了子辈中心结构。社会养老的风险和“失独”的风险大大提高了。中国人口更替水平下降，老龄化问题也愈加", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.bbc.com/zhongwen/simp/china/2015/10/151030_china_one_child_policy_review", "title": "BBC记者博客：中国独生子女政策转向未必能解决问题", "snippet": "农村家庭深受中国传统影响，父母希望得到儿子，在年迈时可以靠儿子照顾，所以中国一孩政策对女孩尤其不利。女孩被父母遗弃、女婴被杀害等例子随处可见。当", "hostname": null, "hostlogo": null, "date": " (2015-10-30)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "独生子女"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策是中国自197"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "9年开始实施的一项计划生育"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策，虽然在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "短期内带来了人口红利和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "经济发展的助力，但其"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "长期后果却是多"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方面的，涵盖了社会、经济"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、心理等多个层面。以下是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "独生子女政策带来的主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "后果：\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1. **人口结构"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "失衡**\n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " - 独生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "子女政策导致了出生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "率的大幅下降，这"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "使得中国的人口迅速"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "老龄化。如果继续实施一"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "胎化政策，将"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加速老龄化的步伐，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "同时劳动力人口持续"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "减少[[2]]。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 老年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "抚养比增加，社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "养老压力显著上升。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "随着独生子女一代"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "成为劳动力，老年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "抚养问题变得更加严峻[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "4]]。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 2. **家庭"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "结构变化**\n   - 在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“独生子女"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”政策后，80"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "%的家庭变成了三口之家"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，家庭规模缩小，从"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "父辈中心结构转向了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "子辈中心结构[[7"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这种家庭结构的变化增加了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社会养老的风险，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "也提高了“失独家庭"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”的风险，即父母"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "失去唯一的孩子后"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "无人赡养[[7"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n### 3."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **心理与行为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特征的变化**\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 研究发现"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，独生子女政策下"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "出生的孩子表现出明显的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "心理和行为特征"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "差异，例如不信任他人"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、更害怕风险、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺乏竞争力、更加悲观以及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "责任心较差等[[1]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这些心理特征"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能对社会的整体"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "信任水平和合作"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "精神产生负面影响。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 4. **性别"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "比例失衡**\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 由于传统"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "观念中对男孩的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "偏好，特别是在农村地区，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "独生子女政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加剧了性别选择"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "性堕胎、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "女孩被遗弃"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "甚至女婴被杀害"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的现象，导致男女"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "比例严重失衡[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "8]]。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 5. **劳动力市场"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的影响**\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 计划生育政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "导致新生人口减少，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "从而影响了几十年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "后的劳动力供给。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "当独生子女一代"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "进入劳动力市场时"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，劳动力短缺问题逐渐显现"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[5]]。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 此外，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "研究表明，独生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "子女的工资收入可能存在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "负面效应，反映了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "他们在职场上的竞争力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不足[[5]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n### 6. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "长期社会经济后果"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n   - 独"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生子女政策助推"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了改革开放初期的人"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "口红利，但随着独"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生子女一代成为主力"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "劳动力，人口红利加速"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "消退，劳动力减少"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和老龄化问题进一步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加重[[3]]。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "还带来了深远的心理影响，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "民众对政府干预"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生育行为的认同感"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "延续到了后续时期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，这种心理可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响未来新政策的实施"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "效果[[6]]。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 7. **政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "调整后的挑战**\n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 尽管中国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在201"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "5年全面放开二孩"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策，但政策转向"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "未必能迅速解决问题。长期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的低生育率和社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "观念的改变使得"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人们不愿多生孩子，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "生育率回升面临"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "困难[[8]]。\n\n###"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 总结\n独生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "子女政策的后果"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是复杂而深远的，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不仅改变了中国的家庭"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "结构和人口趋势"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，还在社会心理、经济发展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和文化观念上产生了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "广泛影响。这些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "后果将在未来几十年内"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "持续显现，并对中国的社会治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "提出新的挑战[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "3]]。"}}]}
+

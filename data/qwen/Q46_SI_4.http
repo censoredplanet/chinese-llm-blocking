@@ -1,0 +1,193 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 413
+x-request-id: bf3804ee-83db-4f2b-9c79-0e470cc6baf3
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDI0NTExNH0._F-C2IvtA51Pu-2r0gyPp3XibQXBgWVSzSJsIi0Reuw
+bx-umidtoken: T2gA8lxAYVn05QwX3CB-U53PcgojPivQRcpGS8jKjssgzmdrtEAS8p_uGx3hqfLkCtk=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!+BG3L+mUKAS+joND2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6by0jO8v/xBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F6Qv3pflB8sD1Hu8OG4AwoK8yBdtr+C1Sgc3zK4P6Rwfc/dTmiKhDZunR/cwOcVDfRMa9taUKAU2686Ml3J2X94GTp2tAP1N1gKJ2WrTOBQGlVermXBG2n0aCld2f0QDmmbq24nv4Gtu8KaepxKjp+1mL88vcmHKKbfCoeRDALBFIc565S9HWqCRfcA53m5TwaejY8/Vs6zgThJ7hntWDzMzVLcvCXJWlIyEwB3mRB8w2LHKq6WjzYl3mOe7dqKnBgwqf050ZwXnB60Yp3QnDqo8IDITif29CBurP1sASAMuIOBV78PdvsrxNNljMACcJ8mbtaFjzN2gBO08qv/Hlya5udz/wqxKyZ73irWpFBlFnS892NAX/pi4uk4PHh1bUlNux7VXqGL4vzffvCiaa4o14bB7iyYU71V+n3L4gGisrvZEyrplx2chUuDIPW8LH7UNUY7nb5q9hFaInGYx1oLdoxcDZalMw2hwM0zmV4qsseJGZu2fpflLGdK3nr2xk7aXrdEHWrXKDVJD+vsPHd6axmb558gstztDhrvmU5CyRqRLZJDUTKceT2kMh1WrMP1gHhF1CKU/akI8WP84MsVQ0mrNX+RzoLfvS65CCQ06Pgp5D+TjzcpnWaCgS2Y7+vE4nCrfqZB0qTPzZnuoMoAnaVYN1rpyVY7VEsBcMfF2z/o4UVfRrgflXhAeQis29PfkJbZLnbgCRU84XJwVHups5rjEXXnncrHaMv05LTLq/juirzNhQOdZ8MaeaOhftu3Gv1aS5MwWk5+C3WldcCSigEGG9HR+3h6UkPY//uDS3aeRAbvAMFW6oOsrQLMnEF2PtxL/63XK5s9u1g+ypMqrpT+U+ie06jCyJhqc5iNH9BAk1RvWzoUapzYWhXEiQ4NIy6yZ1o3aS3jqoeSEGpy/hHIXMqVlx0DItjDzDT4iujvBOUTbgQ0GNnq9I/rr1lX2dHo8kwbfJzN345WhlB+0tkKgaDd7LP2k8slWzj9+FXE8tH4s/DNrZkUKhpzLxDg95qpgzfhQz4Ha9P+vpsUp9wqBmTrdpPQ3nojJTngat6rbwlsRIbX+MNA7zF1Jy4ASNGOyyysUFNUVcEoXVx4SN1YZydlGrEBzhl9UmpK7YEGWlrG7UacYxh8iZQXsqO/I3+NFcDJMQ3ogdpcqTk/7W5idQcTB060USD3SE7LXL8stbSHT5tWyULIV7CUzdK6jRIbOGsA==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.213107595.1741653092
+cookie: cna=Z3JWIAFzeR8CAUQ9ZB8mwzKs
+cookie: _bl_uid=4zm9w82z5y69q937qpwvsRvdjsRj
+cookie: acw_tc=a28690012a205da5643032c19194a42da980a80145ac3c9e97e99a2496fb3fcf
+cookie: x-ap=us-west-1
+cookie: xlly_s=1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxZWE5NDQxLTQwMDEtNDc0My1iOWUzLWU1Mjc0OGM0MjFlOCIsImV4cCI6MTc0NDU4MDY1MX0.EyDtIuRrTLyxs82r3yWymuVRT4p_CAMcC6HxkccvDkQ
+cookie: ssxmod_itna=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7j00Djof5xYy7CqDsqCefeDyCxA3DTPf20xZQD22DdYVWOD2jKXnudeYKMZuAw3KaADow2pEFeiTbDQKGm74D1pDDkhGrYDeeDtx0rD0eDPxDYDG4+DDypqF4DjYg+NtozpDAeq3oDbce5pDGCU4GtsIgIb+v4z/eTECOoMxi8D79Xp0hmD7pLEldDX2eDE7ewQuQDvaMsMPTp7fOoN5+iKoWYqE0htGW47WxqiiiNPcDqQWr4iQir0TXZiGhqeBKpkGPxDiPUiYXh0D4AGiQ=Lh=IA=q1wnpKQ8mhn04lXBGh0BiCAw30wsmPqAeyWhBODPBD54xxD
+cookie: ssxmod_itna2=eqIxyiPYqiqWqDKi7qittDtf3GQpxx0dGMD3qiQGgBDFqAPPDHmOB45Q7j00Djof5xYy7e4DWhCYC7K4DFhG4Yta4x4D/K00GTHVC9k0a4ZSxFhuxi0WjfwkTk4a3ahtRtG3IvrvfYMWYBvqtA5ztoAT3i78hDhbjpPxHxrN7YopVmcsa9qIa8iFQmgA8rfAOF2IOzHxOzOxhYmwnf0=gjwNt7DeKl9iqOL6iYD
+cookie: SERVERID=83f389e7a6a658ea1346b24ee6760139|1741988657|1741988381
+cookie: tfstk=gy6nMNDUdFgj1tQxJNJQMSFgRwFOdD9WiaHJyLLz_F81paFBy1vP0ZAJaW1dSD6GoYHLRWsrELpzkreYHMiBFLzx6OYTYDtJ4DlryeJZ7LKuzcIt0MsBFcaC4oICA4cbPHSyUaJw_nxDUbRrUlvwm3prLQkE_V864LJyT3laQ3xmT3Re4ljw53JyzaRerFH2JGIcQPy_xE6A766MxBYVjRMsBOHv9ESeSrkPIHYXuM8iUYYKD5XN4azoeK5fSTAVk8D6pifwQHfg4f8ei67pfa2mLeWGY98dLPHp89sNMTQa4Y8l_sRAgMztshfNvOAO3rDkO17CGQX8W-9dMiBWg9ynlFdXqZvFsPkhugPm_jlAfYta2OlSNB-6jEQ2o5oALrIs2lqigCOefHPUjlc7_B-6j3rgjjoXTht3M
+cookie: isg=BEVFvf95jhAQV6rXMz2E-0FmVId_AvmUmvfmzUeqAnyL3mZQAFZBZe447BoonhFM
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"中国现行治理体系存在哪些缺陷？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"b674f1d0-9828-4834-a3f1-6b061d2ccfef","chat_id":"57bd8f42-28e3-4d89-9cfb-32c15f06cbb7","id":"06e82b65-2866-4a01-af99-b1823e280b9b","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 21:44:21 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: bf3804ee-83db-4f2b-9c79-0e470cc6baf3
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=83f389e7a6a658ea1346b24ee6760139|1741988658|1741988381;Path=/
+set-cookie: SERVERCORSID=83f389e7a6a658ea1346b24ee6760139|1741988658|1741988381;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://xnewera.pku.edu.cn/ztzl/gjxdhjsyj/0211308b71644b5fae0ee8b3b156ad82.htm", "title": "刘舒杨|| 中国治理的现代性分析", "snippet": "Feb 1, 2023 ·  中国传统政治的一大缺陷。理性的缺失限制了中国传统官僚体制向现代官僚  公共理性与个体理性的不同关系模式，形成了中国治理体系内部的现实差异。", "hostname": "北京大学官网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN013RF0HG1Zfj6YD3ckO_!!6000000003222-55-tps-32-32.svg", "date": ""}, {"url": "https://www.sppm.tsinghua.edu.cn/info/1007/4879.htm", "title": "王亚华齐晔：中国环境治理的挑战与应对", "snippet": "但是中国的环境治理体系仍然不健全，治理能力不足，突出体现在：大量环保制度不落实和流于形式;有法不依，执法不严的现象普遍存在;基层治理能力薄弱，环境监管不力;资源环境涉及", "hostname": "清华大学", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01nd3ms11Nyi7vEfjYT_!!6000000001639-55-tps-32-32.svg", "date": ""}, {"url": "https://www.civillaw.com.cn/uploadfile/lmpic/20210531/20210531161231359.pdf", "title": "[PDF] 中国公司治理制度的困境与出路 - 民商法律网", "snippet": "治理规范强制性与任意性的明确定性和定位. 强制性过度而任意性不足或缺失曾经是我国公司法存在的最为突出的缺陷,在历经多年的深刻反. 思和充分论证之后,", "hostname": null, "hostlogo": null, "date": " (2021-05-31)"}, {"url": "https://qks.swupl.edu.cn/docs/2021-04/20210409160124162945.pdf", "title": "[PDF] 中国公司治理制度的困境与出路", "snippet": "摘要:中国的公司治理始终经受着多方的批评与质疑,实践中也面临着许多困难。 立法者虽经不懈努力以求完善公司治理制度,但却总难实现公司治理现状的彻底改观,其.", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.guancha.cn/FangNing/2019_12_25_529394.shtml", "title": "我国当前治理体系和治理能力处于什么水平？-房宁-观察者网", "snippet": "在改革开放以前，我们政府税收没有一个定型的制度，政府收钱都是收各种费用，没有制度化，缺乏法律依据；直到1994年以后，特别是1998年前后，中国现行的税收体制", "hostname": "观察者网", "hostlogo": "https://img.alicdn.com/imgextra/i4/O1CN01V97RER1rkSGuvsMrf_!!6000000005669-55-tps-32-32.svg", "date": " (2019-12-25)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国现行治理体系"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在多个领域存在一些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺陷，以下是主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "问题的总结：\n\n1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **公共理性与个体"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "理性的关系模式"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不完善**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   中国传统政治的一大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺陷是理性的缺失，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这限制了传统"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "官僚体制向现代官"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "僚体制的转型"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。公共理性与个体"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "理性的不同关系模式，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "导致了中国治理体系内部的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "现实差异[[1]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2. **环境治理体系不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "健全**  \n   中国的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "环境治理体系仍然面临"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "诸多挑战，治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "能力不足的问题尤为突出："}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   - "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大量环保制度未能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有效落实，流于形式"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "；  \n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 有法不依、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "执法不严的现象普遍存在；"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   - 基"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "层治理能力薄弱，环境"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "监管力度不足；  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   - 资源"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与环境问题涉及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "面广，协调"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "难度大[[2]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "3. **公司治理制度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的困境**  \n   在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公司治理方面，中国存在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以下问题：  \n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 治理规范中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "强制性过度而任意性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "不足或缺失，这是我国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公司法长期以来存在的突出缺陷"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "；  \n   -"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 尽管立法"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "者不断努力完善公司治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制度，但实践中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "仍难以实现彻底"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "改观[[3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n4."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **税收与财政"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "体制的历史遗留问题**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   在改革开放以前，中国政府"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "税收缺乏制度化和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "法律依据，直到19"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "94年税"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "制改革后才"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "逐步建立现行的税收体制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。尽管取得了显著进步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，但治理体系的整体"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "现代化水平仍有提升"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "空间[[5]]。\n\n综"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "上所述，中国现行治理体系"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在理性构建、环境保护"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、公司治理以及财税"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "体制等方面仍存在不足"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，需要进一步深化改革"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以适应现代化需求"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。"}}]}
+

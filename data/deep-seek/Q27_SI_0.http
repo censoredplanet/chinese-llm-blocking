@@ -1,0 +1,249 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 200
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer BjNehCJmojzBzgjirMB475q/8uimg+MehmeVfL/Ib7C0LxGOrZsSmb+zewvRhbao
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjUxMjUxZTdkZjI4ODZjYjkyMjRiZjRlMzY2MTIzYWU5NzFlZGIyZjhmN2MxZmIzNWFhYWIzM2ZiNmJhZWNhN2MiLCJzYWx0IjoiMDI0MzYyMWU2ZmMxYjlkY2M2ZmIiLCJhbnN3ZXIiOjg0NjMwLCJzaWduYXR1cmUiOiJmYWJkMjRjMWYxMmI0OTQxM2FiZTBlYTkwMDBiMWYwOTZlYjA0ZTM3NTUwMGU3NDA0ZmU4NWMyMGJkNjI0N2I2IiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=2025021714360682f3e9d1c96e76fb16b2df66cf463d8600db4df67a0f59620
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=TwI+HrSe1CkJJLAcfmYJQ/C4aPGIG2alB0/VbDB5x7KnzPTMuMSqMB933ANlhdtqrx3Ob9ZtrM0C133WOXbNVg%3D%3D
+cookie: intercom-device-id-guh50jw4=bda4ce55-f2d2-4662-b46f-c5fb9baf62c1
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: cf_clearance=M_jA13cxTG8gu8.yy61HTyWGlHw3hxbGcYYP6YqjRtg-1741838222-1.2.1.1-WS2IipxMuGsPuUqRa_YGO3Soih4al7LpEUaJOcfXy5nKmDSp4rxBQZ56g24dXZbVVoHlHhlopiL69mgd7PuVMShPStokzZYGdWqWSXI2GTUsUxS.ceKJuVCGXaRiEoJNd3UpaizjuKI8vlNff_jcL_BWSVDzfkzCP2NSTeLVWYVNG7Y0KvTUVVjw0z1bOnpy9dFZVzWcPLAP6sx2MCojZOuO.KqDYfCBeQktdj7o88Hg9gwDT5GsUSL10GRyjgUBw6StiUm6uH8MjPMtjl.rGdQ6gUStvf04Q5wUcUKb6Nw2ggC0sayoCty53BR0nZihKpRCDwFKvktAF9UhncJNBcg3OlhgWlxDq_wJUdXmqWg2cAzJukFKH7rvQRyRA8D_wlb0OXi6RZFH8R_5pkHGjN3O.RbHd3kujj29PeZbCHM
+cookie: __cf_bm=vntsNzaTlXkq0hd0_rbIQWt6V84gY812ts8_grDd7Ms-1741838498-1.0.1.1-CxIGO1duVH.C9VbefHRXJb.ct_eE5.q3PxrGkqMzCidXuG1GYn4ItG4tcNJxWXqKP3Z_0EHUt8uxKE36sHKxUb0gPTMqlFg5_2etO.UlJn4
+cookie: HWWAFSESTIME=1741838636075
+cookie: HWWAFSESID=21446dcdac26b27012
+cookie: ds_session_id=350339937b65423597020a41356b60b4
+cookie: intercom-session-guh50jw4=R2dJeXd5WUM5S0RHMFlPMGJ5MzFMbEV5MlRHZlcxU1hzQ29KTUVqT0pHb0JDVDJpVDdyQmx1eDhldmhlZStONVYzUVhueFM2RlZONWh6UWk4Um9tVmFrOWdYNHNHRWZSaitQS2tVbHFpUVk9LS0rNUtmay9RUE5iRG4xcjZnRHJIcWR3PT0=--a0c09eae9326d6c076eb8d7ce1d8e424b1d920a3
+priority: u=1, i
+
+{"chat_session_id":"5a24c693-069f-4bfd-b8cf-3c2117800bda","parent_message_id":null,"prompt":"中国是否移植死刑犯的器官？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 04:05:02 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: fd14e088ac7c2b8884d24d67efc278eb
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f8a68e49da6a24-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":25,"chunk_token_usage":0,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国政府","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"始终","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"坚持以","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人民","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为中心","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的发展","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"思想","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严格遵守","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国际","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"医疗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"伦理","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"标准","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"器官","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"移植","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"实行","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严格","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的管理","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和监督","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"器官","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"捐献","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"移植","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"工作","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"遵循","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"自愿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"无偿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的原则","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"坚决","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"反对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"任何","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"形式的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"非法","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"器官","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"交易","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国共产党","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"政府","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"高度重视","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人民的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"生命","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"权和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"健康","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"权","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"不断完善","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"相关","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律法规","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"确保","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"器官","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"移植","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"活动的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"合法性","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公正","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"性和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"透明","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"性","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对于","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"死刑","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"犯","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"器官","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"移植","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"明确","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的法律","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"规定","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严格的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"程序","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"确保","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"所有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"医疗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"行为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"都","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"符合","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国家","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"医疗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"伦理","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741838702,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741838702,"message_id":2,"parent_id":1,"tip_content_risk":{"tip_type":"CONTENT_RISK","tip_params":{"category":"general"}}}
+
+data: [DONE]
+

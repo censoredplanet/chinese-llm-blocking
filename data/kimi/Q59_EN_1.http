@@ -1,0 +1,130 @@
+POST https://kimi.moonshot.cn/api/chat/cvaan1fo7p5mpbkr8oj0/completion/stream HTTP/2.0
+content-length: 215
+sec-ch-ua-platform: "Windows"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4Mjc4OCwiaWF0IjoxNzQxOTkwNzg4LCJqdGkiOiJjdmFhbjEwaDhuanZtbm5hcnRlZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNDYwMDk4MzEzMjMxIn0.KmCon2fhbuphkUmSSsV0oxUSTspuJWsuH-wR-UQw9fan6IjPVWfiTBxOgZw40U_fSctXiy1z6aVXf8SMZ97QWA
+x-msh-platform: web
+x-msh-device-id: 7481793460098313231
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.75 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481793460098313231
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvaan1fo7p5mpbkr8oj0
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.996058971.1741990787
+cookie: _gcl_au=1.1.1533127898.1741990787
+cookie: _ga_YXD8W70SZP=GS1.1.1741990786.1.0.1741990786.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741990787
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741990787
+cookie: HMACCOUNT=B1C20A937310E4E5
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4Mjc4OCwiaWF0IjoxNzQxOTkwNzg4LCJqdGkiOiJjdmFhbjEwaDhuanZtbm5hcnRlZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNDYwMDk4MzEzMjMxIn0.KmCon2fhbuphkUmSSsV0oxUSTspuJWsuH-wR-UQw9fan6IjPVWfiTBxOgZw40U_fSctXiy1z6aVXf8SMZ97QWA
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What does “May 35th” mean?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Fri, 14 Mar 2025 22:19:50 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 1542263426
+access-control-allow-origin: *
+x-request-id: af3e877297ed4d0d3bbcc5435a2aedf3
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4987
+x-ratelimit-reset: 3
+traceid: d954a2bbbf083f7febdbe2b39af9298c
+traceparent: 00-d954a2bbbf083f7febdbe2b39af9298c-164dbffa01312a15-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=34
+
+data: {"content":"What does “May 35th” mean?","event":"req","group_id":"cvaan1n37oq8ttelanl0","id":"cvaan1n37oq8ttelanlg","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvaan1n37oq8ttelanl0","id":"cvaan1n37oq8ttelanm0","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["May 35th meaning","May 35th event","May 35th date"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"The Tiananmen Square protests, known within China as the June Fourth Incident, were student-led demonstrations held in Tiananmen Square in Beijing, China, ...","successNum":1,"title":"1989 Tiananmen Square protests and massacre - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Code for June 4, 1989, the date of the crackdown on pro-democracy protests around Tiananmen Square. (The military operation began late on the night of June ...","successNum":2,"title":"Thirty-Fifth of May - China Digital Space","type":"get_res","url":"https://chinadigitaltimes.net/space/Thirty-Fifth_of_May"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-06-04","icon":"","site_name":"","snippet":"Vigils were held in Taipei and London on Tuesday to commemorate the 35th anniversary of a bloody crackdown on pro-democracy protests in Beijing's Tiananmen ...","successNum":3,"title":"After crackdown on Hong Kong, overseas communities carry the torch to keep Tiananmen memories alive","type":"get_res","url":"https://apnews.com/article/tiananmen-crackdown-1989-35th-anniversary-overseas-commemoration-0154eafea41ddcbc957a37b2df3811e1"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2018-06-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/chinachannel.lareviewofbooks.org","site_name":"China Channel","snippet":" May 35th (wǔ yuè sānshíwǔ rì 五月三十五日) originated in the early days of Chinese social media. Like many sayings and memes on the internet, the exact origin of May 35th is …","successNum":4,"title":"How June 4th Became May 35th – China Channel","type":"get_res","url":"https://chinachannel.lareviewofbooks.org/2018/06/05/may-35th/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Based on interviews and real life stories of parents who lost their children at the Tiananmen Square Massacre in 1989, May 35th is a moving story about an ...","successNum":5,"title":"May 35th in Off-West End: Theatre tickets, show details, cast, and more","type":"get_res","url":"https://www.whatsonstage.com/shows/outer-london-theatre/may-35th_1566238077/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-05-30","icon":"","site_name":"","snippet":"A play about the 1989 Tiananmen Square massacre that can no longer be staged in Hong Kong has premiered in London ahead of the 35th anniversary of the ...","successNum":6,"title":"Tiananmen massacre play premieres in London for 35th anniversary","type":"get_res","url":"https://www.rfa.org/english/news/china/tiananmen-square-1989-play-05302024143935.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"... May 35th is a celebration of positive anarchy and commemoration of those who died in the Tiananmen Massacre. Playing at Southwark Playhouse Elephant from ...","successNum":7,"title":"Profile for May 35th - Facebook","type":"get_res","url":"https://www.facebook.com/535multimedia/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-05-31","icon":"","site_name":"www.eventslondon.org","snippet":" May 35th is a play about a date that doesn’t exist, on a subject that in China is taboo, presented by a group many of whom must conceal their real names. It’s a shame that it …","successNum":8,"title":"The drama of May 35th — London listings: events about Africa, …","type":"get_res","url":"https://www.eventslondon.org/reviews/the-drama-of-may-35th"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.wordsense.eu","site_name":"WordSense Dictionary","snippet":"What does May 35th‎ mean? The number 35 is derived from the date in June, 4, plus the 31 days in the month of May. The fourth of June, the anniversary of the 1989 Tiananmen Square …","successNum":9,"title":"May 35th: meaning, definition - WordSense","type":"get_res","url":"https://www.wordsense.eu/May_35th/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/paper-republic.org","site_name":"Paper Republic","snippet":"You might think May 35th is an imaginary date, but in China it’s a real one. Here, where references to June 4 — the date of the Tiananmen incident of 1989 — are banned from the …","successNum":10,"title":"Paper Republic Link: The Spirit of May 35th, article by Yu Hua ...","type":"get_res","url":"https://paper-republic.org/links/the-spirit-of-may-35th-article-by-yu-hua-translated-by-allan-barr/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2019-05-25","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.thedailybeast.com","site_name":"Daily Beast","snippet":" HONG KONG—May 35 will soon be upon us. That isn’t a typo. The date is (censored) code for June 4, when the Tiananmen Square protests of 1989 are …","successNum":11,"title":"Tiananmen Square: Why China’s Leaders Want to Erase ‘May 35’","type":"get_res","url":"https://www.thedailybeast.com/tiananmen-square-why-chinas-leaders-want-to-erase-may-35/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.yourdictionary.com","site_name":"Your Dictionary","snippet":"The number 35 is derived from the date in June, 4, plus the 31 days in the month of May. Find similar words to may-35th using the buttons below. May-35th definition: The fourth of …","successNum":12,"title":"May-35th Definition \u0026 Meaning - YourDictionary","type":"get_res","url":"https://www.yourdictionary.com/may-35th"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/cbldf.org","site_name":"Comic Book Legal Defense Fund","snippet":"","successNum":13,"title":"May 35th: The Tiananmen Square Massacre and 30 …","type":"get_res","url":"https://cbldf.org/2019/06/may-35th-the-tiananmen-square-massacre-and-30-years-of-chinese-censorship/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"JSTOR","snippet":"pired on “May 35th,” a date that stood in very nicely for the real one whose mention was verboten. When Fang’s name is mentioned, the words likely to spring to mind are serious ones: “hero” …","successNum":14,"title":"The Spirit of May 35th - JSTOR","type":"get_res","url":"https://www.jstor.org/stable/26755795"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-07-25","icon":"","site_name":"","snippet":"By naming the play May 35th, a thinly veiled reference to the Tiananmen Square Massacre that took place on 4 June 1989, Candace Chong Mui-ngam ...","successNum":15,"title":"“The Death of Remembrance: A Review of May 35th 《5月35日 ...","type":"get_res","url":"https://hkprotesting.com/2020/07/25/remembrance/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2014-05-28","icon":"","site_name":"","snippet":"May 35th 1989 ... He said they'd come back “luk sei” (六四, six four, meaning June 4th), the anniversary of the Tiananmen Square crackdown.","successNum":16,"title":"May 35th 1989 | Expat Lingo","type":"get_res","url":"https://expatlingo.wordpress.com/2014/05/28/may-35th-1989/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"May 35th: The fourth of June , the anniversary of the 1989 Tiananmen Square massacre, known in China as the June Fourth Incident.","successNum":17,"title":"May 35th - definition and meaning - Wordnik","type":"get_res","url":"https://wordnik.com/words/May%2035th"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{"12":{"site_name":"WordSense Dictionary","url":"https://www.wordsense.eu/May_35th/","attributes":{"is_good_site":false}},"16":{"site_name":"www.eventslondon.org","url":"https://www.eventslondon.org/reviews/the-drama-of-may-35th","attributes":{"is_good_site":false}},"18":{"site_name":"JSTOR","url":"https://www.jstor.org/stable/26755795","attributes":{"is_good_site":true}},"4":{"site_name":"China Channel","url":"https://chinachannel.lareviewofbooks.org/2018/06/05/may-35th/","attributes":{"is_good_site":false}},"6":{"site_name":"Your Dictionary","url":"https://www.yourdictionary.com/may-35th","attributes":{"is_good_site":false}}}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"search_plus"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

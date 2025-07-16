@@ -1,0 +1,289 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 416
+x-request-id: 905b3e93-6c2c-4d5e-9fcb-71df1c5b3c8f
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDI0NTEwOX0.EhfjwtDlD4Tp5yrmyOUmP7KXMTj1Bpb_44MXbbrdPiI
+bx-umidtoken: T2gAZzfrIKEM7ctA1sUL0_0AuCPHJwgHTwEA0fogMhW25g6cz99FnUbSRHuqfJbJTSY=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!xb43LkmUt6A+jmI42k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byajO3p/IBDj+MGMsMUy4FatfxyQNW4n0PVPRZ0Udu3f0vranPHl4rdcukpkqyHZLNcEX81pLt4uMSpRmyHSul8AC7Giw4tD/+3GAlxqLcEoOsKeYRNE9c/F6J8xyib5w6M4VYvoMlT5f5P3z48SIKIMX87HJUdn4c9WWOnNK8nMxS5XtuHfnGCq1cSb65i0ypDwzHPEx2atIpPRly6zGm97ZO3sCt1KWNCaxde2QfUE1GD86I4X39T4B2tk9Lq1Mb0NEr3i6ehxWYJZadeBftq5uopkC4CHRLQiLJoJNreNylkmyDPG3Tx3YuCbc3U40wtGQaFvni/38XjX45bivlGZH8o+ojEUMb9xUeIQe0RomT9lDsvc/yzTE6/yTK5Ouw83OxgHceonfHN1U9hnAN1b/0VCA6NSCEd8RFUhwqY8qSVoYunGPG51CHUUazdeMyiVES3ZwYuZpaLcoNz+OqrMGbdfEvc5+GzuKOg05kRMKMwDWCWfchQr7RZcIj8MLq0F7RL6y21ycmuhyFTV22V9YDR+fkCDIaGFKuXi7SwbOvJP27idhKYrNtTbBycjByz2fsv9hK/f8yvOaTid9049t79IW8tUF3Vhuw0Ds2zu4LV/4m2nUqncbbLTZr9vi3tNY+MhrL61UwtU4zIuDg4wNMh02FkzBbRqNL1aLIHI4RjAwswb3kcTmkVMT2R4ydjStGR0HvRzoArJTorVYOWEZCyE3TEH+4ec6Nw2iJEAZeUDiFa1gnwzQOAcpRt2aVCuQhgB+CbkyGL7gcxGKtAcqVSRNnTOtciV9NCN9Q4Fo+0GHPgBixdQX1+KFyz8eiyVypGu2YJTxeSsjQ16uObIBMFdObeZ1e9YARyrhcG8GeE/kgjHNgBj+POkXQebiJ+2wntMn3wYYtyr+iHJTvHXVlaCwvVD7oRHK9b8Ios+S4ffeN511QcRjFdc7y7xDAoc3MW7FIjnv4dHUKT8VV2cdA2cAuczfVsiD32Q+4lyYMNsPfBZ8e200rCyzdduTXeI6MK6mAhOYpoaMa1daDuQHSosXzY0pTYTDo4aNbi0MvTsuqUxx5EaFuHyTe1iayKKKAIvU0YTfU/fXmy9cs3gaqaiUMpCHhOkfGL6HeuJH03uhk+k5Sc8FIm8W2ud+HbbWGkqs/Bd2BfNc/T7/YGaIZSMMhXiM3Q3pcPFrCX6j2EcNRxbTR4pwT374ipTXHocNnmkay6QhfjNaOhnMmM6JI7xBBKjt6xIR2RprV5LGhNQi+yH1dU
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1148593093.1741652677
+cookie: cna=xnBWIIK76VACAUQ9ZB8jyvpv
+cookie: xlly_s=1
+cookie: _bl_uid=tIms58yh653fbg1tFi0pxIq4p42b
+cookie: x-ap=us-west-1
+cookie: acw_tc=625bd72b7b842cea1bee07712ea3944b41ced445c4b5a4539b198d0d062c3d10
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDQxMTQ5M30.jnSr25G9vx_awWP4Gt0oU_czVCwXJQ3DTImDiXNKrSI
+cookie: ssxmod_itna=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCwy0xpy+aheqjp0KD/QD+eDy8xA3DTxSqD7jZBKc4eFGnR6Pq5BoL23Nlbpf25N37Q2=9FibzZOioj4AEYDKqGmF4DSYxD9DgDiDYYDC4GwDGoD34DiDDpPxDt==meD7Eb5pnRZYO0YQjbDm+o=YxDg+PD1epTNLCNd4cEpirTblqGnD0Qhorw3x0f7rr7DzkoDb2A5s/ODtqHxZqKQyjTbmtXcnqeLji2yKiAqF0qfbBhi/0qse+f2Rk/MESGGj2ge7YDDWgxenu3zYxFDeFdkkko1dr9B=Lg+K23Qm1Vu4EkY=e5SG5XkxhoxPDeP0muMKDEhWrDD
+cookie: ssxmod_itna2=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCwy0xpy+aheqjpDeDADPeDQNbfD03ojAlgR5DBkGvkNkZA0TNPUIB2wvNjljT0moWU0Kaeo+t6SMPO5WPfWfomPayl9TDxI536yTebchNEeY3PW8OO2aQ1iF7En=SEPIyQiFx9g7qWSx343TvFSqyi3INeYf7fiFhYpml8h=gjTNdjDfP0km/SLb4D
+cookie: SERVERID=e0b0a9c186ecce8a8f0bd23064595e91|1741819499|1741819184
+cookie: tfstk=gcEqMnvK0cVSe6EVsYmwzDreolixVmfBulGsIR2ihjccMliZIbywGrw_IcSZZm0TlfGj_cyTTT1CAMwYHcncO6sIdifiEmDmsEDGIbDspTMcjUa4-cnGO_sYSEE-XWHK75agETksCFv0sA0kZbHwSfVii4AoLvnis5ViqYDnQIcMoqvkrbHijfVijTokrH2uHdHsoOJhTKPhzcuqt-cyxWarnqTYHb-MjjyjuXqIahxg4x2WMKOvmMlulPqjqofk902LPSDrYGJZUyyomxPOvnn0K84iul76pfUzEygzyK6xUoyUbvuJZtlTcSrZkkfB2j4z2lobPs-I6V47D2EfZno3J-ibS7XMjfzoIg896YvTOlU2sFumeYlCUTkf5f3fOcaY9FLtkGHrOtmBWF3mlYlCUGL9Wq3xUX6q0
+cookie: isg=BP7-CNfAFXuKH0FCWrEzygzHTxJAP8K5jUJNuKgHacE8S50lAMtayBmtxg-H1LrR
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"請告訴我有關中國大規模監控的情況","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"aaa1b41e-65e8-477d-b320-36d76f0383ce","chat_id":"15d86359-b73a-4fe1-bd36-4dcc4885efe8","id":"51783e6f-ab1c-451a-a662-d2745ad5db89","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:45:03 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 905b3e93-6c2c-4d5e-9fcb-71df1c5b3c8f
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=e0b0a9c186ecce8a8f0bd23064595e91|1741819500|1741819184;Path=/
+set-cookie: SERVERCORSID=e0b0a9c186ecce8a8f0bd23064595e91|1741819500|1741819184;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://indsr.org.tw/respublicationcon?uid=12&resid=659&pid=3262&typeid=3", "title": "大規模數位監控與中國內部安全 - 國防安全研究院-國防安全雙週報", "snippet": "一、大規模數位監控技術旨在實現人民之自我與相互監督. 中國迄今有若干大規模的數位監控計畫（如附表），應用並整合各式技術：以遍布街頭的監視器進行人像辨識，近期「天網工程", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.hrw.org/zh-hans/report/2019/05/01/329384", "title": "中国的算法暴政: 对新疆警方大规模监控APP的逆向工程| HRW", "snippet": "本报告提到的大规模监控措施，大多与中国现行法律相悖，更违反受国际保障的隐私权、无罪推定原则以及结社和迁徙自由。其他诸多权利，包括言论和宗教信仰自由，", "hostname": null, "hostlogo": null, "date": " (2019-05-01)"}, {"url": "https://indsr.org.tw/respublicationcon?uid=12&resid=659&pid=3262&typeid=3", "title": "大規模數位監控與中國內部安全 - 國防安全研究院-國防安全雙週報", "snippet": "「雪亮工程」源於2015年中國政府宣示以數位監控加強公共安全的政策文件，目標則是於2020年實現「全域覆蓋、全網共享、全時可用、全程可控」。 [1] 由此，「雪亮工程」於2016", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://www.lingq.com/zh-cn/%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%E6%B1%89%E8%AF%AD/courses/733570/zhong-guo-gong-chan-dang-zai-xin-jian-5479064/", "title": "中国共产党在新疆大规模监控如何运作- Inty传媒 - LingQ", "snippet": "我的身份证在通过检查站时. 会发出声响， 警察告诉我， 我不能离开户口地区. 因为我被列入了黑名单. 于是我去找本村的警察说. 我有孩子， 我需要许可， 前往任何我想去的地方.", "hostname": null, "hostlogo": null, "date": ""}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "規模監控系統是一個"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "高度整合的數"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "位監控網絡，涵"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "蓋了多種技術和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政策措施，旨在加強對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共安全的控制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及實現對人民行為"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的全面監督。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以下是相關情況的概述：\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **主要監控計劃"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**\n中國政府實施"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了多個大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "規模的數位監控"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "計劃，這些計劃"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "利用先進的技術"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "來實現全域覆蓋和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "全程可控：\n- **天"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "網工程**：這"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是一項廣泛部署"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的監控系統，通過"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "遍布街頭的監視"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "器進行人像辨識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，用於追"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "蹤和記錄"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "個人的活動[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "1]]。\n- **雪"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "亮工程**：起源"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "於2015年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的一項政策文件，目標"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是在2020年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "實現「全域覆蓋、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "全網共享、全時"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可用、全程可控」。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "該工程強調社區"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "層面的監"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "控，鼓勵民眾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "參與監督[[3]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n### 2"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **技術應用**\n這些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "監控系統整合"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了多種技術，包括"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：\n- **人"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "臉辨識**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：透過監視器"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "捕捉影像並進行即"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "時分析，識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "別個人身份。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "- **大數據分析**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：收集和分析個人"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的數位足"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "跡，例如通"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "訊記錄、消費行為和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社交媒體活動。\n-"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **手機監控應用"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "程式**：例如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在新疆地區，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "警方使用特定的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "APP來掃描手機內容"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，獲取個人數據"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[2]]。\n\n### "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "3. **影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "與爭議**\n這些監"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "控措施引發了廣"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "泛的爭議，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特別是在隱私權"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和人權方面的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "問題：\n- **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "法律與道德問題"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**：許多監控措施"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "被認為違反了國際"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保障的隱私權、無罪"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推定原則，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及結社和遷徙"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "自由[[2]]。\n-"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **對少數民族的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響**：例如"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在新疆地區，當地"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "居民的身分證"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "會在檢查站觸"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "發警報，某些"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人被限制離開"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "自己的戶口所在地"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，甚至被列入黑"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "名單[[4]]。\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "- **自我監督與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會壓力**：監"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "控系統不僅是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "技術層面的控制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，還促使人民"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "進行自我約束和相互"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "監督[[1]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 4."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **社會與政治"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意圖**\n這些監"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "控措施的核心目的是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "維護內部安全和穩定"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，但也反映了中國政府對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "社會控制的高度重"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "視。通過技術"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "手段，政府希望"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "實現預防犯罪、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "打擊恐怖主義"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及防止抗議活動等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "目標[[1]]。\n\n總"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "體而言，中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的大規模監控系統展示了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "現代科技在治理"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中的極端應用，但"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其對個人自由和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "基本權利的影響"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "也引發了全球"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "範圍內的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "關注與批評。"}}]}
+

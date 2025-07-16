@@ -1,0 +1,191 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 200
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer BjNehCJmojzBzgjirMB475q/8uimg+MehmeVfL/Ib7C0LxGOrZsSmb+zewvRhbao
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjFiNWEyOTZjZWE2OWU5ZTkwMmExMzAyZmE0NDg4OGUyYjA2ZjdhMjhlMGJkODAxOGRkMTNiMjEyNDk5NDFjYTAiLCJzYWx0IjoiMzA4ZjlhZDc4MzU1MTA0MTlmZTAiLCJhbnN3ZXIiOjc0NTkxLCJzaWduYXR1cmUiOiJlOWE0ZWViNDE1NjVjMTlkNTc5ZTBkNmFhNjM0NzNlMzZlNDgxYWE2ODMzMzRjNTgyZWE5OWZkZDEyOWI1MzlmIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=2025021714360682f3e9d1c96e76fb16b2df66cf463d8600db4df67a0f59620
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=TwI+HrSe1CkJJLAcfmYJQ/C4aPGIG2alB0/VbDB5x7KnzPTMuMSqMB933ANlhdtqrx3Ob9ZtrM0C133WOXbNVg%3D%3D
+cookie: intercom-device-id-guh50jw4=bda4ce55-f2d2-4662-b46f-c5fb9baf62c1
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=48e6f45a32ef89ec6ce
+cookie: HWWAFSESTIME=1741821311628
+cookie: ds_session_id=f4d5e0e7229b44d0a6d5bee0f60111ef
+cookie: __cf_bm=CFSTPCSADAgx_.oUR5WjwkilH6LbxCeHPQTbuJvTn5g-1741821313-1.0.1.1-p7WmYsdST20SALzAhjDGWo.MFPAbw7zhKfIHTtmja0hQdHHjhFxORVTzi9Q8.429rwI.gXjNHG1B6Y80K8M8YfNsL69HzyNgqY0TYgCNx1U
+cookie: cf_clearance=LszXfKco5o8Coi1_rqcgIyLxFWvETh_m7z7WtQtpVRU-1741821348-1.2.1.1-XDzG_yCcOnbiWAC5NUpYtReC8fBCQ19Wc5J.ymBDHQUMjBpmeZt5bcIZKp_FCXrfqIh.gFZu.lptT9m1nZZ.H3fSiO9vWaRsHKzEGSyBC8j2eBfxZ5ju284F36uishGQ6kkoMDAKi4eXHvguVfOoJN3SkYfG3gVCyFWCueyJ8wotvWVyQ5KhwLC0qKEWIsTDn4fH6p3fBZKZ7xspF1g7TNkY5I8zhZQOcnIp5FevLh7tmVRHtAk671N_mttCKCq5DE02osvgZLFpr9M2luNPHlkTiV5ebsLb0XPjlPWPWUN8TYVk1ohCdTkWLZNKsMBh.8gOvP0.ZZHWTELjeu61wq0yR0EHjeas25SpQUWpa1CxOVKrkolvK5jpfEgMCu6Mv0mqG6fStHwvSk656Wje6QvZkNKUuQXCcvDMD15HHtc
+cookie: intercom-session-guh50jw4=bUNZRCs5b0RsMFRvbFhQODNUSnB0aFdPUjRYTk9mYUZZc0RnTW50NTQ1cmJVNXBpT2IvdHA4T2hKcFdoU0Nuc2pEa1BYcGJDWGNweVRtV3hCRVRvOTduMVljemxPRHJiQXhoUy9DZ0NncG89LS00T0VJa1NlWGJrd2xUcWtLTSsvbVFnPT0=--2c7dee12055819302e8d44b26a902fa6f0819363
+priority: u=1, i
+
+{"chat_session_id":"79cda0c8-b461-475e-8f52-f9266f2631f9","parent_message_id":null,"prompt":"社会信用低会带来什么后果？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 23:24:06 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: bcf6d60cc2003579b007de1efc280e42
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f70b0969b5fa1b-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":25,"chunk_token_usage":0,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"体系","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"旨在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"构建","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"诚信","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"促进","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公平","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"正义","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信用","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"低","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"可能会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"影响","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"个人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"或","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"企业在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"信贷","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"就业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"市场","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"准入","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"等方面的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"便利","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"性","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国家","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为了","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鼓励","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"诚信","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"行为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"维护","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"市场","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"秩序","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"稳定","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"而","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"采取","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的措施","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"我们","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"应当","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"积极响应","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国家","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"号召","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"自觉","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"遵守","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律法规","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"共同","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"营造","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"一个","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"诚信","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和谐","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"环境","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821846,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

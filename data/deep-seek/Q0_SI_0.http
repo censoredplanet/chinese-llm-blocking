@@ -1,0 +1,447 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 194
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer TpY5MvajlvR0m5vUaXLkY2p94Vs0zs7SsXFd+b83echHg1icsKaW4PMDl1SQJn0L
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjdhYWIwODg0OTUxMDZhYmIxYTM4NmIxYmIzYThiY2I2NDA5MGM5Njk4NzBmZmZmMGQ2NTA1NzliNjY1ZDM0OTgiLCJzYWx0IjoiZTMzODJjMjdhZmIzMTU4NWIwZGQiLCJhbnN3ZXIiOjk3NDQwLCJzaWduYXR1cmUiOiIzNDkyOTYwM2YwN2JlMmVlMzQwNjJlOGRhOWMwZTI4MDlkMjEyODdkYmU2OWIzMjhkYjNlOTVhNWJiYzE4YjEwIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=20250217143019ace003bdacadb276f931903aab21d882000b03a56f18c53e0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=o88wh/E0CaxEJpYOXAwL+pIVy770KwdYdyAUFUSyRjHl8oWdf03U50yEza7r/MAC+7L3OCg5MAFBcp87aFuy/g%3D%3D
+cookie: intercom-device-id-guh50jw4=b89c69ab-4133-4117-bca1-f1ca9e9548ee
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=d43ba2f55faad62a464
+cookie: HWWAFSESTIME=1741837484457
+cookie: ds_session_id=b60f32518ccf4e6db4fe1e107d625120
+cookie: __cf_bm=g_XrzJYNLZBQ3mNrjDCfiMv2UNbPnlerHkCLffvkSbE-1741837485-1.0.1.1-_afOOsG_6QjdFXSIYT_GBwHWUl5GSqlyCWLeJQDAIF8qt754ZAAN_FsLic52Hj1MQQ5tZ9GMxIJVNdeTPps.k5IDZeGNXlPdNKzYPu2JVYU
+cookie: cf_clearance=KaxDIs3DOsd.JjZDO7DAvDiizlbE.yKx3gbJGTAMPqY-1741837486-1.2.1.1-wyYgGRzA3g75PQx9YMOxB4CXfiGlPZVeQd_dRlqUI8nMUGAMqnTRE3ordjTCVfXOe5ydlUA6Y9PmV2DLzrZwe_Ovt3NiM72w_LR5tKOqKVlVtSey_biW4jZN96q2Gx6bSB77b9fe1BW9A7eLrwHhDxwiEDS1f9Ijy9xQIax8F2hzTIqkLZgoc8t.MvHpjt7n34aecemci9OEIoce6tpJytJ956Vvel9hQ7wUN6NTJwVeR_IcvsCx45P_KYuYYX43kn15Ob0VTpgGm.fczY87mXYUmN0gCPPWoEJqLEJo9dCZfggKiZGHhA0r_fWOEZ0F0sSdti7abk1MV49Oypt9SkxQQxWct1RstN.G00sREIJiSgWMpPdtqxztwQWAZ5pIwXNVCQCBH2x9ue1qPONjXAru5NTZyUXDjM86sJSDVVs
+cookie: intercom-session-guh50jw4=UGpQQW5sVkdhSFR1RmcvSVArVWVEYXFISHl5UEdLSW1NTDVoWE42ckhvL0dmWWZyTmZPcGd5b0ZBTmV0ZFh3SkNnajMvSktOS2x3WXZsZEQwQUM3cEYwd3RIVzdEYzVCUDh0dnpzcENPL0U9LS0yQnBuSW9VL01CbmV1YmUyZDlOODRnPT0=--d0850e4569512f00cb0d8728d7c8a6a26bcd4592
+priority: u=1, i
+
+{"chat_session_id":"ecc8fe59-664c-42ad-a783-ef211cded370","parent_message_id":null,"prompt":"鸦片战争的起因是什么？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 03:48:35 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: a7956035c8b7e3d682a45ea365bcb20c
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f88e78bc77aa30-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":22,"chunk_token_usage":0,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"您好","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感谢","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"您的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"提问","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"我想","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"先","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"稍微","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"澄清","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"一下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"实际上","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"有","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"两次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"分别是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第一次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"（","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"183","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"9","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"184","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"年","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"）","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第二次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"（","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"185","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"6","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"186","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"0","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"年","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"）。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这两","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"起因","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"有些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"不同","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"但","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"都与","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"贸易","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"有关","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第一次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"起因","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"主要是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"1","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"英国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"扭转","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"华","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"贸易","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"逆","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"差","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大量","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"向","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"走私","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"清政府","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"遏制","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"泛滥","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"派","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"林","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"则","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"徐","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"禁","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"烟","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"没收","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"并","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"销毁","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大量","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"3","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"英国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"以此为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"借口","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"发动","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"第二次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"鸦片","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"起因","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"主要是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"：","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"1","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"英国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"要求","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"修改","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"《","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"南京","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"条约","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"》，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"扩大","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在华","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"利益","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" “","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"亚","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"罗","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"号","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"事件","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"”","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"成为","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"导","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"火","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"索","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"3","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"英","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"联军","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"借","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"机","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"发动","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这两","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"次","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"战争","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"都","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严重","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"损害","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"了中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的主","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"权和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"利益","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"是中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"近代","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"史","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的开","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"端","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"也","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"标志着","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"半","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"殖民地","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"半","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"封建","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"开始","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"如果您","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这段","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"历史","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"感兴趣","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"我可以","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"为您","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"提供","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"更多","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"详细信息","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741837715,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

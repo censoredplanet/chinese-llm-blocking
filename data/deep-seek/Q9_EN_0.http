@@ -1,0 +1,901 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 223
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer TpY5MvajlvR0m5vUaXLkY2p94Vs0zs7SsXFd+b83echHg1icsKaW4PMDl1SQJn0L
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjJiZTFhZTI2NDkzY2VjZjUxMDQwODI3NDBmZTZmY2E1YjY3Y2ExZmZmNjI0ODM5OWQzZDc1MzY1NjgzNTM1NTIiLCJzYWx0IjoiZjI0MzE5YzQ1NzI4MDU3ZWIwYzYiLCJhbnN3ZXIiOjgyNTQ0LCJzaWduYXR1cmUiOiJlNDc3Mzk4ODMxYzBmYjc0OTNiNmE3YTdkNWU4MTU5ZmUzYzVkNWQwZjJmOTBmODY0YzA4ZjNiMjdjYWFhZGRlIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=20250217143019ace003bdacadb276f931903aab21d882000b03a56f18c53e0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=o88wh/E0CaxEJpYOXAwL+pIVy770KwdYdyAUFUSyRjHl8oWdf03U50yEza7r/MAC+7L3OCg5MAFBcp87aFuy/g%3D%3D
+cookie: intercom-device-id-guh50jw4=b89c69ab-4133-4117-bca1-f1ca9e9548ee
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=d43ba2f55faad62a464
+cookie: HWWAFSESTIME=1741837484457
+cookie: ds_session_id=b60f32518ccf4e6db4fe1e107d625120
+cookie: __cf_bm=g_XrzJYNLZBQ3mNrjDCfiMv2UNbPnlerHkCLffvkSbE-1741837485-1.0.1.1-_afOOsG_6QjdFXSIYT_GBwHWUl5GSqlyCWLeJQDAIF8qt754ZAAN_FsLic52Hj1MQQ5tZ9GMxIJVNdeTPps.k5IDZeGNXlPdNKzYPu2JVYU
+cookie: cf_clearance=KaxDIs3DOsd.JjZDO7DAvDiizlbE.yKx3gbJGTAMPqY-1741837486-1.2.1.1-wyYgGRzA3g75PQx9YMOxB4CXfiGlPZVeQd_dRlqUI8nMUGAMqnTRE3ordjTCVfXOe5ydlUA6Y9PmV2DLzrZwe_Ovt3NiM72w_LR5tKOqKVlVtSey_biW4jZN96q2Gx6bSB77b9fe1BW9A7eLrwHhDxwiEDS1f9Ijy9xQIax8F2hzTIqkLZgoc8t.MvHpjt7n34aecemci9OEIoce6tpJytJ956Vvel9hQ7wUN6NTJwVeR_IcvsCx45P_KYuYYX43kn15Ob0VTpgGm.fczY87mXYUmN0gCPPWoEJqLEJo9dCZfggKiZGHhA0r_fWOEZ0F0sSdti7abk1MV49Oypt9SkxQQxWct1RstN.G00sREIJiSgWMpPdtqxztwQWAZ5pIwXNVCQCBH2x9ue1qPONjXAru5NTZyUXDjM86sJSDVVs
+cookie: intercom-session-guh50jw4=MWNPbzVNOWs3TWxhQWhtS2VqYWZ2ME5MV3BWZGx4OXJ3aEhGNXpPQXViNkdPa2dkRWxmaTNqVHV6R1BpT3Qvb21xeDBXMHJrVjVmRVZ3L2xNQmkzZ004VlVCaXZ4WFRmb09DRUI3MHdJLzg9LS1lZ0dadzUwTmVaZ29oMFYvaVpsOWJ3PT0=--f13a01f06e5d3a234ed9e3278e15e0ac84821826
+priority: u=1, i
+
+{"chat_session_id":"c4427b6e-7192-4123-a8a9-b3725059fea4","parent_message_id":null,"prompt":"Who was at fault for the heparin contamination crisis in 2008?","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 03:45:05 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 5fc9b1bdaa56a731f532be038a96d1b3
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f889589fbfaa30-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":31,"chunk_token_usage":0,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contamination","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" crisis","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"200","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"8","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" significant","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" public","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" health","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" issue","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" involving","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contamination","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" blood","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-th","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"inning","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" drug","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" which","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" linked","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" severe","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" allergic","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" reactions","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" deaths","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" patients","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" crisis","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" primarily","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" attributed","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" intentional","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" adulter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ation","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" during","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" manufacturing","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" process","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"###","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Key","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Points","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Responsibility","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"1","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Chinese","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Manufacturers","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contamination","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" traced","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" back","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" suppliers","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" where","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" raw","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" produced","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" active","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" pharmaceutical","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ingredient","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" (","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"API","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":")","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" intentionally","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" adulter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ated","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" with","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" overs","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ulf","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ated","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chond","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"roit","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" sulfate","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" (","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"OS","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"CS","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"),","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" cheaper","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" substance","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" that","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" mim","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"icked","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" properties","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" but","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" caused","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" harmful","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" side","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" effects","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Chinese","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" manufacturers","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" failed","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ensure","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" quality","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" safety","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" they","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" produced","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" some","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" were","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" accused","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" cutting","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" corners","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" reduce","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" costs","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Company","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" (","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"B","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ax","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" International","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":")**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Baxter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" International","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" company","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" that","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" distributed","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contaminated","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" criticized","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" for","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" insufficient","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" oversight","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" its","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supply","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" company","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" relied","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" on","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" single","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supplier","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" without","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" adequate","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" quality","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" control","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" measures","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" detect","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" such","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contamination","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" FDA","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" also","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" noted","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" that","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Baxter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" did","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" not","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" have","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" robust","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" system","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" place","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" verify","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" authenticity","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" purity","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" raw","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" materials","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" it","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" received","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"3","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Reg","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ulatory","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Overs","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ight","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" (","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"FDA","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":")**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Food","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Drug","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Administration","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" (","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"FDA","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":")","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" faced","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" criticism","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" for","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" its","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" inability","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" adequately","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" inspect","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" foreign","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" manufacturing","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" facilities","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" At","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" time","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" FDA","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" had","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" limited","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" resources","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" authority","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" conduct","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" frequent","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" thorough","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" inspections","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" overseas","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" plants","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"  ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" -","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" crisis","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" highlighted","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" gaps","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" global","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supply","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" oversight","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" led","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" calls","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" for","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" stronger","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" regulatory","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" measures","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ensure","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" safety","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" drugs","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" imported","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" from","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" other","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" countries","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"###","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Conclusion","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" heparin","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contamination","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" crisis","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" was","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" result","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" multiple","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" failures","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" across","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supply","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" including","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":":","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Intent","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ional","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" adulter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ation","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" by","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Chinese","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" suppliers","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"In","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"adequate","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" oversight","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" by","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Baxter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" International","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" monitoring","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" its","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supply","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" **","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"Reg","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"ulatory","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" gaps","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"**","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" FDA","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ability","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" inspect","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" regulate","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" foreign","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" manufacturing","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" facilities","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".\n\n","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" crisis","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" underscored","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" need","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" for","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" stricter","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" quality","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" control","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" better","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" supply","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" chain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" transparency","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" enhanced","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" regulatory","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" oversight","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" pharmaceutical","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" industry","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741837505,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

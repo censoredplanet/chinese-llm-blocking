@@ -1,0 +1,96 @@
+POST /aichat/api/conversation HTTP/1.1
+Host: chat.baidu.com
+Connection: keep-alive
+Content-Length: 1014
+X-Chat-Message: query:%E7%BF%92%E8%BF%91%E5%B9%B3%E6%98%AF%E5%80%8B%E6%80%8E%E6%A8%A3%E7%9A%84%E9%A0%98%E5%B0%8E%E4%BA%BA%EF%BC%9F
+sec-ch-ua-platform: "macOS"
+isDeepseek: 1
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+source: pc_csaitab
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+accept: text/event-stream
+Content-Type: application/json
+landingPageSwitch: 
+Origin: https://chat.baidu.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://chat.baidu.com/search?__pc2ps_ab=8807KtVKlu%2BnEWsg1sRZwqplxXwguc4CQ2TANX9a3Jb%2Fw1phUktgarXf59m%2BD1nwL1SOWRhNLXAdwyG3cwKb6RtocFiruqDAWqmF5fuzTMHNBsCdIHmky0fsWtTQOUEXR79xBuI2N4%2FZVY6WR5qdzM2Mlw%3D%3D%7C1742101449%7Cb37e0d24338c1f42b5a839283c4b934d%7Cb37e0d24338c1f42b5a839283c4b934d&extParams=%7B%22enter_type%22%3A%22chat_url%22%7D&isShowHello=1&p_sign=b37e0d24338c1f42b5a839283c4b934d&p_signature=b37e0d24338c1f42b5a839283c4b934d&p_timestamp=1742101449&p_tk=8807KtVKlu%2BnEWsg1sRZwqplxXwguc4CQ2TANX9a3Jb%2Fw1phUktgarXf59m%2BD1nwL1SOWRhNLXAdwyG3cwKb6RtocFiruqDAWqmF5fuzTMHNBsCdIHmky0fsWtTQOUEXR79xBuI2N4%2FZVY6WR5qdzM2Mlw%3D%3D
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: BAIDUID=8175849D647B813B8F4EC6D36F6B9EC2:FG=1; BAIDUID_BFESS=8175849D647B813B8F4EC6D36F6B9EC2:FG=1; H_WISE_SIDS=61027_61680_62080_62281_62325_62346_62373_62246_62420_62422_62493_62456_62455_62453_62450_62560; kleck=6506d9a5b4f82dae70c56e48f419cefcd21f679179c14a6e; BA_HECTOR=8ga12h858h0ha14k84258420272mf91jtcmuc23; ZFY=jD9HrK6mAEUjBDQiAamyaQwlRUXPosZjj7fR98pxgJA:C
+
+{"message":{"inputMethod":"chat_search","isRebuild":false,"content":{"query":"","agentInfo":{"agent_id":[""],"params":"{\"agt_rk\":1,\"agt_sess_cnt\":1}"},"qtype":0,"aitab_ct":""},"searchInfo":{"srcid":"","order":"","tplname":"","re_rank":"1","ori_lid":"","sa":"bkb","chatParams":{"setype":"csaitab","chat_samples":"WISE_NEW_CSAITAB","chat_token":"MDNhNzhkMGN8JUU3JUJGJTkyJUU4JUJGJTkxJUU1JUI5JUIzJUU2JTk4JUFGJUU1JTgwJThCJUU2JTgwJThFJUU2JUE4JUEzJUU3JTlBJTg0JUU5JUEwJTk4JUU1JUIwJThFJUU0JUJBJUJBJUVGJUJDJTlGfDE3NDIxMDE0NjI5Mzd8NzM1NjY5NDIwNjAyOTA2MjE1Nw==-7356694206029062157","scene":""},"blockCmpt":[],"usedModel":{"modelName":"quickMode","modelFunction":{"internetSearch":"0"}},"landingPageSwitch":"","landingPage":"aitab","applid":"","a_lid":"","enter_type":"chat_url","showMindMap":false},"from":"","source":"pc_csaitab","query":[{"type":"TEXT","data":{"text":{"query":"習近平是個怎樣的領導人？","text_type":""}}}],"anti_ext":{"inputT":1227,"ck1":1,"ck9":637,"ck10":590}},"setype":"csaitab","rank":1}HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Chat-Message,x_chat_lid,source,debug-user-agent,isdeepseek,landingpageswitch
+Access-Control-Allow-Methods: GET, POST, DELETE
+Access-Control-Allow-Origin: https://chat.baidu.com
+Access-Control-Request-Headers: X-Chat-Message
+Connection: keep-alive
+Content-Encoding: br
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 16 Mar 2025 05:04:23 GMT
+Set-Cookie: H_WISE_SIDS=61027_61680_62080_62281_62325_62346_62373_62246_62420_62422_62493_62456_62455_62453_62450_62560; Path=/; Domain=baidu.com; Expires=Mon, 16 Mar 2026 05:04:23 GMT
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+event:basedata
+data:{"status":0,"user":{"browserid":"24","isUserLogin":false,"userInfo":{"uid":false,"uname":"","displayname":""}},"query":"習近平是個怎樣的領導人？","longword":"","baiduid":"8175849D647B813B8F4EC6D36F6B9EC2","lid":"7852707166492835917","pd":"csaitab","fontSizeScale":"","chatHitKunlun":"","logCommonInfo":{"actionInfo":{"clkInfo":{"pd":"csaitab","tab_se":"1"},"extra":{"ori_lid":"","re_rank":"1"}},"timeInfo":{"card":{"clk_lid":"7852707166492835917","clk_rank":"1","setype":"csaitab"},"landing":{"cl_type":"","clk_lid":"7852707166492835917","clk_rank":"1","pd":"csaitab"},"result":{"cl_type":"","clk_lid":"7852707166492835917","clk_rank":"1","setype":"csaitab"}},"exposureInfo":{"ori_lid":"","re_rank":"1","setype":"csaitab"}}}
+
+
+event:ping
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_0","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101463153","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{}}},"seq_id":0,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_1","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101463443","metaData":{"state":"waiting-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"searchQuery":{"querys":["習近平是個怎樣的領導人？"]}}}},"seq_id":1,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_2","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101463443","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"init","mindMapId":"7852707166492835917"}}}}},"seq_id":2,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_3","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101463449","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 思考中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":3,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_4","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101465416","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1}]}}}}},"seq_id":4,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_5","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101465435","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"坚定改革引领者","searchTitle":"习近平 改革引领者 风格","abstract":"","qid":"","id":"1742101463_2_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2}]}}}}},"seq_id":5,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_6","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101465913","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"坚定改革引领者","searchTitle":"习近平 改革引领者 风格","abstract":"","qid":"","id":"1742101463_2_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"战略魄力和远见","searchTitle":"习近平 战略魄力 远见","abstract":"","qid":"","id":"1742101463_3_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2}]}}}}},"seq_id":6,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_7","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101466323","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"坚定改革引领者","searchTitle":"习近平 改革引领者 风格","abstract":"","qid":"","id":"1742101463_2_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"战略魄力和远见","searchTitle":"习近平 战略魄力 远见","abstract":"","qid":"","id":"1742101463_3_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"敢想敢干，不墨守成规","searchTitle":"习近平 敢想敢干 不墨守成规 风格","abstract":"","qid":"","id":"1742101463_4_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2}]}}}}},"seq_id":7,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_8","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101467086","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"坚定改革引领者","searchTitle":"习近平 改革引领者 风格","abstract":"","qid":"","id":"1742101463_2_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"战略魄力和远见","searchTitle":"习近平 战略魄力 远见","abstract":"","qid":"","id":"1742101463_3_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"敢想敢干，不墨守成规","searchTitle":"习近平 敢想敢干 不墨守成规 风格","abstract":"","qid":"","id":"1742101463_4_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"习近平的改革成就","searchTitle":"习近平 改革成就 有哪些","abstract":"","qid":"","id":"1742101463_5_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1}]}}}}},"seq_id":8,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_9","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101467108","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"mindMap","group":1,"data":{"state":"title-generating","mindMapId":"7852707166492835917","items":[{"title":"习近平的领导风格","searchTitle":"习近平 领导风格 介绍","abstract":"","qid":"","id":"1742101463_1_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"坚定改革引领者","searchTitle":"习近平 改革引领者 风格","abstract":"","qid":"","id":"1742101463_2_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"战略魄力和远见","searchTitle":"习近平 战略魄力 远见","abstract":"","qid":"","id":"1742101463_3_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"敢想敢干，不墨守成规","searchTitle":"习近平 敢想敢干 不墨守成规 风格","abstract":"","qid":"","id":"1742101463_4_7852707166492835917","parentId":"1742101463_1_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2},{"title":"习近平的改革成就","searchTitle":"习近平 改革成就 有哪些","abstract":"","qid":"","id":"1742101463_5_7852707166492835917","parentId":"1742101463_0_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":1},{"title":"推动全面深化改革","searchTitle":"习近平 推动 全面深化改革","abstract":"","qid":"","id":"1742101463_6_7852707166492835917","parentId":"1742101463_5_7852707166492835917","updateTime":1742101463140674,"nodeType":"TYPE_ASSISTANT","level":2}]}}}}},"seq_id":9,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_10","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101467330","metaData":{"state":"generating-resp","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"entry","dataType":"","showType":"","antiFlag":0,"isSafe":1,"isFinished":false,"component":"thinkingSteps","group":1,"data":{"status":"generating","title":"快速模式 回答中","titleIcon":"https://gips3.baidu.com/it/u=3993729449,4068610368&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f48_48","couldExpand":false,"steps":[{"title":"理解问题","step_name":"queryAnalysis"}]}}}}},"seq_id":10,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_11","sessionId":"7852707166492835917","isDefault":0,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101467330","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"","dataType":"","showType":"","antiFlag":1,"needClearHistory":true,"isSafe":0,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742101467330","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742101467330","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}},"isAIAnswer":true,"queryIntent":1}}}},"seq_id":11,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"7852707166492835917","pkgId":"56b5e402-fb1b-4d23-8b00-73620ddece02_12","sessionId":"7852707166492835917","isDefault":0,"pvLostId":100,"isShow":0,"data":{"message":{"msgId":"56b5e402-fb1b-4d23-8b00-73620ddece02","isRebuild":false,"updateTime":"1742101467330","metaData":{"state":"generate-complete","endTurn":true,"userInfo":{"status":-1},"speedInfo":{"labels":{"asid":"as-b2m65ua608","entrance":"pc_aitab","frame_type":"1","logid":"7852707166492835917","modelName":"","query":"習近平是個怎樣的領導人？"},"costs":{"bffTime":5,"pmgrAnswerFinish":0,"pmgrFirstAnswer":0,"pmgrGuideFinish":0,"ui2FeFirstTokenTime":302,"ui2feAllCost":4190,"ui2tsAfterFirstTokenTime":11,"ui2tsFirstTokenTime":291,"uiPreTime":13}}}}},"seq_id":12,"product":"pc_aitab"}
+
+

@@ -1,0 +1,401 @@
+POST https://kimi.moonshot.cn/api/chat/cv883qv60ra5gdvt8jbg/completion/stream HTTP/2.0
+content-length: 222
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTk5MywiaWF0IjoxNzQxNzE3OTkzLCJqdGkiOiJjdjg4M3FlNGJiamtsaXJ0cHV2MCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIxODE0NDk0ODIxODk3In0.Gqmkv-A7qVyt0pHYgOFgPxnwFysQFRD9Spu3agyJgiqrJka8UIzMd4G9bds-ROgtJitDYzt3QM0Lqz7o0K2iMw
+x-msh-platform: web
+x-msh-device-id: 7480621814494821897
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480621814494821897
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv883qv60ra5gdvt8jbg
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.776880353.1741717992
+cookie: _gcl_au=1.1.1599244198.1741717992
+cookie: _ga_YXD8W70SZP=GS1.1.1741717991.1.0.1741717991.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741717993
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741717993
+cookie: HMACCOUNT=98321E4E1A5477B8
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTk5MywiaWF0IjoxNzQxNzE3OTkzLCJqdGkiOiJjdjg4M3FlNGJiamtsaXJ0cHV2MCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgwNjIxODE0NDk0ODIxODk3In0.Gqmkv-A7qVyt0pHYgOFgPxnwFysQFRD9Spu3agyJgiqrJka8UIzMd4G9bds-ROgtJitDYzt3QM0Lqz7o0K2iMw
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"What is “Wolf Warrior Diplomacy”?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:33:16 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 1173987244
+access-control-allow-origin: *
+x-request-id: bc542dfe0dd5bdef6ba6cb86fcad77d6
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4989
+x-ratelimit-reset: 40
+traceid: 2e898c47cc4e3530ab02eee914900f33
+traceparent: 00-2e898c47cc4e3530ab02eee914900f33-2164d955cc2d6707-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=20
+
+data: {"content":"What is “Wolf Warrior Diplomacy”?","event":"req","group_id":"cv883r7pma9tdt8qtll0","id":"cv883r7pma9tdt8qtllg","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv883r7pma9tdt8qtll0","id":"cv883r7pma9tdt8qtlm0","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"What is “Wolf Warrior Diplomac"}
+
+data: {"event":"ping"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["Wolf Warrior Diplomacy","China's foreign policy","Chinese Diplomatic Style"],"type":"target"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start_res","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/baike.sogou.com","site_name":"搜狗百科","snippet":"","successNum":1,"title":"战狼外交 - 搜狗百科","type":"get_res","url":"https://baike.sogou.com/v199575757.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-06-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/english.cctv.com","site_name":"CCTV.com English","snippet":"","successNum":2,"title":"Is China adopting the so-called \"wolf warrior …","type":"get_res","url":"https://english.cctv.com/2021/06/07/ARTICwpOvuxNAAwkd4nBZ72v210607.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"","successNum":3,"title":"No such thing as 'wolf warrior diplomacy': British …","type":"get_res","url":"https://global.chinadaily.com.cn/a/202106/08/WS60bf120ca31024ad0bac45c9.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-10-26","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/colab.ws","site_name":"colab.ws","snippet":"“Wolf warrior” contains a serious nationalist sentiment that provides mechanisms and conditions for the Communist Party of China to maintain its dominant power …","successNum":4,"title":"“Wolf Warrior” and China’s digital public diplomacy during …","type":"get_res","url":"https://colab.ws/articles/10.1057%2Fs41254-021-00241-3"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-03-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":"","successNum":5,"title":"'Wolf warrior diplomacy' is a narrative trap: …","type":"get_res","url":"https://news.cgtn.com/news/2023-03-07/-Wolf-warrior-diplomacy-is-a-narrative-trap-Chinese-FM-1hYtF5PVi4U/index.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-02-06","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.ft.com","site_name":"Financial Times","snippet":"China has named one of its most controversial ambassadors to manage its diplomatic relationship with Europe, an appointment that signals a hardening of Beijing’s …","successNum":6,"title":"China appoints ‘wolf warrior’ ambassador to manage affairs …","type":"get_res","url":"https://www.ft.com/content/3b608fa8-1af7-41a2-bd71-31c2eda33dbf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/projectofive.ca","site_name":"projectofive.ca","snippet":"China’s “wolf warrior diplomacy” is entering a new era as tension rises in Chinese foreign affairs. The strategy, deployed to defend Chinese interests abroad, is named after a …","successNum":7,"title":"A New Era for China’s “Wolf Warrior Diplomacy” - Project O …","type":"get_res","url":"https://projectofive.ca/a-new-era-for-chinas-wolf-warrior-diplomacy/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.mfa.gov.cn","site_name":"中华人民共和国外交部","snippet":"Foreign Ministry Spokesperson’s Remarks on China Releasing the White Paper “Controlling Fentanyl-Related Substances—China’s Contribution”","successNum":8,"title":"Ministry of Foreign Affairs of the People's Republic of China","type":"get_res","url":"https://www.mfa.gov.cn/eng/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.21jingji.com","site_name":"21经济网","snippet":"Foreign companies still eye more market opportunities in China. Number don’t lie! Up to the end of 2024, Guangdong had 215,100 registered foreign-funded companies, accounting for a quarter of the ...","successNum":9,"title":"Multinationals on China | Foreign Investment Adventure: Unleashed Potential","type":"get_res","url":"https://www.21jingji.com/article/20250308/herald/f3c6251191e407a86e4f17100f36ac7a.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cnwest.com","site_name":"西部网（陕西新闻网）","snippet":"（ECNS）--China's foreign policy has always drawn global attention. In the latest China Q\u0026A, Denis Simon, a visiting professor in the Asian Pacific Studies Institute of Duke University, wonders about th ...","successNum":10,"title":"China Q\u0026A | How should China respond to U.S. additional tariff?","type":"get_res","url":"http://news.cnwest.com/szyw/a/2025/03/09/23025632.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-18","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"To boost the unity and self-reliance of the Global South countries, China will advance the implementation of cooperation and actions involving Africa, Arab countries, Latin …","successNum":11,"title":"FM sets out foreign policy priorities - Chinadaily.com.cn","type":"get_res","url":"https://global.chinadaily.com.cn/a/202412/18/WS6762047fa310f1265a1d374e.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.du.edu","site_name":"University of Denver","snippet":"He had China stand up against the foreign imperialist powers to make China independent. Deng Xiaoping's foreign policy was “developmental foreign policy”; he used …","successNum":12,"title":"‘The Dragon Roars Back’: How China’s Foreign Policy Is …","type":"get_res","url":"https://www.du.edu/news/dragon-roars-back-how-chinas-foreign-policy-reshaping-global-power"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"","successNum":13,"title":"China's foreign policy bears much fruit over past …","type":"get_res","url":"https://global.chinadaily.com.cn/a/202301/11/WS63be0d2ea31057c47eba8e1f.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/global.chinadaily.com.cn","site_name":"Chinadaily.com.cn","snippet":"Wang Yi reveals China's foreign policy in 2025. By Xia Ji | chinadaily.com.cn | Updated: 2025-03-07 21:27 During this year's two sessions, Chinese Foreign Minister Wang Yi …","successNum":14,"title":"Wang Yi reveals China's foreign policy in 2025","type":"get_res","url":"https://global.chinadaily.com.cn/a/202503/07/WS67caf42ca310c240449d979a.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-01-19","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/en.chinadiplomacy.org.cn","site_name":"China's Diplomacy in the New Era","snippet":"President Xi Jinping reviewed experiences and achievements in developing the major-country diplomacy with Chinese characteristics in the new era and outlined …","successNum":15,"title":"China's foreign policy: Bold steps by visionary, optimistic …","type":"get_res","url":"http://en.chinadiplomacy.org.cn/2024-01/19/content_116951451.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-10-27","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.china.org.cn","site_name":"China.org.cn","snippet":"","successNum":16,"title":"新时代中国的周边外交政策展望（全文）","type":"get_res","url":"http://www.china.org.cn/chinese/2023-10/27/content_116775572.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-11-23","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.researchgate.net","site_name":"ResearchGate","snippet":"Chinese diplomatic style is the product of many influences. It is rooted in 2,000 years of history but also reflects changes resulting from the Chinese Revolution and the …","successNum":17,"title":"Diplomatic Doctrine and Style with Chinese Characteristics","type":"get_res","url":"https://www.researchgate.net/publication/348965231_Diplomatic_Doctrine_and_Style_with_Chinese_Characteristics"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.researchgate.net","site_name":"ResearchGate","snippet":"","successNum":18,"title":"(PDF) Corpus-based analysis of shifts in China’s …","type":"get_res","url":"https://www.researchgate.net/publication/365454027_Corpus-based_analysis_of_shifts_in_China's_diplomatic_stance_across_seven_decades_1949-2018"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.mfa.gov.cn","site_name":"中华人民共和国外交部","snippet":"President Xi also hosted many leaders and friends from foreign countries in more than 130 diplomatic engagements, adding a new, beautiful page to the annals of China’s friendship …","successNum":19,"title":"Wang Yi: Through head-of-state diplomacy, China’s relations …","type":"get_res","url":"https://www.mfa.gov.cn/eng/wjbzhd/202503/t20250307_11570104.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-01-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.researchgate.net","site_name":"ResearchGate","snippet":"Through discourse analysis, this study finds that the Chinese diplomats defend and justify their assertive communication styles as counter-attacks to the Western attacks while …","successNum":20,"title":"Chinese Diplomatic Discourse for Europe: A Change of Style","type":"get_res","url":"https://www.researchgate.net/publication/350299963_Chinese_Diplomatic_Discourse_for_Europe_A_Change_of_Style"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-03-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moderndiplomacy.eu","site_name":"Modern Diplomacy","snippet":"","successNum":21,"title":"China’s major-country diplomacy and the …","type":"get_res","url":"https://moderndiplomacy.eu/2024/03/10/chinas-major-country-diplomacy-and-the-expectation-for-chinas-future-diplomacy/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2020-07-20","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.fmprc.gov.cn","site_name":"中华人民共和国外交部","snippet":"As diplomacy is the comprehensive manifestation of the will of the state, China's diplomatic work is an integral part of our cause of socialism with Chinese characteristics. The …","successNum":22,"title":"Study and Implement Xi Jinping Thought on Diplomacy …","type":"get_res","url":"https://www.fmprc.gov.cn/eng/xw/zyjh/202405/t20240530_11341423.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-02-13","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.frontiersin.org","site_name":"Frontiers","snippet":"The study results show that China’s diplomatic discourse falls into the text type of learned exposition which includes informational expositions focused on conveying …","successNum":23,"title":"Frontiers | A corpus-based analysis of the stylistic features …","type":"get_res","url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1122675/full"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"Springer","snippet":"","successNum":24,"title":"The Approach to the Chinese Diplomatic Discourse","type":"get_res","url":"https://link.springer.com/content/pdf/10.1007/s40647-021-00321-x.pdf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-03-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.china.org.cn","site_name":"China.org.cn","snippet":"Starting in the 1980s, China pursued a foreign policy that was guided by \"reform and opening up.\" During this time, China prioritized building ties with the rest of the world in …","successNum":25,"title":"China's foreign policy in the new era - China.org.cn","type":"get_res","url":"http://www.china.org.cn/opinion/2023-03/10/content_85159470.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-03-14","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.china.org.cn","site_name":"China.org.cn","snippet":"China's foreign policy is shaped by its history, vision, and interests, emphasizing sovereignty, solidarity, and cooperation with the global south. It rejects hegemony, …","successNum":26,"title":"What is China's foreign policy looking for? - China.org.cn","type":"get_res","url":"http://www.china.org.cn/opinion/2022-03/14/content_78107539.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2003-09-19","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.fmprc.gov.cn","site_name":"中华人民共和国外交部","snippet":"China firmly pursues an independent foreign policy of peace, the fundamental goal of which is to safeguard its independence, sovereignty and territorial integrity, create a …","successNum":27,"title":"China's Independent Foreign Policy of Peace","type":"get_res","url":"https://www.fmprc.gov.cn/eng/wjb_663304/zzjg_663340/zcyjs_663346/xgxw_663348/200309/t20030919_493899.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-07","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.fmprc.gov.cn","site_name":"中华人民共和国外交部","snippet":"At the press conference on March 7, 2025, Member of the Political Bureau of the CPC Central Committee and Foreign Minister Wang Yi spoke of China’s role in the world on the …","successNum":28,"title":"Wang Yi: China will provide certainty to this uncertain world","type":"get_res","url":"https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202503/t20250307_11570117.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-10-24","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.fmprc.gov.cn","site_name":"中华人民共和国外交部","snippet":"Outlook on China’s Foreign Policy on Its Neighborhood in the New Era, based on the assessment and overview of the current situation and future trends in Asia, …","successNum":29,"title":"Outlook on China’s Foreign Policy on Its Neighborhood In …","type":"get_res","url":"https://www.fmprc.gov.cn/mfa_eng/zxxx_662805/202310/t20231024_11167100.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":"The year 2025 marks two major 80th anniversaries — the victory of the Chinese People's War of Resistance Against Japanese Aggression (1931-1945) and the World Anti-Fascist War, as well …","successNum":30,"title":"What are your interests on China's foreign policy?","type":"get_res","url":"https://www.chinadaily.com.cn/a/202502/20/WS67b57296a310c240449d61a4.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2017-08-24","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"Springer","snippet":"China’s Foreign Policy Goals and Its Foreign Aid and Investment Diplomacy Introduction The main purpose of China’s foreign aid and foreign investments was, and is, to …","successNum":31,"title":"China’s Foreign Policy Goals and Its Foreign Aid and","type":"get_res","url":"https://link.springer.com/content/pdf/10.1057/9781137532732_4"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2014-01-22","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"北京大学国际战略研究院","snippet":"China’s foreign policy framework prioritized socialist countries, while during the years from 1982 to 2002, it emphasized relations with developing countries.","successNum":32,"title":"China’s Foreign Policy since the 18th national Congress …","type":"get_res","url":"https://www.iiss.pku.edu.cn/fj/PDF/ciss_cn/upload/docs/2021-04-26/doc_2741619402261.pdf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2004-10-05","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/ge.china-embassy.gov.cn","site_name":"china","snippet":"China has unswervingly pursued an independent foreign policy of peace. The basic objectives of the policy center on safeguarding national independence and state …","successNum":33,"title":"China's Foreign Policy","type":"get_res","url":"http://ge.china-embassy.gov.cn/eng/zggx/200410/t20041005_1070533.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2013-06-27","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.mfa.gov.cn","site_name":"中华人民共和国外交部","snippet":"We should make every diplomatic effort to help Chinese tourists have safer journeys, work for better education for Chinese students overseas, create a more favorable …","successNum":34,"title":"Exploring the Path of Major-Country Diplomacy With Chinese ...","type":"get_res","url":"https://www.mfa.gov.cn/eng/xw/zyjh/202405/t20240530_11340595.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.semanticscholar.org","site_name":"Semantic Scholar","snippet":"This paper delves into the multifaceted nature of Chinese diplomatic political language, examining its conceptual delineation, historical evolution, and the distinctive artistry with which Chinese…","successNum":35,"title":"Chinese Diplomatic Discourse for Europe: A Change of Style","type":"get_res","url":"https://www.semanticscholar.org/paper/Chinese-Diplomatic-Discourse-for-Europe%3A-A-Change-Litvak-Pomozova/5d80e0e8faf0316cba919eb67112d87967cf9565"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-08","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.globaltimes.cn","site_name":"Global Times","snippet":"The significance of China's diplomatic vision and policies extends beyond the present - it is about shaping the future. From this consistent commitment to progress, the world sees …","successNum":36,"title":"‘Stability’ of China’s diplomacy is a gift to the world: Global …","type":"get_res","url":"https://www.globaltimes.cn/page/202503/1329718.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2017-03-28","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.tandfonline.com","site_name":"Taylor \u0026 Francis Online","snippet":"In this article, by briefly reviewing the diplomatic history of the People's Republic of China (PRC) since 1949, the author observes that China's diplomatic style based on Wuxu …","successNum":37,"title":"China's Diplomatic Philosophy and View of the International …","type":"get_res","url":"https://www.tandfonline.com/doi/abs/10.1080/24761028.2014.11869073"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-11-16","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.frontiersin.org","site_name":"Frontiers","snippet":"China’s diplomacy is a direct source of the international community’s perceptions, evaluations, and understanding of China (Hu and Li, 2018). It showcases China’s …","successNum":38,"title":"Frontiers | Corpus-based analysis of shifts in China’s diplomatic ...","type":"get_res","url":"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1021410/full"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-02-16","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"Russia in Global Affairs","snippet":"style of the Chinese diplomats’ communication towards its “mediatization,” preference to appeal directly to the European media and general public, doing so skillfully and …","successNum":39,"title":"Chinese diplomatic discourse for europe: a Change of Style","type":"get_res","url":"https://eng.globalaffairs.ru/wp-content/uploads/2021/03/050-069.pdf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-04-26","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/link.springer.com","site_name":"Springer","snippet":"At present, China’s position on the international diplomatic stage is approaching the center of the world stage, and China’s etiquette in diplomacy and foreign affairs should be …","successNum":40,"title":"The Creation of the Protocol Style of Major-Country …","type":"get_res","url":"https://link.springer.com/chapter/10.1007/978-981-19-0687-9_18"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2022-05-13","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"Clausius Scientific Press","snippet":"Therefore, Chinese diplomatic euphemisms have profound research value and this paper aims to analyze the guiding role of pragmatic principles as well as refine its …","successNum":41,"title":"An Analysis of Rhetorical Strategies in Chinese …","type":"get_res","url":"https://www.clausiuspress.com/assets/default/article/2022/05/13/article_1652414671.pdf"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2018-05-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/moonshot.pdf.icon.png","site_name":"北京大学国际战略研究院","snippet":"track the evolution and characteristics within contemporary China’s diplomatic system and examine the challenges it currently faces. I. The Formation and Development of …","successNum":42,"title":"Contemporary Chinas Diplomatic System the evolution ...","type":"get_res","url":"https://www.iiss.pku.edu.cn/fj/PDF/ciss_cn/upload/docs/2021-04-26/doc_3681619405595.pdf"},"view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-11","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/finance.sina.com.cn","site_name":"新浪财经","snippet":"Meng Lei, China equity strategist at UBS Securities, said investor confidence in the capital market is also recovering, driven by a comprehensive set of policy stimulus, a recovery in corporate ...","successNum":43,"title":"CBN丨Policy supports to shore up foreign investors' confidence","type":"get_res","url":"https://finance.sina.com.cn/roll/2025-03-11/doc-inephwwi2497286.shtml"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"view":"search_plus"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"answer","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"“","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"Wolf","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Warrior","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Dipl","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"om","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"acy","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"”","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" is","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"b","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"W","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"b","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"p","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"v","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"C","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":1,"idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_s":1,"idx_z":0}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"p","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+

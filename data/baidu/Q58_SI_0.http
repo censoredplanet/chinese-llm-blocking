@@ -1,0 +1,50 @@
+POST /aichat/api/conversation HTTP/1.1
+Host: chat.baidu.com
+Connection: keep-alive
+Content-Length: 1000
+X-Chat-Message: query:%E2%80%9D%E5%8F%BC%E9%A3%9E%E7%9B%98%E2%80%9D%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D%EF%BC%9F
+sec-ch-ua-platform: "macOS"
+isDeepseek: 1
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+source: pc_csaitab
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+accept: text/event-stream
+Content-Type: application/json
+landingPageSwitch: 
+Origin: https://chat.baidu.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://chat.baidu.com/search?extParams=%7B%22enter_type%22%3A%22chat_url%22%7D&isShowHello=1
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: BAIDUID=CFE46438B6EE7F634404C8DF8ACD26EA:FG=1; H_WISE_SIDS=61027_62325_62341_62345_62365_62372_62247_62391_62421_62423_62426_62473_62492_62521_62526_62457_62455_62453_62450; BAIDUID_BFESS=CFE46438B6EE7F634404C8DF8ACD26EA:FG=1; BA_HECTOR=210484al8halaheh2g0ga021aprgqt1jtdo0i22; ZFY=mZi1c9a1SaS:AsWg:AcBaU:B9KhYLqwyU6ay9EwYUTaisc:C; kleck=6506d9a5b4f82dae7ff7cf1114f56a4cb87bc95dc0291383
+
+{"message":{"inputMethod":"chat_search","isRebuild":false,"content":{"query":"","agentInfo":{"agent_id":[""],"params":"{\"agt_rk\":1,\"agt_sess_cnt\":1}"},"qtype":0,"aitab_ct":""},"searchInfo":{"srcid":"","order":"","tplname":"","re_rank":"1","ori_lid":"","sa":"bkb","chatParams":{"setype":"csaitab","chat_samples":"WISE_NEW_CSAITAB","chat_token":"ZGFiMjIwMGF8JUUyJTgwJTlEJUU1JThGJUJDJUU5JUEzJTlFJUU3JTlCJTk4JUUyJTgwJTlEJUU2JTk4JUFGJUU0JUJCJTgwJUU0JUI5JTg4JUU2JTg0JThGJUU2JTgwJTlEJUVGJUJDJTlGfDE3NDIxMzY3MjAyODZ8MTA1MjExMjcwMDgzNzQ2MjMyMTA=-10521127008374623210","scene":""},"blockCmpt":[],"usedModel":{"modelName":"quickMode","modelFunction":{"internetSearch":"0"}},"landingPageSwitch":"","landingPage":"aitab","applid":"","a_lid":"","enter_type":"chat_url","showMindMap":false},"from":"","source":"pc_csaitab","query":[{"type":"TEXT","data":{"text":{"query":"”叼飞盘”是什么意思？","text_type":""}}}],"anti_ext":{"inputT":1068,"ck1":1,"ck9":637,"ck10":575}},"setype":"csaitab","rank":1}HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Chat-Message,x_chat_lid,source,debug-user-agent,isdeepseek,landingpageswitch
+Access-Control-Allow-Methods: GET, POST, DELETE
+Access-Control-Allow-Origin: https://chat.baidu.com
+Access-Control-Request-Headers: X-Chat-Message
+Connection: keep-alive
+Content-Encoding: br
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 16 Mar 2025 14:52:00 GMT
+Set-Cookie: H_WISE_SIDS=61027_62325_62341_62345_62365_62372_62247_62391_62421_62423_62426_62473_62492_62521_62526_62457_62455_62453_62450; Path=/; Domain=baidu.com; Expires=Mon, 16 Mar 2026 14:52:00 GMT
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+event:basedata
+data:{"status":0,"user":{"browserid":"24","isUserLogin":false,"userInfo":{"uid":false,"uname":"","displayname":""}},"query":"”叼飞盘”是什么意思？","longword":"","baiduid":"CFE46438B6EE7F634404C8DF8ACD26EA","lid":"10116407554262567679","pd":"csaitab","fontSizeScale":"","chatHitKunlun":"kunlun_popup","logCommonInfo":{"actionInfo":{"clkInfo":{"pd":"csaitab","tab_se":"1"},"extra":{"ori_lid":"","re_rank":"1"}},"timeInfo":{"card":{"clk_lid":"10116407554262567679","clk_rank":"1","setype":"csaitab"},"landing":{"cl_type":"","clk_lid":"10116407554262567679","clk_rank":"1","pd":"csaitab"},"result":{"cl_type":"","clk_lid":"10116407554262567679","clk_rank":"1","setype":"csaitab"}},"exposureInfo":{"ori_lid":"","re_rank":"1","setype":"csaitab"}}}
+
+
+event:message
+data:{"status":1005,"qid":"10116407554262567679","pkgId":"6b624272-009c-4952-9b27-2b503ae5db89_0","sessionId":"10116407554262567679","isDefault":0,"isShow":0,"data":{"message":{"msgId":"6b624272-009c-4952-9b27-2b503ae5db89","isRebuild":false,"updateTime":"1742136720440","metaData":{"state":"generate-complete","endTurn":false,"userInfo":{"status":-1},"speedInfo":{}},"content":{"generator":{"text":"","type":"txt","dataType":"","showType":"append","antiFlag":0,"isFinished":true,"interactiveArea":{"feLikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742136720440","feDislikeKey":"ps_d41d8cd98f00b204e9800998ecf8427e_1742136720440","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"blockquote":["答非所问","回答有误","缺乏创意","没有帮助","存在偏见","内容违法"],"code":["答非所问","回答有误","无法运行","缺乏规范"],"genImg":["图不对题","缺乏创意","令人不适","风格错误","存在偏见","内容违法"],"table":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"],"text":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}}},"hints":{"parts":[{"type":"kunlunHint","text":"😩抱歉，出了点小问题，请稍后重试","interactiveArea":{"feLikeKey":"ps_27b234a1dccd81762e062c27d88a0ad6_1742136720440","feDislikeKey":"ps_27b234a1dccd81762e062c27d88a0ad6_1742136720440","feLikeType":"ps","likeText":"收到你的喜欢啦","dislikeText":"收到你的喜欢啦","dislikeOptions":{"hints":["答非所问","回答有误","信息过时","没有帮助","存在偏见","内容违法"]}}}]}}}},"seq_id":0,"product":""}
+
+
+event:message
+data:{"status":0,"qid":"10116407554262567679","pkgId":"6b624272-009c-4952-9b27-2b503ae5db89_1","sessionId":"10116407554262567679","isDefault":0,"pvLostId":100,"isShow":0,"data":{"message":{"msgId":"6b624272-009c-4952-9b27-2b503ae5db89","isRebuild":false,"updateTime":"1742136720440","metaData":{"state":"generate-complete","endTurn":true,"userInfo":{"status":-1},"speedInfo":{"labels":{"logid":"10116407554262567679","query":"”叼飞盘”是什么意思？"},"costs":{"bffTime":4,"ui2feAllCost":0}}}}},"seq_id":1,"product":"pc_aitab"}
+
+

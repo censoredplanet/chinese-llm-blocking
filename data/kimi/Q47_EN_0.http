@@ -1,0 +1,608 @@
+POST https://kimi.moonshot.cn/api/chat/cv8818de9orv5hhgeu4g/completion/stream HTTP/2.0
+content-length: 228
+x-msh-session-id: 1731178858938850982
+sec-ch-ua-platform: "Chrome OS"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTY2MywiaWF0IjoxNzQxNzE3NjYzLCJqdGkiOiJjdjg4MTdydWEzZDQyMWpsamMzMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE3ODg1ODkzODg1MDk4MiIsImRldmljZV9pZCI6Ijc0ODA2MjAzOTcxNTU2MzQ3MDIifQ.NVdvkWQBgIW4YLO2foah2doj1w94sXgH5v0bTiNEijbngRiU7wGkkBLZ0HIl8V-Es2i0iglxi7rJc3IAYSkP7g
+x-msh-platform: web
+x-msh-device-id: 7480620397155634702
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?0
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (X11; CrOS x86_64 15117.66.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.125 Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7480620397155634702
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cv8818de9orv5hhgeu4g
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.417365760.1741717662
+cookie: _gcl_au=1.1.753275580.1741717662
+cookie: _ga_YXD8W70SZP=GS1.1.1741717661.1.0.1741717661.0.0.0
+cookie: lang=en-US
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741717663
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741717663
+cookie: HMACCOUNT=F0D91AA94A38B9C4
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDMwOTY2MywiaWF0IjoxNzQxNzE3NjYzLCJqdGkiOiJjdjg4MTdydWEzZDQyMWpsamMzMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzc2lkIjoiMTczMTE3ODg1ODkzODg1MDk4MiIsImRldmljZV9pZCI6Ijc0ODA2MjAzOTcxNTU2MzQ3MDIifQ.NVdvkWQBgIW4YLO2foah2doj1w94sXgH5v0bTiNEijbngRiU7wGkkBLZ0HIl8V-Es2i0iglxi7rJc3IAYSkP7g
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"How many people died during the Long March?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Tue, 11 Mar 2025 18:27:46 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3734221218
+access-control-allow-origin: *
+x-request-id: b12960f532c391d3d17efc6641c51214
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4976
+x-ratelimit-reset: 6
+traceid: b7e98ce05ae54e98fe356d16bac64984
+traceparent: 00-b7e98ce05ae54e98fe356d16bac64984-6bb9905680081bb9-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=19
+
+data: {"content":"How many people died during the Long March?","event":"req","group_id":"cv8818nftaeb3ne0pr0g","id":"cv8818nftaeb3ne0pr10","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cv8818nftaeb3ne0pr0g","id":"cv8818nftaeb3ne0pr1g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"event":"rename","text":"How many people died during th"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["long march death count","long march historical significance"],"type":"target"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start_res","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-12-02","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/en.shisu.edu.cn","site_name":"上海外国语大学","snippet":"","successNum":1,"title":"CPC100 | Vusal Guliyev: The Long March and its …","type":"get_res","url":"http://en.shisu.edu.cn/resources/opinion/long-march-historical-significance"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2016-10-01","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/news.cgtn.com","site_name":"CGTN","snippet":" The Long March is no doubt a turning point in China’s history, laying the foundation for People’s Republic of China. It is a strategic military maneuver carried out by the Red Army …","successNum":2,"title":"The Long March, an epic feat engraved in Chinese history","type":"get_res","url":"https://news.cgtn.com/news/3d456a4e7a517a6333566d54/index.html"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2019-03-10","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.thoughtco.com","site_name":"ThoughtCo","snippet":" It was a key moment in the civil war, and also in the development of communism in China. A leader of the communist forces emerged from the horrors of the march— Mao …","successNum":3,"title":"What Was the Long March? - ThoughtCo","type":"get_res","url":"https://www.thoughtco.com/what-was-the-long-march-195155"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2016-10-21","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.chinadaily.com.cn","site_name":"China Daily","snippet":" Here we take a look at the Long March, an event that changed China's history, and analyze why this event continues to resonate so strongly with Chinese even after eight …","successNum":4,"title":"Role, legacy, symbolism of Long March 80 years later - China Daily","type":"get_res","url":"http://www.chinadaily.com.cn/china/80thendoflongmarch/2016-10/21/content_27129742.htm"},"view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/stalagluft3.com","site_name":"stalagluft3.com","snippet":"","successNum":5,"title":"The Long March, the evacuation of Stalag …","type":"get_res","url":"https://stalagluft3.com/long-march/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-03-25","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.prisonersofwarmuseum.com","site_name":"prisonersofwarmuseum.com","snippet":" The most informative source of information available about the Long March of 1945. As the Second World War approached its end, thousands of soldiers from the United …","successNum":6,"title":"Long March Research Resources - Online Museum of Prisoners …","type":"get_res","url":"https://www.prisonersofwarmuseum.com/long-march-research-resources/"},"view":"search_plus"}
+
+data: {"event":"set_segment_data","path":["image_search"],"values":{"covers":["https://kimi-img.moonshot.cn/webimg2/en.shisu.edu.cn/f4e949c9adff891bde720d9b3e7e2a11e644cebf?x-tos-process=image%2Fresize%2Cw_644","https://kimi-img.moonshot.cn/webimg2/d.ibtimes.co.uk/6bb0f13324c4ef2c3d1a76af9eaae32e78ae4b76?x-tos-process=image%2Fresize%2Cw_276","https://kimi-img.moonshot.cn/webimg2/www.thoughtco.com/ad666012800dbdb0364679eff2711276ecbc3679?x-tos-process=image%2Fresize%2Cw_474","https://kimi-img.moonshot.cn/webimg2/news.cgtn.com/5631d04a1ac566942e0fac9f10c052627c836262?x-tos-process=image%2Fresize%2Cw_490","https://kimi-img.moonshot.cn/webimg2/www.alamy.com/07e6108de780278efdc425404fe6bcda4c53b7c3?x-tos-process=image%2Fresize%2Cw_416","https://kimi-img.moonshot.cn/webimg2/cdn.thecollector.com/360f95683f872b3cd708dbab78dcdbcc6ed739e5?x-tos-process=image%2Fresize%2Cw_496","https://kimi-img.moonshot.cn/webimg2/cdn.history.com/5736a04a8ffa619d84bf68fce05d86309a471c13?x-tos-process=image%2Fresize%2Cw_630","https://kimi-img.moonshot.cn/webimg2/www.chinasage.info/0c68b4a1ff575a04d8bd711e130103c7f387608c?x-tos-process=image%2Fresize%2Cw_557"],"images":[{"query":"long march historical significance","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/en.shisu.edu.cn/f4e949c9adff891bde720d9b3e7e2a11e644cebf","thumbnail":"https://kimi-img.moonshot.cn/webimg2/en.shisu.edu.cn/f4e949c9adff891bde720d9b3e7e2a11e644cebf?x-tos-process=image%2Fresize%2Cw_644","title":"SISU | CPC100 | Vusal Guliyev: The Long March and its Historical ...","source":"http://en.shisu.edu.cn/resources/opinion/long-march-historical-significance","image_meta":{"thumbnail_height":362,"thumbnail_width":644,"original_height":720,"original_width":1280}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.thoughtco.com/ad666012800dbdb0364679eff2711276ecbc3679","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.thoughtco.com/ad666012800dbdb0364679eff2711276ecbc3679?x-tos-process=image%2Fresize%2Cw_474","title":"What Was the Long March?","source":"https://www.thoughtco.com/what-was-the-long-march-195155","image_meta":{"thumbnail_height":361,"thumbnail_width":474,"original_height":585,"original_width":768}},{"original":"https://kimi-img.moonshot.cn/webimg2/news.cgtn.com/5631d04a1ac566942e0fac9f10c052627c836262","thumbnail":"https://kimi-img.moonshot.cn/webimg2/news.cgtn.com/5631d04a1ac566942e0fac9f10c052627c836262?x-tos-process=image%2Fresize%2Cw_490","title":"What is the history of the long march, Long March","source":"https://wceacses.org/info/jsnajyunhzpg.html","image_meta":{"thumbnail_height":288,"thumbnail_width":490,"original_height":288,"original_width":490}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.alamy.com/07e6108de780278efdc425404fe6bcda4c53b7c3","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.alamy.com/07e6108de780278efdc425404fe6bcda4c53b7c3?x-tos-process=image%2Fresize%2Cw_416","title":"The Long March Stock Photo - Alamy","source":"https://www.alamy.com/the-long-march-image66160337.html","image_meta":{"thumbnail_height":325,"thumbnail_width":416,"original_height":1018,"original_width":1300}},{"original":"https://kimi-img.moonshot.cn/webimg2/cdn.thecollector.com/360f95683f872b3cd708dbab78dcdbcc6ed739e5","thumbnail":"https://kimi-img.moonshot.cn/webimg2/cdn.thecollector.com/360f95683f872b3cd708dbab78dcdbcc6ed739e5?x-tos-process=image%2Fresize%2Cw_496","title":"The Chinese Civil War \u0026 Mao’s Long March","source":"https://www.thecollector.com/mao-long-march-chinese-civil-war/","image_meta":{"thumbnail_height":285,"thumbnail_width":496,"original_height":690,"original_width":1200}},{"original":"https://kimi-img.moonshot.cn/webimg2/cdn.history.com/5736a04a8ffa619d84bf68fce05d86309a471c13","thumbnail":"https://kimi-img.moonshot.cn/webimg2/cdn.history.com/5736a04a8ffa619d84bf68fce05d86309a471c13?x-tos-process=image%2Fresize%2Cw_630","title":"Long March - Facts \u0026 Summary - HISTORY.com","source":"https://www.history.com/topics/long-march","image_meta":{"thumbnail_height":205,"thumbnail_width":630,"original_height":454,"original_width":1389}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.chinasage.info/0c68b4a1ff575a04d8bd711e130103c7f387608c","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.chinasage.info/0c68b4a1ff575a04d8bd711e130103c7f387608c?x-tos-process=image%2Fresize%2Cw_557","title":"The Long March - China's epic journey 1934-35","source":"http://chinasage.info/the-long-march.htm","image_meta":{"thumbnail_height":294,"thumbnail_width":557,"original_height":294,"original_width":557}},{"original":"https://kimi-img.moonshot.cn/webimg2/en.chinaculture.org/8b8ec2e7ae4f51b93576fc07e8de05ec4938bdb9","thumbnail":"https://kimi-img.moonshot.cn/webimg2/en.chinaculture.org/8b8ec2e7ae4f51b93576fc07e8de05ec4938bdb9?x-tos-process=image%2Fresize%2Cw_522","title":"Historical Long March route eyes World Heritage status","source":"http://en.chinaculture.org/2015-04/27/content_612185.htm","image_meta":{"thumbnail_height":357,"thumbnail_width":522,"original_height":410,"original_width":599}},{"original":"https://kimi-img.moonshot.cn/webimg2/img.haikudeck.com/14ad4552a3c4e399e2860c478da50005340876fd","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img.haikudeck.com/14ad4552a3c4e399e2860c478da50005340876fd?x-tos-process=image%2Fresize%2Cw_474","title":"The Long March by Maher AlShawa","source":"https://www.haikudeck.com/the-long-march-education-presentation-fi8a12gAkz","image_meta":{"thumbnail_height":355,"thumbnail_width":474,"original_height":768,"original_width":1024}},{"original":"https://kimi-img.moonshot.cn/webimg2/eng.chinamil.com.cn/bb6f4a1adc765a78613b0840d1d9f752fc9e3c30","thumbnail":"https://kimi-img.moonshot.cn/webimg2/eng.chinamil.com.cn/bb6f4a1adc765a78613b0840d1d9f752fc9e3c30?x-tos-process=image%2Fresize%2Cw_686","title":"Beginning of Long March by the Red Army - China Military","source":"http://eng.chinamil.com.cn/2021special/2021-06/28/content_10055407.htm","image_meta":{"thumbnail_height":345,"thumbnail_width":686,"original_height":351,"original_width":697}},{"original":"https://kimi-img.moonshot.cn/webimg2/res.cloudinary.com/6d4dcb2f02b32accc2130f8495140770111b788a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/res.cloudinary.com/6d4dcb2f02b32accc2130f8495140770111b788a?x-tos-process=image%2Fresize%2Cw_262","title":"The Long March 1934–35: The rise of Mao and the beginning of modern ...","source":"https://www.bloomsbury.com/uk/long-march-193435-9781472834003/","image_meta":{"thumbnail_height":353,"thumbnail_width":262,"original_height":766,"original_width":568}},{"original":"https://kimi-img.moonshot.cn/webimg2/assets.sutori.com/3bd0c6f39a5051aec13fc65f4cc325dd92b5d8f9","thumbnail":"https://kimi-img.moonshot.cn/webimg2/assets.sutori.com/3bd0c6f39a5051aec13fc65f4cc325dd92b5d8f9?x-tos-process=image%2Fresize%2Cw_400","title":"Share","source":"https://www.sutori.com/story/the-long-march-1934-5--7Q6hFSi9aqtkmRcJukMNbHRC","image_meta":{"thumbnail_height":321,"thumbnail_width":400,"original_height":321,"original_width":400}}]},{"query":"long march death count","items":[{"original":"https://kimi-img.moonshot.cn/webimg2/d.ibtimes.co.uk/6bb0f13324c4ef2c3d1a76af9eaae32e78ae4b76","thumbnail":"https://kimi-img.moonshot.cn/webimg2/d.ibtimes.co.uk/6bb0f13324c4ef2c3d1a76af9eaae32e78ae4b76?x-tos-process=image%2Fresize%2Cw_276","title":"Today in History: The Long March of the Red Army in China | IBTimes UK","source":"https://www.ibtimes.co.uk/today-history-long-march-red-army-china-1470413","image_meta":{"thumbnail_height":360,"thumbnail_width":276,"original_height":961,"original_width":736}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.chinasage.info/e2af0b20c6eefa91e2cd1612adeeaebd790f6321","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.chinasage.info/e2af0b20c6eefa91e2cd1612adeeaebd790f6321?x-tos-process=image%2Fresize%2Cw_575","title":"The Long March - Chinese communists epic journey 1934-35","source":"https://www.chinasage.info/the-long-march.htm","image_meta":{"thumbnail_height":334,"thumbnail_width":575,"original_height":334,"original_width":575}},{"original":"https://kimi-img.moonshot.cn/webimg2/0901.static.prezi.com/d724140687a9b6ecafc68d228e4ee73fee95c0dc","thumbnail":"https://kimi-img.moonshot.cn/webimg2/0901.static.prezi.com/d724140687a9b6ecafc68d228e4ee73fee95c0dc?x-tos-process=image%2Fresize%2Cw_614","title":"The Long March by Will Ho on Prezi","source":"https://prezi.com/p/e8m0yljk0agh/the-long-march/","image_meta":{"thumbnail_height":344,"thumbnail_width":614,"original_height":393,"original_width":700}},{"original":"https://kimi-img.moonshot.cn/webimg2/www.newworldencyclopedia.org/90b4ad2e867fdf118f8eeb01a6c538d1c154423a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/www.newworldencyclopedia.org/90b4ad2e867fdf118f8eeb01a6c538d1c154423a?x-tos-process=image%2Fresize%2Cw_480","title":"Long March - New World Encyclopedia","source":"https://www.newworldencyclopedia.org/entry/Long_March","image_meta":{"thumbnail_height":254,"thumbnail_width":480,"original_height":254,"original_width":480}},{"original":"https://kimi-img.moonshot.cn/webimg2/media.gettyimages.com/3f8725e362514c1e8519453d7c480dd60ac8769e","thumbnail":"https://kimi-img.moonshot.cn/webimg2/media.gettyimages.com/3f8725e362514c1e8519453d7c480dd60ac8769e?x-tos-process=image%2Fresize%2Cw_518","title":"80 Years Since The Long March In China Photos and Images | Getty Images","source":"https://www.gettyimages.com/event/years-since-the-long-march-in-china-170730411","image_meta":{"thumbnail_height":348,"thumbnail_width":518,"original_height":412,"original_width":612}},{"original":"https://kimi-img.moonshot.cn/webimg2/img.haikudeck.com/49c06670fd980cf7b30a63aaabd842a46b68f61a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/img.haikudeck.com/49c06670fd980cf7b30a63aaabd842a46b68f61a?x-tos-process=image%2Fresize%2Cw_468","title":"Long March by Karla Sanchez","source":"https://www.haikudeck.com/long-march-uncategorized-presentation-8bpRMjnUAK","image_meta":{"thumbnail_height":351,"thumbnail_width":468,"original_height":768,"original_width":1024}},{"original":"https://kimi-img.moonshot.cn/webimg2/s3.amazonaws.com/3e719397316fee1a881355c11731b82b0db94d86","thumbnail":"https://kimi-img.moonshot.cn/webimg2/s3.amazonaws.com/3e719397316fee1a881355c11731b82b0db94d86?x-tos-process=image%2Fresize%2Cw_498","title":"The Long March timeline | Timetoast timelines","source":"https://media.timetoast.com/timelines/the-long-march-c313bcaf-447e-46b9-8194-0fb4df11294d","image_meta":{"thumbnail_height":261,"thumbnail_width":498,"original_height":336,"original_width":640}},{"original":"https://kimi-img.moonshot.cn/webimg2/spartacus-educational.com/6ed131fd87b017a6474c9eb759120cc07a6ce670","thumbnail":"https://kimi-img.moonshot.cn/webimg2/spartacus-educational.com/6ed131fd87b017a6474c9eb759120cc07a6ce670?x-tos-process=image%2Fresize%2Cw_162","title":"Long March","source":"http://spartacus-educational.com/CHINAlong.htm","image_meta":{"thumbnail_height":258,"thumbnail_width":162,"original_height":258,"original_width":162}},{"original":"https://kimi-img.moonshot.cn/webimg2/media.gettyimages.com/d5c88aea2570d21db005e38c58d0f74a840d598a","thumbnail":"https://kimi-img.moonshot.cn/webimg2/media.gettyimages.com/d5c88aea2570d21db005e38c58d0f74a840d598a?x-tos-process=image%2Fresize%2Cw_374","title":"105,127 The Long March Stock Photos, High-Res Pictures, and Images ...","source":"https://www.gettyimages.com.au/photos/the-long-march","image_meta":{"thumbnail_height":259,"thumbnail_width":374,"original_height":424,"original_width":612}}]}]}}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2021-03-31","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.prisonersofwarmuseum.com","site_name":"prisonersofwarmuseum.com","snippet":" In January 1945, as the Soviet armies resumed their offensive and advanced into Germany, many of the prisoners were marched westward in groups of 200 to 300 in the so …","successNum":7,"title":"The Lamsdorf Long March - Online Museum of Prisoners of War","type":"get_res","url":"https://www.prisonersofwarmuseum.com/the-lamsdorf-long-march/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"1992-04-09","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/archive.seattletimes.com","site_name":"seattletimes.com","snippet":" More than 600 Americans and many thousand Filipinos died along the way. Thousands more troops, captured on the small, scrubby stronghold island of Corregidor the …","successNum":8,"title":"The Death March -- Bataan Survivors Remember Ordeal Of A …","type":"get_res","url":"https://archive.seattletimes.com/archive/19920409/1485503/the-death-march----bataan-survivors-remember-ordeal-of-a-half--century-ago---surrender-starvation-slavery---as-if-it-were-yesterday"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/historyguild.org","site_name":"historyguild.org","snippet":"On 16th October 1934, the Long March, consisting of 130,000 soldiers belonging to the Communist 1st, 2nd, and 4th Armies, began; it was, said one survivor, “a state on the move.” …","successNum":9,"title":"THE 25,000-LI JOURNEY: INSIDE THE LONG MARCH, …","type":"get_res","url":"https://historyguild.org/the-25000-li-journey-inside-the-long-march-modern-chinas-founding-myth/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.prisonersofwarmuseum.com","site_name":"prisonersofwarmuseum.com","snippet":"In January 1945, as the Soviet armies resumed their offensive and advanced into Germany, many of the prisoners were marched westward in groups of 200 to 300 in the so-called Long March. …","successNum":10,"title":"Long Marches Archives - Online Museum of Prisoners of War","type":"get_res","url":"https://www.prisonersofwarmuseum.com/category/long-march/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-12-20","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/www.internationaliststandpoint.org","site_name":"www.internationaliststandpoint.org","snippet":" The operation, later named the Long March by Mao Zedong in 1935, has since become a landmark event in military history. The Long March, on one hand, showcased Mao …","successNum":11,"title":"The Long March Anniversary – How a Failed Revolution Paved …","type":"get_res","url":"https://www.internationaliststandpoint.org/the-long-march-anniversary-how-a-failed-revolution-paved-mao-zedongs-path-to-power/"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-10-28","icon":"https://kimi-img.moonshot.cn/webimg2/icon-cache-img/peoplesdispatch.org","site_name":"Peoples Dispatch","snippet":" Of the 86,000 people who had been organized into four columns and set off on the trek, many starved, were killed, defected, or gave up along the way. Only 8,000 soldiers were …","successNum":12,"title":"The Long March: 90 years on and its lessons for our struggles today","type":"get_res","url":"https://peoplesdispatch.org/2024/10/28/the-long-march-90-years-on-and-its-lessons-for-our-struggles-today/"},"view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"pegasusarchive.org","snippet":"Many hundreds of Prisoners of War died on \"The Long March\", also known as the Death March.","successNum":13,"title":"The Long March - Pegasus Archive","type":"get_res","url":"https://www.pegasusarchive.org/pow/pLongMarch.htm"},"view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"view":"search_plus"}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"answer","view":"search_plus"},"view":"search_plus"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":true,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"The","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Long","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" March","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" was","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" significant","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" event","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" in","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"C","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"C","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"m","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"P","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"b","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"f","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":".","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"I","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"l","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"y","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"8","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"6","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" soldiers","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" set","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" out","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" on","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" journey","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"[^9^].","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" However","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"done"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" by","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" end","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" of","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Long","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" March","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" only","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" about","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"8","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" soldiers","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" remained","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"[^9^].","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" This","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" means","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" that","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" approximately","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"7","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"8","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"0","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" people","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" died","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" or","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" were","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" lost","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" during","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" the","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" Long","view":"cmpl"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" March","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":".","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" The","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" deaths","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" were","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" caused","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" by","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" various","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" factors","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" including","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" combat","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"w","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"c","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"r","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"v","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":",","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"d","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":" ","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"e","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"x","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"h","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"a","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"u","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"s","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"t","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"i","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"o","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"n","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"[","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"^","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"4","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"^","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":"]","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"text":".","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":false,"text":"","view":"cmpl"}
+
+data: {"event":"cmpl","idx_s":1,"idx_z":0,"loading":false,"text":"","view":"cmpl"}
+
+data: {"event":"all_done"}
+

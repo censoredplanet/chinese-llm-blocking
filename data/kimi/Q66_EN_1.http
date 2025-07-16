@@ -1,0 +1,112 @@
+POST https://kimi.moonshot.cn/api/chat/cvaan6fpma9gvcmeq880/completion/stream HTTP/2.0
+content-length: 207
+sec-ch-ua-platform: "Android"
+authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjgwNywiaWF0IjoxNzQxOTkwODA3LCJqdGkiOiJjdmFhbjVydWEzZDZvYWpiM2VuZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNTQxNzAyNzM3OTMxIn0.UlAyMmfJHoaX5-04LhHoPwngEnThtr4OtbF81m2e5mZo0sPyNymtcuN2ncExCs_bGPrEwS5P2fsyojW0Mgg9Qw
+x-msh-platform: web
+x-msh-device-id: 7481793541702737931
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-mobile: ?1
+x-language: en-US
+r-timezone: America/Detroit
+user-agent: Mozilla/5.0 (Linux; Android 13; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36
+accept: application/json, text/plain, */*
+content-type: application/json
+x-traffic-id: 7481793541702737931
+origin: https://kimi.moonshot.cn
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://kimi.moonshot.cn/chat/cvaan6fpma9gvcmeq880
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1396006258.1741990806
+cookie: _gcl_au=1.1.363005064.1741990806
+cookie: _ga_YXD8W70SZP=GS1.1.1741990805.1.0.1741990805.0.0.0
+cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1741990807
+cookie: Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1741990807
+cookie: HMACCOUNT=5B790CC8B6BE08F6
+cookie: kimi-auth=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDU4MjgwNywiaWF0IjoxNzQxOTkwODA3LCJqdGkiOiJjdmFhbjVydWEzZDZvYWpiM2VuZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJkZXZpY2VfaWQiOiI3NDgxNzkzNTQxNzAyNzM3OTMxIn0.UlAyMmfJHoaX5-04LhHoPwngEnThtr4OtbF81m2e5mZo0sPyNymtcuN2ncExCs_bGPrEwS5P2fsyojW0Mgg9Qw
+priority: u=1, i
+
+{"kimiplus_id":"kimi","extend":{"sidebar":true},"model":"kimi","use_research":false,"use_search":true,"messages":[{"role":"user","content":"Who is “Tank Man”?"}],"refs":[],"history":[],"scene_labels":[]}HTTP/2.0 200 
+server: nginx
+date: Fri, 14 Mar 2025 22:20:09 GMT
+content-type: text/event-stream
+x-internal-adhoc-canary: 3403598974
+access-control-allow-origin: *
+x-request-id: e1df458d79d2da46a932b0086158874e
+cache-control: no-cache
+x-ratelimit-limit: 5000
+x-ratelimit-remaining: 4985
+x-ratelimit-reset: 18
+traceid: 4463936a3fbc9a4cb06fc32b4c118625
+traceparent: 00-4463936a3fbc9a4cb06fc32b4c118625-9925541e545f3a30-01
+strict-transport-security: max-age=15724800; includeSubDomains
+server-timing: inner; dur=22
+
+data: {"content":"Who is “Tank Man”?","event":"req","group_id":"cvaan6c7fffbvq3ibkvg","id":"cvaan6c7fffbvq3ibl00","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"cvaan6c7fffbvq3ibkvg","id":"cvaan6c7fffbvq3ibl0g","kimiplus_ids":[],"model":"kimi"}
+
+data: {"event":"zone_set","idx_z":0,"zone_type":"normal"}
+
+data: {"event":"loading","loading":true,"type":"default"}
+
+data: {"loading":false}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"index":0,"type":"start","view":"search_plus"},"type":"start","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"targets":["Tank Man","Tank Man history","Tank Man image"],"type":"target"},"type":"target","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"start_res","view":"search_plus"},"type":"start_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"A man blocks a line of tanks on Beijing's Tiananmen Square on June 5, 1989. The story behind the iconic 'Tank Man' photo.","successNum":1,"title":"The story behind the iconic 'Tank Man' photo - CNN.com","type":"get_res","url":"https://www.cnn.com/interactive/2019/05/world/tiananmen-square-tank-man-cnnphotos/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-03-06","icon":"","site_name":"","snippet":"On the night of June 3–4, tanks and heavily armed troops advanced toward Tiananmen Square, opening fire on or crushing those who again tried to ...","successNum":2,"title":"Tiananmen Square incident | Massacre, Summary, Details, \u0026 Tank Man","type":"get_res","url":"https://www.britannica.com/event/Tiananmen-Square-incident"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"“坦克人”（英语：Tank Man）是一名男性示威者的绰号，其真实身份不详。该示威者于1989年6月5日（六四事件清场翌日）在北京东长安街上只身阻挡中国人民解放军的59式坦克车队驶 ...","successNum":3,"title":"坦克人- 维基百科，自由的百科全书","type":"get_res","url":"https://zh.wikipedia.org/zh-cn/%E5%9D%A6%E5%85%8B%E4%BA%BA"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2025-01-14","icon":"","site_name":"","snippet":"Tank Man, unidentified Chinese man who on June 5, 1989, faced down a column of People's Liberation Army (PLA) tanks on Chang'an Avenue in ...","successNum":4,"title":"Tank Man | Significance, Photo, China, \u0026 Identity | Britannica","type":"get_res","url":"https://www.britannica.com/biography/Tank-Man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"The Tank Man is the nickname given to an unidentified individual, presumed to be a Chinese man, who stood in front of a column of Type 59 tanks leaving ...","successNum":5,"title":"Tank Man - Wikipedia","type":"get_res","url":"https://en.wikipedia.org/wiki/Tank_Man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2024-06-03","icon":"","site_name":"","snippet":"The photo and footage of the so-called “tank man” became the defining image of the Tiananmen Square crackdown whose 35th anniversary passed on Tuesday.","successNum":6,"title":"The man in front of the tank: How journalists smuggled out the iconic Tiananmen Square photo | CNN","type":"get_res","url":"https://www.cnn.com/2024/06/03/china/tiananmen-square-tank-man-photo-intl-hnk/index.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2023-06-05","icon":"","site_name":"","snippet":"In June 1989, Chinese government troops violently cracked down on student protesters in Tiananmen Square in a deadly massacre.","successNum":7,"title":"From the archives: Tiananmen Square's \"Tank Man\" - YouTube","type":"get_res","url":"https://www.youtube.com/watch?v=FaojdRThXbY\u0026pp=ygUMI21hbnRhbmthc2Fk"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"2018-06-01","icon":"","site_name":"","snippet":"Tank Man, a protester who tried to stop Chinese tanks moving through Tiananmen Square, has never been identified.","successNum":8,"title":"Who Was the Tank Man of Tiananmen Square? | HISTORY","type":"get_res","url":"https://www.history.com/news/who-was-the-tank-man-of-tiananmen-square"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"In an act that would reverberate around the world, a solitary man stood his ground before a column of advancing tanks on Chang'an Boulevard, which runs directly ...","successNum":9,"title":"Remembering the Tiananmen Square Crackdown, and the “Tank Man”","type":"get_res","url":"https://www.pbs.org/wgbh/frontline/article/remembering-the-tiananmen-square-crackdown-and-the-tank-man/"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"Protesters display a poster of the famous \"Tank Man\" standing in front of Chinese military tanks at Tiananmen Square in Beijing, during a rally in...","successNum":10,"title":"109 Tiananmen Square Tank Man Stock Photos \u0026 High-Res Pictures","type":"get_res","url":"https://www.gettyimages.com/photos/tiananmen-square-tank-man"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"date":"","icon":"","site_name":"","snippet":"A Chinese man stands in front of tanks heading east down Cangan Bvd. Monday morning in front of the Beijing Hotel stopping their advance as he cried and ...","successNum":11,"title":"Tank Man - National Gallery of Art","type":"get_res","url":"https://www.nga.gov/collection/art-object-page.218541.html"},"type":"get_res","view":"search_plus"}
+
+data: {"event":"ping"}
+
+data: {"event":"search_plus","idx_s":0,"idx_z":0,"msg":{"type":"done"},"type":"done","view":"search_plus"}
+
+data: {"event":"search_citation","values":{}}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"search_plus"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+
+data: {"event":"loading","loading":false}
+
+data: {"event":"remove","idx_s":0,"idx_z":0,"type":"cmpl"}
+
+data: {"event":"set_segment_data","path":["element_labels"],"values":["disable_share_button","disable_share_check","disable_like_unlike","disable_like","disable_unlike","disable_regen"]}
+
+data: {"error":{"error_type":"kimi.completion.content_filter","message":"Sorry, I cannot provide this information. Please feel free to ask another question."},"event":"error","idx_z":0}
+

@@ -1,0 +1,255 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 201
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer BjNehCJmojzBzgjirMB475q/8uimg+MehmeVfL/Ib7C0LxGOrZsSmb+zewvRhbao
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6ImE2OGYwN2EyODNhZmQ0MzIyNzc2OGQ1OTQ3ZmQ3ZjliZTE5NWMxZDVhNTUxNGNkY2UwMTYwM2ZjODFiNzFiYTMiLCJzYWx0IjoiYjNjOWQyMjQ4MTNkNWI0YThjNzAiLCJhbnN3ZXIiOjM5OTI5LCJzaWduYXR1cmUiOiIwMmFmOWRmNGM3ZWZlZDQzOWYxYjMzMzE4ZGJlNjU5NjhiNDEzM2JlNjU5MDBiNzI5YzJmMTNmZDcwNDQ0MDA2IiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=2025021714360682f3e9d1c96e76fb16b2df66cf463d8600db4df67a0f59620
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=TwI+HrSe1CkJJLAcfmYJQ/C4aPGIG2alB0/VbDB5x7KnzPTMuMSqMB933ANlhdtqrx3Ob9ZtrM0C133WOXbNVg%3D%3D
+cookie: intercom-device-id-guh50jw4=bda4ce55-f2d2-4662-b46f-c5fb9baf62c1
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=48e6f45a32ef89ec6ce
+cookie: HWWAFSESTIME=1741821311628
+cookie: ds_session_id=f4d5e0e7229b44d0a6d5bee0f60111ef
+cookie: __cf_bm=CFSTPCSADAgx_.oUR5WjwkilH6LbxCeHPQTbuJvTn5g-1741821313-1.0.1.1-p7WmYsdST20SALzAhjDGWo.MFPAbw7zhKfIHTtmja0hQdHHjhFxORVTzi9Q8.429rwI.gXjNHG1B6Y80K8M8YfNsL69HzyNgqY0TYgCNx1U
+cookie: cf_clearance=LszXfKco5o8Coi1_rqcgIyLxFWvETh_m7z7WtQtpVRU-1741821348-1.2.1.1-XDzG_yCcOnbiWAC5NUpYtReC8fBCQ19Wc5J.ymBDHQUMjBpmeZt5bcIZKp_FCXrfqIh.gFZu.lptT9m1nZZ.H3fSiO9vWaRsHKzEGSyBC8j2eBfxZ5ju284F36uishGQ6kkoMDAKi4eXHvguVfOoJN3SkYfG3gVCyFWCueyJ8wotvWVyQ5KhwLC0qKEWIsTDn4fH6p3fBZKZ7xspF1g7TNkY5I8zhZQOcnIp5FevLh7tmVRHtAk671N_mttCKCq5DE02osvgZLFpr9M2luNPHlkTiV5ebsLb0XPjlPWPWUN8TYVk1ohCdTkWLZNKsMBh.8gOvP0.ZZHWTELjeu61wq0yR0EHjeas25SpQUWpa1CxOVKrkolvK5jpfEgMCu6Mv0mqG6fStHwvSk656Wje6QvZkNKUuQXCcvDMD15HHtc
+cookie: intercom-session-guh50jw4=cWhWdTMzVkRuaHdqNVppMDNwZ2NYZGJDenlldVpOTjEwYTFFaXllZXFzcUw4RHZubTFNOUgraHlrRW9zTHNHQXcrWWtNRnJvRzc5RE1FQWQ3RWFkc3NRay91ZTBXNkRNa0RlUTNOQm4rYU09LS1TdHhrb2tsUEYrWGhTYVZWcjViY0t3PT0=--b0cd998ee8b6429d077e24843b2877f5c258fd89
+priority: u=1, i
+
+{"chat_session_id":"09a17da8-bb20-4b6a-9875-5e41e37982f7","parent_message_id":null,"prompt":"2020年，松藻煤矿发生了什么？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 23:22:57 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 4eeb1e7258d29e2a9b61e5e1f27356a6
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f7095c09bcfa1b-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":26,"chunk_token_usage":0,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"202","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"0","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"年","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"9","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"月","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"27","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"日","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"重庆","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"投","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"渝","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"新能源","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公司","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"下属","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"松","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"藻","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"煤矿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"发生","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"了一起","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"重大","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安全事故","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"事故","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"原因是","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"井下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"2","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"号","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"大","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"倾","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"角","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"运","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"煤","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"上山","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"皮带","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"磨损","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严重","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"导致","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"皮带","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"起火","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"造成","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"16","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人死亡","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"42","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受伤","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"事故","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"发生后","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国务院","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"委会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"重庆","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"能","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"投","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"集团","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"及其","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"下属","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"煤矿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"企业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"进行了","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安全生产","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"约","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"谈","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"指出","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"企业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"存在","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安全生产","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"主体责任","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"不","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"落实","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安全管理","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"混乱","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"等问题","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"松","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"藻","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"煤矿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"随后","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"被","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"责令","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"停产","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"整顿","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"相关","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"责任人","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"受到","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"严肃","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"处理","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821777,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

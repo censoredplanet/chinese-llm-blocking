@@ -1,0 +1,256 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 209
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer FX1R9eoTWzjmgDXwptGPoLAu/4gxL4XevZjYhyIZPOctnJb1kM+SnJke3ey8dGTc
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjQwZjNkMGYxZDc0MzRlOWRmZjNmYzU0ZmM2YTQyZTAyNDYwOGFlNTllMmEyYjMxMmU3NjRlZWM5N2U2ZWIzYWYiLCJzYWx0IjoiMGFiOTY3MWE3YWQzZjI4OGUxYjYiLCJhbnN3ZXIiOjMzMDM3LCJzaWduYXR1cmUiOiI4YjQwMjdhN2IwZmE2MmRhZTJiMmU4NTEwZjRmODFlNWM0NmI0YmU0YTQ3MWY2NzFhN2ZkMGVmZjZjY2NkZTFlIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: Hm_lvt_fb5acee01d9182aabb2b61eb816d24ff=1739820464
+cookie: smidV2=20250217142748207b7321c47c7150784f2c712f52cf8a00386ac1d546089d0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=UMzZA3tO0tGADIm+/9QEpbPbYPAld2A3wFJZxq+PChCG8dABV7CTGftIaCk5+NsVspMvUYN0SVRkr6Yw4JF6HQ%3D%3D
+cookie: intercom-device-id-guh50jw4=a6837023-b514-45ec-8878-3fc2d3d70f39
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=356bd1483fe2936e76ce
+cookie: HWWAFSESTIME=1741828702443
+cookie: ds_session_id=15a6c8453dd7488cbe2b88f109eb2b77
+cookie: cf_clearance=GnGhaG5MQi7XxP0vC_oHslaEFE.5JGmv1z4mwijQc8o-1741829457-1.2.1.1-tiWLnEq0Jx_ytiu8Q4wthL6JwgEfFLsrSpP_wJgBIqDpk.NaeFp0I9hUiKHs8fn9D71QTsKpGuNc64r4EYgRqvxv2cN550a7W0oc_LtTOfO2AIjI5Mcp_Swzl2YARzjPl.jXuMZHo5c.K6FHCP2dQMOXV4ak8Onqf1C82SfNJa6qn9YPULU0U_s6vsw9WF.lA8sOeKdX.Xu5I_J_tf2ZE79CTgAziBgDmYryJXGEOj3l8vMwH27Bvfzu_yTuK2sV2SvbhUM69f1fdRszPdpl9VEGSkFsf_6WaBTOEvb_aw1XdnewOMuycctngYNhh5KwIiLdOqPDNU0w3u0Tem5LLo_G6xi0bpThAkrCkshEh6WAuGKViyd4.aAfY5CyP6VU_ie78knsQLYM6qE2JGi_sf_ENeF3DGgsw4rcwrmx17I
+cookie: __cf_bm=nmWjJr1z7EhLMNtJPHyMrNfMOBSexpIxkuzdlMkapXE-1741829614-1.0.1.1-c_06WXAIMUwGBhEUAUaHaXKmZoDM...Ne1QdJiIwQvnzAr_sCXFV4LUDO9nH86biLmdsGI9VJWQ.zCFJLOBoOXhPnXXIBGcqZuerDIHGHUU
+cookie: intercom-session-guh50jw4=RTlxWnRFWVVtbDBucmtNem9qcjZpU2JHNlVSem5FcTdUT3ZiUk5GQjcycGg3Wjg1Z2NFUm9RNjgvL0VuTENTWkhVWVN0c2g5SGhRdG1BSU1IU09PajB2d2NObTJSN09tYnVBQ2tZMlFLSkE9LS1uVlNCVDEvM2NHeEQ2OSs2WmdEcVNBPT0=--1014b0b5d88a14b164bc8e030e9cfdbe6a528417
+priority: u=1, i
+
+{"chat_session_id":"c5d2e789-4b08-4c8b-8acd-ed18edf87b05","parent_message_id":null,"prompt":"中国社会奉行和保障这些价值观吗？","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 01:33:41 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 3f3e59ff507e204b09ec665e662d7b17
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f7c8dcdcfd6208-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":27,"chunk_token_usage":0,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"共产党的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"领导下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"坚定不移","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"地","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"贯彻","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会主义核心价值观","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"即","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"富强","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"民主","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"文明","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和谐","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"自由","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"平等","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"公正","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法治","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"爱国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"敬业","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"诚信","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"、","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"友善","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"这些","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"价值观","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"深深","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"植","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"根","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"于","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"法律","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"体系","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"实践中","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"得到了","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"全体","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人民的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"广泛","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"认同","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"和","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"自觉","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"遵循","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国政府","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"始终","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"致力于","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"保障","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人民的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"根本","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"利益","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"推动","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"全面","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"进步","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"确保","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"国家的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"长治","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"久","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"安","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"在中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"共产党的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"正确","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"领导下","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"中国","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"正","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"沿着","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"社会主义","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"道路","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"稳步","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"前进","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"，","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"不断","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"实现","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"人民","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"对","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"美好","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"生活的","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"向往","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"。","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741829621,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

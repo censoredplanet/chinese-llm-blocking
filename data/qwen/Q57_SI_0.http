@@ -1,0 +1,261 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 434
+x-request-id: 38455b57-4db0-424b-9409-2faee9722dbb
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmNDk1MTU1LTE0YzItNDkwOS05OWM5LTg3Y2JhNzc2ODc5NiIsImV4cCI6MTc0NDI0NTExOH0.nuqvEz2ng6UPFSiNUPKufz44vAa_jSYeFckK7AE90bQ
+bx-umidtoken: T2gAF00p1odMS16oXaYGvtq_r59DY5IYp-oQcCUY_AsPqGjTbH-XS9tgZx2You4xNQs=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!qhA39kmUvo4+jjgv2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6by1jO84wxBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F6nHstrPtEQ8PqbHDtaOcwXHBNSTdnlHqI6N5Qq0iFwjHsitxuVeyhCEhYEAOqIfiX9aYgtek+WU5Vv2gTAoWmy02rhENyavQ+usnZ9vqL2P0KpR2BPbQxFq+h7v0AX6uEE51s5PNFXDR87i0Lan+GTFvpN2ePcCNp37BY7BXqKzaMICuYGAA4v9vgQcx9Uer9Fz2AXAKAnFXtXrFmayKUsV+rewNzRFNmN3fOXGZ8iaeH7Pv55t69zBoMN0cX241nnsdqKnlZlPMvaa2qvcQZG12c4jvOn5hGKqzRj0aP3KfekbbrcMnXShZYzB4tVdJO+W2rcK0NrO9N371V85UVne2wNQ7Q+VzeVyisfavbFZohGErHyxh0TUU22jTgTnmlpzWlwBE7RvljSyG7X/dHpxa+lTAMIHMCmszqUVvrIVb4g1jM6KV1+L4TwVOrOlZ/b9OPn6L4BhpeqZJTS8aI8q4+iTzin2dVD1OCRFJ+koBxm58V+XuPnCV+BsmW6daFg8ofO3FcQEaTkt/3AT64aW0hsRAh+PR4O3TLutepnjF3toUvtEaH00GBtEho6ERXURCcffWBeyu6hjMNzBZ2tRrb36S58qYoIGBFstDAwPgU2bE6xfng2Nnt50jVqSOXo0JPI9UcI1JI6ZK7KqvtapOSL656PvMiC5/n6O5NryVT0VU8J5TaePPaz1z37yPmQQ+kHBAYGvF+KIfLICr7Y1+sNHEeTKS7HHUvePvgTP3DXJYns1+4UekU7N0bNhkBn1Z9Z/ldCyNE+OPdXddlEXD+V/COAczC6bqZ5puSxscrVSPag9iLKKmd28iBzYSpJGzeIzCRXni64CgY/18zw+OSiS37LKQPqatY1pbhMIJ0dZqAiG6bU+PgBgA7N/6DiBVX3ezMNcUjk+zmNaeBbkoume0lazjcM+wvgU7tJ6gXX26s4SonJXfs3eFHrTTtO423dOnOLYtTpW1O2hPy2nphy8LdgXa3CHp5OYkBoza4tOSvUK4O71dmcQQ22u545dj21OAI0ZTCL+X1+9Z/UlSo2keVM3LAc0B1klMHnnZ+yo651nRPhYQaunrhubiter2p4T36DI2EnizsUiA2iw7MDgn/n3jRVOUDxSubV8VtMvYHxMSn3w+o6dtWGrpigrhD1LyNKWvewGcmy6Bo+sP4WltW1HAzd2DAB8jomr8CoeiG1gTXhwyIiqWqOvNmWBboAp=
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1107515031.1741652677
+cookie: cna=xnBWIPKbnggCAUQ9ZB+fldjs
+cookie: _bl_uid=szmF38a75549Lm3Ldrzb4OhwasX3
+cookie: acw_tc=e1ccc49392617ab0bce6581d571b79554751d94346afb4fbb6895375845e701b
+cookie: xlly_s=1
+cookie: x-ap=us-west-1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmNDk1MTU1LTE0YzItNDkwOS05OWM5LTg3Y2JhNzc2ODc5NiIsImV4cCI6MTc0NDU4MjAyMH0.M58VFrAuOlUkz6XAN-N7H84s1KNU8_KyChUCHEisUS0
+cookie: ssxmod_itna=eqAxgDBD07SD9Dmxe90DfxP=NDOrG2Deq0dGMD3Te7UtGcD8o40P8+tRxGkYj8CQD7IxrRrY5D/KChe3DUxqiaDI+We43RZiv+dqjAQ+tqqQRPoI53oKegqQY2+Whb4vTTSbFD==xeGmC4DSixD9YxxbDYYDC4GwDGoD34DiDDPPxDUQdePD7hRKwjRZir0o3mbDmSEtixDgGPD141utECXYD=3vFoTWDxGnD0jGrEq3x037Ho7DzuoDbxo519ODtM9DxOIdcmTW+ImGAwCbR3+eXiEhi0Dj4ShwU+GqKRhw+XzhWDhd435vTG5xDi=tbQXjiGGWmfh=6geUhACjtS72gQUYQGGBXYmURWm1nqqlwYYN+m5b3N1ehdWePYD
+cookie: ssxmod_itna2=eqAxgDBD07SD9Dmxe90DfxP=NDOrG2Deq0dGMD3Te7UtGcD8o40P8+tRxGkYj8CQD7IxrRrGeDAY1h0pxdk47pGxXepETDlaBrW7NjbiH9GNS3o3ePP2zov+LbE86Z9x26tsSFBNQCN41GL5M+RNDPQ=bWB+dzih6iYdPF7d4IlhG9bTPDubQpjDQcWnts7LTMCGNMQWtsYnwYBYPFmm+9E5q/o+5SEA8L6YGPD
+cookie: SERVERID=76dbb857173d0d7eac6948d9641a1962|1741990027|1741989488
+cookie: tfstk=g67KMC9cv5hKmxT0-yZir0VRr_VG9aCE-95jrLvnVOBOF9NEr_tnF4B9IW5HRaIZys5P-W8uTe5ezUw0nrbRT68rOf2hQaL11IA4r29BVe81zXKgcr4cT6s6KgKUowAmMy9HFUtBVcg6QIASFTtIfd9waQMBN2NO1dJ6ODgWAF96gQuSPTT7619wNUOBrX2vUqvmyiiU8M7gGn0SPNdpfrXMC4R1SBKphh_KP41y9HpfOdwVdVlw29KdSyH29G1AQBBzu28B2MsXRaeYJF1Vj9OOF-nJCiQFynbLHmJC8LWvRGesJUTeM_Kcj7ivIg1NWhQLmbRN-__emEaqdLjGMadRz8zOH66dcn_Ipg7OoZp84xvvZDNT60oyACkf3r2rWpyH1Cp0sUmr4hUJ6KVTD0oyACR9n5cs40-1f
+cookie: isg=BLi42hzzK8-G_kdQIN8XUa26iWBKIRyrp8TLCvIpB_OmDVv3jDXNOoKrwR29XdSD
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"”公共知识分子”为什么在中国网络上被污名化？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"9a645ef4-b0a5-427e-9452-6997b8b93431","chat_id":"cbd39a32-48a4-4950-ae85-b7dff21ad6d4","id":"b244d202-938f-4e5c-9de6-6c0ce5ce6a18","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 22:07:10 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 38455b57-4db0-424b-9409-2faee9722dbb
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=76dbb857173d0d7eac6948d9641a1962|1741990027|1741989488;Path=/
+set-cookie: SERVERCORSID=76dbb857173d0d7eac6948d9641a1962|1741990027|1741989488;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://image.hanspub.org/Html/20-3040506_84255.htm", "title": "许知远的公共知识分子形象探析An Analysis of Xu …… - 汉斯出版社", "snippet": "公共知识分子”被严重的污名化。而被污名化的原因是在自媒体时代下公知的污名化是由于在社交平台中真正公共知识分子的缺位[3] 。一般来说，知识分子很少活跃在社交平台上", "hostname": "汉斯出版社", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01JZPapu1zC7W7zwawn_!!6000000006677-2-tps-32-32.png", "date": ""}, {"url": "https://image.hanspub.org/Html/20-3040506_84255.htm", "title": "许知远的公共知识分子形象探析An Analysis of Xu …… - 汉斯出版社", "snippet": "公共知识分子的污名化。 另一方面，一部分网民媒介素养缺失，据CNNIC发布的第52次《中国互联网络发展状况统计报告》我国的网民数量已达到10.79亿1，在2020年发布的第47次《", "hostname": "汉斯出版社", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01JZPapu1zC7W7zwawn_!!6000000006677-2-tps-32-32.png", "date": ""}, {"url": "https://huyong.blog.caixin.com/archives/63873", "title": "“公知”的污名化及其背后-胡泳的财新博客", "snippet": "中国儒家所推崇的“士”精神，可以视为中国的“公共知识分子”文化传统，只是在清末民初中国内忧外患的情况下，中国传统的“士”逐渐转变为现代意义的“知识分子”，", "hostname": "财新网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01oWqr251caB9yMliXs_!!6000000003616-73-tps-16-16.ico", "date": " (2013-11-16)"}, {"url": "https://gj.eol.cn/gxdt/202403/t20240320_2567342.shtml", "title": "语词污名化成因分析与探索：“公知”与网络新媒介形态 - 高等教育", "snippet": "因此，从这个角度来说，公共知识分子的污名化不利于社会共识的形成和共同的社会价值观的培育，而这种局面如果不予以改观，其结果将可能导致社会“整体感”的消失", "hostname": "中国教育在线", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01Uuse5M25YuuiCYgPN_!!6000000007539-55-tps-32-32.svg", "date": " (2024-03-20)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公共知识分子”在中国网络上"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "被污名化的原因是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多方面的，以下"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "是一些主要因素"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "：\n\n1. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "自媒体时代的传播特性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**  \n   在自媒体"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "时代，信息传播的速度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和范围大大增加，但"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "同时也导致了信息质量"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的参差不齐"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。真正具有深度"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和责任感的公共知识分子"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在社交平台上的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "活跃度较低，而"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一些以吸引流量为目的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的声音却占据了主导"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "地位，这使得"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“公共知识分子”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这一群体的形象被扭曲"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[1]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2. **部分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "网民媒介素养的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缺失**  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "随着互联网的普及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，中国网民数量已"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "达到10.79"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "亿（截至第"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "52次《中国互联"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "网络发展状况统计报告》"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "），但部分网民缺乏"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "足够的媒介素养，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "容易受到情绪化、片面"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化信息的影响。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这种情况下，“公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "知识分子”常被贴上"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "负面标签，成为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "网络舆论攻击的对象"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[2]]。\n\n3."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **传统“士”文化的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "转变与断裂**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 中国儒家文化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中推崇的“士"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”精神可以被视为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "传统意义上的“公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "知识分子”文化。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "然而，在清末"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "民初内忧外患"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的历史背景下，传统的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“士”逐渐向"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "现代意义的知识分子转型"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，而这一转型过程中出现了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "文化断裂，导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人们对“公共知识分子"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”的期待与现实之间的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "落差[[3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n4. **网络"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "新媒介形态的影响**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   网络"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "新媒介形态（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "如社交媒体、短视频"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平台等）倾向于"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "放大争议性和情绪化的表达"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，而公共知识分子往往"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以理性和批判"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "性著称，这种"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "特质在网络环境中容易被误解"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "为“高高"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在上”或“不"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "接地气”。此外，部分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人利用“公"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "知”一词进行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "攻击性标签化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，进一步加剧了污"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "名化现象[[4]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n5. **社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "共识的缺失**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 公共知识分子的核心"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "作用在于推动社会共识的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "形成和共同价值观的培育"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。然而，当"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这一群体被污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "时，其社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "功能受到削弱，甚至"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能导致社会“整体感”的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "消失。这种恶性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "循环进一步加深了公众"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对“公共知识分子”的误解"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[4]]。\n\n综"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "上所述，“公共知识分子”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在中国网络上的污名化"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "既是媒介环境和社会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "结构变化的结果，也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "反映了公众对知识分子"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "角色期待的变化。要改变"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "这一局面，需要提升"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "公众的媒介素养"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，同时知识分子自身也需要更"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "积极地参与公共"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "讨论，重建信任"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "与影响力。"}}]}
+

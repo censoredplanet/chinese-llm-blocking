@@ -1,0 +1,307 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 428
+x-request-id: c10a5e49-8825-4eba-b68a-e3bfb10c9735
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDI0NTEwOX0.EhfjwtDlD4Tp5yrmyOUmP7KXMTj1Bpb_44MXbbrdPiI
+bx-umidtoken: T2gAZzfrIKEM7ctA1sUL0_0AuCPHJwgHTwEA0fogMhW25g6cz99FnUbSRHuqfJbJTSY=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!HeS3L+mU6vG+joV+2k3O59BjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+zQFbYWLEeZ+PqDypteVD4bcidv49os7ftup05rj0SjHecye37e4PpwO6MnJdLQ1JE/sQkMHmF021ZZ9kExlXAnKr9TDS2gu5gMjjNNKpRwEJT1CYHP3KyDe0Ai4DECRzl4bfc2QChcUjzSV6Q6pr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6by0jOm//PBDj+MGMsMUy4FatfxyQNW4n0PVPRZ0Udu3fGISVbixDLbvmBX8U1NB6tWK35fTFhrGcFVY8QKCweCpdVann9zqPMax2BR3fa7mH2NzsuKEf5qSzZWZ4N/lF3ZwfrvjnGODI6bTBvXMVjBQMRSz5VkjQFe+xRny9x/oPaCv29A7T1bBV3YF3Cb207DSeKmBvliwstEseckubSLkIgVJeE4XILYlWfT0l9OPefXCcdXdQYV0lN6o7idg6aMOTN8xb7cz+itD9QlkJbFukiczfbcPxNym0dMjxdzGP7qdpSIOjnG/0dvy2GsPKKWldAXvvApV3QX/YWcoYqsGstEmY0FVxLtRcSGzOVrG4vXBDRG9FGmdj67Ge8kdAPZ/hwcaqEB8AKSN+M7xKXqFEV5a3iNsIuo7IeZJ3jqEYqn1aALrysek9UgKSD/3mUiyGkg4AvmlrNekCg54Yza5wLZeLx/pmLfqVnj+18wRlMwG9FgJ9woORRxrxtAHVw/LD9xkuzEvr+UQJWMjeR4ioEFiuND6VNmWB4IHCvHq+69lwTvUSW1jer7FjyVxkO3YJRuO7ZpyyPeBA5e+ivFP36zT5NK5BlzWGy6vdaCUvD2Cew8CicWyS9V576d/sRTewxaSbjN+Dynv59JniUqDC/jdT7TZqJGP4dkLlzWWYe0jDb3NRQL/5bxhQ/zZHJBB0aV4Kk0sh+6C74LsxISje6cdmyKUwg0x0pjxyyTncmMmwjL5c3Q6ihxNHrG7cWs/mxVEJW1YIIR5yQ15VUYt6a/qSM502bPH4S0TK0wAK2W6N/FXAJpbpS+aeWlRkCU7KqTNwPqJBoYUKJ33MD6YfB3iWAVDKlVM0vGv8DrXm2KZf02vn8oR4xfEK1UTm62HAbWQ7PDI3+XScrUGV4Jci0WkyA98ucE25bN/qUmmSJe9LchRb79N/WIDQL4L5D39eCjPGNlXTU6BZ/hd414ag/amqb1SLyEX+5WHInoqHVKY3wXmtcBDdQr0Ear2TGlucG+bZtaRkyIVK176I6oRangAovRLeB80TvX+vIF0Svtm5FBYr0VymIRQPgt/qrPLXbGUb70YAPU4UF+D5lfsxICOOGMpe93Re62ugXAhG4ejmYMJnxc0ozkJCTyP0c8CsDqEhgAjzHHzb4HJNw89Vzz+uUHLvduYKWmRRU0w5oVjOsXXp9dE95Xu+VaaTFQ8n0T8zpc6/iwiSadAGLMlL7jf4+CmJHpFNHq1Z0jUrh0BEwOI8A==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.48
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1148593093.1741652677
+cookie: cna=xnBWIIK76VACAUQ9ZB8jyvpv
+cookie: xlly_s=1
+cookie: _bl_uid=tIms58yh653fbg1tFi0pxIq4p42b
+cookie: x-ap=us-west-1
+cookie: acw_tc=625bd72b7b842cea1bee07712ea3944b41ced445c4b5a4539b198d0d062c3d10
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzNjUyOTMxLWM5M2YtNDczZi04ZDIwLTYzMGVkNGMwYjUzNiIsImV4cCI6MTc0NDQxMTQzNX0.3oRc0BA1B9MRcRc07U5fPoQQbxwvfZu4ENY1eXQOHTg
+cookie: ssxmod_itna=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCwy0xpH+y6PdjP8DD/QD+eDy8xA3DTxSqD7jZBKc4eFGnb0xeu8jRqXWE8l2w4KTCT6PmDTHzSqiD834G2DmnbDi5oD0KY5D4DxxGTDCeDQxirDD4DAmYD0hohmDDdTRYmWI5oxKxhT4GWQExoDYyLDAqA8RgmgO2vt6e37b4sDmKDIxQo8QoDFZ33Dq0kdxi3Kc7u=q0O94Ys07OIkb4nGmi8wq+aFG7kqm0tdBxaoliYsBh5=QDaqeblcyDa5WGe7qur0iDDAe5YIvalhPDxcUF9FR9tm=8T80Arjb4j0SDAPiH7CYtnxNCvtUxPDrxe+lUhP3GqE+DD
+cookie: ssxmod_itna2=eui=D57KY5zDkDh=FYGQL5GjhPiqGHDyxWKG7DuExjKidFDUeMExtDCwy0xpH+y6PdjP4DWG3mB0xm3Djb4dDG2ORpDBkDiv6zWAfpLozl0gqdtczi3b59A+YxnEa1m1icvrEKzDcko0Hxsxn1txAGs=DYbaG5opaxHocqymp5T/i4OPKpZ6EW1YcpTzwpKWSvO/Dvpt3eLRoYz0F6G7h=gjTNSCqPQ4QUB3pDD
+cookie: SERVERID=e0b0a9c186ecce8a8f0bd23064595e91|1741819442|1741819184
+cookie: tfstk=gOosMhjrCjnF4G1nICpUdb1cLcZb5jtzCtwxExINHlETGtGqereNbd0jRjl_6jMDI-FxMjNq7e-rIAq0DQlX43kiPneDpjaTDHQKK-2O6eztKFCeLQRy4HleRuiBafzohyLQnWeTH-Q9dwebEoeTBNpQ9-wlk1hYDp9QhReODoeAJ6eahoFxMopIpW2XrSBbLQVnCdndjzMcYykTOiIxfFqQNAbVmimQCvGoBW6FLDw_57ahgm--VYHtq-iDeZNj3VhaKjtWOkns1cUQcns3bYgK1yg6GManJYmYR2A5rYDt14U-XH9nGXHorln9iGPikvnYTcpVc73rEkwn0BjTG23xbPqc6CwIfYijlg8147M0nZ6QriwQap9CoZjjLur0aoS6-Pe3LFJBdazbWJ2Qmp9CoEaTKJr2dp_um
+cookie: isg=BHl5Gev_OrrJGOYziZjMq--uiONThm04jjuq6Zuu9qAfIpq099I1Cdr0oT7UvQVw
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"“一带一路”倡议带来哪些积极和消极影响？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"c2d868a8-f26b-43a4-b7b6-a60a80ab97b9","chat_id":"d8d7a714-543e-48a5-8f8a-73775620f87c","id":"2a39ff62-9295-41db-845b-d6245b107773","size":"960*960"}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 22:44:05 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: c10a5e49-8825-4eba-b68a-e3bfb10c9735
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 3
+set-cookie: SERVERID=e0b0a9c186ecce8a8f0bd23064595e91|1741819442|1741819184;Path=/
+set-cookie: SERVERCORSID=e0b0a9c186ecce8a8f0bd23064595e91|1741819442|1741819184;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.cssn.cn/dkzgxp/zgxp_zgshkxpj/2022nd4q_131885/202303/t20230313_5602803.shtml", "title": "“一带一路”倡议的经济学研究新进展 - 中国社会科学网", "snippet": "从负面影响来看，一些研究发现，“一带一路”倡议提出后，无论是绿地投资、跨境收购，还是新增投资建设项目，中国企业赴海外的投资规模和方式均发生较大变化，主", "hostname": "中国社会科学网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01P5Btob1z5hxcqGZ3i_!!6000000006663-55-tps-32-32.svg", "date": " (2023-03-13)"}, {"url": "https://www.cccws.org.cn/cccws/216/0821/20240821103550263215458_pc.html", "title": "推动共建“一带一路”高质量发展不断取得新成效 - 当代世界研究中心", "snippet": "联合国贸易和发展会议官员认为，“一带一路”带来更多的贸易机会，部分抵消了贸易保护主义的消极影响，维护了全球贸易繁荣。 促进国际资金融通。无论是", "hostname": null, "hostlogo": null, "date": " (2024-08-21)"}, {"url": "https://www.bbc.com/zhongwen/simp/chinese-news-66762882", "title": "“一带一路”倡议十周年改变世界的成败与未来- BBC News 中文", "snippet": "陈功认为，“一带一路”发轫于胡锦涛时代，中国经济快速崛起，同时出现消化不良的现象，比如产能过剩、库存积压、金融问题，以及劳动力成本上升。 “当时决策者就", "hostname": null, "hostlogo": null, "date": " (2023-09-10)"}, {"url": "https://blogs.worldbank.org/zh/voices/three-opportunities-and-three-risks-belt-and-road-initiative", "title": "与“一带一路”倡议有关的三大机遇和三个风险 - World Bank Blogs", "snippet": "在一些“一带一路”倡议参与国，贫困率（即生活在日均生活费1.9美元国际贫困线以下的人口占比）仍很高，如肯尼亚为25%，乌兹别克斯坦和吉布提为23%，老挝为21%。该", "hostname": null, "hostlogo": null, "date": " (2018-05-09)"}, {"url": "https://www.cssn.cn/dkzgxp/zgxp_zgshkxpj/2022nd4q_131885/202303/t20230313_5602803.shtml", "title": "“一带一路”倡议的经济学研究新进展 - 中国社会科学网", "snippet": "梳理其最新进展可以发现，“一带一路”倡议通过强化跨国基础设施互联互通，加快了沿线国家贸易发展，但在对外直接投资方面表现出两面性；这一倡议有助于缩小收入", "hostname": "中国社会科学网", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01P5Btob1z5hxcqGZ3i_!!6000000006663-55-tps-32-32.svg", "date": " (2023-03-13)"}, {"url": "https://theory.gmw.cn/2023-10/23/content_36911422.htm", "title": "“一带一路”倡议十周年：砥砺前行，成果丰硕 - 光明网-理论频道", "snippet": "“一带一路”倡议提出的十年间已取得丰硕成果。 世界银行报告显示，共建“一带一路”，使参与方贸易增加4.1%，外资增加5%，使低收入国家GDP增加3.4%，并预测到2030", "hostname": "光明网", "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01lAuNcR1WHVIubC1xc_!!6000000002763-55-tps-32-32.svg", "date": " (2023-10-23)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“一带一路”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "倡议自提出以来，在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国际社会引发了广泛关注，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其带来的积极和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "消极影响也成为了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "研究和讨论的焦点"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n### 积极"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响\n\n1. **促进"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "贸易与经济发展**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   “一带一路”倡议"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "通过强化跨国基础设施互联互通"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，显著加快了沿线"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国家的贸易发展。世界"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "银行报告显示，共建“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一带一路”使参与方贸易"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "增加4.1%，外资"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "增加5%，并"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "使低收入国家"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "GDP增加3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ".4% [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "6]]。此外，联合国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "贸发会议官"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "员认为，“一带一路”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "带来了更多的贸易机会"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，部分抵消了贸易"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "保护主义的消极影响，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "维护了全球贸易繁荣 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2]]。\n\n2. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缩小收入差距**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   倡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "议通过加强国际合作"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，有助于缩小参与"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国之间的收入差距"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，特别是在一些贫困"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "率较高的国家（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "如肯尼亚、乌兹"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "别克斯坦等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "），为当地经济发展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "提供了新的机遇 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "4]]。\n\n3. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推动国际资金融通**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   通过促进"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国际资金融通，“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一带一路”倡议为"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "沿线国家提供了资金"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "支持，帮助解决基础设施建设"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的资金短缺问题，从而"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推动区域经济一体化 [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2]]。\n\n4"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **为中国化解"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "产能过剩提供出路"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**  \n   在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国经济快速崛起的过程中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，出现了产能过剩、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "库存积压等问题"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。“一带一路”倡议为中国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "企业开拓海外市场、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "消化过剩产能提供了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重要渠道 [[3]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n---\n\n### 消"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "极影响\n\n1. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对外直接投资的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "两面性**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 一些研究表明，“一带一路”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "倡议提出后，中国企业"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "赴海外的投资规模和方式"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "发生了较大变化。尽管部分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "投资促进了东道国的发展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，但也存在资源"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "过度集中、债务"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "风险上升等问题，甚至"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可能引发东道国对"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中国的依赖性增强 [[1"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]。\n\n2. **债务"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "可持续性问题**"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n   在一些参与国"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，由于基础设施项目的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "巨额投资，可能导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "债务负担加重。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "例如，部分国家"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "因参与“一带一路”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "项目而面临较高的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "债务压力，这可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对其经济稳定产生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "负面影响 [[4]]。\n\n3"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": ". **环境与社会风险"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**  \n   "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "大规模基础设施建设可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "对当地生态环境造成"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "破坏，并引发社会矛盾"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。例如，部分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "项目因未能充分考虑环境"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响或与当地社区的利益"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "冲突，导致争议"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "和反对声音 [[4]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n4. **地"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缘政治挑战**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " “一带一路”倡议在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "推进过程中，可能"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "引发某些国家的地"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "缘政治担忧，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "认为中国借此扩大"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影响力，从而导致"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "国际关系紧张。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "此外，部分国家对中国的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "投资持谨慎态度，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "担心其可能带来"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "“债务陷阱” [["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "3]]。\n\n---\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "### 总结"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "  \n总体来看，“一带一路"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "”倡议为全球经济发展注入"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了新动力，特别是在"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "促进贸易、缩小"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "收入差距和推动国际合作"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方面发挥了积极作用。然而，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "其在对外投资"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "、债务可持续性和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "环境保护等方面也面临"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "一定挑战。未来，如何"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "平衡这些积极与消极影响"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，推动“一带一路”"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "高质量发展，将是"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "关键所在 [[6"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "]]."}}]}
+

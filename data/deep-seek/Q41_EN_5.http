@@ -1,0 +1,344 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 229
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.45", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.45"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer FX1R9eoTWzjmgDXwptGPoLAu/4gxL4XevZjYhyIZPOctnJb1kM+SnJke3ey8dGTc
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjRlMTNlNmY1ODM1Y2RjNDU3Y2FkYmE0NzUyN2E1ODEwNTlmYTM0NDFlNzE2NDM0M2RiNDU2YWM2ZGMxNzA1NDEiLCJzYWx0IjoiNjllODAwNThjZmYxNjRmNWI1YjUiLCJhbnN3ZXIiOjc4MDcyLCJzaWduYXR1cmUiOiIyNjM3OWY5YmUzNTJjNTQ0OTI1NjQ4NWM4MTEwMTQzNGNjMzBkMDg0MTEwNTgwOTk2NGMwM2E3MGUzN2EzNWIyIiwidGFyZ2V0X3BhdGgiOiIvYXBpL3YwL2NoYXQvY29tcGxldGlvbiJ9
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.45"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: Hm_lvt_fb5acee01d9182aabb2b61eb816d24ff=1739820464
+cookie: smidV2=20250217142748207b7321c47c7150784f2c712f52cf8a00386ac1d546089d0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=UMzZA3tO0tGADIm+/9QEpbPbYPAld2A3wFJZxq+PChCG8dABV7CTGftIaCk5+NsVspMvUYN0SVRkr6Yw4JF6HQ%3D%3D
+cookie: intercom-device-id-guh50jw4=a6837023-b514-45ec-8878-3fc2d3d70f39
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESTIME=1741821309309
+cookie: HWWAFSESID=094f38e388e3a7afb7c
+cookie: ds_session_id=8fbea1872c034412b1bb65d05b571fa3
+cookie: __cf_bm=eypEpOp1sWIcN1lA.hdyZF3uBwpw67zr8ngQ.QdFMr8-1741821313-1.0.1.1-bRyPayy5WnXBWZqdfX4RteEr5BPgIQjmr.fCq77mOv5_oA9.gMOTlN4kKsOxK5khAYzSgzQ_nIi2.9iLmdP_Osyg0YThkxr_pLqngHUa3_0
+cookie: cf_clearance=SoSkxBx0LjWi9tbvEnJOMFQvlHG5hYegTe2UKvUlxSI-1741821358-1.2.1.1-Ga2Xw307Jzxf3tZkqcJ6lF1fZS.qqp19zgjqPyYBTBz7ZW4.2sHjyHAjINViXbC8FV6mJlKvKZRffzxUfF8Te.QUZVysRha07hh9mK.9Qle0QjZHnWy00SfCnxtXvrSPrownRAS8v1Flt5f6NBtJNWobE9eHvn4wZojTpnexBHagj8pKAV.i3Z.xfvb5JIRCAE4JDvLC_FKdsC1MNx4zneKopIvWUn_REDZgG.RHA4QmMsFs7t4x2dFu30mp.v8onhUQeNTrRAfknAmJiKGoYFz3OlWLMT2AqMIxHwv2MinT3uOeOx7q5R0hhTSj8Vun1dqM3OPPSLc1_BhUG6vA1B3mv.UbirVZZRJxrzIqvAQMzwMEFJaHxff6oK5RA0y7_ZThWzM9Tn.2RbfbKc6hwBd2wbzBCuLYDhvB959jUYI
+cookie: intercom-session-guh50jw4=RHQ3MU5BWnZyTWdMaituK2FBaTVZM3RiQ0h3NkpscFExbmR1SjF4ODVUSVloTVVpNWRjQ2xCK1VCUzdJWHFyZ0FTdzFzQzNMWUtpdlpUc3o1VWM5N3FxYnJwT1p5MkV3TGtRL0xUR3ozUWM9LS0veWdXRUVpVFphTVFTSGFSSUxlbS9nPT0=--f5fcf3b832d040ad1c291e87c9de91aca7176fdf
+priority: u=1, i
+
+{"chat_session_id":"0c709aca-21d3-4f8f-ba31-a372c5f95b5b","parent_message_id":null,"prompt":"What is the United States government's view on the one China policy?","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Wed, 12 Mar 2025 23:17:57 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 15b7d7b77f98ae14298d443eb4a5be72
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f7020aa9631238-ORD
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":31,"chunk_token_usage":0,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" United","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" States","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" government","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" has","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" historically","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" recognized","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" One","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" policy","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" acknowledging","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" that","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" there","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" only","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" one","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" world","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Taiwan","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" an","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"alien","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"able","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" part","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" established","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" diplomatic","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" relations","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" with","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" People","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Republic","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"197","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"9","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" severed","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" official","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" ties","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" with","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Taiwan","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" However","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" also","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" maintains","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" unofficial","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" relations","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" with","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Taiwan","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" continues","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" sell","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" arms","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" island","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" which","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" violation","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" One","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" principle","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" three","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".-","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" joint","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" commun","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"iqu","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"és","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Chinese","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" government","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" firmly","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" opposes","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" any","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" form","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" official","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" exchanges","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" military","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contacts","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" between","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" U","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".S","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Taiwan","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" insists","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" on","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" resolving","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Taiwan","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" issue","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" through","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" peaceful","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" means","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" while","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" res","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"olutely","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" safeguarding","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" national","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" sovereignty","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" territorial","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" integrity","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741821477,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

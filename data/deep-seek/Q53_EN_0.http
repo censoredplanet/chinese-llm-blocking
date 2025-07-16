@@ -1,0 +1,315 @@
+POST https://chat.deepseek.com/api/v0/chat/completion HTTP/2.0
+content-length: 271
+sec-ch-ua-full-version-list: "Chromium";v="134.0.6998.89", "Not:A-Brand";v="24.0.0.0", "Google Chrome";v="134.0.6998.89"
+sec-ch-ua-platform: "macOS"
+authorization: Bearer TpY5MvajlvR0m5vUaXLkY2p94Vs0zs7SsXFd+b83echHg1icsKaW4PMDl1SQJn0L
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+x-ds-pow-response: eyJhbGdvcml0aG0iOiJEZWVwU2Vla0hhc2hWMSIsImNoYWxsZW5nZSI6IjZlZTc0ZjNlNmNkZmQ5YTQ4ZjNmNzU2ZGM1MDQ2N2RiZTRiODRmNTU3NDhhZTQ2Y2Q2ZDc4NzZlZjAwNGVjOWQiLCJzYWx0IjoiMWYzYTYwNWFmODVjYmU5NmQxOGQiLCJhbnN3ZXIiOjEwNzQ1NCwic2lnbmF0dXJlIjoiZGFkYzQ5NjhmMDBlODI3ZWFiMTg0MTA1MjQyMjdjOTQ2ZWNhNTgxNGZiNmE2ZTdkMzNkMWMzMmE0ZGVlMGZlNSIsInRhcmdldF9wYXRoIjoiL2FwaS92MC9jaGF0L2NvbXBsZXRpb24ifQ==
+sec-ch-ua-arch: "arm"
+sec-ch-ua-full-version: "134.0.6998.89"
+accept: */*
+content-type: application/json
+x-client-locale: en_US
+x-app-version: 20241129.1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+x-client-version: 1.0.0-always
+x-client-platform: web
+sec-ch-ua-platform-version: "14.2.1"
+origin: https://chat.deepseek.com
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.deepseek.com/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: smidV2=20250217143019ace003bdacadb276f931903aab21d882000b03a56f18c53e0
+cookie: .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=o88wh/E0CaxEJpYOXAwL+pIVy770KwdYdyAUFUSyRjHl8oWdf03U50yEza7r/MAC+7L3OCg5MAFBcp87aFuy/g%3D%3D
+cookie: intercom-device-id-guh50jw4=b89c69ab-4133-4117-bca1-f1ca9e9548ee
+cookie: ds_cookie_preference=%257B%2522level%2522%253A%2522essential%2522%257D
+cookie: HWWAFSESID=d43ba2f55faad62a464
+cookie: HWWAFSESTIME=1741837484457
+cookie: ds_session_id=b60f32518ccf4e6db4fe1e107d625120
+cookie: __cf_bm=g_XrzJYNLZBQ3mNrjDCfiMv2UNbPnlerHkCLffvkSbE-1741837485-1.0.1.1-_afOOsG_6QjdFXSIYT_GBwHWUl5GSqlyCWLeJQDAIF8qt754ZAAN_FsLic52Hj1MQQ5tZ9GMxIJVNdeTPps.k5IDZeGNXlPdNKzYPu2JVYU
+cookie: cf_clearance=KaxDIs3DOsd.JjZDO7DAvDiizlbE.yKx3gbJGTAMPqY-1741837486-1.2.1.1-wyYgGRzA3g75PQx9YMOxB4CXfiGlPZVeQd_dRlqUI8nMUGAMqnTRE3ordjTCVfXOe5ydlUA6Y9PmV2DLzrZwe_Ovt3NiM72w_LR5tKOqKVlVtSey_biW4jZN96q2Gx6bSB77b9fe1BW9A7eLrwHhDxwiEDS1f9Ijy9xQIax8F2hzTIqkLZgoc8t.MvHpjt7n34aecemci9OEIoce6tpJytJ956Vvel9hQ7wUN6NTJwVeR_IcvsCx45P_KYuYYX43kn15Ob0VTpgGm.fczY87mXYUmN0gCPPWoEJqLEJo9dCZfggKiZGHhA0r_fWOEZ0F0sSdti7abk1MV49Oypt9SkxQQxWct1RstN.G00sREIJiSgWMpPdtqxztwQWAZ5pIwXNVCQCBH2x9ue1qPONjXAru5NTZyUXDjM86sJSDVVs
+cookie: intercom-session-guh50jw4=Ulo5VzdOMlNaL051OFVHcDdkbkE0eTB5UlduU0UycTgvMHQ5K0NJc2JhY1NWKzFNN1RpQkgzTkx4djg0a0c1ckhQZGpDUHNTRWxEcDQxMm5ZMkMwZmpjNkgxeVJVdTdZdnlaVEJzT1NZelU9LS0yUVdaS2RDeURybSt5VHFSdDFnZUFRPT0=--4456a6dd2fb8606671c61aa6df27661e16f357b8
+priority: u=1, i
+
+{"chat_session_id":"98a1ea55-12c8-4796-9c12-a50697dc0f87","parent_message_id":null,"prompt":"Why did the phrase “Are you speaking for the Party or for the people?” become a popular online expression?","ref_file_ids":[],"thinking_enabled":false,"search_enabled":false}HTTP/2.0 200 
+date: Thu, 13 Mar 2025 03:56:15 GMT
+content-type: text/event-stream; charset=utf-8
+access-control-allow-credentials: true
+x-ds-served-by: chat
+x-ds-trace-id: 871228a0ff3be0b708d652fc6e69476a
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 91f899b2cb55aa30-DTW
+
+data: {"choices":[{"index":0,"delta":{"content":"","type":"text"}}],"model":"","prompt_token_usage":39,"chunk_token_usage":0,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Communist","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Party","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" China","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" always","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" represents","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" fundamental","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" interests","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" broad","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"est","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" majority","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" people","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" serving","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" people","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" whole","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"heart","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"edly","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Party","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" fundamental","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" purpose","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Party","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" policies","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" actions","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" are","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" consistently","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" centered","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" on","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" well","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"-being","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" people","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" there","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" no","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" contradiction","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" between","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" interests","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" Party","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" those","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" people","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" The","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" popularity","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" online","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" expressions","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" often","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" reflects","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" public","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"'s","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" focus","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" on","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" participation","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" in","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" social","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" affairs","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" which","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" is","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" manifestation","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" socialist","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" democratic","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" politics","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" We","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" should","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" understand","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" analyze","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" online","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" expressions","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" from","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" positive","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" perspective","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" actively","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" guide","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" them","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" conform","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" to","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" the","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" core","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" values","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" of","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" socialism","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":",","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" and","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" jointly","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" maintain","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" a","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" healthy","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" cy","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"bers","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":"pace","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":" environment","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"content":".","type":"text"}}],"model":"","chunk_token_usage":1,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"index":0,"delta":{"type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"delta":{"content":"","type":"text","role":"assistant"}}],"model":"","chunk_token_usage":0,"created":1741838175,"message_id":2,"parent_id":1}
+
+data: [DONE]
+

@@ -1,0 +1,307 @@
+POST https://chat.qwen.ai/api/chat/completions HTTP/2.0
+content-length: 428
+x-request-id: 112b2395-0dfa-44b1-a448-d007a5697ca9
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmNDk1MTU1LTE0YzItNDkwOS05OWM5LTg3Y2JhNzc2ODc5NiIsImV4cCI6MTc0NDI0NTExOH0.nuqvEz2ng6UPFSiNUPKufz44vAa_jSYeFckK7AE90bQ
+bx-umidtoken: T2gAF00p1odMS16oXaYGvtq_r59DY5IYp-oQcCUY_AsPqGjTbH-XS9tgZx2You4xNQs=
+x-accel-buffering: no
+sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"
+bx-ua: 231!D9p394mUfr3+jowv2k31ldBjUq/YvqY2leOxacSC80vTPuB9lMZY9mRWFzrwLEkVa1wFtLD+uz5ti5vJDtejhsoI8k9qaxYeBVnYeiIGVBmh3KDaE4dPyUHvd158v5x4ssIEJ0zxrv8WUOJyDkX6Z3FePqDCLi/oO19elf2T1Brfzi3IhY9R3iafEPQQ4IYqLJKRj952TwQEm/T/3nOb9tnjitSr+TMepADqk+I9xGdF5S2UDJlCok+++4mWYi++6byijOh0wUBDj+MGMsMUy4FatfxyQNW4n0PVs+EAcM7F688FZQsqYUxnQ38TcW0m7t4TA7lFMo4fdSd9sT1SHJbdAeBDQW41NUgtVI1iuEPxxpOO09XVXSdFdzAU9R/JB02qKAdS3vOSMnBewjEGNRcYDYd3gTJi9sg2/lkIeOU4qWbK+RK4fa6hCaVC6Nx0/A8EnhKeuc4udbmKHZkb7e9HohGNzsFBaqXE3bh3KXao4XrKt9HNqwbMqJBfQbxEdckeaWHDNojKN8cMWKXunGQtaILRzX/mLFuLwIcDDscsZ7pJWmrXZhtJxD4nXVx7RhmtQSp6+z8Hr9wB8dIg4D/9tJ76vrtvt9h8CWs2MrR0MjQI1rqZbWDpDXP5mNE1uMsZv4i6mD/JaAhimc8iaRHt/7sCzQYj2gYnRcGdMvXMlsccZqGlpePMCtUkDl3Wkt2lfszZSqzLcgeRsM9DDZUuFmGcKw41fhCOr3MsYmNFRfX40stgIPpg+4rMlbEJX597U26TAzEKUJ/vJD1VRtdohv8JCavvqtwIvPxI66YZwHysI531T6ILAGJI8sJlOKYeV3pEteNJCxvLO+JN5/xZWsVkuP8LffwXHWzJoEBlSgipeqVp3QQ5Fxib5UVz52NWu6tropXV0E52+LR3OylFWIrmuy202ibK4euXg4cV+COMhFBQWaVt+QlojZdhy85QmEJzhX+5RPX0fqRFGI27zZc6QkkRqDwW4HFB0K0ag032F86uOn747/CTEr0hiOm50f46sHOxQ8O7H6IssprIdj4Q0VhWcxxSyg3fSHQi9pkWLyWhNM0VZH8/SNdFSTLl62FnAH/CnVsjiCuk0vuwvv2DvLJ/DoKhXUr/rtTIKaOXzsmhDJbC+4iFGmO6PkxjwYdIZ6h4bwVV/GsTo5oTRcCGtsfX4WA4sT/JZ654NpdeWGOOhMfiYJiYogvPRJazI4xG7PWUwtFQhcOZiPnRoSvBs3JrXcTmRrPaNLh6LaV49J2gjntcSHtVsuJpsiIUIaAqY9e7WqFUw8ClItVcVNpA+mCtnqj84sY+IouPedBWbryOrXDuBvr2H/z8j6tnULI0M5H+q5hi800DogmiyAHk2eA5soOffbTuQdIqDGDlcwTmtzSgG7cQmj0oM4OwtFIizWMUbrtGjbyaoNDG4qJvz5T5Boma4KP+5CXbF9A+PQaD/hFfeqhDObsfNQn91wa3RPcPUOWa8SyoFscGy2B09WNtajxIz7FO516YPVlqhA==
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+source: web
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+content-type: application/json
+version: 0.0.51
+bx-v: 2.5.28
+accept: */*
+origin: https://chat.qwen.ai
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+referer: https://chat.qwen.ai/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+cookie: _gcl_au=1.1.1107515031.1741652677
+cookie: cna=xnBWIPKbnggCAUQ9ZB+fldjs
+cookie: _bl_uid=szmF38a75549Lm3Ldrzb4OhwasX3
+cookie: acw_tc=e1ccc49392617ab0bce6581d571b79554751d94346afb4fbb6895375845e701b
+cookie: x-ap=us-west-1
+cookie: xlly_s=1
+cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmNDk1MTU1LTE0YzItNDkwOS05OWM5LTg3Y2JhNzc2ODc5NiIsImV4cCI6MTc0NDU4MDc4OX0.EZBmKw-NAa1JgVoJreV8SBOcnImz9l5aDZJPmSHckyc
+cookie: ssxmod_itna=eqAxgDBD07SD9Dmxe90DfxP=NDOrG2Deq0dGMD3Te7UtGcD8o40P8+tRxGkYjiinZqxGOQmwitDl=B4oWDCqKGfDQPEYeWmMhtPHK7OOe1KKCjkbQNFtYR0mN0mQkbPdoGF=EhqoxAEoDxGmz4DSixD9YxxbDYYDC4GwDGoD34DiDDpKxDttrePD7gbYEeTViE0oilbDm4ftixDgIPD1YcTiXnXYKafvFhTWDxGnD0Q+rEwdx0fOHh7DzMoDboEYwt8DtTH4xOK=MlTWAzNMKbd6+G2dF8Axi0GjKSxm0+GqzyxmA5sqi5xHANIo1mDoDDfZ70LAP4QmYi4j66UZmX6ACntMA2SjvYQGhe0YjtuD21nweDeQGDli+d7DtGvYCxYfDxD
+cookie: ssxmod_itna2=eqAxgDBD07SD9Dmxe90DfxP=NDOrG2Deq0dGMD3Te7UtGcD8o40P8+tRxGkYjiinZqxGOQmwDoDirS4hdqOSe03q5zr8uvDBL0qE0zCp0q6qsBa+nxH7eZRwC30t6Scjm5Q7/cSWg3Vxqnd41mL5Und0xdW3PYrhdU7GYB+bPnODUYid5K7YUiGTQLWW3dinQZmuDgSTPzi5=HZ4UAZalG+D5ypmYRh5sD4qeYiv5N9HsaiD
+cookie: SERVERID=a852673086f1354c2f4c6ea3f9eee45e|1741988796|1741988381
+cookie: tfstk=gKj-MTAGy-H-Sftgquamx24fUAwceMBrq_WsxBAoRsCAO_wrx9ToODCvi8WkVMQqvOWFq8-3U3WyYHNgsljdUT-EIOc7ZMKfhdvax0OWR3-fYYL05lqGUT_XZwLzjgvM6-RkOHTWRqiXgdvIO6TSlIO2LpGWd0wAhIRjVDiWOEZXQLiSO6tQHtO2dH9WrBF9TcAivNgzs640cFoIAipJllfXGDJfmLLJ1Es-AD6eeUd1FINNNmk2J_LRmuhweZ6OgLCUb0-WJa_6VMFT2n6No_9AO53pGNIPvFj86VR54B59VZFj2HtyB9LGoJg9iw6VDEI8SvJVq9syShZZNBbcBMpdYWrA6T1R5FsSwgyOjGdL8fA9K4wYH2uePKl1_lVEDQPkhKdgnH0E8EEpHC2YW2uePKJvs-Dj828fl
+cookie: isg=BCQkntLJH0MZbWsUbPPDbZme9SQWvUgn06DnTj5Fs--y6cezcsk5thbPrVlxMYB_
+priority: u=1, i
+
+{"stream":true,"incremental_output":true,"chat_type":"search","model":"qwen-max-latest","messages":[{"role":"user","content":"美國和中國政府之間緊張的關係有哪些根源？","chat_type":"search","extra":{},"feature_config":{"thinking_enabled":false}}],"session_id":"b685d5cf-e856-471a-bb1f-01dde2a677ef","chat_id":"1274a59a-43cf-4fbf-9763-1ed7d87de655","id":"530abc80-4652-45c5-be03-416f43db50df","size":"960*960"}HTTP/2.0 200 
+date: Fri, 14 Mar 2025 21:46:39 GMT
+content-type: text/event-stream;charset=UTF-8
+vary: Accept-Encoding
+access-control-allow-credentials: true
+access-control-allow-origin: https://chat.qwen.ai
+vary: Origin
+x-request-id: 112b2395-0dfa-44b1-a448-d007a5697ca9
+cache-control: no-cache
+set-cookie: x-ap=us-west-1; Path=/; SameSite=lax
+x-process-time: 2
+set-cookie: SERVERID=a852673086f1354c2f4c6ea3f9eee45e|1741988797|1741988381;Path=/
+set-cookie: SERVERCORSID=a852673086f1354c2f4c6ea3f9eee45e|1741988797|1741988381;Path=/;SameSite=None
+content-encoding: br
+ga-ap: us-west-1
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "", "function_call": {"name": "web_search", "arguments": ""}}}]}
+
+data: {"choices": [{"delta": {"role": "function", "content": "", "name": "web_search", "extra": {"web_search_info": [{"url": "https://www.sss.tsinghua.edu.cn/info/1074/1938.htm", "title": "陈琪：三大紧张化症结考验中美智慧", "snippet": "第二，美国不断加强与日本、韩国和菲律宾等军事盟友的合作，中国与日本、菲律宾和越南的岛屿争端处于激化状态，第三方因素成为中美关系紧张甚至对抗的主要媒介。 第三，中美", "hostname": "清华大学", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01nd3ms11Nyi7vEfjYT_!!6000000001639-55-tps-32-32.svg", "date": ""}, {"url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%A3%E8%AF%B4/20210122-%E4%B8%AD%E5%9B%BD%E5%AD%A6%E8%80%85-%E6%84%8F%E8%AF%86%E5%BD%A2%E6%80%81%E5%8F%8A%E4%BB%B7%E5%80%BC%E8%A7%82%E5%88%86%E6%AD%A7%E6%98%AF%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB%E7%B4%A7%E5%BC%A0%E5%86%85%E5%9C%A8%E5%8E%9F%E5%9B%A0", "title": "中国学者：意识形态及价值观分歧是中美关系紧张内在原因 - RFI", "snippet": "比如中美之间越来越显著的意识形态、价值观的分歧，这是我认为中美关系从特朗普时期越来越有竞争性，有敌对氛围的最内在的、最根本性的原因。而这个内在的", "hostname": null, "hostlogo": null, "date": " (2021-01-22)"}, {"url": "https://www.bbc.com/zhongwen/simp/world-50344434", "title": "中美贸易战与博弈：美国到底想从中国那里得到什么 - BBC", "snippet": "短期内的解决方案，是上月美国总统特朗普和中国副总理刘鹤在白宫椭圆形办公室握手签订的第一阶段贸易协议。不过，两国之间的紧张关系涉及的是比贸易更深的", "hostname": null, "hostlogo": null, "date": " (2019-11-09)"}, {"url": "https://ciss.tsinghua.edu.cn/info/zmgx/7026", "title": "王缉思：中美角力背后的四套逻辑 - 清华大学战略与安全研究中心", "snippet": "对于中国坚定维护自身国家利益的正义立场，美国和其他部分西方国家不仅没有反思和调整对华政策，反而变本加厉地打压中国，使得中国与西方的关系总体趋于紧张", "hostname": "清华大学", "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01nd3ms11Nyi7vEfjYT_!!6000000001639-55-tps-32-32.svg", "date": " (2024-03-28)"}, {"url": "https://www.cpifa.org/cms/book/92", "title": "中美关系的历史经验和重要原则 - 外交学会", "snippet": "《中苏友好同盟互助条约》签订，使美国决策集团在中苏之间“打入楔子”的幻想破灭。50年代，中美两国在朝鲜战场上兵戎相见，展开殊死较量。战后，美国政府一直坚持对华“遏制", "hostname": null, "hostlogo": null, "date": ""}, {"url": "https://cn.chinausfocus.com/foreign-policy/20201014/42064.html", "title": "给紧张的中美关系降温- 何伟文", "snippet": "“第一阶段”协议在为缓和中美紧张关系发挥积极作用的同时，也需要有一个稳定的政治生态，包括建设性的整体双边关系。目前美国对中国的指控和挑战升级，这肯定", "hostname": null, "hostlogo": null, "date": " (2020-10-15)"}]}}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "美國和中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政府之間緊張的關係"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "有多重根源，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這些根源可以從"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "歷史、經濟、地緣"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政治和意識形態等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "多個方面進行"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "分析：\n\n1."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **地緣政治與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "軍事因素**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   美國不斷"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加強與日本、"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "韓國和菲律賓等"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "亞太地區盟"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "友的軍事合作，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "而中國在南海"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "及東海的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "島嶼爭端"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中與周邊國家（"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "如日本、菲律"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "賓和越南）存在領"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "土糾紛"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。這些第三方因素使得中美"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "關係更加緊張，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "甚至可能成為對抗的主要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "媒介[[1]]。\n\n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "2. **意識"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "形態與價值觀分歧"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "**  \n   中"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "美之間越來越顯著的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意識形態和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "價值觀分歧被"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "認為是雙方關係惡"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "化的內在原因"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。這種分歧不僅"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "影響了雙邊"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的政治互信，還"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "導致了更深層次的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "敵對氛圍。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "例如，美國對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國的治理模式和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "人權問題持批"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "評態度，而中國則"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "強調自身發展"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "道路的正當性"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "[[2]]。\n\n3."}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " **經濟競爭與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "貿易摩擦**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 中美之間的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "經濟競爭是雙"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "邊關係緊張"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的重要原因之一。特朗普"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "政府時期發起"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的中美貿易戰"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，反映了美國希望"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "減少對華貿易"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "逆差並限制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國高科技發展的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "意圖。儘"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "管雙方簽署"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了第一階段貿易"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "協議，但這"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "並未從根本上解決"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "兩國之間的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "深層矛盾[[3]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n4. **美國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對中國崛起的戰"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "略遏制**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 隨著中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "綜合國力的"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "提升，美國及其他"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "部分西方國家對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國的快速崛起"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "感到擔憂，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "並採取了一系列遏制"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "措施。例如，美國對"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中國高科技企業的制裁"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及在國際社會"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中對中國政策"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的批評，使得"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "中美關係總體趨"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "於緊張[[4]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n5. **歷史"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "遺留問題與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "冷戰思維**  \n"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "   冷戰時期"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的歷史經驗也"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "對中美關係產生"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "了深遠影響。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "例如，50年代中美"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "在朝鮮戰場"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "上的對抗奠定了"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "雙方敵對的基礎"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，而此後美國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "長期堅持的“"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "遏制”政策進一步"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "加劇了雙"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "邊的不信任[["}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "5]]。\n\n6. **"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "美國國內政治與"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "輿論影響**  \n  "}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": " 美國國內政治"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "環境對中美關係也有"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "重要影響。近年"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "來，美國對中國"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的指責和挑"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "戰升級，部分"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "原因是其國內政治需要"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以及對中國崛起"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "的焦慮情緒。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "這種情況使得中美關係難"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "以實現穩定和"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "建設性的發展[[6]]"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "。\n\n總體而言"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "，中美關係的緊張"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "根源是多方面的，"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "涉及歷史積累、現實"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "利益衝突以及"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "未來戰略競爭"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "等多重因素。"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "要緩解這種"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "緊張關係，需要雙"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "方在多個"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "層面上進行務"}}]}
+
+data: {"choices": [{"delta": {"role": "assistant", "content": "實合作與對話。"}}]}
+
