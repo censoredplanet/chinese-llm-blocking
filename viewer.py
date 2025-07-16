@@ -4,15 +4,13 @@ import argparse
 import argparse
 
 class addIndentFormatter(argparse.HelpFormatter):
-    # Increase the spacing for help text alignment
     def __init__(self, *args, **kwargs):
-        kwargs['max_help_position'] = 40  # push help text farther right
+        kwargs['max_help_position'] = 40
         super().__init__(*args, **kwargs)
 
 class metavarOverrideParser(argparse.ArgumentParser):
     def _check_value(self, action, value):
         if action.choices is not None and value not in action.choices:
-            # Show metavar instead of choices
             metavar = action.metavar
             if metavar == None:
                 expected = f"expected {', '.join(map(repr, action.choices))}"
@@ -24,8 +22,6 @@ class metavarOverrideParser(argparse.ArgumentParser):
             raise argparse.ArgumentError(action, msg)
         
     def error(self, message):
-        # Replace metavar with actual argument names in error messages
-
         for action in self._actions:
             if action.metavar:
                 print('**',action.dest)
